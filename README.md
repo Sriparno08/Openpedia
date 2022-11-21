@@ -1,1 +1,2 @@
-[How to Contribute to Open Source](https://opensource.guide/how-to-contribute/) - Open Source Guides
+- [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/) by Open Source Guides
+- [How to Contribute to Open Source Projects – A Beginner's Guide](https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-beginners-guide/) by freeCodeCamp
