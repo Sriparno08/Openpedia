@@ -3,3 +3,4 @@
 - [Getting Started with Contributing to Open Source](https://stackoverflow.blog/2020/08/03/getting-started-with-contributing-to-open-source/) by Stack Overflow
 - [How to Get Started with Open Source](https://www.hackerearth.com/getstarted-opensource/) by HackerEarth
 - [How to Contribute to Open Source Projects](https://rubygarage.org/blog/how-contribute-to-open-source-projects) by RubyGarage
+- [Beginner’s Guide to Contributing to Open Source Projects](https://www.activestate.com/blog/beginners-guide-to-contributing-to-open-source-projects/) by ActiveState
