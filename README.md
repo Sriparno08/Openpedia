@@ -1,6 +1,6 @@
 This repository is a collection of resources that will help you get started with contributing to open source!
 
-### Articles:
+#### Articles:
 
 - [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/) by GitHub
 - [How to Contribute to Open Source Projects - A Beginner's Guide](https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-beginners-guide/) by freeCodeCamp
@@ -10,3 +10,4 @@ This repository is a collection of resources that will help you get started with
 - [Beginner’s Guide to Contributing to Open Source Projects](https://www.activestate.com/blog/beginners-guide-to-contributing-to-open-source-projects/) by ActiveState
 - [14 Ways to Contribute to Open Source without Being a Programming Genius or a Rock Star](https://smartbear.com/blog/14-ways-to-contribute-to-open-source-without-being/) by SmartBear
 - [8 Non-Code Ways to Contribute to Open Source](https://opensource.com/life/16/1/8-ways-contribute-open-source-without-writing-code) by Opensource.com
+- [Contributing to Open Source: Getting Started](https://www.geeksforgeeks.org/contributing-to-open-source-getting-started/) by GeeksforGeeks
