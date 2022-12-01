@@ -11,3 +11,4 @@ This repository is a collection of resources that will help you get started with
 - [14 Ways to Contribute to Open Source without Being a Programming Genius or a Rock Star](https://smartbear.com/blog/14-ways-to-contribute-to-open-source-without-being/) by SmartBear
 - [8 Non-Code Ways to Contribute to Open Source](https://opensource.com/life/16/1/8-ways-contribute-open-source-without-writing-code) by Opensource.com
 - [Contributing to Open Source: Getting Started](https://www.geeksforgeeks.org/contributing-to-open-source-getting-started/) by GeeksforGeeks
+- [How to Start Contributing to Open Source Software](https://towardsdatascience.com/how-to-start-contributing-to-open-source-software-9651ca4cedd4) by Towards Data Science
