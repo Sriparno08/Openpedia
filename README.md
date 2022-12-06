@@ -1,10 +1,17 @@
+# Start Contributing
+
 This repository is a collection of resources that will help you get started with contributing to open source!
 
-#### Learn Git and GitHub
+## Table of Contents
+
+- [Learn Git and GitHub](#learn-git-and-github)
+- [Contributing to Open Source](#contributing-to-open-source)
+
+### Learn Git and GitHub
 
 - [Git and GitHub Tutorial - Version Control for Beginners](https://www.freecodecamp.org/news/git-and-github-for-beginners/) by freeCodeCamp
 
-#### Contributing to Open Source
+### Contributing to Open Source
 
 - [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/) by GitHub
 - [How to Contribute to Open Source Projects - A Beginner's Guide](https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-beginners-guide/) by freeCodeCamp
