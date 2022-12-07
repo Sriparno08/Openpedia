@@ -10,6 +10,7 @@ This repository is a collection of resources that will help you get started with
 ### Learn Git and GitHub
 
 - [Git and GitHub Tutorial - Version Control for Beginners](https://www.freecodecamp.org/news/git-and-github-for-beginners/) by freeCodeCamp
+- [An Intro to Git and GitHub for Beginners](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) by HubSpot
 
 ### Contributing to Open Source
 
