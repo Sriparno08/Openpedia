@@ -15,6 +15,7 @@ This repository is a collection of resources that will help you get started with
 - [An Ultimate Guide to Git and Github](https://www.geeksforgeeks.org/ultimate-guide-git-github/) by GeeksforGeeks
 - [Intro to Github for Version Control](https://ourcodingclub.github.io/tutorials/git/) by Coding Club
 - [Git and GitHub Tutorial for Beginners](https://www.analyticsvidhya.com/blog/2021/09/git-and-github-tutorial-for-beginners/) by Analytics Vidhya
+- [How To Use GitHub – Developers' Collaboration Using GitHub](https://www.edureka.co/blog/how-to-use-github/) by Edureka
 
 ### Contributing to Open Source
 
