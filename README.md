@@ -2,6 +2,8 @@
 
 This repository is a collection of resources that will help you get started with contributing to open source!
 
+Your contribution is most welcome! Kindly go through the [CONTRIBUTING](https://github.com/Sriparno08/Start-Contributing/blob/main/CONTRIBUTING.md) guide for details.
+
 ## Table of Contents
 
 - [Learn Git and GitHub](#learn-git-and-github)
