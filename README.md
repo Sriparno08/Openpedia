@@ -11,6 +11,10 @@ Your contribution is most welcome! Kindly go through the [CONTRIBUTING](https://
 
 ### Learn Git and GitHub
 
+In this section, you will find a list of useful articles and tutorial series that will help you master Git and GitHub!
+
+#### Articles
+
 - [Git and GitHub Tutorial - Version Control for Beginners](https://www.freecodecamp.org/news/git-and-github-for-beginners/) by freeCodeCamp
 - [An Intro to Git and GitHub for Beginners](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) by HubSpot
 - [GitHub and Git Tutorial for Beginners](https://www.datacamp.com/tutorial/github-and-git-tutorial-for-beginners) by DataCamp
@@ -18,6 +22,10 @@ Your contribution is most welcome! Kindly go through the [CONTRIBUTING](https://
 - [Intro to Github for Version Control](https://ourcodingclub.github.io/tutorials/git/) by Coding Club
 - [Git and GitHub Tutorial for Beginners](https://www.analyticsvidhya.com/blog/2021/09/git-and-github-tutorial-for-beginners/) by Analytics Vidhya
 - [How To Use GitHub – Developers' Collaboration Using GitHub](https://www.edureka.co/blog/how-to-use-github/) by Edureka
+
+#### Tutorial Series
+
+- [Hello World](https://docs.github.com/en/get-started/quickstart/hello-world) by GitHub
 
 ### Contributing to Open Source
 
