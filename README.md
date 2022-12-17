@@ -26,6 +26,7 @@ In this section, you will find a list of useful articles and tutorial series tha
 #### Tutorial Series
 
 - [Hello World](https://docs.github.com/en/get-started/quickstart/hello-world) by GitHub
+- [Git Tutorial](https://www.javatpoint.com/git) by Javatpoint
 
 ### Contributing to Open Source
 
