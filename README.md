@@ -11,7 +11,9 @@ Your contribution is most welcome! Kindly go through the [CONTRIBUTING](https://
 
 ### Learn Git and GitHub
 
-In this section, you will find a list of useful articles and tutorial series that will help you master Git and GitHub!
+You need to learn Git and GitHub to be eligible for open source contribution.
+
+In this section, you will find a list of useful resources that will help you master these essential tools!
 
 #### Articles
 
@@ -29,6 +31,10 @@ In this section, you will find a list of useful articles and tutorial series tha
 - [Git Tutorial](https://www.javatpoint.com/git) by Javatpoint
 
 ### Contributing to Open Source
+
+Learning Git and GitHub only makes you half-ready. You need to actually contribute to open source to get comfortable with the process.
+
+In this section, I have compiled a list of helpful resources that will help you do the same!
 
 - [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/) by GitHub
 - [How to Contribute to Open Source Projects - A Beginner's Guide](https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-beginners-guide/) by freeCodeCamp
