@@ -15,7 +15,7 @@ You need to learn Git and GitHub to be eligible for open source contribution.
 
 In this section, you will find a list of useful resources that will help you master these essential tools!
 
-#### Articles
+#### Articles:
 
 - [Git and GitHub Tutorial - Version Control for Beginners](https://www.freecodecamp.org/news/git-and-github-for-beginners/) by freeCodeCamp
 - [An Intro to Git and GitHub for Beginners](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) by HubSpot
@@ -25,16 +25,19 @@ In this section, you will find a list of useful resources that will help you mas
 - [Git and GitHub Tutorial for Beginners](https://www.analyticsvidhya.com/blog/2021/09/git-and-github-tutorial-for-beginners/) by Analytics Vidhya
 - [How To Use GitHub – Developers' Collaboration Using GitHub](https://www.edureka.co/blog/how-to-use-github/) by Edureka
 
-#### Tutorial Series
+#### Tutorial Series:
 
 - [Hello World](https://docs.github.com/en/get-started/quickstart/hello-world) by GitHub
 - [Git Tutorial](https://www.javatpoint.com/git) by Javatpoint
+- [Git tutorial](https://www.w3schools.com/git/) by W3Schools
 
 ### Contributing to Open Source
 
 Learning Git and GitHub only makes you half-ready. You need to actually contribute to open source to get comfortable with the process.
 
 In this section, I have compiled a list of helpful resources that will help you do the same!
+
+#### Articles:
 
 - [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/) by GitHub
 - [How to Contribute to Open Source Projects - A Beginner's Guide](https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-beginners-guide/) by freeCodeCamp
