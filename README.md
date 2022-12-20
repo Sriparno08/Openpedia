@@ -29,7 +29,8 @@ In this section, you will find a list of useful resources that will help you mas
 
 - [Hello World](https://docs.github.com/en/get-started/quickstart/hello-world) by GitHub
 - [Git Tutorial](https://www.javatpoint.com/git) by Javatpoint
-- [Git tutorial](https://www.w3schools.com/git/) by W3Schools
+- [Git Tutorial](https://www.w3schools.com/git/) by W3Schools
+- [Git Tutorial](https://www.tutorialspoint.com/git/index.htm) by Tutorialspoint
 
 ### Contributing to Open Source
 
