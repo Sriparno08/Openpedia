@@ -31,6 +31,7 @@ In this section, you will find a list of useful resources that will help you mas
 - [Git Tutorial](https://www.javatpoint.com/git) by Javatpoint
 - [Git Tutorial](https://www.w3schools.com/git/) by W3Schools
 - [Git Tutorial](https://www.tutorialspoint.com/git/index.htm) by Tutorialspoint
+- [Git Tutorials and Training](https://www.atlassian.com/git/tutorials) by Atlassian
 
 ### Contributing to Open Source
 
