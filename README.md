@@ -33,6 +33,10 @@ In this section, you will find a list of useful resources that will help you mas
 - [Git Tutorial](https://www.tutorialspoint.com/git/index.htm) by Tutorialspoint
 - [Git Tutorials and Training](https://www.atlassian.com/git/tutorials) by Atlassian
 
+#### YouTube Videos
+
+- [Complete Git and GitHub Tutorial](https://www.youtube.com/watch?v=apGV9Kg7ics) by Kunal Kushwaha
+
 ### Contributing to Open Source
 
 Learning Git and GitHub only makes you half-ready. You need to actually contribute to open source to get comfortable with the process.
