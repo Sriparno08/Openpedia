@@ -36,6 +36,7 @@ In this section, you will find a list of useful resources that will help you mas
 #### YouTube Videos
 
 - [Complete Git and GitHub Tutorial](https://www.youtube.com/watch?v=apGV9Kg7ics) by Kunal Kushwaha
+- [Git and GitHub for Beginners](https://www.youtube.com/watch?v=tRZGeaHPoaw) by Kevin Stratvert
 
 ### Contributing to Open Source
 
