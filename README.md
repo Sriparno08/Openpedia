@@ -9,6 +9,10 @@ Your contribution is most welcome! Kindly go through the [CONTRIBUTING](https://
 - [Learn Git and GitHub](#learn-git-and-github)
 - [Contributing to Open Source](#contributing-to-open-source)
 
+### Introduction to Open Source
+
+- [What Is Open Source?](https://opensource.com/resources/what-open-source) by Opensource
+
 ### Learn Git and GitHub
 
 You need to learn Git and GitHub to be eligible for open source contribution.
