@@ -6,16 +6,27 @@ Your contribution is most welcome! Kindly go through the [CONTRIBUTING](https://
 
 ## Table of Contents
 
+- [Introduction to Open Source](#introduction-to-open-source)
 - [Learn Git and GitHub](#learn-git-and-github)
 - [Contributing to Open Source](#contributing-to-open-source)
 
 ### Introduction to Open Source
 
+- What is Open Source?
+- How does it work?
+- Why should we contribute to it?
+
+These are some questions that revolve around the concept of Open Source.
+
+Here are some priceless resources that will help answer the above questions in detail!
+
+Articles:
+
 - [What Is Open Source?](https://opensource.com/resources/what-open-source) by Opensource
 
 ### Learn Git and GitHub
 
-You need to learn Git and GitHub to be eligible for open source contribution.
+You need to learn Git and GitHub to be eligible for Open Source contribution.
 
 In this section, you will find a list of useful resources that will help you master these essential tools!
 
@@ -27,7 +38,7 @@ In this section, you will find a list of useful resources that will help you mas
 - [An Ultimate Guide to Git and Github](https://www.geeksforgeeks.org/ultimate-guide-git-github/) by GeeksforGeeks
 - [Intro to Github for Version Control](https://ourcodingclub.github.io/tutorials/git/) by Coding Club
 - [Git and GitHub Tutorial for Beginners](https://www.analyticsvidhya.com/blog/2021/09/git-and-github-tutorial-for-beginners/) by Analytics Vidhya
-- [How To Use GitHub – Developers' Collaboration Using GitHub](https://www.edureka.co/blog/how-to-use-github/) by Edureka
+- [How to Use GitHub – Developers' Collaboration Using GitHub](https://www.edureka.co/blog/how-to-use-github/) by Edureka
 
 #### Tutorial Series:
 
@@ -37,14 +48,14 @@ In this section, you will find a list of useful resources that will help you mas
 - [Git Tutorial](https://www.tutorialspoint.com/git/index.htm) by Tutorialspoint
 - [Git Tutorials and Training](https://www.atlassian.com/git/tutorials) by Atlassian
 
-#### YouTube Videos
+#### YouTube Videos:
 
 - [Complete Git and GitHub Tutorial](https://www.youtube.com/watch?v=apGV9Kg7ics) by Kunal Kushwaha
 - [Git and GitHub for Beginners](https://www.youtube.com/watch?v=tRZGeaHPoaw) by Kevin Stratvert
 
 ### Contributing to Open Source
 
-Learning Git and GitHub only makes you half-ready. You need to actually contribute to open source to get comfortable with the process.
+Learning Git and GitHub only makes you half-ready. You need to actually contribute to Open Source to get comfortable with the process.
 
 In this section, I have compiled a list of helpful resources that will help you do the same!
 
