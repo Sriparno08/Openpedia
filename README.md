@@ -20,9 +20,10 @@ These are some questions that revolve around the concept of Open Source.
 
 Here are some priceless resources that will help answer the above questions in detail!
 
-Articles:
+#### Articles:
 
 - [What Is Open Source?](https://opensource.com/resources/what-open-source) by Opensource
+- [Introduction to Open Source and Its Benefits](https://www.geeksforgeeks.org/introduction-to-open-source-and-its-benefits/) by GeeksforGeeks
 
 ### Learn Git and GitHub
 
