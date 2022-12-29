@@ -16,7 +16,7 @@ Your contribution is most welcome! Kindly go through the [CONTRIBUTING](https://
 - How does it work?
 - Why should we contribute to it?
 
-These are some questions that revolve around the concept of Open Source.
+These are some of the questions that revolve around the world of Open Source.
 
 Here are some priceless resources that will help answer the above questions in detail!
 
@@ -24,6 +24,7 @@ Here are some priceless resources that will help answer the above questions in d
 
 - [What Is Open Source?](https://opensource.com/resources/what-open-source) by Opensource
 - [Introduction to Open Source and Its Benefits](https://www.geeksforgeeks.org/introduction-to-open-source-and-its-benefits/) by GeeksforGeeks
+- [An Introduction to Open Source Software](https://www.htmlgoodies.com/guides/an-introduction-to-open-source-software/) by HTML Goodies
 
 ### Learn Git and GitHub
 
