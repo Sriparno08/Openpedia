@@ -4,13 +4,13 @@ This repository is a collection of resources that will help you get started with
 
 Your contribution is most welcome! Kindly go through the [CONTRIBUTING](https://github.com/Sriparno08/Start-Contributing/blob/main/CONTRIBUTING.md) guide for details.
 
-## Table of Contents
+## 📃 Table of Contents
 
-- [Introduction to Open Source](#introduction-to-open-source)
-- [Learn Git and GitHub](#learn-git-and-github)
-- [Contributing to Open Source](#contributing-to-open-source)
+- [Introduction to Open Source](#-introduction-to-open-source)
+- [Learn Git and GitHub](#octocat-learn-git-and-github)
+- [Contributing to Open Source](#-contributing-to-open-source)
 
-### Introduction to Open Source
+### 🧐 Introduction to Open Source
 
 - What is Open Source?
 - How does it work?
@@ -26,7 +26,7 @@ Here are some priceless resources that will help answer the above questions in d
 - [Introduction to Open Source and Its Benefits](https://www.geeksforgeeks.org/introduction-to-open-source-and-its-benefits/) by GeeksforGeeks
 - [An Introduction to Open Source Software](https://www.htmlgoodies.com/guides/an-introduction-to-open-source-software/) by HTML Goodies
 
-### Learn Git and GitHub
+### :octocat: Learn Git and GitHub
 
 You need to learn Git and GitHub to be eligible for Open Source contribution.
 
@@ -55,7 +55,7 @@ In this section, you will find a list of useful resources that will help you mas
 - [Complete Git and GitHub Tutorial](https://www.youtube.com/watch?v=apGV9Kg7ics) by Kunal Kushwaha
 - [Git and GitHub for Beginners](https://www.youtube.com/watch?v=tRZGeaHPoaw) by Kevin Stratvert
 
-### Contributing to Open Source
+### 🙌 Contributing to Open Source
 
 Learning Git and GitHub only makes you half-ready. You need to actually contribute to Open Source to get comfortable with the process.
 
