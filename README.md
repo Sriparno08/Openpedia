@@ -25,6 +25,7 @@ Here are some priceless resources that will help answer the above questions in d
 - [What Is Open Source?](https://opensource.com/resources/what-open-source) by Opensource
 - [Introduction to Open Source and Its Benefits](https://www.geeksforgeeks.org/introduction-to-open-source-and-its-benefits/) by GeeksforGeeks
 - [An Introduction to Open Source Software](https://www.htmlgoodies.com/guides/an-introduction-to-open-source-software/) by HTML Goodies
+- [What Is Open Source?](https://www.redhat.com/en/topics/open-source/what-is-open-source) by Red Hat
 
 ### :octocat: Learn Git and GitHub
 
