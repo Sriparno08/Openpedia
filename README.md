@@ -31,6 +31,7 @@ Here are some priceless resources that will help answer the above questions in d
 
 - [What is Open Source & How to Start?](https://www.youtube.com/watch?v=msyGybzCKRs) by Kunal Kushwaha
 - [Open Source Explained](https://www.youtube.com/watch?v=PVD1LNDxOnc) by IBM Technology
+- [What is Open Source Software](https://www.youtube.com/watch?v=1ehpgbb3XD0) by Brian Daigle
 
 ### :octocat: Learn Git and GitHub
 
