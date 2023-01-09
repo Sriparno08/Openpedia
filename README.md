@@ -27,6 +27,7 @@ Here are some priceless resources that will help answer the above questions in d
 - [An Introduction to Open Source Software](https://www.htmlgoodies.com/guides/an-introduction-to-open-source-software/) by HTML Goodies
 - [What is Open Source?](https://www.redhat.com/en/topics/open-source/what-is-open-source) by Red Hat
 - [What is Open Source and How Does It Work?](https://www.techtarget.com/whatis/definition/open-source) by TechTarget
+- [What is Open Source Software and How Does It Work?](https://www.synopsys.com/glossary/what-is-open-source-software.html) by Synopsys
 
 #### YouTube Videos:
 
