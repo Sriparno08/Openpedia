@@ -28,6 +28,7 @@ Here are some priceless resources that will help answer the above questions in d
 - [What is Open Source?](https://www.redhat.com/en/topics/open-source/what-is-open-source) by Red Hat
 - [What is Open Source and How Does It Work?](https://www.techtarget.com/whatis/definition/open-source) by TechTarget
 - [What is Open Source Software and How Does It Work?](https://www.synopsys.com/glossary/what-is-open-source-software.html) by Synopsys
+- [What is Open Source Software?](https://www.ibm.com/topics/open-source) by IBM
 
 #### YouTube Videos:
 
@@ -50,7 +51,7 @@ In this section, you will find a list of useful resources that will help you mas
 - [An Ultimate Guide to Git and Github](https://www.geeksforgeeks.org/ultimate-guide-git-github/) by GeeksforGeeks
 - [Intro to Github for Version Control](https://ourcodingclub.github.io/tutorials/git/) by Coding Club
 - [Git and GitHub Tutorial for Beginners](https://www.analyticsvidhya.com/blog/2021/09/git-and-github-tutorial-for-beginners/) by Analytics Vidhya
-- [How to Use GitHub – Developers' Collaboration Using GitHub](https://www.edureka.co/blog/how-to-use-github/) by Edureka
+- [How to Use GitHub - Developers' Collaboration Using GitHub](https://www.edureka.co/blog/how-to-use-github/) by Edureka
 
 #### Tutorial Series:
 
