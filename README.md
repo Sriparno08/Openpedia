@@ -23,11 +23,11 @@ Here are some priceless resources that will help answer the above questions in d
 #### Articles:
 
 - [What is Open Source?](https://opensource.com/resources/what-open-source) by Opensource
-- [Introduction to Open Source and Its Benefits](https://www.geeksforgeeks.org/introduction-to-open-source-and-its-benefits/) by GeeksforGeeks
+- [Introduction to Open Source and its Benefits](https://www.geeksforgeeks.org/introduction-to-open-source-and-its-benefits/) by GeeksforGeeks
 - [An Introduction to Open Source Software](https://www.htmlgoodies.com/guides/an-introduction-to-open-source-software/) by HTML Goodies
 - [What is Open Source?](https://www.redhat.com/en/topics/open-source/what-is-open-source) by Red Hat
-- [What is Open Source and How Does It Work?](https://www.techtarget.com/whatis/definition/open-source) by TechTarget
-- [What is Open Source Software and How Does It Work?](https://www.synopsys.com/glossary/what-is-open-source-software.html) by Synopsys
+- [What is Open Source and How does it Work?](https://www.techtarget.com/whatis/definition/open-source) by TechTarget
+- [What is Open Source Software and How does it Work?](https://www.synopsys.com/glossary/what-is-open-source-software.html) by Synopsys
 - [What is Open Source Software?](https://www.ibm.com/topics/open-source) by IBM
 
 #### YouTube Videos:
@@ -37,6 +37,7 @@ Here are some priceless resources that will help answer the above questions in d
 - [What is Open Source Software](https://www.youtube.com/watch?v=1ehpgbb3XD0) by Brian Daigle
 - [Open Source Basics](https://www.youtube.com/watch?v=Tyd0FO0tko8) by Intel Software
 - [What is Open Source?](https://www.youtube.com/watch?v=7c0IrsDsNaw) by Mozilla
+- [What is Open Source Software?](https://www.youtube.com/watch?v=TEttd0Qkqnc) by Honeypot
 
 ### :octocat: Learn Git and GitHub
 
