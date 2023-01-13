@@ -29,6 +29,7 @@ Here are some priceless resources that will help answer the above questions in d
 - [What is Open Source and How does it Work?](https://www.techtarget.com/whatis/definition/open-source) by TechTarget
 - [What is Open Source Software and How does it Work?](https://www.synopsys.com/glossary/what-is-open-source-software.html) by Synopsys
 - [What is Open Source Software?](https://www.ibm.com/topics/open-source) by IBM
+- [What is Open Source Software?](https://www.indeed.com/career-advice/career-development/open-source-software-definition) by Indeed
 
 #### YouTube Videos:
 
