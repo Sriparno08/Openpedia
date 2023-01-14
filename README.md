@@ -70,6 +70,7 @@ In this section, you will find a list of useful resources that will help you mas
 - [Git and GitHub for Beginners](https://www.youtube.com/watch?v=tRZGeaHPoaw) by Kevin Stratvert
 - [Git and GitHub for Beginners - Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk) by freeCodeCamp
 - [Git Tutorial for Beginners: Learn Git in 1 Hour](https://www.youtube.com/watch?v=8JJ101D3knE) by Programming with Mosh
+- [Git Tutorial for Beginners - Git & GitHub Fundamentals in Depth](https://www.youtube.com/watch?v=DVRQoVRzMIY) by Tech With Tim
 
 ### 🙌 Contributing to Open Source
 
