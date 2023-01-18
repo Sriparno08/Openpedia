@@ -1,57 +1,88 @@
-# How to Contribute
+# Contributing Guidelines
 
-**1.** Fork the repository by clicking on the `Fork` button, located at the top right corner of the repository page.
+This repository is waiting for your contribution. Here are some ways to contribute to this repository:
 
-**2.** Clone the forked repository to your machine by typing the following in the command line:
+- Create an Issue
+- Create a Pull Request
+
+<hr>
+
+## Create a Pull Request
+
+1. Fork the repository by clicking on the `Fork` button, located at the top right corner of the repository page.
+
+2. Clone the forked repository to your machine by typing the following in the command line:
 
 ```
 git clone https://github.com/<your-github-username>/Start-Contributing.git
 ```
 
-**3.** Navigate to the project directory:
+3. Navigate to the project directory:
 
 ```
 cd Start-Contributing
 ```
 
-**4.** Set upstream:
+4. Set upstream:
 
 ```
 git remote add upstream https://github.com/Sriparno08/Start-Contributing.git
 ```
 
-**5.** Pull changes from upstream if there are any:
+5. Pull changes from upstream if there are any:
 
 ```
 git pull upstream main
 ```
 
-**6.** Create and switch to a new branch:
+6. Create and switch to a new branch:
 
 ```
 git switch -c <new-branch-name>
 ```
 
-**7.** Add your own suggestion to the `README.md` file
+7. Add your own suggestion to the `README.md` file
 
-**8.** Stage your changes:
+8. Stage your changes:
 
 ```
 git add README.md
 ```
 
-**9.** Commit your changes:
+9. Commit your changes:
 
 ```
 git commit -m "<your commit message>"
 ```
 
-**10.** Push your local commits to origin:
+10. Push your local commits to origin:
 
 ```
 git push origin <your-branch-name>
 ```
 
-**11.** Make a Pull Request!
+11. Make a Pull Request!
 
-**12.** Congratulations! You have successfully contributed your first PR to this repository!
+<hr>
+
+## Style Guide for Commit Messages
+
+When you write a commit message, try to follow this pattern:
+
+```
+git commit -m "Add a <Resource> from <Publisher>"
+```
+
+### Resources:
+  
+- Articles
+- YouTube Videos
+- Tutorial Series
+  
+### Example:
+  
+If you want to add an article from freeCodeCamp to this repository, the commit message should be:
+
+```
+git commit -m "Add an article from freeCodeCamp"
+```
