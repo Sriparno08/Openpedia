@@ -1,5 +1,5 @@
-# Start Contributing
-
+## 🚀 Start Contributing
+  
 This repository is a collection of resources that will help you get started with contributing to open source!
 
 Your contribution is most welcome! Kindly go through the [CONTRIBUTING](https://github.com/Sriparno08/Start-Contributing/blob/main/CONTRIBUTING.md) guide for details.
@@ -10,7 +10,7 @@ Your contribution is most welcome! Kindly go through the [CONTRIBUTING](https://
 - [Learn Git and GitHub](#octocat-learn-git-and-github)
 - [Contributing to Open Source](#-contributing-to-open-source)
 
-### 🧐 Introduction to Open Source
+## 🧐 Introduction to Open Source
 
 - What is Open Source?
 - How does it work?
@@ -20,7 +20,7 @@ These are some of the questions that revolve around the world of Open Source.
 
 Here are some priceless resources that will help answer the above questions in detail!
 
-#### Articles:
+### Articles:
 
 - [What is Open Source?](https://opensource.com/resources/what-open-source) by Opensource
 - [Introduction to Open Source and its Benefits](https://www.geeksforgeeks.org/introduction-to-open-source-and-its-benefits/) by GeeksforGeeks
@@ -32,7 +32,7 @@ Here are some priceless resources that will help answer the above questions in d
 - [What is Open Source Software?](https://www.indeed.com/career-advice/career-development/open-source-software-definition) by Indeed
 - [What is Open Source?](https://www.myrasecurity.com/en/what-is-open-source/) by Myra
 
-#### YouTube Videos:
+### YouTube Videos:
 
 - [What is Open Source and How to Start?](https://www.youtube.com/watch?v=msyGybzCKRs) by Kunal Kushwaha
 - [Open Source Explained](https://www.youtube.com/watch?v=PVD1LNDxOnc) by IBM Technology
@@ -41,13 +41,15 @@ Here are some priceless resources that will help answer the above questions in d
 - [What is Open Source?](https://www.youtube.com/watch?v=7c0IrsDsNaw) by Mozilla
 - [What is Open Source Software?](https://www.youtube.com/watch?v=TEttd0Qkqnc) by Honeypot
 
-### :octocat: Learn Git and GitHub
+<hr>
+
+## :octocat: Learn Git and GitHub
 
 You need to learn Git and GitHub to be eligible for Open Source contribution.
 
 In this section, you will find a list of useful resources that will help you master these essential tools!
 
-#### Articles:
+### Articles:
 
 - [Git and GitHub Tutorial - Version Control for Beginners](https://www.freecodecamp.org/news/git-and-github-for-beginners/) by freeCodeCamp
 - [An Intro to Git and GitHub for Beginners](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) by HubSpot
@@ -57,7 +59,7 @@ In this section, you will find a list of useful resources that will help you mas
 - [Git and GitHub Tutorial for Beginners](https://www.analyticsvidhya.com/blog/2021/09/git-and-github-tutorial-for-beginners/) by Analytics Vidhya
 - [How to Use GitHub - Developers' Collaboration Using GitHub](https://www.edureka.co/blog/how-to-use-github/) by Edureka
 
-#### Tutorial Series:
+### Tutorial Series:
 
 - [Hello World](https://docs.github.com/en/get-started/quickstart/hello-world) by GitHub
 - [Git Tutorial](https://www.javatpoint.com/git) by Javatpoint
@@ -65,21 +67,23 @@ In this section, you will find a list of useful resources that will help you mas
 - [Git Tutorial](https://www.tutorialspoint.com/git/index.htm) by Tutorialspoint
 - [Git Tutorials and Training](https://www.atlassian.com/git/tutorials) by Atlassian
 
-#### YouTube Videos:
+### YouTube Videos:
 
 - [Complete Git and GitHub Tutorial](https://www.youtube.com/watch?v=apGV9Kg7ics) by Kunal Kushwaha
 - [Git and GitHub for Beginners](https://www.youtube.com/watch?v=tRZGeaHPoaw) by Kevin Stratvert
 - [Git and GitHub for Beginners - Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk) by freeCodeCamp
 - [Git Tutorial for Beginners: Learn Git in 1 Hour](https://www.youtube.com/watch?v=8JJ101D3knE) by Programming with Mosh
-- [Git Tutorial for Beginners - Git & GitHub Fundamentals in Depth](https://www.youtube.com/watch?v=DVRQoVRzMIY) by Tech With Tim
+- [Git Tutorial for Beginners - Git and GitHub Fundamentals in Depth](https://www.youtube.com/watch?v=DVRQoVRzMIY) by Tech With Tim
 
-### 🙌 Contributing to Open Source
+<hr>
+
+## 🙌 Contributing to Open Source
 
 Learning Git and GitHub only makes you half-ready. You need to actually contribute to Open Source to get comfortable with the process.
 
 In this section, I have compiled a list of helpful resources that will help you do the same!
 
-#### Articles:
+### Articles:
 
 - [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/) by GitHub
 - [How to Contribute to Open Source Projects - A Beginner's Guide](https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-beginners-guide/) by freeCodeCamp
