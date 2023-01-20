@@ -41,8 +41,6 @@ Here are some priceless resources that will help answer the above questions in d
 - [What is Open Source?](https://www.youtube.com/watch?v=7c0IrsDsNaw) by Mozilla
 - [What is Open Source Software?](https://www.youtube.com/watch?v=TEttd0Qkqnc) by Honeypot
 
-<hr>
-
 ## :octocat: Learn Git and GitHub
 
 You need to learn Git and GitHub to be eligible for Open Source contribution.
@@ -75,8 +73,6 @@ In this section, you will find a list of useful resources that will help you mas
 - [Git Tutorial for Beginners: Learn Git in 1 Hour](https://www.youtube.com/watch?v=8JJ101D3knE) by Programming with Mosh
 - [Git Tutorial for Beginners - Git and GitHub Fundamentals in Depth](https://www.youtube.com/watch?v=DVRQoVRzMIY) by Tech With Tim
 
-<hr>
-
 ## 🙌 Contributing to Open Source
 
 Learning Git and GitHub only makes you half-ready. You need to actually contribute to Open Source to get comfortable with the process.
@@ -96,3 +92,4 @@ In this section, I have compiled a list of helpful resources that will help you 
 - [Contributing to Open Source: Getting Started](https://www.geeksforgeeks.org/contributing-to-open-source-getting-started/) by GeeksforGeeks
 - [How to Start Contributing to Open Source Software](https://towardsdatascience.com/how-to-start-contributing-to-open-source-software-9651ca4cedd4) by Towards Data Science
 - [Get Involved in Open Source and Commit Code to Your First Project!](https://www.firsttimersonly.com/) by First Timers Only
+- [Why & How to Contribute to Open Source Projects?](https://testsigma.com/blog/why-how-to-contribute-to-open-source-projects/) by Testsigma
