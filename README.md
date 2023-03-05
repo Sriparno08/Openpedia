@@ -93,3 +93,8 @@ In this section, I have compiled a list of helpful resources that will help you 
 - [How to Start Contributing to Open Source Software](https://towardsdatascience.com/how-to-start-contributing-to-open-source-software-9651ca4cedd4) by Towards Data Science
 - [Get Involved in Open Source and Commit Code to Your First Project!](https://www.firsttimersonly.com/) by First Timers Only
 - [Why & How to Contribute to Open Source Projects?](https://testsigma.com/blog/why-how-to-contribute-to-open-source-projects/) by Testsigma
+
+### Open Source Programs:
+
+- [What is MLH Fellowship](https://fellowship.mlh.io/) Official website of MLH 
+- [How to Prepare for MLH Fellowship](https://youtu.be/teIye_QfCvk) by Arsh Goyal
