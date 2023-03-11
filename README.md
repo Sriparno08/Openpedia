@@ -97,3 +97,4 @@ In this section, I have compiled a list of helpful resources that will help you 
 ## Open Source Programs:
 
 - [MLH Fellowship](https://fellowship.mlh.io/)
+- [Google Summer Of Code](https://summerofcode.withgoogle.com/)
