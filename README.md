@@ -97,7 +97,8 @@ In this section, I have compiled a list of helpful resources that will help you 
 ## Open Source Programs:
 
 - [MLH Fellowship](https://fellowship.mlh.io/)
-- [Google Summer Of Code](https://summerofcode.withgoogle.com/)
+- [Google Summer of Code](https://summerofcode.withgoogle.com/)
 - [LFN Mentorship Program](https://wiki.lfnetworking.org/display/LN/LFN+Mentorship+Program)
 - [Outreachy](https://www.outreachy.org/)
 - [Google Season Of Docs](https://developers.google.com/season-of-docs)
+- [Season Of KDE](https://season.kde.org/)
