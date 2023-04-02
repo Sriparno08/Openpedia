@@ -1,88 +1,88 @@
 # Contributing Guidelines
 
-This repository is waiting for your contribution. Here are some ways to contribute to this repository:
+This repository is waiting for your contribution! Please go through the guidelines below before contributing:
 
-- Create an Issue
-- Create a Pull Request
+- [Issues](#issues)
+- [Pull Requests](#pull-requests)
+- [Making a Pull Request](#making-a-pull-request)
+- [Style Guide for Commit Messages](#style-guide-for-commit-messages)
 
-<hr>
+## Issues
 
-## Create a Pull Request
+- Always create an issue before making a PR.
+- Always ensure that your PR is linked to its corresponding issue (e.g., Closes #100).
+- Before you create an issue, make sure that there is no other open issue similar to the one you want to create.
 
-1. Fork the repository by clicking on the `Fork` button, located at the top right corner of the repository page.
+## Pull Requests
 
-2. Clone the forked repository to your machine by typing the following in the command line:
+- Each PR should contain a single logical change. If a PR becomes too large, it becomes too difficult to review.
+- Try to use your commit message as the title of your PR.
+
+## Making a Pull Request
+
+**Step 1:** Fork the repository by clicking on the `Fork` button, located at the top right corner of the repository page.
+
+**Step 2:** Clone the forked repository to your machine by typing the following in Git Bash:
 
 ```
 git clone https://github.com/<your-github-username>/Start-Contributing.git
 ```
 
-3. Navigate to the project directory:
+**Step 3:** Navigate to the project directory:
 
 ```
 cd Start-Contributing
 ```
 
-4. Set upstream:
+**Step 4:** Set upstream:
 
 ```
 git remote add upstream https://github.com/Sriparno08/Start-Contributing.git
 ```
 
-5. Pull changes from upstream if there are any:
+**Step 5:** Pull changes from upstream if there are any:
 
 ```
 git pull upstream main
 ```
 
-6. Create and switch to a new branch:
+**Step 6:** Create and switch to a new branch:
 
 ```
-git switch -c <new-branch-name>
+git switch -c <branch>
 ```
 
-7. Add your own suggestion to the `README.md` file
+**Step 7:** Add a resource to the `README.md` file
 
-8. Stage your changes:
+**Step 8:** Stage changes:
 
 ```
 git add README.md
 ```
 
-9. Commit your changes:
+**Step 9:** Commit changes:
 
 ```
-git commit -m "<your commit message>"
+git commit -m "<message>"
 ```
 
-10. Push your local commits to origin:
+**Step 10:** Push local commits to origin:
 
 ```
-git push origin <your-branch-name>
+git push origin <branch>
 ```
 
-11. Make a Pull Request!
-
-<hr>
+**Step 11:** Make a Pull Request!
 
 ## Style Guide for Commit Messages
-
-When you write a commit message, try to follow this pattern:
-
-```
-git commit -m "Add a <Resource> from <Publisher>"
-```
-
-### Resources:
   
-- Articles
-- YouTube Videos
-- Tutorial Series
-  
-### Example:
-  
-If you want to add an article from freeCodeCamp to this repository, the commit message should be:
+If you want to add an article/tutorial series/Youtube video from a publisher (e.g., Opensource.com) to this repository, the commit message should be:
 
 ```
-git commit -m "Add an article from freeCodeCamp"
+git commit -m "Add an article/tutorial series/Youtube video from Opensource.com"
 ```
+
+If you want to add an Open Source program (e.g., MLH Fellowship) to this repository, the commit message should be:
+
+```
+git commit -m "Add MLH Fellowship"
