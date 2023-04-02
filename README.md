@@ -106,3 +106,4 @@ In this section, I have compiled a list of helpful resources that will help you 
 - [Hacktoberfest](https://hacktoberfest.com/)
 - [24 Pull Requests](https://24pullrequests.com/)
 - [HackSquad](https://www.hacksquad.dev/)
+- [FOSSASIA Codeheat](https://codeheat.org/)
