@@ -1,6 +1,8 @@
 ## 🚀 Start Contributing
-  
-This repository is a collection of resources that will help you get started with contributing to Open Source.
+
+According to industry experts, open source is only going to expand its impact in the upcoming years, and more people will join in to make it reliable and sustainable.
+
+This project strives to guide beginners in getting started with open source by providing a wide range of helpful resources. Anyone can jump right in to contribute to this project and make it a reliable source for finding everything related to open source.
 
 Your contribution is most welcome! Kindly go through the [CONTRIBUTING](https://github.com/Sriparno08/Start-Contributing/blob/main/CONTRIBUTING.md) guide for details.
 
