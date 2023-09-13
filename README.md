@@ -25,7 +25,7 @@ Here are some priceless resources that will help answer the above questions in d
 
 ### 📄 Articles:
 
-- [What is Open Source?](https://opensource.com/resources/what-open-source) by Opensource.com
+- [What is Open Source?](https://opensource.com/resources/what-open-source) by Opensource
 - [Introduction to Open Source and Its Benefits](https://www.geeksforgeeks.org/introduction-to-open-source-and-its-benefits/) by GeeksforGeeks
 - [An Introduction to Open Source Software](https://www.htmlgoodies.com/guides/an-introduction-to-open-source-software/) by HTML Goodies
 - [What is Open Source?](https://www.redhat.com/en/topics/open-source/what-is-open-source) by Red Hat
@@ -52,7 +52,7 @@ In this section, you will find a list of useful resources that will help you mas
 
 ### 📄 Articles:
 
-- [Git and GitHub Tutorial - Version Control for Beginners](https://www.freecodecamp.org/news/git-and-github-for-beginners/) by freeCodeCamp.org
+- [Git and GitHub Tutorial - Version Control for Beginners](https://www.freecodecamp.org/news/git-and-github-for-beginners/) by freeCodeCamp
 - [An Intro to Git and GitHub for Beginners](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) by HubSpot
 - [GitHub and Git Tutorial for Beginners](https://www.datacamp.com/tutorial/github-and-git-tutorial-for-beginners) by DataCamp
 - [An Ultimate Guide to Git and Github](https://www.geeksforgeeks.org/ultimate-guide-git-github/) by GeeksforGeeks
@@ -85,13 +85,13 @@ In this section, I have compiled a list of helpful resources that will help you 
 ### 📄 Articles:
 
 - [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/) by GitHub
-- [How to Contribute to Open Source Projects - A Beginner's Guide](https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-beginners-guide/) by freeCodeCamp.org
+- [How to Contribute to Open Source Projects - A Beginner's Guide](https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-beginners-guide/) by freeCodeCamp
 - [Getting Started With Contributing to Open Source](https://stackoverflow.blog/2020/08/03/getting-started-with-contributing-to-open-source/) by Stack Overflow
 - [How to Get Started With Open Source](https://www.hackerearth.com/getstarted-opensource/) by HackerEarth
 - [How to Contribute to Open Source Projects](https://rubygarage.org/blog/how-contribute-to-open-source-projects) by RubyGarage
 - [Beginner’s Guide to Contributing to Open Source Projects](https://www.activestate.com/blog/beginners-guide-to-contributing-to-open-source-projects/) by ActiveState
 - [14 Ways to Contribute to Open Source without Being a Programming Genius or a Rock Star](https://smartbear.com/blog/14-ways-to-contribute-to-open-source-without-being/) by SmartBear
-- [8 Non-Code Ways to Contribute to Open Source](https://opensource.com/life/16/1/8-ways-contribute-open-source-without-writing-code) by Opensource.com
+- [8 Non-Code Ways to Contribute to Open Source](https://opensource.com/life/16/1/8-ways-contribute-open-source-without-writing-code) by Opensource
 - [Contributing to Open Source: Getting Started](https://www.geeksforgeeks.org/contributing-to-open-source-getting-started/) by GeeksforGeeks
 - [How to Start Contributing to Open Source Software](https://towardsdatascience.com/how-to-start-contributing-to-open-source-software-9651ca4cedd4) by Towards Data Science
 - [Get Involved in Open Source and Commit Code to Your First Project!](https://www.firsttimersonly.com/) by First Timers Only
