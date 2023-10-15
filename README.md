@@ -1,4 +1,4 @@
-## 🚀 Start Contributing
+# 🚀 Start Contributing
 
 According to industry experts, open source is only going to expand its impact in the upcoming years, and more people will join in to make it reliable and sustainable.
 
@@ -23,7 +23,7 @@ These are some of the questions that revolve around the world of Open Source.
 
 Here are some priceless resources that will help answer the above questions in detail.
 
-### 📄 Articles:
+### 📄 Articles
 
 - [What is Open Source?](https://opensource.com/resources/what-open-source) by Opensource
 - [Introduction to Open Source and Its Benefits](https://www.geeksforgeeks.org/introduction-to-open-source-and-its-benefits/) by GeeksforGeeks
@@ -35,7 +35,7 @@ Here are some priceless resources that will help answer the above questions in d
 - [What is Open Source Software?](https://www.indeed.com/career-advice/career-development/open-source-software-definition) by Indeed
 - [What is Open Source?](https://www.myrasecurity.com/en/what-is-open-source/) by Myra
 
-### ▶️ YouTube Videos:
+### ▶️ YouTube Videos
 
 - [What is Open Source and How to Start?](https://www.youtube.com/watch?v=msyGybzCKRs) by Kunal Kushwaha
 - [Open Source Explained](https://www.youtube.com/watch?v=PVD1LNDxOnc) by IBM Technology
@@ -50,7 +50,7 @@ You need to learn about Git and GitHub to be eligible to contribute to Open Sour
 
 In this section, you will find a list of useful resources that will help you master these essential tools.
 
-### 📄 Articles:
+### 📄 Articles
 
 - [Git and GitHub Tutorial - Version Control for Beginners](https://www.freecodecamp.org/news/git-and-github-for-beginners/) by freeCodeCamp
 - [An Intro to Git and GitHub for Beginners](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) by HubSpot
@@ -60,15 +60,7 @@ In this section, you will find a list of useful resources that will help you mas
 - [Git and GitHub Tutorial for Beginners](https://www.analyticsvidhya.com/blog/2021/09/git-and-github-tutorial-for-beginners/) by Analytics Vidhya
 - [How to Use GitHub](https://www.edureka.co/blog/how-to-use-github/) by Edureka
 
-### 📖 Tutorial Series:
-
-- [Hello World](https://docs.github.com/en/get-started/quickstart/hello-world) by GitHub
-- [Git Tutorial](https://www.javatpoint.com/git) by Javatpoint
-- [Git Tutorial](https://www.w3schools.com/git/) by W3Schools
-- [Git Tutorial](https://www.tutorialspoint.com/git/index.htm) by Tutorialspoint
-- [Git Tutorials and Training](https://www.atlassian.com/git/tutorials) by Atlassian
-
-### ▶️ YouTube Videos:
+### ▶️ YouTube Videos
 
 - [Complete Git and GitHub Tutorial](https://www.youtube.com/watch?v=apGV9Kg7ics) by Kunal Kushwaha
 - [Git and GitHub for Beginners](https://www.youtube.com/watch?v=tRZGeaHPoaw) by Kevin Stratvert
@@ -82,7 +74,7 @@ Learning Git and GitHub only makes you half-ready. You need to actually contribu
 
 In this section, I have compiled a list of helpful resources that will help you do the same.
 
-### 📄 Articles:
+### 📄 Articles
 
 - [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/) by GitHub
 - [How to Contribute to Open Source Projects - A Beginner's Guide](https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-beginners-guide/) by freeCodeCamp
@@ -97,7 +89,7 @@ In this section, I have compiled a list of helpful resources that will help you 
 - [Get Involved in Open Source and Commit Code to Your First Project!](https://www.firsttimersonly.com/) by First Timers Only
 - [Why and How to Contribute to Open Source Projects?](https://testsigma.com/blog/why-how-to-contribute-to-open-source-projects/) by Testsigma
 
-## 🏅 Open Source Programs:
+## 🏅 Open Source Programs
 
 - [MLH Fellowship](https://fellowship.mlh.io/)
 - [Google Summer of Code](https://summerofcode.withgoogle.com/)
