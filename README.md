@@ -15,13 +15,9 @@ Your contribution is most welcome! Kindly go through the [CONTRIBUTING](https://
 
 ## 🧐 Introduction to Open Source
 
-- What is Open Source?
-- How does it work?
-- Why should we contribute to it?
+These are many questions that revolve around the world of Open Source.
 
-These are some of the questions that revolve around the world of Open Source.
-
-Here are some priceless resources that will help answer the above questions in detail.
+Here are some priceless resources that will help answer these questions in detail.
 
 ### 📄 Articles
 
