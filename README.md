@@ -96,3 +96,4 @@ In this section, I have compiled a list of helpful resources that will help you 
 - [HackSquad](https://www.hacksquad.dev/)
 - [FOSSASIA Codeheat](https://codeheat.org/)
 - [Hyperledger Mentorship Program](https://wiki.hyperledger.org/display/INTERN)
+- [GiriScript Summer of Code](https://gssoc.girlscript.tech/)
