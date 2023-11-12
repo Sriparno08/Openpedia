@@ -15,8 +15,8 @@ This repository is waiting for your contribution! Please go through the guidelin
 
 ## Pull Requests
 
-- Each PR should contain a single logical change. If a PR becomes too large, it becomes too difficult to review.
-- Try to use your commit message as the title of your PR.
+- Each PR should contain a single logical change.
+- The PR title should summarize the changes made in it.
 
 ## Making a Pull Request
 
