@@ -76,13 +76,17 @@ git push origin <branch>
 
 ## Style Guide for Commit Messages
   
-If you want to add an article/tutorial series/Youtube video from a publisher (e.g., Opensource.com) to this repository, the commit message should be:
+If you are contributing a resource to the repository, the commit message should be:
 
 ```
-git commit -m "Add an article/tutorial series/Youtube video from Opensource.com"
+git commit -m "Add a <resource-type> from <publisher>"
 ```
 
-If you want to add an Open Source program (e.g., MLH Fellowship) to this repository, the commit message should be:
+Resource Types:
 
+- Article
+- YouTube Video
+
+If you are contributing an open source program to the repository, the commit message should be:
 ```
-git commit -m "Add MLH Fellowship"
+git commit -m "Add <program>"
