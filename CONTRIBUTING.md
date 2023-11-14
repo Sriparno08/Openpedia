@@ -52,27 +52,25 @@ git pull upstream main
 git switch -c <branch>
 ```
 
-**Step 7:** Add a resource to the `README.md` file
-
-**Step 8:** Stage changes:
+**Step 7:** Modify `README.md` and stage changes:
 
 ```
 git add README.md
 ```
 
-**Step 9:** Commit changes:
+**Step 8:** Commit changes:
 
 ```
 git commit -m "<message>"
 ```
 
-**Step 10:** Push local commits to origin:
+**Step 9:** Push local commits to origin:
 
 ```
 git push origin <branch>
 ```
 
-**Step 11:** Make a Pull Request!
+**Step 10:** Make a Pull Request!
 
 ## Style Guide for Commit Messages
   
