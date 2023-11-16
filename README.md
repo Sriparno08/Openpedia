@@ -13,7 +13,7 @@ Your contribution is most welcome! Kindly go through the [CONTRIBUTING](https://
 
 ## 🧐 Introduction to Open Source
 
-These are many questions that revolve around the world of Open Source.
+There are a lot of questions that revolve around the concept of open source.
 
 Here are some priceless resources that will help answer these questions in detail.
 
@@ -40,7 +40,7 @@ Here are some priceless resources that will help answer these questions in detai
 
 ## 💻 Learn Git and GitHub
 
-You need to learn about Git and GitHub to be eligible to contribute to Open Source.
+Git and GitHub are two of the most essential tools that you need to master to contribute to open source.
 
 In this section, you will find a list of useful resources that will help you master these essential tools.
 
@@ -64,7 +64,7 @@ In this section, you will find a list of useful resources that will help you mas
 
 ## 🙌 Contributing to Open Source
 
-Learning Git and GitHub only makes you half-ready. You need to actually contribute to Open Source to get comfortable with the process.
+Learning the essentials is only half of the job done as you need to start contributing to open source to get comfortable with the process.
 
 In this section, I have compiled a list of helpful resources that will help you do the same.
 
