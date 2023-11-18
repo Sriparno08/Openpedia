@@ -85,6 +85,10 @@ In this section, I have compiled a list of helpful resources that will help you 
 
 ## 🏅 Open Source Programs
 
+This project strives to guide beginners in getting started with open source by providing a wide range of helpful resources. Anyone can jump right in to contribute to this project and make it a reliable source for finding everything related to open source.
+
+Your contribution is most welcome! Kindly go through the [CONTRIBUTING](https://github.com/Sriparno08/Start-Contributing/blob/main/CONTRIBUTING.md) guide for details.
+
 - [MLH Fellowship](https://fellowship.mlh.io/)
 - [Google Summer of Code](https://summerofcode.withgoogle.com/)
 - [LFN Mentorship Program](https://wiki.lfnetworking.org/display/LN/LFN+Mentorship+Program)
