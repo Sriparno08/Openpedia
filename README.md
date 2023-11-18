@@ -89,6 +89,8 @@ There are a lot of open source programs on the internet that allow you to contri
 
 Here is a list of such initiatives that you can participate in and upskill yourself in open source contributions.
 
+### 🔗 Open Source Contributions Links
+
 - [MLH Fellowship](https://fellowship.mlh.io/)
 - [Google Summer of Code](https://summerofcode.withgoogle.com/)
 - [LFN Mentorship Program](https://wiki.lfnetworking.org/display/LN/LFN+Mentorship+Program)
@@ -96,7 +98,6 @@ Here is a list of such initiatives that you can participate in and upskill yours
 - [Google Season of Docs](https://developers.google.com/season-of-docs)
 - [Season of KDE](https://season.kde.org/)
 - [Hacktoberfest](https://hacktoberfest.com/)
-
 - [24 Pull Requests](https://24pullrequests.com/)
 - [HackSquad](https://www.hacksquad.dev/)
 - [FOSSASIA Codeheat](https://codeheat.org/)
