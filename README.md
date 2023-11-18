@@ -83,6 +83,10 @@ In this section, I have compiled a list of helpful resources that will help you 
 - [Get Involved in Open Source and Commit Code to Your First Project!](https://www.firsttimersonly.com/) by First Timers Only
 - [Why and How to Contribute to Open Source Projects?](https://testsigma.com/blog/why-how-to-contribute-to-open-source-projects/) by Testsigma
 
+## 😇 Beginner-Friendly Repositories
+
+- [MDN Web Docs](https://github.com/mdn/content)
+
 ## 🏅 Open Source Programs
 
 There are a lot of open source programs on the internet that allow you to contribute to open source projects.
