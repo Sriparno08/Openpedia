@@ -87,9 +87,7 @@ In this section, I have compiled a list of helpful resources that will help you 
 
 There are a lot of open source programs on the internet that allow you to contribute to open source projects.
 
-Here is a list of such initiatives that you can participate in and upskill yourself in open source contributions.
-
-### 🔗 Open Source Contributions Links
+Here is a list of such initiatives that you can participate in and upskill yourself in open source contributions:
 
 - [MLH Fellowship](https://fellowship.mlh.io/)
 - [Google Summer of Code](https://summerofcode.withgoogle.com/)
