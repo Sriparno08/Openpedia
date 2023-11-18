@@ -96,6 +96,7 @@ Here is a list of such initiatives that you can participate in and upskill yours
 - [Google Season of Docs](https://developers.google.com/season-of-docs)
 - [Season of KDE](https://season.kde.org/)
 - [Hacktoberfest](https://hacktoberfest.com/)
+
 - [24 Pull Requests](https://24pullrequests.com/)
 - [HackSquad](https://www.hacksquad.dev/)
 - [FOSSASIA Codeheat](https://codeheat.org/)
