@@ -105,3 +105,4 @@ Here is a list of such initiatives that you can participate in and upskill yours
 - [FOSSASIA Codeheat](https://codeheat.org/)
 - [Hyperledger Mentorship Program](https://wiki.hyperledger.org/display/INTERN)
 - [GiriScript Summer of Code](https://gssoc.girlscript.tech/)
+- [JGEC Winter of Code](https://jwoc.tech/)
