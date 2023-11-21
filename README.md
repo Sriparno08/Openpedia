@@ -86,6 +86,7 @@ In this section, I have compiled a list of helpful resources that will help you 
 ## 😇 Beginner-Friendly Repositories
 
 - [MDN Web Docs](https://github.com/mdn/content)
+- [MindsDB](https://github.com/mindsdb/mindsdb)
 
 ## 🏅 Open Source Programs
 
