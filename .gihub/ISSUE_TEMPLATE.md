@@ -1,19 +1,11 @@
-# Description
-
-Please provide a clear and concise description of the issue. Include relevant details such as the expected behavior, actual behavior, and steps to reproduce (if applicable).
-
 ## Category
+
+<!-- Type 'x' in the square brackets '[ ]' to check the category -->
 
 - [ ] Documentation
 - [ ] Resource Addition
 
-### Documentation
-Use this checkbox if the issue is related to documentation.
+## Description
 
-### Resource Addition
-Use this checkbox if the issue is related to adding new resources.
-
-# Additional Information
-
-Include any additional information or context about the issue here.
-
+<!-- If the issue is related to documentation, describe the issue -->
+<!-- If the issue is related to resource addition, provide the name and link to the resource -->
