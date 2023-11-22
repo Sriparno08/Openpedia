@@ -87,6 +87,7 @@ In this section, I have compiled a list of helpful resources that will help you 
 
 - [MDN Web Docs](https://github.com/mdn/content)
 - [MindsDB](https://github.com/mindsdb/mindsdb)
+- [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)
 
 ## 🏅 Open Source Programs
 
