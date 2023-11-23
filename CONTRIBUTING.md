@@ -20,7 +20,7 @@ Please go through the guidelines below and make your first contribution:
 - Each PR should contain a single logical change.
 - The PR title should summarize the changes made in it.
 - Describe the changes made in the PR to the best of your ability.
-- The PR should be linked to the corresponding issue (Closes/Fixes #<issue-number>)
+- The PR should be linked to the corresponding issue (Closes/Fixes #100).
 
 ## Making a Pull Request
 
