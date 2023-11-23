@@ -85,6 +85,10 @@ In this section, I have compiled a list of helpful resources that will help you 
 
 ## 😇 Beginner-Friendly Repositories
 
+Ready to embark on your open source adventure? These repositories offer a welcoming gateway for newcomers, presenting a curated selection of beginner-friendly issues to help you take your first steps into the world of open source.
+
+Here are some of those repositories that will give you a head start in open source:
+
 - [MDN Web Docs](https://github.com/mdn/content)
 - [MindsDB](https://github.com/mindsdb/mindsdb)
 - [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)
