@@ -1,6 +1,8 @@
 # Contributing Guidelines
 
-This repository is waiting for your contribution! Please go through the guidelines below before contributing:
+Ready to contribute?
+
+Please go through the guidelines below and make your first contribution:
 
 - [Issues](#issues)
 - [Pull Requests](#pull-requests)
@@ -10,13 +12,15 @@ This repository is waiting for your contribution! Please go through the guidelin
 ## Issues
 
 - Always create an issue before making a PR.
-- Always ensure that your PR is linked to its corresponding issue (e.g., Closes #100).
-- Before you create an issue, make sure that there is no other open issue similar to the one you want to create.
+- Always ensure that there is no other open issue similar to the one that you want to create.
+- Always start working on an issue after getting assigned to it.
 
 ## Pull Requests
 
 - Each PR should contain a single logical change.
 - The PR title should summarize the changes made in it.
+- Describe the changes made in the PR to the best of your ability.
+- The PR should be linked to the corresponding issue (Closes/Fixes #<issue-number>)
 
 ## Making a Pull Request
 
