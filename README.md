@@ -92,6 +92,7 @@ Here are some of those repositories that will give you a head start in open sour
 - [MDN Web Docs](https://github.com/mdn/content)
 - [MindsDB](https://github.com/mindsdb/mindsdb)
 - [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)
+- [Github Docs](https://github.com/github/docs)
 
 ## 🏅 Open Source Programs
 
