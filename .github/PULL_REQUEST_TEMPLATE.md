@@ -1,15 +1,15 @@
-# Pull Request Template
-
 ## Description
 <!-- Please provide a summary of your changes. Include the motivation behind the changes and link to any relevant issues. This section should provide enough information for anyone reviewing your PR to understand what's being changed and why. -->
 
 *Describe your changes here*
 
-## Category
-<!-- Check the category that applies to this PR by placing an 'x' in the appropriate box. This helps in quickly identifying the type of contribution. -->
+## Category (If Applicable)
+
+<!-- Type 'x' in the square brackets '[ ]' to check the corresponding category -->
 
 - [ ] Article
 - [ ] YouTube Video
+- [ ] Beginner-Friendly Repository
 - [ ] Open Source Program
 
 ## Related Issue
