@@ -95,6 +95,8 @@ Here are some of those repositories that will give you a head start in open sour
 - [MindsDB](https://github.com/mindsdb/mindsdb)
 - [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)
 - [GitHub Docs](https://github.com/github/docs)
+- [BioDrop](https://github.com/EddieHubCommunity/BioDrop)
+
 
 ## 🏅 Open Source Programs
 
