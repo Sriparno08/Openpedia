@@ -6,10 +6,12 @@
 *Describe your changes here*
 
 ## Category
-<!-- Check the category that applies to this PR by placing an 'x' in the appropriate box. This helps in quickly identifying the type of contribution. -->
+
+<!-- Type 'x' in the square brackets '[ ]' to check the corresponding category -->
 
 - [ ] Article
 - [ ] YouTube Video
+- [ ] Beginner-Friendly Repository
 - [ ] Open Source Program
 
 ## Related Issue
