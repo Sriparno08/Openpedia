@@ -18,10 +18,11 @@
 #<issue_number>
 
 ## Checklist
-<!-- Please go through this checklist and confirm before submission. -->
 
-- [ ] I have read the [Contribution Guidelines](https://github.com/Sriparno08/Start-Contributing/blob/main/CONTRIBUTING.md).
-- [ ] My changes generate no new warnings or errors.
-- [ ] I have added tests that prove my fix is effective or that my feature works.
-- [ ] I have added necessary documentation (if appropriate).
+<!-- Type 'x' in the square brackets '[ ]' to check the corresponding criteria -->
+
+- [ ] I have gone through the [CONTRIBUTING](https://github.com/Sriparno08/Start-Contributing/blob/main/CONTRIBUTING.md) guide
+- [ ] The name of the resource is correctly spelled (if applicable)
+- [ ] The link to the resource is working (if applicable)
+- [ ] The resource is added in the correct format (if applicable)
 
