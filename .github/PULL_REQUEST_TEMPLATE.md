@@ -13,9 +13,10 @@
 - [ ] Open Source Program
 
 ## Related Issue
-<!-- If this PR is related to an issue, please include the issue number here. This helps in tracking and resolving issues efficiently. If there isn't a related issue, you can delete this section. -->
 
-#<issue_number>
+<!-- Link the PR to the corresponding issue by replacing 'XX' with the issue number -->
+
+Fixes #XX
 
 ## Checklist
 
