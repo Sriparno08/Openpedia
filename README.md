@@ -91,6 +91,7 @@ These repositories offer a welcoming gateway for newcomers, presenting a curated
 
 Here are some of those repositories that will give you a head start in open source:
 
+- [React](https://github.com/facebook/react)
 - [MDN Web Docs](https://github.com/mdn/content)
 - [MindsDB](https://github.com/mindsdb/mindsdb)
 - [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)
