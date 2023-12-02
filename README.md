@@ -97,6 +97,7 @@ Here are some of those repositories that will give you a head start in open sour
 - [GitHub Docs](https://github.com/github/docs)
 - [BioDrop](https://github.com/EddieHubCommunity/BioDrop)
 - [Codecademy Docs](https://github.com/Codecademy/docs)
+- [React](https://github.com/facebook/react)
 
 ## 🏅 Open Source Programs
 
