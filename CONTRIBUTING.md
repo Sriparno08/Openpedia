@@ -78,7 +78,13 @@ git push origin <branch>
 
 ## Style Guide for Commit Messages
   
-If you are contributing a resource that refers to any of the first three sections, the commit message would be:
+If the resource belongs to any of these following categories:
+
+- Introduction to Open Source
+- Learn Git and GitHub
+- Contributing to Open Source
+
+The commit message should be:
 
 ```
 git commit -m "Add a/an <resource-type> from <publisher>"
@@ -89,17 +95,13 @@ Resource Types:
 - Article
 - YouTube Video
 
-If you are contributing an open source program or a beginner-friendly repository, the commit message would be:
+If the resource belongs to any of these following categories:
+
+- Beginner-Friendly Repositories
+- Open Source Programs
+
+The commit message should be:
 
 ```
 git commit -m "Add <name>"
 ```
-
-Resource Types:
-
-- Article
-- YouTube Video
-
-If you are contributing an open source program to the repository, the commit message should be:
-```
-git commit -m "Add <program>"
