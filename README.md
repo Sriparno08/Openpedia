@@ -9,6 +9,7 @@ Your contribution is most welcome! Kindly go through the [CONTRIBUTING](https://
 - [Introduction to Open Source](#-introduction-to-open-source)
 - [Learn Git and GitHub](#-learn-git-and-github)
 - [Contributing to Open Source](#-contributing-to-open-source)
+- [Beginner-Friendly Repositories](#-beginner-friendly-repositories)
 - [Open Source Programs](#-open-source-programs)
 
 ## 🧐 Introduction to Open Source
