@@ -100,6 +100,7 @@ Here are some of those repositories that will give you a head start in open sour
 - [Codecademy Docs](https://github.com/Codecademy/docs)
 - [Bootstrap](https://github.com/twbs/bootstrap)
 - [React](https://github.com/facebook/react)
+- [Docusaurus](https://github.com/facebook/docusaurus)
 
 
 ## 🏅 Open Source Programs
