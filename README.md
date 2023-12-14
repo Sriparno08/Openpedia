@@ -102,6 +102,7 @@ Here are some of those repositories that will give you a head start in open sour
 - [React](https://github.com/facebook/react)
 - [Docusaurus](https://github.com/facebook/docusaurus)
 - [First Contributions](https://github.com/firstcontributions/first-contributions)
+- [Angular](https://github.com/angular/angular)
 
 ## 🏅 Open Source Programs
 
