@@ -6,10 +6,11 @@
 
 <!-- Type 'x' in the square brackets '[ ]' to check the corresponding category -->
 
-- [ ] Article
-- [ ] YouTube Video
-- [ ] Beginner-Friendly Repository
-- [ ] Open Source Program
+- [ ] Introduction to Open Source
+- [ ] Learn Git and GitHub
+- [ ] Contributing to Open Source
+- [ ] Beginner-Friendly Repositories
+- [ ] Open Source Programs
 
 ## Related Issue
 
