@@ -1,4 +1,4 @@
-# 🚀 Open Resource
+# 🚀 Openpedia
 
 This project strives to guide beginners in getting started with open source by providing a wide range of helpful resources. Anyone can jump right in to contribute to this project and make it a reliable source for finding everything related to open source.
 
