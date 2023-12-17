@@ -29,19 +29,19 @@ Please go through the guidelines below and make your first contribution:
 **Step 2:** Clone the forked repository to your machine by typing the following in Git Bash:
 
 ```
-git clone https://github.com/<github-username>/Open-Resource.git
+git clone https://github.com/<github-username>/Openpedia.git
 ```
 
 **Step 3:** Navigate to the project directory:
 
 ```
-cd Open-Resource
+cd Openpedia
 ```
 
 **Step 4:** Set upstream:
 
 ```
-git remote add upstream https://github.com/Sriparno08/Open-Resource.git
+git remote add upstream https://github.com/Sriparno08/Openpedia.git
 ```
 
 **Step 5:** Pull changes from upstream if there are any:
