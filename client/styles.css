@@ -17,6 +17,14 @@ body {
     min-height: 100vh;
 }
 
+.construction {
+    padding: 1rem 0;
+    background-color: black;
+    text-align: center;
+    color: rgb(255, 148, 148);
+    font-size: 14px;
+}
+
 .container {
     min-height: 100vh;
     background-color: #fafafa;
@@ -34,7 +42,7 @@ header .title-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 12vh;
+    height: 10vh;
 }
 
 .title-container .title {
@@ -50,7 +58,7 @@ header .links {
     flex-direction: column;
     border-top: 1px solid rgb(31, 63, 104);
     position: absolute;
-    top: 12vh;
+    top: 10vh;
     width: 100%;
     background-color: rgb(18, 38, 64);
 }
@@ -312,7 +320,7 @@ footer .creator {
         display: inline-flex;
         flex-direction: row;
         border-top: 0;
-        height: 12vh;
+        height: 10vh;
         margin-right: 1rem;
         top: 0;
         right: 0;
@@ -321,7 +329,11 @@ footer .creator {
     }
 
     .links .item {
-        padding: 1.2rem 0;
+        padding: 0.8rem 0;
+        padding-right: 1.3rem;
+    }
+
+    .links .item:nth-of-type(1) {
         padding-right: 0.6rem;
     }
 
@@ -440,16 +452,8 @@ footer .creator {
         margin-left: 2rem;
     }
 
-    .title-container .title {
-        font-size: 21px;
-    }
-
     header .links {
         margin-right: 2rem;
-    }
-
-    .item .link {
-        font-size: 18px;
     }
 
     .intro .intro-title {
