@@ -10,7 +10,6 @@ Your contribution is most welcome! Kindly go through the [CONTRIBUTING](https://
 - [Learn Git and GitHub](#-learn-git-and-github)
 - [Contributing to Open Source](#-contributing-to-open-source)
 - [Beginner-Friendly Repositories](#-beginner-friendly-repositories)
-- [Awesome React](#-awesome-react)
 - [Open Source Programs](#-open-source-programs)
 
 ## 🧐 Introduction to Open Source
