@@ -103,6 +103,7 @@ Here are some of those repositories that will give you a head start in open sour
 - [Docusaurus](https://github.com/facebook/docusaurus)
 - [First Contributions](https://github.com/firstcontributions/first-contributions)
 - [Angular](https://github.com/angular/angular)
+- [balenaCloud Docs](https://github.com/balena-io/docs)
 
 ## 🏅 Open Source Programs
 
