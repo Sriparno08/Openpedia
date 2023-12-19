@@ -104,6 +104,7 @@ Here are some of those repositories that will give you a head start in open sour
 - [Docusaurus](https://github.com/facebook/docusaurus)
 - [First Contributions](https://github.com/firstcontributions/first-contributions)
 - [Angular](https://github.com/angular/angular)
+- [balenaCloud Docs](https://github.com/balena-io/docs)
 
 ## **Awesome React** [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
