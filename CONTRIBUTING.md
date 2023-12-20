@@ -97,7 +97,7 @@ Resource Types:
 
 If the resource belongs to any of these following categories:
 
-- Beginner-Friendly Repositories
+- Beginner-Friendly Repos
 - Open Source Programs
 
 The commit message should be:
