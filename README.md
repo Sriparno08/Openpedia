@@ -9,7 +9,7 @@ Your contribution is most welcome! Kindly go through the [CONTRIBUTING](https://
 - [Introduction to Open Source](#-introduction-to-open-source)
 - [Learn Git and GitHub](#-learn-git-and-github)
 - [Contributing to Open Source](#-contributing-to-open-source)
-- [Beginner-Friendly Repositories](#-beginner-friendly-repositories)
+- [Beginner-Friendly Repos](#-beginner-friendly-repos)
 - [Open Source Programs](#-open-source-programs)
 
 ## 🧐 Introduction to Open Source
@@ -84,13 +84,13 @@ In this section, I have compiled a list of helpful resources that will help you 
 - [Get Involved in Open Source and Commit Code to Your First Project!](https://www.firsttimersonly.com/) by First Timers Only
 - [Why and How to Contribute to Open Source Projects?](https://testsigma.com/blog/why-how-to-contribute-to-open-source-projects/) by Testsigma
 
-## 😇 Beginner-Friendly Repositories
+## 😇 Beginner-Friendly Repos
 
 Ready to embark on your open source adventure?
 
-These repositories offer a welcoming gateway for newcomers, presenting a curated selection of beginner-friendly issues to help you take your first steps into the world of open source.
+These repos offer a welcoming gateway for newcomers, presenting a curated selection of beginner-friendly issues to help you take your first steps into the world of open source.
 
-Here are some of those repositories that will give you a head start in open source:
+Here are some of those repos that will give you a head start in open source:
 
 - [MDN Web Docs](https://github.com/mdn/content)
 - [MindsDB](https://github.com/mindsdb/mindsdb)
