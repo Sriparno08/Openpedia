@@ -9,7 +9,7 @@
 - [ ] Introduction to Open Source
 - [ ] Learn Git and GitHub
 - [ ] Contributing to Open Source
-- [ ] Beginner-Friendly Repositories
+- [ ] Beginner-Friendly Repos
 - [ ] Open Source Programs
 
 ## Related Issue
@@ -26,4 +26,3 @@ Fixes #XX
 - [ ] The name of the resource is correctly spelled (if applicable)
 - [ ] The link to the resource is working (if applicable)
 - [ ] The resource is added in the correct format (if applicable)
-
