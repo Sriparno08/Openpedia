@@ -2,8 +2,6 @@
 
 This project strives to guide beginners in getting started with open source by providing a wide range of helpful resources. Anyone can jump right in to contribute to this project and make it a reliable source for finding everything related to open source.
 
-Your contribution is most welcome! Kindly go through the [CONTRIBUTING](https://github.com/Sriparno08/Start-Contributing/blob/main/CONTRIBUTING.md) guide for details.
-
 ## 🧾 Table of Contents
 
 - [Introduction to Open Source](#-introduction-to-open-source)
@@ -11,6 +9,8 @@ Your contribution is most welcome! Kindly go through the [CONTRIBUTING](https://
 - [Contributing to Open Source](#-contributing-to-open-source)
 - [Beginner-Friendly Repos](#-beginner-friendly-repos)
 - [Open Source Programs](#-open-source-programs)
+- [Contributing](#-contributing)
+- [License](#-license)
 
 ## 🧐 Introduction to Open Source
 
@@ -125,3 +125,15 @@ Here is a list of such initiatives that you can participate in and upskill yours
 - [Hyperledger Mentorship Program](https://wiki.hyperledger.org/display/INTERN)
 - [GiriScript Summer of Code](https://gssoc.girlscript.tech/)
 - [JGEC Winter of Code](https://jwoc.tech/)
+
+## 🤝 Contributing
+
+Openpedia is waiting for your contribution!
+
+There are many ways that you can contribute to this website, including adding resources, improving the user interface, fixing bugs and more.
+
+Please go through the [CONTRIBUTING](https://github.com/Sriparno08/Openpedia/blob/main/CONTRIBUTING.md) guide for details.
+
+## 📝 License
+
+Openpedia is licensed under the terms of the [MIT License](https://github.com/Sriparno08/Openpedia/blob/main/LICENSE.md).
