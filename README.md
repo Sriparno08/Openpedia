@@ -105,6 +105,7 @@ Here are some of those repos that will give you a head start in open source:
 - [Angular](https://github.com/angular/angular)
 - [balenaCloud Docs](https://github.com/balena-io/docs)
 - [Awesome React](https://github.com/enaqx/awesome-react)
+- [Storybook](https://github.com/storybookjs/storybook)
 
 ## 🏅 Open Source Programs
 
