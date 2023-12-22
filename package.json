@@ -4,7 +4,7 @@
   "description": "",
   "main": "client/index.html",
   "scripts": {
-    "build": "webpack serve --config ./webpack.config.js --mode development",
+    "build": "webpack serve --config ./webpack.config.cjs --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
