@@ -100,6 +100,7 @@ Here are some of those repos that will give you a head start in open source:
 - [Codecademy Docs](https://github.com/Codecademy/docs)
 - [Bootstrap](https://github.com/twbs/bootstrap)
 - [React](https://github.com/facebook/react)
+- [React Native](https://github.com/facebook/react-native)
 - [Docusaurus](https://github.com/facebook/docusaurus)
 - [First Contributions](https://github.com/firstcontributions/first-contributions)
 - [Angular](https://github.com/angular/angular)
