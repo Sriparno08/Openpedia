@@ -88,9 +88,7 @@ In this section, I have compiled a list of helpful resources that will help you 
 
 Ready to embark on your open source adventure?
 
-These repos offer a welcoming gateway for newcomers, presenting a curated selection of beginner-friendly issues to help you take your first steps into the world of open source.
-
-Here are some of those repos that will give you a head start in open source:
+These repos offer a welcoming gateway for newcomers, presenting a curated selection of beginner-friendly issues to help you take your first steps into the world of open source:
 
 - [MDN Web Docs](https://github.com/mdn/content)
 - [MindsDB](https://github.com/mindsdb/mindsdb)
@@ -110,6 +108,7 @@ Here are some of those repos that will give you a head start in open source:
 - [Apache Arrow](https://github.com/apache/arrow)
 - [Novu](https://github.com/novuhq/novu)
 - [Prettier](https://github.com/prettier/prettier)
+
 ## 🏅 Open Source Programs
 
 There are a lot of open source programs on the internet that allow you to contribute to open source projects.
