@@ -30,7 +30,7 @@ Here are some priceless resources that will help answer these questions in detai
 - [What Is Open Source Software?](https://www.indeed.com/career-advice/career-development/open-source-software-definition) by Indeed
 - [What Is Open Source?](https://www.myrasecurity.com/en/what-is-open-source/) by Myra
 
-### ▶️ YouTube Videos
+### ▶️ Videos
 
 - [What Is Open Source and How to Start?](https://www.youtube.com/watch?v=msyGybzCKRs) by Kunal Kushwaha
 - [Open Source Explained](https://www.youtube.com/watch?v=PVD1LNDxOnc) by IBM Technology
@@ -55,7 +55,7 @@ In this section, you will find a list of useful resources that will help you mas
 - [Git and GitHub Tutorial for Beginners](https://www.analyticsvidhya.com/blog/2021/09/git-and-github-tutorial-for-beginners/) by Analytics Vidhya
 - [How to Use GitHub](https://www.edureka.co/blog/how-to-use-github/) by Edureka
 
-### ▶️ YouTube Videos
+### ▶️ Videos
 
 - [Complete Git and GitHub Tutorial](https://www.youtube.com/watch?v=apGV9Kg7ics) by Kunal Kushwaha
 - [Git and GitHub for Beginners](https://www.youtube.com/watch?v=tRZGeaHPoaw) by Kevin Stratvert
