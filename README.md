@@ -108,7 +108,7 @@ Here are some of those repos that will give you a head start in open source:
 - [Awesome React](https://github.com/enaqx/awesome-react)
 - [Storybook](https://github.com/storybookjs/storybook)
 - [Apache Arrow](https://github.com/apache/arrow)
-
+- [Novu](https://github.com/novuhq/novu)
 ## 🏅 Open Source Programs
 
 There are a lot of open source programs on the internet that allow you to contribute to open source projects.
