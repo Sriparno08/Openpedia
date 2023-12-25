@@ -16,7 +16,7 @@ This project strives to guide beginners in getting started with open source by p
 
 There are a lot of questions that revolve around the concept of open source.
 
-Here are some priceless resources that will help answer these questions in detail.
+Here are some priceless resources that will answer these questions in detail:
 
 ### 📄 Articles
 
