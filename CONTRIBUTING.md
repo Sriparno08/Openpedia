@@ -77,7 +77,7 @@ git push origin <branch>
 **Step 10:** Make a Pull Request!
 
 ## Style Guide for Commit Messages
-  
+
 If the resource belongs to any of these following categories:
 
 - Introduction to Open Source
@@ -104,4 +104,19 @@ The commit message should be:
 
 ```
 git commit -m "Add <name>"
+```
+
+## Style Guide for Pull Requests
+
+There can be three types of PRs for this repository:
+
+- `Docs`: Changes related to documentation
+- `Chore`: Changes related to the codebase, but unrelated to the UI of the website or adding a new feature
+- `UI`: Changes related to the UI of the website
+- `Feat`: Changes related to adding a new feature
+
+When you are opening a PR, ensure that you are providing the correct type in the PR title in the below format:
+
+```
+Docs: Add MDN Web Docs
 ```
