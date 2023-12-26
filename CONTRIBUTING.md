@@ -93,7 +93,7 @@ git commit -m "Add a/an <resource-type> from <publisher>"
 Resource Types:
 
 - Article
-- YouTube Video
+- Video
 
 If the resource belongs to any of these following categories:
 
