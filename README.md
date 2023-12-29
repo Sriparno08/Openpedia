@@ -41,9 +41,9 @@ Here are some priceless resources that will answer these questions in detail:
 
 ## 💻 Learn Git and GitHub
 
-Git and GitHub are two of the most essential tools that you need to master to contribute to open source.
+Git and GitHub are two of the most essential tools that you need to master in order to contribute to open source.
 
-In this section, you will find a list of useful resources that will help you master these essential tools.
+These resources provide a substantial amount of information about these tools, allowing you to get a strong hold of them in a short period of time:
 
 ### 📄 Articles
 
