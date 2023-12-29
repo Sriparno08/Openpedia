@@ -65,9 +65,9 @@ These resources provide a substantial amount of information about these tools, a
 
 ## 🙌 Contributing to Open Source
 
-Learning the essentials is only half of the job done as you need to start contributing to open source to get comfortable with the process.
+Learning the contribution workflow is a must in your open source journey.
 
-In this section, I have compiled a list of helpful resources that will help you do the same.
+This section compiles a list of useful resources that enable you to get started with open source contributions:
 
 ### 📄 Articles
 
