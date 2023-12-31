@@ -88,7 +88,7 @@ This section compiles a list of useful resources that enable you to get started 
 
 Ready to embark on your open source adventure?
 
-These repos offer a welcoming gateway for newcomers, presenting a curated selection of beginner-friendly issues to help you take your first steps into the world of open source:
+These repos offer a curated selection of beginner-friendly issues that will turn you into a skilled open source contributor:
 
 - [MDN Web Docs](https://github.com/mdn/content)
 - [MindsDB](https://github.com/mindsdb/mindsdb)
