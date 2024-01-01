@@ -111,9 +111,9 @@ These repos offer a curated selection of beginner-friendly issues that will turn
 
 ## 🏅 Open Source Programs
 
-There are a lot of open source programs on the internet that allow you to contribute to open source projects.
+There are a lot of open source programs on the internet that enable you to get rewarded for contributing to open source projects.
 
-Here is a list of such initiatives that you can participate in and upskill yourself in open source contributions:
+Here is a list of such initiatives that provide an opportunity for you to upskill in open source contributions and get compensated for your hard work:
 
 - [MLH Fellowship](https://fellowship.mlh.io/)
 - [Google Summer of Code](https://summerofcode.withgoogle.com/)
