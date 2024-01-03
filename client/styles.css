@@ -140,16 +140,16 @@ header .toggle-links {
     display: block;
     padding: 0.7rem 1rem;
     text-decoration: none;
-    color: black;
+    color: rgb(18, 38, 64);
     font-size: 17px;
-    border: 2px solid black;
+    border: 2px solid rgb(18, 38, 64);
     transition: all 0.3s;
 }
 
 .intro .get-started:hover {
-    background-color: rgb(129, 77, 225);
+    background-color: rgb(18, 38, 64);
     color: white;
-    border-color: rgb(129, 77, 225);
+    border-color: rgb(18, 38, 64);
 }
 
 .categories-container {
@@ -196,15 +196,15 @@ header .toggle-links {
     padding: 0.3rem 0.6rem;
     text-decoration: none;
     font-size: 14px;
-    border: 2px solid rgb(23, 23, 234);
+    border: 2px solid rgb(18, 38, 64);
     transition: all 0.3s;
     color: white;
-    background-color: rgb(23, 23, 234);
+    background-color: rgb(18, 38, 64);
 }
 
 .category .category-link:hover {
     background-color: white;
-    color: blue;
+    color: rgb(18, 38, 64);
 }
 
 .about-container {
