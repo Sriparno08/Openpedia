@@ -1,6 +1,6 @@
 # 🚀 Openpedia
 
-This project strives to guide beginners in getting started with open source by providing a wide range of helpful resources. Anyone can jump right in to contribute to this project and make it a reliable source for finding everything related to open source.
+Openpedia offers a large amount of useful resources that enable you to become a seasoned open source contributor. If you are aspiring to leave your imprint in the world of open source, then this project is an excellent fit for you.
 
 ## 🧾 Table of Contents
 
