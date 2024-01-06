@@ -8,6 +8,7 @@ Please go through the guidelines below and make your first contribution:
 - [Pull Requests](#pull-requests)
 - [Making a Pull Request](#making-a-pull-request)
 - [Style Guide for Commit Messages](#style-guide-for-commit-messages)
+- [Style Guide for Pull Requests](#style-guide-for-pull-requests)
 
 ## Issues
 
