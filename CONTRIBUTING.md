@@ -108,7 +108,7 @@ git commit -m "Add <name>"
 
 ## Style Guide for Pull Requests
 
-There can be three types of PRs for this repository:
+There can be four types of PRs for this repository:
 
 - `Docs`: Changes related to documentation
 - `Chore`: Changes related to the codebase, but unrelated to the UI of the website or adding a new feature
