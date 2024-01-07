@@ -2,84 +2,90 @@
 
 Ready to contribute?
 
-Please go through the guidelines below and make your first contribution:
+Please go through the guidelines below to make your first contribution:
 
 - [Issues](#issues)
 - [Pull Requests](#pull-requests)
-- [Making a Pull Request](#making-a-pull-request)
+- [Creating a Pull Request](#creating-a-pull-request)
 - [Style Guide for Commit Messages](#style-guide-for-commit-messages)
 - [Style Guide for Pull Requests](#style-guide-for-pull-requests)
 
 ## Issues
 
-- Always create an issue before making a PR.
+- Always create an issue before creating a pull request.
 - Always ensure that there is no other open issue similar to the one that you want to create.
 - Always start working on an issue after getting assigned to it.
 
+<hr>
+
 ## Pull Requests
 
-- Each PR should contain a single logical change.
-- The PR title should summarize the changes made in it.
-- Describe the changes made in the PR to the best of your ability.
-- The PR should be linked to the corresponding issue.
+- Each pull request should contain a single logical change.
+- The pull request title should summarize the changes made in it.
+- Describe the changes made in the pull request to the best of your ability.
+- The pull request should be linked to the corresponding issue.
 
-## Making a Pull Request
+<hr>
 
-**Step 1:** Fork the repository by clicking on the `Fork` button, located at the top right corner of the repository page.
+## Creating a Pull Request
 
-**Step 2:** Clone the forked repository to your machine by typing the following in Git Bash:
+- Fork the repository
 
-```
-git clone https://github.com/<github-username>/Openpedia.git
-```
+- Clone the forked repository to your local machine:
 
-**Step 3:** Navigate to the project directory:
+    ```sh
+    git clone https://github.com/<github-username>/Openpedia.git
+    ```
+    
+- Navigate to the project directory:
 
-```
-cd Openpedia
-```
+    ```sh
+    cd Openpedia
+    ```
 
-**Step 4:** Set upstream:
+- Install all dependencies:
 
-```
-git remote add upstream https://github.com/Sriparno08/Openpedia.git
-```
+    ```sh
+    npm install
+    ```
 
-**Step 5:** Pull changes from upstream if there are any:
+- Create and switch to a new branch:
 
-```
-git pull upstream main
-```
+    ```sh
+    git switch -c <branch>
+    ```
 
-**Step 6:** Create and switch to a new branch:
+- Launch the application:
 
-```
-git switch -c <branch>
-```
+    ```sh
+    npm run build
+    ```
 
-**Step 7:** Modify `README.md` and stage changes:
+- Make changes to the project and stage them:
 
-```
-git add README.md
-```
+    ```sh
+    git add .
+    ```
 
-**Step 8:** Commit changes:
+- Commit the changes:
 
-```
-git commit -m "<message>"
-```
+    ```sh
+    git commit -m "<message>"
+    ```
 
-**Step 9:** Push local commits to origin:
+- Push the changes to the correponding remote branch:
 
-```
-git push origin <branch>
-```
+    ```sh
+    git push origin <branch>
+    ```
 
-**Step 10:** Make a Pull Request!
+- Create a pull request!
+
+<hr>
 
 ## Style Guide for Commit Messages
 
-If the resource belongs to any of these following categories:
+If you are adding a resource that belongs to any of these following categories:
 
 - Introduction to Open Source
 - Learn Git and GitHub
@@ -88,15 +94,10 @@ If the resource belongs to any of these following categories:
 The commit message should be:
 
 ```
-git commit -m "Add a/an <resource-type> from <publisher>"
+git commit -m "Docs: Add a resource from <publisher>"
 ```
 
-Resource Types:
-
-- Article
-- Video
-
-If the resource belongs to any of these following categories:
+If you are adding a resource that belongs to any of these following categories:
 
 - Beginner-Friendly Repos
 - Open Source Programs
@@ -104,19 +105,21 @@ If the resource belongs to any of these following categories:
 The commit message should be:
 
 ```
-git commit -m "Add <name>"
+git commit -m "Docs: Add <name>"
 ```
+
+<hr>
 
 ## Style Guide for Pull Requests
 
-There can be four types of PRs for this repository:
+There can be four types of pull requests on this repository:
 
-- `Docs`: Changes related to documentation
-- `Chore`: Changes related to the codebase, but unrelated to the UI of the website or adding a new feature
-- `UI`: Changes related to the UI of the website
+- `Docs`: Changes related to the documentation
+- `Chore`: Changes related to the codebase, but unrelated to the UI or adding a new feature
+- `UI`: Changes related to the UI
 - `Feat`: Changes related to adding a new feature
 
-When you are opening a PR, ensure that you are providing the correct type in the PR title in the below format:
+When you are opening a pull request, ensure that you are providing the correct type in the pull request title:
 
 ```
 Docs: Add MDN Web Docs
