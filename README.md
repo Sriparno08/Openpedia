@@ -129,11 +129,21 @@ Here is a list of such initiatives that provide an opportunity for you to upskil
 - [GiriScript Summer of Code](https://gssoc.girlscript.tech/)
 - [JGEC Winter of Code](https://jwoc.tech/)
 
+## 🌐 Tech Stack
+
+Openpedia is built on these following technologies:
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)
+
 ## 🤝 Contributing
 
 Openpedia is waiting for your contribution!
 
-There are many ways that you can contribute to this website, including adding resources, improving the user interface, fixing bugs and more.
+There are many ways that you can contribute to this project, including adding resources, improving the UI, fixing bugs and more.
 
 Please go through the [CONTRIBUTING](https://github.com/Sriparno08/Openpedia/blob/main/CONTRIBUTING.md) guide for details.
 
