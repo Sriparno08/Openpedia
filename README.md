@@ -9,6 +9,7 @@ Openpedia offers a large amount of useful resources that enable you to become a 
 - [Contributing to Open Source](#-contributing-to-open-source)
 - [Beginner-Friendly Repos](#-beginner-friendly-repos)
 - [Open Source Programs](#-open-source-programs)
+- [Tech Stack](#-tech-stack)
 - [Contributing](#-contributing)
 - [License](#-license)
 
