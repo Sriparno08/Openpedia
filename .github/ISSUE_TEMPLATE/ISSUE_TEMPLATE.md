@@ -2,7 +2,7 @@
 name: Issue Template
 about: Use this template to describe the issue
 title: ''
-labels: 'documentation, help wanted'
+labels: ''
 assignees: ''
 
 ---
