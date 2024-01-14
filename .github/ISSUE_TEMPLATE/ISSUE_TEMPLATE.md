@@ -1,10 +1,9 @@
 ---
 name: Issue Template
-about: Use this template to describe the issue
-title: ''
-labels: ''
+about: Template for Opening Issues
+title: '<Type>: <Description>'
+labels: 'JWOC'
 assignees: ''
-
 ---
 
 ## Category
@@ -13,12 +12,13 @@ assignees: ''
 
 - [ ] Documentation
 - [ ] Resource Addition
+- [ ] Codebase
+- [ ] User Interface
+- [ ] Feature Request
 
 ## Description
 
-<!-- If the issue is related to documentation, describe the issue -->
-
-<!-- If the issue is related to resource addition, provide the name and the link to the resource in the following method:
+<!-- If you are adding a resource, please provide the name and the link to the resource in the following format:
 
 Name: MDN Web Docs
 Link: https://github.com/mdn/content
