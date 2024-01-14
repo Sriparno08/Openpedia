@@ -1,20 +1,20 @@
 ## Description
 
-<!-- Describe the changes made in the PR -->
+<!-- Describe the changes made in the pull request -->
 
-## Category (If Applicable)
+## Category
 
 <!-- Type 'x' in the square brackets '[ ]' to check the corresponding category -->
 
-- [ ] Introduction to Open Source
-- [ ] Learn Git and GitHub
-- [ ] Contributing to Open Source
-- [ ] Beginner-Friendly Repos
-- [ ] Open Source Programs
+- [ ] Documentation
+- [ ] Resource Addition
+- [ ] Codebase
+- [ ] User Interface
+- [ ] Feature Request
 
 ## Related Issue
 
-<!-- Link the PR to the corresponding issue by replacing 'XX' with the issue number -->
+<!-- Link the pull request to the corresponding issue by replacing 'XX' with the issue number -->
 
 Fixes #XX
 
@@ -23,6 +23,6 @@ Fixes #XX
 <!-- Type 'x' in the square brackets '[ ]' to check the corresponding criteria -->
 
 - [ ] I have gone through the [CONTRIBUTING](https://github.com/Sriparno08/Start-Contributing/blob/main/CONTRIBUTING.md) guide
-- [ ] The name of the resource is correctly spelled (if applicable)
+- [ ] The name of the resource is spelled correctly (if applicable)
 - [ ] The link to the resource is working (if applicable)
 - [ ] The resource is added in the correct format (if applicable)
