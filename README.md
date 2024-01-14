@@ -144,7 +144,7 @@ Openpedia is built on these following technologies:
 
 Openpedia is waiting for your contribution!
 
-There are many ways that you can contribute to this project, including adding resources, improving the UI, fixing bugs and more.
+There are many ways that you can contribute to this project, such as improving the documentation, adding resources, enhancing the codebase and more.
 
 Please go through the [CONTRIBUTING](https://github.com/Sriparno08/Openpedia/blob/main/CONTRIBUTING.md) guide for details.
 
