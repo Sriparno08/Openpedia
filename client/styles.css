@@ -45,11 +45,13 @@ header .title-container {
     height: 10vh;
 }
 
-.title-container .title {
+.title-container .title .link {
     color: white;
+    text-decoration: none;
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 1px;
+    transition: font-size 0.3s ease-in-out;
 }
 
 header .links {
@@ -75,8 +77,9 @@ header .toggle-links {
     color: white;
     text-decoration: none;
     font-size: 15px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.3s;
     border-bottom: 1px solid rgb(31, 63, 104);
+    transform-origin: right; 
 }
 
 .item .link:nth-of-type(2) {
