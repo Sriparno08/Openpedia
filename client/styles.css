@@ -159,7 +159,7 @@ header .toggle-links {
     background-color: rgb(18, 38, 64);
     color: white;
     border-color: rgb(18, 38, 64);
-    transform: scale(1.15); /* Adjust the scale factor as needed */
+    transform: scale(1.15); 
 }
 
 
