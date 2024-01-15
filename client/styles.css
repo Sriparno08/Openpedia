@@ -122,6 +122,8 @@ header .toggle-links {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgb(107, 63, 63)), url("../image.jpeg");
+
 }
 
 .intro .intro-title,
@@ -158,6 +160,10 @@ header .toggle-links {
 .categories-container {
     padding: 2.5rem 0;
     background-color: rgb(18, 38, 64);
+}
+.category{
+    border-radius: 80px;
+    box-shadow: 10px 10px 5px rgb(172, 172, 173) inset;
 }
 
 .categories-container .categories-title {
