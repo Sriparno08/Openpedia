@@ -54,10 +54,6 @@ header .title-container {
     transition: font-size 0.3s ease-in-out;
 }
 
-.title-container .title .link:hover {
-    font-size: 23px; 
-}
-
 header .links {
     list-style: none;
     display: none;
@@ -92,7 +88,6 @@ header .toggle-links {
 
 .item .link:hover {
     background-color: rgb(42, 85, 142);
-    transform: translateX(-5px); 
 }
 
 .title-container .hamburger {
@@ -145,23 +140,20 @@ header .toggle-links {
 }
 
 .intro .get-started {
-    display: inline-block;
+    display: block;
     padding: 0.7rem 1rem;
     text-decoration: none;
     color: rgb(18, 38, 64);
     font-size: 17px;
     border: 2px solid rgb(18, 38, 64);
     transition: all 0.3s;
-    transform-origin: center;
 }
 
 .intro .get-started:hover {
     background-color: rgb(18, 38, 64);
     color: white;
     border-color: rgb(18, 38, 64);
-    transform: scale(1.15); 
 }
-
 
 .categories-container {
     padding: 2.5rem 0;
