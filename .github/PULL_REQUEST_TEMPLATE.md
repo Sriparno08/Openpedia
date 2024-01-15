@@ -26,3 +26,4 @@ Fixes #XX
 - [ ] The name of the resource is spelled correctly (if applicable)
 - [ ] The link to the resource is working (if applicable)
 - [ ] The resource is added in the correct format (if applicable)
+- [ ] I have tested changes on my local computer (if applicable)
