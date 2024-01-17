@@ -10,19 +10,78 @@ header {
     color: white;
     padding: 10px;
     text-align: center;
+    margin-top: 15px;
+
 }
 
-nav {
-    background-color: #444;
-    padding: 10px;
+.navbar-default {
+    /*background: #005986;*/
+    background-color: #476a95;
+}
+
+.navbar {
+    border: 0;
+    border-radius: 0;
     text-align: center;
+    height: 60px;
 }
 
-nav a {
-    color: white;
+ul.nav {
+    list-style: none;
+    border-right: 1px solid #84B6D0;
+    margin: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 13px;
+}
+
+ul.nav li {
+    padding: 20px 0;
+    display: inline-block;
+}
+
+ul.nav li a {
+    padding: 20px 10px;
+    color: #fff;
+    position: relative;
     text-decoration: none;
-    padding: 10px;
-    margin: 0 10px;
+    font-size: 25px;
+
+}
+
+ul.nav li a:after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 90%;
+    right: 0;
+    background: white;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin-right: -90px
+}
+
+ul.nav li:first-child a:before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 90%;
+    left: 0;
+    background: white;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin-left: -90px;
+}
+
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    margin-inline-start: 0px;
+    margin-inline-end: 13px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    background: #a5d1e7;
 }
 
 section {
