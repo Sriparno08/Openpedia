@@ -69,7 +69,9 @@ header .links {
     box-shadow: 0 0 5px 0px rgba(0,0,0,0.8);
     right: 0;
     margin: 1rem 1rem 0 0;
-    padding: 0 2rem;
+    padding: 1rem 2rem;
+    display: flex;
+    gap: 1rem;
     border-radius: .5rem;
     background-color: rgb(18, 38, 64);
     transform: scale(0);
@@ -321,7 +323,7 @@ footer .creator {
         width: 80%;
     }
     .item .link {
-        padding: 0.7rem ;
+        padding: 0.7rem;
         padding-left: 1.3rem;
     }
 }
@@ -351,6 +353,7 @@ footer .creator {
         height: 10vh;
         margin-right: 1rem;
         top: 0;
+        gap: 0;
         right: 0;
         width: auto;
         transform: scale(1);
