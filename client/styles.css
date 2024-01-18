@@ -608,3 +608,7 @@ footer a:active {
         text-align: left;
     }
 }
+
+footer .end {
+    padding: 0 2rem;
+}
