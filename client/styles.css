@@ -610,6 +610,5 @@ footer a:active {
 }
 
 footer .end {
-    padding-left: 600px;
-    padding-top: 16px;
+    padding: 0 2rem;
 }
