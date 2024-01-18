@@ -30,11 +30,17 @@ body {
     background-color: #fafafa;
 }
 
+nav{
+    position: fixed;
+    width: 100%;
+}
+
 header {
-    background-color: rgb(18, 38, 64);
     display: flex;
     flex-direction: column;
-    position: relative;
+    top: 0;
+    width: 100%;
+    transition: box-shadow 0.3s;
 }
 
 header .title-container {
@@ -46,7 +52,6 @@ header .title-container {
 }
 
 .title-container .title .link {
-    color: white;
     text-decoration: none;
     font-size: 20px;
     font-weight: 400;
@@ -56,38 +61,52 @@ header .title-container {
 
 header .links {
     list-style: none;
-    display: none;
     flex-direction: column;
-    border-top: 1px solid rgb(31, 63, 104);
     position: absolute;
+    text-align: center;
     top: 10vh;
-    width: 100%;
+    width: fit-content;
+    box-shadow: 0 0 5px 0px rgba(0,0,0,0.8);
+    right: 0;
+    margin: 1rem 1rem 0 0;
+    padding: 0 2rem;
+    border-radius: .5rem;
     background-color: rgb(18, 38, 64);
-}
-
-header .toggle-links {
-    display: flex;
+    transform: scale(0);
+    transform-origin: 100% 0;
+    transition: transform 0.3s ease-in-out;
 }
 
 .item .link {
-    padding: 0.7rem 0;
-    padding-left: 1.3rem;
     display: block;
-    height: 100%;
-    color: white;
     text-decoration: none;
     font-size: 15px;
-    transition: background-color 0.3s, transform 0.3s;
-    border-bottom: 1px solid rgb(31, 63, 104);
-    transform-origin: right;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center; 
+    position: relative;
 }
 
 .item .link:nth-of-type(2) {
     border-bottom: none;
 }
 
-.item .link:hover {
-    background-color: rgb(42, 85, 142);
+.item .link::after{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(18, 38, 64);
+    border-radius: 5px;
+    margin: 20px 50% 0;
+    transition: width 0.3s ease-in-out, margin 0.3s ease-in-out;
+    position: absolute;
+}
+
+.item .link:hover::after {
+    width: 60%;
+    margin: 20px 0 0;
 }
 
 .title-container .hamburger {
@@ -97,11 +116,9 @@ header .toggle-links {
     align-items: center;
     cursor: pointer;
     padding: 0.7rem 0.5rem;
-    transition: background-color 0.3s;
-}
-
-.title-container .hamburger:hover {
-    background-color: rgb(28, 57, 95);
+    border-radius: 5px;
+    background-color: rgb(18, 38, 64);
+    box-shadow: 0 0 5px 0px rgba(0,0,0,0.8);
 }
 
 .hamburger .bar {
@@ -303,6 +320,10 @@ footer .creator {
     .categories .category {
         width: 80%;
     }
+    .item .link {
+        padding: 0.7rem ;
+        padding-left: 1.3rem;
+    }
 }
 
 @media (min-width: 768px) {
@@ -332,7 +353,10 @@ footer .creator {
         top: 0;
         right: 0;
         width: auto;
+        transform: scale(1);
+        box-shadow: none;
         background-color: transparent;
+        margin: 0;
     }
 
     .links .item {
