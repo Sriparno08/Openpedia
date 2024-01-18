@@ -290,6 +290,11 @@ footer {
     padding: 1rem 1.3rem;
 }
 
+footer .copyright {
+    color: white;
+    text-align: center;
+}
+
 footer .creator {
     color: white;
     text-align: center;
@@ -611,4 +616,6 @@ footer a:active {
 
 footer .end {
     padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
 }
