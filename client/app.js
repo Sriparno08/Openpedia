@@ -16,36 +16,38 @@ hamburger.addEventListener("click", () => {
 const styles = {
   0: {
     "nav hr" : {
-      borderColor: "rgba(18,38,64)",
-      height: "1px",
+      borderColor: "#9a9a9a",
+      borderRadius: "0 5px 5px 0",
+      height: "5px",
+      backgroundColor: "#9a9a9a",
       display: "block",
       left: "0",
       right: "0",
       position: "absolute",
     },
     header: {
-      backgroundColor: "rgba(255,255,255,0.5)",
+      backgroundColor: "background-color: rgba(18, 38, 64, 1);",
       boxShadow: "none",
     },
     ".title-container .title .link": {
-      color: "#000",
+      color: "#fff",
     },
     ".item .link": {
-      color: window.innerWidth < 768 ? '#fff' : "#000",
+      color: window.innerWidth < 768 ? '#fff' : "#fff",
     },
   },
   "non-0": {
     "nav": {
       backdropFilter: "blur(10px)",
     },
-    header: {
-      boxShadow: "0 5px 6px rgba(0,0,0,0.3)",
-    },
+    // header: {
+    //   boxShadow: "0 5px 6px rgba(0,0,0,0.3)",
+    // },
     ".title-container .title .link": {
-      color: "#000",
+      color: "#fff",
     },
     ".item .link": {
-      color: window.innerWidth < 768 ? '#fff' : "#000",
+      color: window.innerWidth < 768 ? '#fff' : "#fff",
     }
   },
 };

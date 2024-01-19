@@ -33,6 +33,7 @@ body {
 nav{
     position: fixed;
     width: 100%;
+    background-color: rgb(18, 38, 64);
 }
 
 header {
@@ -66,7 +67,7 @@ header .links {
     text-align: center;
     top: 10vh;
     width: fit-content;
-    box-shadow: 0 0 5px 0px rgba(0,0,0,0.8);
+    /* box-shadow: 0 0 5px 0px rgba(0,0,0,0.8); */
     right: 0;
     margin: 1rem 1rem 0 0;
     padding: 1rem 2rem;
@@ -99,7 +100,7 @@ header .links {
     display: block;
     width: 0%;
     height: 2px;
-    background-color: rgb(18, 38, 64);
+    background-color: #fafafa;
     border-radius: 5px;
     margin: 20px 50% 0;
     transition: width 0.3s ease-in-out, margin 0.3s ease-in-out;
@@ -120,7 +121,7 @@ header .links {
     padding: 0.7rem 0.5rem;
     border-radius: 5px;
     background-color: rgb(18, 38, 64);
-    box-shadow: 0 0 5px 0px rgba(0,0,0,0.8);
+    /* box-shadow: 0 0 5px 0px rgba(0,0,0,0.8); */
 }
 
 .hamburger .bar {
