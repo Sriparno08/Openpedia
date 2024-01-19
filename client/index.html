@@ -3,14 +3,17 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Openpedia</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <main class="container">
+    <main>
 
 
         <header>
@@ -117,39 +120,42 @@
         </section>
 
         <footer>
-            <div class="contain">
-                <div class="row">
-                    <div class="col">
-                        <a href="index.html" class="link">Openpedia</a>
-                        <p>Openpedia offers a large amount of useful resources that enable you to become a seasoned open
-                            source contributor. </p>
+            <div class="footer-container">
+                <div class="footer-row">
+                    <div class="footer-column">
+                        <h3 class="footer-logo"><a href="index.html">Openpedia</a></h3>
+                        <p>Openpedia offers a large amount of useful resources that enable you to become a seasoned open source contributor.</p>
                     </div>
-                    <div class="col">
+                    <div class="footer-column">
                         <h3 id="Support">Support</h3>
-                        <p>Documentation</p>
+                        <a href="">Documentation</a>
                     </div>
-                    <div class="col">
+                    <div class="footer-column">
                         <h3 id="Solutions">Categories</h3>
-                        <p>Introduction to Open Source</p>
+                        <a href="./opensource_programs/index.html">Introduction to Open Source</a>
                     </div>
                 </div>
                 <hr>
                 <br>
-                <div class="end">
+                <div class="footer-end">
                     <span class="copyright">&copy; 2024 Openpedia</span>
                     <span class="creator">Developed By Sriparno Roy & Open Source Community</span>
-                    <span class="social media">
+                    <div class="social-media">
                         <i class="fa-brands fa-linkedin-in"></i>
                         <i class="fa-brands fa-x-twitter"></i>
                         <i class="fa-brands fa-discord"></i>
                         <i class="fa-brands fa-github"></i>
                         <i class="fa-brands fa-instagram"></i>
-                    </span>
+                    </div>
                 </div>
             </div>
         </footer>
+        
     </main>
     <script src="./app.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
 </body>
 
 </html>
