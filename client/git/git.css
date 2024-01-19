@@ -4,19 +4,20 @@ main{
 
 .container1{
     font-family: 'Markazi Text', serif;
-    
+    width:50vw;
     color: rgb(18, 38, 64);
     /* text-align: center; */
     font-size: 25px;
-    padding-left: 200px;
-    margin-right: 550px;
+    margin-left: 15vw;
+    /* margin-right: 550px; */
 }
 .container2{
     /* text-align: center; */
     color: rgb(18, 38, 64);
+    width: 50vw;
     font-size: x-large;
-    padding-left: 200px;
-    margin-right: 550px;
+    margin-left: 15vw;
+    /* margin-right: 550px; */
     margin-bottom: 50px;
 }
 
