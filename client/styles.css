@@ -117,6 +117,7 @@ header .toggle-links {
 }
 
 .intro {
+    margin-top: 10vh;
     height: 75vh;
     display: flex;
     flex-direction: column;
@@ -314,6 +315,9 @@ footer .creator {
     header {
         flex-direction: row;
         justify-content: space-between;
+        position: fixed;
+        width: 100%;
+        top: 0;
     }
 
     header .title-container {
