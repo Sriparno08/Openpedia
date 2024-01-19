@@ -613,7 +613,9 @@ footer a:active {
         text-align: left;
     }
 }
-
+.f-title{
+    display: block;
+}
 footer .end {
     padding: 0 2rem;
     display: flex;
