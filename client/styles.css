@@ -575,6 +575,7 @@ footer a {
     color: #ffffff;
     letter-spacing: 2px;
     font-size: 30px;
+    display: block;
 }
 
 footer a:link {
@@ -612,9 +613,6 @@ footer a:active {
     footer .creator {
         text-align: left;
     }
-}
-.f-title{
-    display: block;
 }
 footer .end {
     padding: 0 2rem;
