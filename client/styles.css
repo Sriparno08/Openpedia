@@ -46,9 +46,12 @@ header .title-container {
 }
 
 .title-container .title .link {
+    display: flex;
+    align-items: center;
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 24px;
+    font-family: 'Roboto';
     font-weight: 400;
     letter-spacing: 1px;
     transition: font-size 0.3s ease-in-out;
