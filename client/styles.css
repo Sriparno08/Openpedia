@@ -117,6 +117,7 @@ header .toggle-links {
 }
 
 .intro {
+    margin-top: 10vh;
     height: 75vh;
     display: flex;
     flex-direction: column;
@@ -314,6 +315,9 @@ footer .creator {
     header {
         flex-direction: row;
         justify-content: space-between;
+        position: fixed;
+        width: 100%;
+        top: 0;
     }
 
     header .title-container {
@@ -576,6 +580,7 @@ footer a {
     color: #ffffff;
     letter-spacing: 2px;
     font-size: 30px;
+    display: block;
 }
 
 footer a:link {
@@ -620,7 +625,6 @@ footer .col h3 {
         text-align: left;
     }
 }
-
 footer .end {
     padding: 0 2rem;
     display: flex;
