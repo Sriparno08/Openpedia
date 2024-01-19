@@ -6,11 +6,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
 }
 
 html {
     scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -79,7 +79,7 @@ header .toggle-links {
     font-size: 15px;
     transition: background-color 0.3s, transform 0.3s;
     border-bottom: 1px solid rgb(31, 63, 104);
-    transform-origin: right; 
+    transform-origin: right;
 }
 
 .item .link:nth-of-type(2) {
@@ -292,9 +292,18 @@ footer {
     text-align: center;
 }
 
-.creator {
+footer .copyright {
     color: white;
     text-align: center;
+}
+
+footer .creator {
+    color: white;
+    text-align: center;
+}
+
+.fa-brands {
+    color: white;
 }
 
 @media (min-width: 425px) {
@@ -525,7 +534,8 @@ footer {
         font-size: 17px;
     }
 }
-footer{
+
+footer {
     background-color: rgb(18, 38, 64);
     position: absolute;
     width: 100%;
@@ -534,16 +544,19 @@ footer{
     font-size: 13px;
     line-height: 20px;
 }
+
 footer .creator {
     color: white;
     text-align: justify;
     justify-content: space-between;
     font-size: 10px;
 }
-.contain{
+
+.contain {
     display: grid;
 }
-.row{
+
+.row {
     width: 85%;
     margin: auto;
     display: flex;
@@ -551,30 +564,60 @@ footer .creator {
     align-items: flex-start;
     justify-content: space-between;
 }
-.col{
+
+.col {
     flex-basis: 25%;
     padding: 10px;
     color: white;
 }
-footer a{
+
+footer a {
     width: 80px;
     margin-bottom: 30px;
     color: #ffffff;
     letter-spacing: 2px;
     font-size: 30px;
 }
-footer a:link { text-decoration: none; }
-footer a:visited { text-decoration: none; }
-footer a:hover { text-decoration: none; }
-footer a:active { text-decoration: none; }
-.about-footer{
+
+footer a:link {
+    text-decoration: none;
+}
+
+footer a:visited {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+footer a:active {
+    text-decoration: none;
+}
+
+.about-footer {
     padding-top: 15px;
     color: #ffffff;
     font-size: 11px;
     font-stretch: semi-condensed;
 }
+
 @media (max-width: 768px) {
-    .row{flex-direction: column;}
-    .col{padding: 5px;}
-    footer .creator{text-align: left;}
+    .row {
+        flex-direction: column;
+    }
+
+    .col {
+        padding: 5px;
+    }
+
+    footer .creator {
+        text-align: left;
+    }
+}
+
+footer .end {
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
 }
