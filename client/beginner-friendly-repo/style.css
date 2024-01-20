@@ -200,6 +200,102 @@ footer .creator {
     }
     
 }
+footer .creator {
+    font-size: 17px;
+}
+footer {
+  background-color: rgb(18, 38, 64);
+  position: absolute;
+  width: 100%;
+  padding: 100px 0 30px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+footer .creator {
+  color: white;
+  text-align: justify;
+  justify-content: space-between;
+  font-size: 10px;
+}
+
+.contain {
+  display: grid;
+}
+
+.row {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.col {
+  flex-basis: 25%;
+  padding: 10px;
+  color: white;
+  padding-bottom: 50px;
+}
+
+footer a {
+  width: 80px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  letter-spacing: 2px;
+  font-size: 30px;
+  display: block;
+}
+
+footer a:link {
+  text-decoration: none;
+}
+
+footer a:visited {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+footer a:active {
+  text-decoration: none;
+}
+
+/* Add margin-bottom to the headings in the footer */
+footer .col h3 {
+  margin-bottom: 20px;
+}
+
+
+.about-footer {
+  padding-top: 15px;
+  color: #ffffff;
+  font-size: 11px;
+  font-stretch: semi-condensed;
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .col {
+    padding: 5px;
+  }
+
+  footer .creator {
+    text-align: left;
+  }
+}
+
+footer .end {
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+}
 
   
 
