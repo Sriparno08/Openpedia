@@ -1,3 +1,6 @@
+const toggle = document.getElementById('toggle');
+const body = document.body;
+
 let hamburger = document.querySelector(".hamburger");
 let links = document.querySelector(".links");
 
@@ -12,5 +15,17 @@ window.addEventListener("scroll", () => {
     toTop.classList.add("active");
   } else {
     toTop.classList.remove("active");
+  }
+});
+
+toggle.addEventListener('input', e => {
+  const isChecked = e.target.checked;
+
+  if (isChecked) {
+      body.classList.add('dark-theme');
+      
+  } else {
+      body.classList.remove('dark-theme');
+      
   }
 });
