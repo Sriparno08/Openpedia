@@ -5,23 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Open Source Program Details</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <ul class="nav navbar-nav">
-            <li><a href="../index.html"><i class="fa fa-fw fa-home"></i> Home</a></li>
-          </ul>
-        </div>
-    </nav>
-
     <header>
-        <h1>Open Source Program</h1>
+        <div class="title-container">
+            <p class="title"><a href="index.html" class="link">Openpedia</a></p>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+
+        <ul class="links">
+            <li class="item"><a href="#about" class="link">About</a></li>
+            <li class="item"><a href="./faq/" class="link" target="_blank">FAQ</a></li>
+            <li class="item">
+                <a href="https://github.com/Sriparno08/Openpedia" target="_blank" class="link">GitHub</a>
+            </li>
+        </ul>
     </header>
+
+    <div class="heading">
+        <h1>Open Source Program</h1>
+    </div>
 
     <section>
         <h2>SOC (Season of Code)</h2>
@@ -55,7 +66,7 @@
             <p><strong>Rewards:</strong> 1500 USD to 3000 USD</p>
         </div>
         <div class="card">
-            <h3>MLG Fellowships</h3>
+            <h3>MLH Fellowship</h3>
             <p>A fully remote, 12-week internship alternative where participants earn a stipend and learn to collaborate
                 on real open source projects with peers and engineers from top companies... <a
                     href="https://fellowship.mlh.io/">Read More</a></p>
@@ -120,9 +131,14 @@
             <p><strong>Rewards:</strong> Amazing Swags rewards</p>
         </div>
     </section>
+
+
+
     <footer>
         <p class="creator">Developed By Sriparno Roy & Open Source Community</p>
     </footer>
+
+    <script src="./app.js"></script>
 </body>
 
 </html>
