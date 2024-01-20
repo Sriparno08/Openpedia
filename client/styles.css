@@ -46,12 +46,20 @@ header .title-container {
 }
 
 .title-container .title .link {
-  color: white;
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  transition: font-size 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    transition: font-size 0.3s ease-in-out;
+    height: 20px;
+}
+
+.link img {
+    margin-right: 0.3px;
+    height: 100%;
 }
 
 header .links {
@@ -623,6 +631,7 @@ footer .col h3 {
     text-align: left;
   }
 }
+
 footer .end {
   padding: 0 2rem;
   display: flex;

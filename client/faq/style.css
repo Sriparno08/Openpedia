@@ -1,5 +1,6 @@
+/* Fixed the FAQ Heading hidden under navbar  */
 main{
-    padding: 2rem 0;
+    padding: 5rem 0 2rem;
 }
 
 .heading{
