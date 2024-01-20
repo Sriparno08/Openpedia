@@ -15,6 +15,11 @@ html {
 
 body {
     min-height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+
 }
 
 .construction {
@@ -79,7 +84,7 @@ header .toggle-links {
     font-size: 15px;
     transition: background-color 0.3s, transform 0.3s;
     border-bottom: 1px solid rgb(31, 63, 104);
-    transform-origin: right; 
+    transform-origin: right;
 }
 
 .item .link:nth-of-type(2) {
