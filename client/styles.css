@@ -15,11 +15,6 @@ html {
 
 body {
     min-height: 100vh;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: white;
-
 }
 
 .construction {
@@ -549,8 +544,6 @@ footer .creator {
         font-size: 17px;
     }
 }
-<<<<<<< HEAD
-=======
 
 footer {
     background-color: rgb(18, 38, 64);
@@ -645,4 +638,3 @@ footer .end {
     display: flex;
     justify-content: space-between;
 }
->>>>>>> bd6e82a104ddd966af9696b3ea780985e823ce5c

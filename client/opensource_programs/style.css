@@ -1,25 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 
-#header::after,
-#header::before {
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
 }
 
 html {
     scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
 }
-
 
 body {
     min-height: 100vh;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: white;
+
 }
 
 .construction {
@@ -29,8 +27,6 @@ body {
     color: rgb(255, 148, 148);
     font-size: 14px;
 }
-
-
 
 header {
     background-color: rgb(18, 38, 64);
@@ -44,17 +40,25 @@ header .title-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 5vh;
+    height: 10vh;
 }
 
 .title-container .title .link {
+    display: flex;
+    align-items: center;
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 21px;
+    font-family: 'Roboto';
     font-weight: 400;
-    letter-spacing: 1px;
     transition: font-size 0.3s ease-in-out;
-}    
+    height: 20px;
+}
+
+.link img {
+    margin-right: 0.3px;
+    height: 100%;
+}
 
 header .links {
     list-style: none;
@@ -65,8 +69,6 @@ header .links {
     top: 10vh;
     width: 100%;
     background-color: rgb(18, 38, 64);
-    align-items: flex-start;
-    justify-content: space-evenly;
 }
 
 header .toggle-links {
@@ -83,7 +85,7 @@ header .toggle-links {
     font-size: 15px;
     transition: background-color 0.3s, transform 0.3s;
     border-bottom: 1px solid rgb(31, 63, 104);
-    transform-origin: right; 
+    transform-origin: right;
 }
 
 .item .link:nth-of-type(2) {
@@ -120,11 +122,8 @@ header .toggle-links {
     margin-bottom: 0;
 }
 
-.heading{
-    margin-top: 10px;
-    background-color: rgb(18, 38, 64);
-    color: white;
-    padding: 10px;
+.heading {
+    margin: 2rem 0;
     text-align: center;
 }
 
@@ -142,17 +141,26 @@ section {
 
 h2 {
     color: #761377;
-}
-
-footer .creator {
-    font-size: 17px;
-    color: white;
-    text-align: center;
+    margin-bottom: 2rem;
 }
 
 footer {
     background-color: #2a2f35;
     padding: 1rem 1.3rem;
+}
+
+footer .copyright {
+    color: white;
+    text-align: center;
+}
+
+footer .creator {
+    color: white;
+    text-align: center;
+}
+
+.fa-brands {
+    color: white;
 }
 
 @media (min-width: 425px) {
@@ -220,5 +228,85 @@ footer {
         margin-right: 2rem;
     }
 
-    
+
+}
+
+footer {
+    background-color: rgb(18, 38, 64);
+    position: absolute;
+    width: 100%;
+    padding: 100px 0 30px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+footer .creator {
+    color: white;
+    text-align: justify;
+    justify-content: space-between;
+    font-size: 10px;
+}
+
+.contain {
+    display: grid;
+}
+
+.row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col {
+    flex-basis: 25%;
+    padding: 10px;
+    color: white;
+    padding-bottom: 50px;
+}
+
+footer a {
+    width: 80px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 30px;
+    display: block;
+}
+
+footer a:link {
+    text-decoration: none;
+}
+
+footer a:visited {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+footer a:active {
+    text-decoration: none;
+}
+
+/* Add margin-bottom to the headings in the footer */
+footer .col h3 {
+    margin-bottom: 20px;
+}
+
+
+.about-footer {
+    padding-top: 15px;
+    color: #ffffff;
+    font-size: 11px;
+    font-stretch: semi-condensed;
+}
+
+footer .end {
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
 }
