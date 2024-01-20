@@ -117,6 +117,7 @@ header .toggle-links {
 }
 
 .intro {
+    margin-top: 10vh;
     height: 75vh;
     display: flex;
     flex-direction: column;
@@ -314,6 +315,9 @@ footer .creator {
     header {
         flex-direction: row;
         justify-content: space-between;
+        position: fixed;
+        width: 100%;
+        top: 0;
     }
 
     header .title-container {
@@ -538,7 +542,6 @@ footer {
     position: absolute;
     width: 100%;
     padding: 100px 0 30px;
-    border-top-left-radius: 125px;
     font-size: 13px;
     line-height: 20px;
 }
@@ -567,6 +570,7 @@ footer .creator {
     flex-basis: 25%;
     padding: 10px;
     color: white;
+    padding-bottom: 50px;
 }
 
 footer a {
@@ -575,6 +579,7 @@ footer a {
     color: #ffffff;
     letter-spacing: 2px;
     font-size: 30px;
+    display: block;
 }
 
 footer a:link {
@@ -592,6 +597,12 @@ footer a:hover {
 footer a:active {
     text-decoration: none;
 }
+
+/* Add margin-bottom to the headings in the footer */
+footer .col h3 {
+    margin-bottom: 20px; 
+}
+
 
 .about-footer {
     padding-top: 15px;
@@ -613,7 +624,6 @@ footer a:active {
         text-align: left;
     }
 }
-
 footer .end {
     padding: 0 2rem;
     display: flex;
