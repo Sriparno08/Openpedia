@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 *,
 *::after,
@@ -10,7 +10,7 @@
 
 html {
   scroll-behavior: smooth;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -46,20 +46,20 @@ header .title-container {
 }
 
 .title-container .title .link {
-    display: flex;
-    align-items: center;
-    color: white;
-    text-decoration: none;
-    font-size: 21px;
-    font-family: 'Roboto';
-    font-weight: 400;
-    transition: font-size 0.3s ease-in-out;
-    height: 20px;
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 21px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  transition: font-size 0.3s ease-in-out;
+  height: 20px;
 }
 
 .link img {
-    margin-right: 0.3px;
-    height: 100%;
+  margin-right: 0.3px;
+  height: 100%;
 }
 
 header .links {
@@ -611,6 +611,7 @@ footer .col h3 {
   margin-bottom: 20px;
 }
 
+
 .about-footer {
   padding-top: 15px;
   color: #ffffff;
@@ -637,6 +638,7 @@ footer .end {
   display: flex;
   justify-content: space-between;
 }
+
 .to-top {
   background: white;
   position: fixed;
