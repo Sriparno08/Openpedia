@@ -130,11 +130,13 @@ header .toggle-links {
 section {
     padding: 0 3rem;
 }
-.head-text{
-font-size: 1.2rem;
-font-weight: 600;
-color: #000983;
+
+.head-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000983;
 }
+
 .card {
     background-color: rgb(219, 255, 248);
     border-radius: 10px;
@@ -142,12 +144,13 @@ color: #000983;
     padding: 20px;
     margin-bottom: 20px;
 }
-p{
+
+.card p {
     font-size: 1.025rem;
     font-weight: 450;
 }
 
-h3 {
+.card h3 {
     color: #761377;
     margin-bottom: 2rem;
 }
@@ -311,6 +314,20 @@ footer .col h3 {
     color: #ffffff;
     font-size: 11px;
     font-stretch: semi-condensed;
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .col {
+        padding: 5px;
+    }
+
+    footer .creator {
+        text-align: left;
+    }
 }
 
 footer .end {
