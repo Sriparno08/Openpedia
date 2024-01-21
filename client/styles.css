@@ -112,6 +112,9 @@ header .toggle-links {
   background-color: rgb(28, 57, 95);
 }
 
+
+
+
 .hamburger .bar {
   display: block;
   width: 18px;
@@ -124,6 +127,16 @@ header .toggle-links {
   margin-bottom: 0;
 }
 
+.h{
+  display: flex;
+  align-items: center;
+  flex-direction:row;
+  justify-content: center;
+  
+
+  
+}
+
 .intro {
   margin-top: 10vh;
   height: 75vh;
@@ -131,6 +144,7 @@ header .toggle-links {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-right:200px;
 }
 
 .intro .intro-title,
@@ -140,6 +154,7 @@ header .toggle-links {
   color: black;
   letter-spacing: 1px;
   margin-bottom: 3rem;
+
 }
 
 .intro .intro-description {
@@ -163,6 +178,8 @@ header .toggle-links {
   color: white;
   border-color: rgb(18, 38, 64);
 }
+
+
 
 .categories-container {
   padding: 2.5rem 0;
@@ -663,3 +680,19 @@ footer .end {
   pointer-events: auto;
   opacity: 1;
 }
+
+/* .hero{
+  height: 40px;
+  width: 40px;
+} */
+
+.hero-img{
+  height: 550px;
+  width: 600px;
+  
+
+  margin-top: 20vh;
+  margin-bottom: 10vh;
+
+}
+
