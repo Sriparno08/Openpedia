@@ -9,17 +9,18 @@
 }
 
 
-.container button:nth-child(2){
+.container button:nth-child(2) {
   background: transparent;
   color: #333333;
 }
 
-:root{
+:root {
   --bg: white;
-  --txt:black;
+  --txt: black;
 
 }
-.toggle input[type='checkbox'] {
+
+/* .toggle input[type='checkbox'] {
   display: none;
 }
 
@@ -55,13 +56,104 @@
 .toggle input[type='checkbox']:checked ~ label::after {
   background-color: #0054b0;
   transform: translateX(50px);
+} */
+
+.links .toggle {
+  height: 100%;
+  display: flex;
+  align-items: center;
+
 }
+
+label {
+  width: 80px;
+  height: 60%;
+  top: 0;
+  position: relative;
+  display: block;
+  background: transparent;
+  border-radius: 20px;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+label:after {
+  content: "";
+  width: 35px;
+  height: 100%;
+  position: absolute;
+  background: white;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+input {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+input:checked+label {
+  background: rgb(18, 38, 64);
+  border-color: #7e7e7e;
+}
+
+input:checked+label::after {
+  transform: translateX(125%);
+  background: linear-gradient(180deg, #777, #3a3a3a);
+}
+
+label:active::after {
+  width: 30px;
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+  z-index: -1;
+  position: absolute;
+  transition: 0.3s;
+}
+
+input:checked+label+.background {
+  background: rgb(18, 38, 64);
+}
+
+label svg {
+  position: absolute;
+  z-index: 100;
+}
+
+label svg.sun {
+  top: 6px;
+  right: 5px;
+  transition: 0.3s;
+}
+
+label svg.moon {
+  top: 6px;
+  left: 6px;
+  fill: rgb(18, 38, 64);
+  transition: 0.3s;
+}
+
+input:checked+label svg.sun {
+  fill: #7e7e7e;
+}
+
+input:checked+label svg.moon {
+  fill: rgb(18, 38, 64);
+}
+
 body.dark-theme {
   background-color: #333;
 }
-.dark-theme{
+
+.dark-theme {
   --bg: #020202;
-  --txt:white;
+  --txt: white;
 
 }
 
@@ -85,7 +177,7 @@ body {
 .container {
   min-height: 100vh;
   background-color: var(--bg);
-  color:var(--txt);
+  color: var(--txt);
 }
 
 header {
@@ -195,7 +287,7 @@ header .toggle-links {
 .intro .intro-description {
   font-size: 24px;
   text-align: center;
-  color:var(--txt);
+  color: var(--txt);
   letter-spacing: 1px;
   margin-bottom: 3rem;
 }
@@ -269,7 +361,7 @@ header .toggle-links {
   font-size: 14px;
   border: 2px solid rgb(18, 38, 64);
   transition: all 0.3s;
-  color:var(--txt);
+  color: var(--txt);
   background-color: var(--bg);
 }
 
@@ -418,6 +510,10 @@ footer .creator {
 
   .links .item:nth-of-type(1) {
     padding-right: 0.6rem;
+  }
+
+  .links .item:nth-of-type(4) {
+    padding: 0;
   }
 
   .item .link {
