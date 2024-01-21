@@ -290,6 +290,7 @@ header .toggle-links {
 .img-hero {
   display: flex;
   width: 50%;
+  height: 100%;
   align-items: center;
 }
 
