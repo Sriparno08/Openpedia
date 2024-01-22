@@ -278,7 +278,7 @@ header .toggle-links {
 }
 
 .h {
-  background-color: rgb(246, 247, 248);
+  
   margin-top: 10vh;
   padding: 0 4rem;
   height: 80vh;
@@ -846,6 +846,7 @@ footer .end {
 }
 
 .hero-img {
+  border: 2px solid white;
   height: 70%;
   width: 90%;
 }
