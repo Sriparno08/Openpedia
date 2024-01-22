@@ -846,6 +846,7 @@ footer .end {
 }
 
 .hero-img {
+  border: 2px solid white;
   height: 70%;
   width: 90%;
 }
