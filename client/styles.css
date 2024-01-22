@@ -277,7 +277,7 @@ header .toggle-links {
   margin-bottom: 0;
 }
 
-.h{
+.h {
   background-color: rgb(246, 247, 248);
   margin-top: 10vh;
   padding: 0 4rem;
@@ -760,10 +760,8 @@ footer .creator {
 }
 
 footer a {
-  width: 80px;
-  margin-bottom: 30px;
+  margin-bottom: 0.5rem;
   color: #ffffff;
-  letter-spacing: 2px;
   font-size: 30px;
   display: block;
 }
@@ -842,7 +840,7 @@ footer .end {
   opacity: 1;
 }
 
-.hero-img{
+.hero-img {
   height: 70%;
   width: 90%;
 }
