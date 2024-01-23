@@ -1,0 +1,33 @@
+main{
+    margin-top: 10vh;
+    padding: 5rem 0;
+}
+
+.container1{
+    font-family: 'Markazi Text', serif;
+    width:50vw;
+    color: rgb(18, 38, 64);
+    /* text-align: center; */
+    font-size: 25px;
+    margin-left: 15vw;
+    /* margin-right: 550px; */
+}
+.container2{
+    /* text-align: center; */
+    color: rgb(18, 38, 64);
+    width: 50vw;
+    font-size: x-large;
+    margin-left: 15vw;
+    /* margin-right: 550px; */
+    margin-bottom: 50px;
+}
+
+
+
+/* Responsive Media Query */
+/* @media screen and (max-width: 768px){
+    .heading{
+        padding:0;
+        text-align: center;
+    }
+} */
