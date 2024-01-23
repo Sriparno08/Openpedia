@@ -5,17 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Open Source Program Details</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
     <header>
-        <h1>Open Source Program</h1>
+        <div class="title-container">
+            <p class="title"><a href="../index.html" class="link"><img src="../assets/oLogo.svg"
+                        alt="Openpedia">PENPEDIA</a></p>
+
+            <div class=" hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+
+        <ul class="links">
+            <!-- <li class="item"><a class="link">Home</a></li> -->
+            <li class="item"><a href="#about" class="link">About</a></li>
+            <li class="item"><a href="./faq/" class="link" target="_blank">FAQ</a></li>
+            <li class="item">
+                <a href="https://github.com/Sriparno08/Openpedia" class="link">GitHub</a>
+            </li>
+        </ul>
     </header>
 
-    <nav>
-        <a href="../index.html">Home</a>
-    </nav>
+    <div class="heading">
+        <h1>Open Source Programs</h1>
+    </div>
 
     <section>
         <h2>SOC (Season of Code)</h2>
@@ -55,6 +75,12 @@
                     href="https://fellowship.mlh.io/">Read More</a></p>
             <p><strong>Timeline:</strong>May - Aug & Jun - Sep</p>
             <p><strong>Rewards:</strong> up to $5000</p>
+        </div>
+        <div class="card">
+            <h3>XROS Fellowship</h3>
+            <p>The XROS Fellowship Program supports Indian XR developers [AR, VR, MR, 3D modeling, etc] through fellowships. It is fully remote, 4 week open-source fellowship that offers stipends, mentoring by industry experts on open-source XR projects.</p>
+            <p><strong>Timeline:</strong> <a href="https://xrosfellowship.ficci.in/">Visit</a></p>
+            <p><strong>Rewards:</strong>INR 4 Lakh</p>
         </div>
 
         <h2>Open Source Competitions</h2>
@@ -113,10 +139,50 @@
             <p><strong>Timeline:</strong> December</p>
             <p><strong>Rewards:</strong> Amazing Swags rewards</p>
         </div>
+        <div class="card">
+            <h3>FOSS OverFlow</h3>
+            <p>FOSS Overflow is a program by OpenLake and GDSC IIT Bhilai that helps students to get started with 
+                the world of open source by helping them build real world open sourced projects under guidance of 
+                awesome mentors...<a href="https://fossoverflow.dev/">Read More</a></p>
+            <p><strong>Timeline:</strong> Dec-Feb </p>
+            <p><strong>Rewards:</strong>Stipend upto 10k INR, Swags & Certification.</p>
+        </div>
     </section>
+
+
+
     <footer>
-        <p class="creator">Developed By Sriparno Roy & Open Source Community</p>
+        <div class="contain">
+            <div class="row">
+                <div class="col">
+                    <a href="index.html" class="link">Openpedia</a>
+                    <p>Openpedia offers a large amount of useful resources that enable you to become a seasoned open
+                        source contributor. </p>
+                </div>
+                <div class="col">
+                    <h3 id="Support">Support</h3>
+                    <p>Documentation</p>
+                </div>
+                <div class="col">
+                    <h3 id="Solutions">Categories</h3>
+                    <p>Introduction to Open Source</p>
+                </div>
+            </div>
+
+            <div class="end">
+                <span class="copyright">&copy; 2024 Openpedia</span>
+                <span class="creator">Developed By Sriparno Roy & Open Source Community</span>
+                <span class="social media">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </span>
+            </div>
+        </div>
     </footer>
+
+    <script src="./app.js"></script>
 </body>
 
 </html>
