@@ -389,8 +389,8 @@ header .toggle-links {
 }
 
 .category .category-link:hover {
-  background-color: white;
-  color: rgb(18, 38, 64);
+  background-color: rgb(18, 38, 64);
+  color: white;
 }
 
 .about-container {
