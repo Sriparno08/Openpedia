@@ -851,3 +851,8 @@ footer .end {
   height: 70%;
   width: 90%;
 }
+.footer-links{
+  font-size: 14px;
+  text-decoration: none; 
+  color: white;
+}
