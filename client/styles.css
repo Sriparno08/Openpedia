@@ -328,6 +328,7 @@ header .toggle-links {
   border: 2px solid rgb(18, 38, 64);
   transition: all 0.3s;
   background-color: var(--bg);
+  border-radius: 25px;
 }
 
 .intro .get-started:hover {
@@ -367,6 +368,7 @@ header .toggle-links {
   align-items: center;
   border-radius: 5px;
   width: 100%;
+  border-radius:25px;
 }
 
 .category .category-title {
@@ -455,6 +457,7 @@ header .toggle-links {
   border-radius: 5px;
   letter-spacing: 1px;
   transition: box-shadow 0.3s;
+  border-radius:25px;
 }
 
 .contribute .contribute-link:hover {
@@ -694,6 +697,7 @@ footer .creator {
 
   .category .category-link {
     font-size: 15px;
+    border-radius:25px;
   }
 
   .about-container {
