@@ -128,13 +128,13 @@ label svg {
 
 label svg.sun {
   top: 6px;
-  right: 5px;
+  left: 6px;
   transition: 0.3s;
 }
 
 label svg.moon {
   top: 6px;
-  left: 6px;
+  right: 5px;
   fill: rgb(18, 38, 64);
   transition: 0.3s;
 }
@@ -391,8 +391,8 @@ header .toggle-links {
 }
 
 .category .category-link:hover {
-  background-color: white;
-  color: rgb(18, 38, 64);
+  background-color: rgb(18, 38, 64);
+  color: white;
 }
 
 .about-container {
@@ -489,6 +489,7 @@ footer .creator {
 
 .fa-brands {
   color: white;
+  font-size: 23px;
 }
 
 @media (min-width: 425px) {
