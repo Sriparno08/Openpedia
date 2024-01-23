@@ -486,6 +486,7 @@ footer .creator {
 
 .fa-brands {
   color: white;
+  font-size: 23px;
 }
 
 @media (min-width: 425px) {
