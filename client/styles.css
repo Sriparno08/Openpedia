@@ -389,8 +389,8 @@ header .toggle-links {
 }
 
 .category .category-link:hover {
-  background-color: white;
-  color: rgb(18, 38, 64);
+  background-color: rgb(18, 38, 64);
+  color: white;
 }
 
 .about-container {
@@ -850,4 +850,9 @@ footer .end {
   border: 2px solid white;
   height: 70%;
   width: 90%;
+}
+.footer-links{
+  font-size: 14px;
+  text-decoration: none; 
+  color: white;
 }
