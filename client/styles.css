@@ -476,7 +476,7 @@ footer {
 footer .copyright {
   color: white;
   text-align: center;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 footer .creator {
@@ -737,7 +737,7 @@ footer .creator {
   color: white;
   text-align: justify;
   justify-content: space-between;
-  font-size: 10px;
+  font-size: 14px;
 }
 
 .contain {
