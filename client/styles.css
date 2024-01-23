@@ -128,13 +128,13 @@ label svg {
 
 label svg.sun {
   top: 6px;
-  right: 5px;
+  left: 6px;
   transition: 0.3s;
 }
 
 label svg.moon {
   top: 6px;
-  left: 6px;
+  right: 5px;
   fill: rgb(18, 38, 64);
   transition: 0.3s;
 }
