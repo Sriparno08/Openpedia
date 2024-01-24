@@ -476,7 +476,7 @@ footer .creator {
     flex-direction: row;
     border-top: 0;
     height: 10vh;
-    margin-right: 8rem;
+    margin-right: 6rem;
     top: 0;
     right: 0;
     width: auto;
@@ -612,7 +612,7 @@ footer .creator {
   }
 
   header .links {
-    margin-right: 8rem;
+    margin-right: 6rem;
   }
 
   .intro .intro-title {
