@@ -58,44 +58,11 @@
   transform: translateX(50px);
 } */
 
-.toggle {
-  height: inherit;
+.elemContainer{
   display: flex;
   align-items: center;
   margin: 0 3rem;
-}
-
-.toggle label {
-  width: 80px;
-  height: 60%;
-  top: 0;
-  position: relative;
-  display: block;
-  background: transparent;
-  border-radius: 20px;
-  border: 2px solid white;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.toggle label:after {
-  content: "";
-  width: 35px;
-  height: 100%;
-  position: absolute;
-  background: white;
-  border-radius: 20px;
-  transition: 0.3s;
-}
-
-.toggle input {
-  width: 0;
-  height: 0;
-  display: none;
-}
-
-.toggle label:active::after {
-  width: 30px;
+  gap: 1rem;
 }
 
 .background {
@@ -144,7 +111,7 @@ body {
 header {
   background-color: rgb(18, 38, 64);
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   position: relative;
 }
 
@@ -181,6 +148,7 @@ header .links {
   position: absolute;
   top: 10vh;
   width: 100%;
+  right: 0;
   background-color: rgb(18, 38, 64);
 }
 
@@ -193,6 +161,7 @@ header .toggle-links {
   padding-left: 1.3rem;
   display: block;
   height: 100%;
+  width: 100%;
   color: white;
   text-decoration: none;
   font-size: 15px;
@@ -498,7 +467,7 @@ footer .creator {
     font-size: 20px;
   }
 
-  .title-container .hamburger {
+  .elemContainer .hamburger {
     display: none;
   }
 
@@ -711,10 +680,9 @@ footer .creator {
   }
 }
 
-@media (max-width: 768px) {
-  .toggle {
-    margin: 0 1rem;
-    position: absolute;
+@media (max-width: 767px) {
+  .themeBody {
+    margin: 0 2rem;
     right: 3rem;
     height: 100%;
   }
