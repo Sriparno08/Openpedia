@@ -286,13 +286,32 @@ header .toggle-links {
   align-items: center;
   justify-content: center;
 }
+@media (max-width: 850px) {
+  .h{
+    padding: 0 1rem;
+  }
+}
+@media (max-width: 750px) {
+  .h{
+    flex-direction: column-reverse;
+    margin-top: 0vh;
+    height: 110vh;
+  }
+}
 
 .img-hero {
   display: flex;
   width: 50%;
   height: 100%;
   align-items: center;
+  justify-content: center;
 }
+@media (max-width: 750px) {
+  .img-hero {
+    min-width: 65%;
+  }
+}
+
 
 .intro {
   width: 50%;
@@ -301,6 +320,11 @@ header .toggle-links {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 750px) {
+  .intro {
+    width: 100%;
+  }
 }
 
 .intro .intro-title,
