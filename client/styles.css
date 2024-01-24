@@ -128,13 +128,13 @@ label svg {
 
 label svg.sun {
   top: 6px;
-  right: 5px;
+  left: 6px;
   transition: 0.3s;
 }
 
 label svg.moon {
   top: 6px;
-  left: 6px;
+  right: 5px;
   fill: rgb(18, 38, 64);
   transition: 0.3s;
 }
@@ -278,7 +278,7 @@ header .toggle-links {
 }
 
 .h {
-  background-color: rgb(246, 247, 248);
+  
   margin-top: 10vh;
   padding: 0 4rem;
   height: 80vh;
@@ -389,8 +389,8 @@ header .toggle-links {
 }
 
 .category .category-link:hover {
-  background-color: white;
-  color: rgb(18, 38, 64);
+  background-color: rgb(18, 38, 64);
+  color: white;
 }
 
 .about-container {
@@ -476,6 +476,7 @@ footer {
 footer .copyright {
   color: white;
   text-align: center;
+  font-size: 14px;
 }
 
 footer .creator {
@@ -485,6 +486,7 @@ footer .creator {
 
 .fa-brands {
   color: white;
+  font-size: 23px;
 }
 
 @media (min-width: 425px) {
@@ -736,7 +738,7 @@ footer .creator {
   color: white;
   text-align: justify;
   justify-content: space-between;
-  font-size: 10px;
+  font-size: 14px;
 }
 
 .contain {
@@ -846,6 +848,12 @@ footer .end {
 }
 
 .hero-img {
+  border: 2px solid white;
   height: 70%;
   width: 90%;
+}
+.footer-links{
+  font-size: 14px;
+  text-decoration: none; 
+  color: white;
 }
