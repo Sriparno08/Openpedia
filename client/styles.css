@@ -58,14 +58,14 @@
   transform: translateX(50px);
 } */
 
-.links .toggle {
-  height: 100%;
+.toggle {
+  height: inherit;
   display: flex;
   align-items: center;
-
+  margin: 0 3rem;
 }
 
-label {
+.toggle label {
   width: 80px;
   height: 60%;
   top: 0;
@@ -78,7 +78,7 @@ label {
   transition: 0.3s;
 }
 
-label:after {
+.toggle label:after {
   content: "";
   width: 35px;
   height: 100%;
@@ -88,13 +88,13 @@ label:after {
   transition: 0.3s;
 }
 
-input {
+.toggle input {
   width: 0;
   height: 0;
   display: none;
 }
 
-label:active::after {
+.toggle label:active::after {
   width: 30px;
 }
 
@@ -507,7 +507,7 @@ footer .creator {
     flex-direction: row;
     border-top: 0;
     height: 10vh;
-    margin-right: 1rem;
+    margin-right: 8rem;
     top: 0;
     right: 0;
     width: auto;
@@ -643,7 +643,7 @@ footer .creator {
   }
 
   header .links {
-    margin-right: 2rem;
+    margin-right: 8rem;
   }
 
   .intro .intro-title {
@@ -708,6 +708,15 @@ footer .creator {
 
   footer .creator {
     font-size: 17px;
+  }
+}
+
+@media (max-width: 768px) {
+  .toggle {
+    margin: 0 1rem;
+    position: absolute;
+    right: 3rem;
+    height: 100%;
   }
 }
 
