@@ -166,7 +166,6 @@ footer {
   
   }
   .footer-links:hover {
-    text-decoration: underline; 
     color: #5abdd3;
     cursor: pointer;
   }
