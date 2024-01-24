@@ -367,6 +367,7 @@ header .toggle-links {
   align-items: center;
   border-radius: 5px;
   width: 100%;
+  border-radius:8px;
 }
 
 .category .category-title {
