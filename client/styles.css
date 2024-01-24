@@ -94,16 +94,6 @@ input {
   display: none;
 }
 
-input:checked+label {
-  background: rgb(18, 38, 64);
-  border-color: #7e7e7e;
-}
-
-input:checked+label::after {
-  transform: translateX(125%);
-  background: linear-gradient(180deg, #777, #3a3a3a);
-}
-
 label:active::after {
   width: 30px;
 }
@@ -117,35 +107,6 @@ label:active::after {
   transition: 0.3s;
 }
 
-input:checked+label+.background {
-  background: rgb(18, 38, 64);
-}
-
-label svg {
-  position: absolute;
-  z-index: 100;
-}
-
-label svg.sun {
-  top: 6px;
-  left: 6px;
-  transition: 0.3s;
-}
-
-label svg.moon {
-  top: 6px;
-  right: 5px;
-  fill: rgb(18, 38, 64);
-  transition: 0.3s;
-}
-
-input:checked+label svg.sun {
-  fill: #7e7e7e;
-}
-
-input:checked+label svg.moon {
-  fill: rgb(18, 38, 64);
-}
 
 body.dark-theme {
   background-color: #333;
