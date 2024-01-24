@@ -855,6 +855,12 @@ footer .end {
 }
 .footer-links{
   font-size: 14px;
-  text-decoration: none; 
+  text-decoration:none; 
   color: white;
+
+}
+.footer-links:hover {
+ 
+  color: #5abdd3; 
+  cursor: pointer;
 }
