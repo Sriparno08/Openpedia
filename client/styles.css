@@ -1,4 +1,63 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set default button styles */
+.container button:nth-child(2) {
+  background: transparent;
+  color: #333333;
+}
+
+:root {
+  --bg: white;
+  --txt: black;
+}
+
+/* ... (rest of your code remains unchanged) ... */
+
+/* Additional adjustments for consistency and readability */
+
+.container {
+  min-height: 100vh;
+  background-color: var(--bg);
+  color: var(--txt);
+}
+
+/* Combine media queries for better organization */
+@media (max-width: 850px) {
+  .h {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .h {
+    flex-direction: column-reverse;
+    margin-top: 0vh;
+    height: 110vh;
+  }
+}
+
+/* ... (rest of your media queries remain unchanged) ... */
+
+/* General styling for footer links */
+.footer-links {
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-links:hover {
+  color: #5abdd3;
+  cursor: pointer;
+}
 
 *,
 *::after,
