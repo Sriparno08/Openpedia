@@ -8,6 +8,7 @@ main{
     font-family: 'Markazi Text', serif;
     font-weight: bold;
     padding:0 0 0 2rem;
+    padding-top: 1%;
     color: rgb(18, 38, 64);
 }
 
@@ -70,6 +71,30 @@ a{
 a:hover{
     text-decoration: underline;
 }
+
+body.dark-theme {
+    background-color: #333;
+}
+
+.dark-theme {
+    --bg: #020202;
+    --txt: white;
+}
+
+/* Header styles for dark mode */
+body.dark-theme .heading {
+    color: white; /* Change this to the desired text color for the header in dark mode */
+}
+body.dark-theme main {
+    background-color: black; /* Change this to the desired text color for the header in dark mode */
+}
+@media (max-width: 767px) {
+    .themeBody {
+      margin: 0 2rem;
+      right: 3rem;
+      height: 100%;
+    }
+  }
 
 /* Responsive Media Query */
 @media screen and (max-width: 768px){
