@@ -310,3 +310,7 @@ footer .end {
     display: flex;
     justify-content: space-between;
 }
+.copyright{
+    justify-content: center;
+    font-size: medium;
+}
