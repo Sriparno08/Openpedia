@@ -571,6 +571,12 @@ footer .creator {
   .about .about-description {
     margin-bottom: 0;
   }
+
+  footer .end {
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 @media (min-width: 1024px) {
