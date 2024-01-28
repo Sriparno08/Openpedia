@@ -123,3 +123,4 @@ faq.forEach(function (item, index) {
   faqItem.addEventListener(`click`, toggleContent);
   document.querySelectorAll(`.faqs_container`)[index % 2].appendChild(faqItem);
 });
+
