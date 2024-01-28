@@ -149,6 +149,12 @@ footer {
     padding: 1rem 1.3rem;
 }
 
+footer .end {
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 footer .copyright {
     color: white;
     text-align: center;
@@ -216,12 +222,6 @@ footer .creator {
         font-size: 17px;
         border-bottom: none;
     }
-
-    footer .end {
-    padding: 0 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 @media (min-width: 1280px) {
@@ -326,11 +326,6 @@ footer {
       text-align: left;
     }
   }
-  
-  footer .end {
-    padding: 0 2rem;
-    display: flex;
-    justify-content: space-between;
 }
 
   }
