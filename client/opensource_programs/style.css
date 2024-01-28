@@ -326,11 +326,7 @@ footer {
     padding: 0 2rem;
     display: flex;
     justify-content: space-between;
-
-}
-.copyright{
-    justify-content: center;
-    font-size: medium;
+    align-items: center;
 }
 
   }
