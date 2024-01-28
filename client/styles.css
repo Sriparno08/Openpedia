@@ -247,7 +247,7 @@ header .toggle-links {
 }
 @media (max-width: 750px) {
   .img-hero {
-    min-width: 65%;
+    min-width: 90%;
   }
 }
 
@@ -820,10 +820,12 @@ footer .end {
 }
 
 .hero-img {
-  border: 2px solid white;
-  height: 70%;
-  width: 90%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
 }
+
 .footer-links{
   font-size: 14px;
   text-decoration:none; 
@@ -831,7 +833,6 @@ footer .end {
 
 }
 .footer-links:hover {
- 
   color: #5abdd3; 
   cursor: pointer;
 }
