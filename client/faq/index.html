@@ -6,36 +6,42 @@
     <title>Openpedia | FAQ</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Markazi+Text" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../src/theme/theme_switch.css">
     <link rel="shortcut icon" href="../assets/oLogo.svg" type="image/x-icon">
 </head>
 <body>
-   
-<header>
-    <div class="title-container">
-        <p class="title"><a href="../index.html" class="link"><img src="../assets/oLogo.svg" alt="Openpedia" height="24px">PENPEDIA</a></p>
+      <header>
+        <div class="title-container">
+          <p class="title"><a href="index.html" class="link"><img src="./assets/oLogo.svg" alt="Openpedia">PENPEDIA</a>
+          </p>
+        </div>
+        <div class="elemContainer">
+          <div id="themeBody">
+            <!-- <img id="themeToggle" src="./src/theme/icon/sun.png" alt=""> -->
+            <button id="themeToggle">
+              <i class="fas fa-sun"></i> <!-- Font Awesome sun icon -->
+              <i class="fas fa-moon"></i> <!-- Font Awesome moon icon -->
+            </button>
+          </div>
 
-                <div class="hamburger">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-            </div>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
 
-            <ul class="links">
-                <li class="item"><a href="../#home" class="link">Home</a></li>
-                <li class="item"><a href="#about" class="link">About</a></li>
-                <!-- <li class="item"><a href="./faq/" class="link">FAQ</a></li> -->
-                <li class="item">
-                    <a href="https://github.com/Sriparno08/Openpedia"class="link">GitHub</a>
-                </li>
-                <!-- <li class="item">
-                    <a href="./git/"class="link" >Learn Git</a>
-                </li> -->
-            </ul>
-        </header>
-
+          <ul class="links">
+            <li class="item"><a href="../index.html" class="link">Home</a></li>
+            <li class="item"><a href="#about" class="link" target="_blank">About</a></li>
+            <li class="item">
+              <a href="https://github.com/Sriparno08/Openpedia" class="link">GitHub</a>
+            </li>
+          </ul>
+        </div>
+      </header>
 <!-- FAQ Main -->
 <main>
     <div class="heading">Frequently Asked Questions</div>
@@ -60,7 +66,17 @@
             </div>
             <div class="col">
                 <h3 id="Solutions">Categories</h3>
-                <p>Introduction to Open Source</p>
+                <p><a href="../Introduction-opensource/index.html" class="footer-links">Introduction to Open Source</a></p>
+                <p><a href="../git/index.html" class="footer-links">Learn Git &
+                    GitHub</a></p>
+                <p><a href="https://openpedia.netlify.app/contributing-to-open-source" class="footer-links">Contributing
+                    to
+                    Open Source</a></p>
+                <p><a href="../beginner-friendly-repo/index.html" class="footer-links">Beginner-Friendly
+                    Repos</a></p>
+                <p><a href="../opensource_programs/index.html" class="footer-links">Open Source
+                    Programs</a></p>
+  
             </div>
         </div>
         
@@ -68,10 +84,9 @@
             <span class="copyright">&copy; 2024 Openpedia</span>
             <span class="creator">Developed By Sriparno Roy & Open Source Community</span>
             <span class="social media">
-                <i class="fa-brands fa-linkedin-in"></i>
-                <i class="fa-brands fa-x-twitter"></i>
-                <i class="fa-brands fa-github"></i>
-                <i class="fa-brands fa-instagram"></i>
+                <i><a href="https://www.linkedin.com/in/sriparnoroy" class="fa-brands fa-linkedin-in"></a></i>
+                <i><a href="https://twitter.com/Sriparno08" class="fa-brands fa-x-twitter"></a></i>
+                <i><a href="https://github.com/Sriparno08" class="fa-brands fa-github"></a></i>
             </span>
         </div>
     </div>
