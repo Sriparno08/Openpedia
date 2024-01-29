@@ -371,4 +371,23 @@ footer {
     color: #5abdd3;
     cursor: pointer;
   }
+
+  #socialicons {
+    transition: .5s;
+    text-decoration: none; 
+    color: inherit; 
+  }
   
+  #socialicons i {
+    color: inherit; 
+  }
+  
+  #socialicons a:hover::before {
+    transform: scale(1.1);
+  }
+  
+  #socialicons a:hover {
+    color: inherit; 
+    color: #00bcd4;
+    text-shadow: 0 0 5px #00bcd4;
+  }
