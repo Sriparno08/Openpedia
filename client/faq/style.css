@@ -8,6 +8,7 @@ main{
     font-family: 'Markazi Text', serif;
     font-weight: bold;
     padding:0 0 0 2rem;
+    padding-top: 1%;
     color: rgb(18, 38, 64);
 }
 
@@ -71,6 +72,30 @@ a:hover{
     text-decoration: underline;
 }
 
+body.dark-theme {
+    background-color: #333;
+}
+
+.dark-theme {
+    --bg: #020202;
+    --txt: white;
+}
+
+/* Header styles for dark mode */
+body.dark-theme .heading {
+    color: white; /* Change this to the desired text color for the header in dark mode */
+}
+body.dark-theme main {
+    background-color: black; /* Change this to the desired text color for the header in dark mode */
+}
+@media (max-width: 767px) {
+    .themeBody {
+      margin: 0 2rem;
+      right: 3rem;
+      height: 100%;
+    }
+  }
+
 /* Responsive Media Query */
 @media screen and (max-width: 768px){
     .faqs_container{
@@ -84,3 +109,51 @@ a:hover{
         text-align: center;
     }
 }
+
+.to-top {
+    background: white;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #1f1f1f;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s;
+  }
+  
+  .to-top.active {
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+  }
+ 
+  .to-top:hover{
+    text-decoration: none;
+
+#socialicons {
+    transition: .5s;
+    text-decoration: none; 
+    color: inherit; 
+  }
+  
+  #socialicons i {
+    color: inherit; 
+  }
+  
+  #socialicons a:hover::before {
+    transform: scale(1.1);
+  }
+  
+  #socialicons a:hover {
+    color: inherit; 
+    color: #00bcd4;
+    text-shadow: 0 0 5px #00bcd4;
+  }

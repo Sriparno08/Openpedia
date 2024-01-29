@@ -46,12 +46,20 @@ header .title-container {
 }
 
 .title-container .title .link {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    transition: font-size 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 21px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  transition: font-size 0.3s ease-in-out;
+  height: 20px;
+}
+
+.link img {
+  margin-right: 0.3px;
+  height: 100%;
 }
 
 header .links {
@@ -350,4 +358,53 @@ footer .copyright {
     color: #5abdd3;
     cursor: pointer;
   }
+
+  .to-top {
+    background: #413f3f;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s;
+  }
   
+  .to-top.active {
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+  }
+ 
+  .to-top:hover{
+    text-decoration: none;
+
+  }
+
+  #socialicons {
+    transition: .5s;
+    text-decoration: none; 
+    color: inherit; 
+  }
+  
+  #socialicons i {
+    color: inherit; 
+  }
+  
+  #socialicons a:hover::before {
+    transform: scale(1.1);
+  }
+  
+  #socialicons a:hover {
+    color: inherit; 
+    color: #00bcd4;
+    text-shadow: 0 0 5px #00bcd4;
+  }

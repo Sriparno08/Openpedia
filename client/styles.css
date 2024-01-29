@@ -84,6 +84,15 @@ body.dark-theme {
   --txt: white;
 
 }
+.dark-theme .contribute .contribute-link{
+  /* Add a different box-shadow in dark mode */
+  color: #020202;
+  background-color: white;
+}
+.dark-theme .contribute .contribute-link svg{
+  /* Add a different box-shadow in dark mode */
+  fill: black;
+}
 
 html {
   scroll-behavior: smooth;
@@ -238,7 +247,7 @@ header .toggle-links {
 }
 @media (max-width: 750px) {
   .img-hero {
-    min-width: 65%;
+    min-width: 90%;
   }
 }
 
@@ -562,6 +571,12 @@ footer .creator {
   .about .about-description {
     margin-bottom: 0;
   }
+
+  footer .end {
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 @media (min-width: 1024px) {
@@ -811,10 +826,12 @@ footer .end {
 }
 
 .hero-img {
-  border: 2px solid white;
-  height: 70%;
-  width: 90%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
 }
+
 .footer-links{
   font-size: 14px;
   text-decoration:none; 
@@ -822,7 +839,27 @@ footer .end {
 
 }
 .footer-links:hover {
- 
   color: #5abdd3; 
   cursor: pointer;
 }
+
+#socialicons {
+  transition: .5s;
+  text-decoration: none; 
+  color: inherit; 
+}
+
+#socialicons i {
+  color: inherit; 
+}
+
+#socialicons a:hover::before {
+  transform: scale(1.1);
+}
+
+#socialicons a:hover {
+  color: inherit; 
+  color: #00bcd4;
+  text-shadow: 0 0 5px #00bcd4;
+}
+
