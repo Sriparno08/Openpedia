@@ -340,7 +340,7 @@ footer {
   }
   
   .to-top {
-    background: white;
+    background: #403e3e;
     position: fixed;
     bottom: 16px;
     right: 32px;
@@ -351,7 +351,7 @@ footer {
     align-items: center;
     justify-content: center;
     font-size: 32px;
-    color: #1f1f1f;
+    color:  white;
     text-decoration: none;
     opacity: 0;
     pointer-events: none;
