@@ -13,9 +13,12 @@
     cursor: pointer;
     border-radius: 50%;
     transition: background-color 0.3s ease;
-    display: flex; /* Set to flex to center the child elements */
-    align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally */
+    display: flex;
+    /* Set to flex to center the child elements */
+    align-items: center;
+    /* Center vertically */
+    justify-content: center;
+    /* Center horizontally */
 }
 
 #themeToggle:hover {
@@ -24,10 +27,12 @@
 
 #themeToggle i {
     color: white;
-    font-size: 20px; /* Adjust the font size as needed */
+    font-size: 20px;
+    /* Adjust the font size as needed */
 }
+
 #themeToggle i:hover {
- /*left to be used for later days  */
+    /*left to be used for later days  */
 }
 
 #themeToggle .fa-moon {
