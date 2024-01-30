@@ -130,6 +130,7 @@ header .title-container {
   justify-content: space-between;
   align-items: center;
   height: 10vh;
+  width: 100%;
 }
 
 .title-container .title .link {
@@ -188,13 +189,7 @@ header .toggle-links {
 }
 
 .title-container .hamburger {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  padding: 0.7rem 0.5rem;
-  transition: background-color 0.3s;
+  display: none;
 }
 
 .title-container .hamburger:hover {
@@ -236,6 +231,17 @@ header .toggle-links {
     margin-top: 0vh;
     height: 110vh;
   }
+
+  .title-container .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.7rem 0.5rem;
+    transition: background-color 0.3s;
+  }
+
 }
 
 .img-hero {
