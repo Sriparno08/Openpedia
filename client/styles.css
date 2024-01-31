@@ -18,7 +18,7 @@
   --bg: white;
   --txt: black;
   --bgg: rgb(25, 50, 84);
-
+  --box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* .toggle input[type='checkbox'] {
@@ -84,6 +84,7 @@ body.dark-theme {
   --bg: #1a1a1a;
   --txt: rgb(216, 216, 216);
   --bgg: rgb(18, 37, 63);
+  --box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.5);
 
 }
 
@@ -592,6 +593,7 @@ footer .creator {
     justify-content: space-between;
     align-items: center;
   }
+}
 
   @media (min-width: 1024px) {
     .categories-container .categories {
