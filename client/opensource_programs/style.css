@@ -48,7 +48,9 @@ section {
 }
 
 .card {
-    background-color: rgb(219, 255, 248);
+    /* background-color: rgb(219, 255, 248); */
+    /* background-color: rgb(255, 121, 49); */
+    background-color: #1c2b43;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -58,6 +60,7 @@ section {
 h2 {
     color: #761377;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 footer {
@@ -196,7 +199,7 @@ footer {
   }
 }
 
-  }
+  
   
   .to-top {
     background: #403e3e;
@@ -258,4 +261,22 @@ footer {
     color: inherit; 
     color: #00bcd4;
     text-shadow: 0 0 5px #00bcd4;
+  }
+  #image{
+    margin: 30px 100px;
+  }
+  h3{
+    color: rgb(210, 229, 234);
+  }
+  p{
+    color: white;
+  }
+  #xros{
+    margin-bottom:90px ;
+  }
+  #hack{
+    margin-bottom: 90px;
+  }
+  #foss{
+    margin-bottom: 90px;
   }
