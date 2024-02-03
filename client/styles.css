@@ -719,6 +719,10 @@ footer .creator {
       right: 3rem;
       height: 100%;
     }
+    header{
+      position: fixed;
+      width: 100%;
+    }
   }
 
   footer {
