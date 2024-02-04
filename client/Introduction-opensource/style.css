@@ -138,16 +138,19 @@ section {
 }
 
 .card {
-    background-color: rgb(219, 255, 248);
+    /* background-color: rgb(219, 255, 248); */
+    background-color: #121653;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
+    color: white;
     margin-bottom: 20px;
 }
 
 .card p {
     font-size: 1.025rem;
     font-weight: 450;
+    color: white;
 }
 
 .card h3 {
@@ -399,4 +402,23 @@ footer {
     color: #00bcd4;
     text-shadow: 0 0 5px #00bcd4;
   }
-  
+  .image{
+    width: 800px;
+  }
+  #heading{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  #open{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .head{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  #con{
+    color: black;
+  }
