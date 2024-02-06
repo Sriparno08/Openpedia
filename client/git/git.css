@@ -7,6 +7,8 @@
   align-items: center;
   height: 100vh;
   margin: 2rem 0;
+  margin-bottom: 0;
+  background: url(learn-git2.jpg);
 }
 
 .mainLearner {
