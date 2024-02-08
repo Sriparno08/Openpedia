@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../src/theme/theme_switch.css">
      <link rel="shortcut icon" href="../assets/oLogo.svg" type="image/x-icon">
 </head>
 
@@ -19,13 +20,22 @@
         <div class="title-container">
             <p class="title"><a href="../index.html" class="link"><img src="../assets/oLogo.svg"
                         alt="Openpedia">PENPEDIA</a></p>
-
-            <div class=" hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
         </div>
+        <div class="elemContainer">
+            <div id="themeBody">
+              <!-- <img id="themeToggle" src="./src/theme/icon/sun.png" alt=""> -->
+              <button id="themeToggle">
+                <i class="fas fa-sun"></i> <!-- Font Awesome sun icon -->
+                <i class="fas fa-moon"></i> <!-- Font Awesome moon icon -->
+              </button>
+            </div>
+    
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
 
         <ul class="links">
             <!-- <li class="item"><a class="link">Home</a></li> -->
@@ -196,6 +206,7 @@
     
 
     <script src="../app.js"></script>
+    <script src="../src/theme/theme_switch.js"></script>
 </body>
 
 </html>
