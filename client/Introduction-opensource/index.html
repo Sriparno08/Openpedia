@@ -7,8 +7,10 @@
 
     <title>Openpedia: Introduction to Open-Source</title>
 
+    <link rel="stylesheet" href="../src/theme/theme_switch.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../styles.css">
     <link rel="shortcut icon" href="../assets/oLogo.svg" type="image/x-icon">
 </head>
 
@@ -18,7 +20,13 @@
         <div class="title-container">
             <p class="title"><a href="../index.html" class="link"><img src="../assets/oLogo.svg"
                         alt="Openpedia">PENPEDIA</a></p>
-
+            <div id="themeBody">
+                <!-- <img id="themeToggle" src="./src/theme/icon/sun.png" alt=""> -->
+                <button id="themeToggle">
+                    <i class="fas fa-sun"></i> <!-- Font Awesome sun icon -->
+                    <i class="fas fa-moon"></i> <!-- Font Awesome moon icon -->
+                </button>
+            </div>
             <div class=" hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -27,8 +35,6 @@
         </div>
 
         <ul class="links">
-            <!-- <li class="item"><a class="link">Home</a></li> -->
-            <li class="item"><a href="../index.html" class="link">Home</a></li>
             <li class="item">
                 <a href="https://github.com/Sriparno08/Openpedia" class="link">GitHub</a>
             </li>
@@ -219,48 +225,44 @@
 
     <footer>
         <div class="contain">
-          <div class="row">
-            <div class="col">
-              <a href="../index.html" class="link">Openpedia</a>
+            <div class="row">
+                <div class="col">
+                    <a href="../index.html" class="link">Openpedia</a>
+                </div>
+                <div class="col">
+                    <h3 id="Support" style="font-size: 15px;">Support</h3>
+                    <p style="font-size: 14px;">Documentation</p>
+                </div>
+                <div class="col">
+                    <h3 id="Solutions" style="font-size: 15px;">Categories</h3>
+                    <p><a href="../git/index.html" class="footer-links">Learn Git &
+                            GitHub</a></p>
+                    <p><a href="https://openpedia.netlify.app/contributing-to-open-source"
+                            class="footer-links">Contributing to
+                            Open Source</a></p>
+                    <p><a href="../beginner-friendly-repo/index.html" class="footer-links">Beginner-Friendly
+                            Repos</a></p>
+                    <p><a href="../opensource_programs/index.html" class="footer-links">Open Source
+                            Programs</a></p>
+                </div>
             </div>
-            <div class="col">
-              <h3 id="Support" style="font-size: 15px;">Support</h3>
-              <p style="font-size: 14px;">Documentation</p>
-            </div>
-            <div class="col">
-              <h3 id="Solutions" style="font-size: 15px;">Categories</h3>
-              <p><a href="../git/index.html"
-                class="footer-links">Learn Git &
-                  GitHub</a></p>
-              <p><a href="https://openpedia.netlify.app/contributing-to-open-source"
-                class="footer-links">Contributing to
-                  Open Source</a></p>
-              <p><a href="../beginner-friendly-repo/index.html"
-                class="footer-links">Beginner-Friendly
-                  Repos</a></p>
-              <p><a href="../opensource_programs/index.html"
-                class="footer-links">Open Source
-                  Programs</a></p>
-            </div>
-          </div>
 
-          <div class="end">
-            <span class="copyright">&copy; 2024 Openpedia</span>
-            <span class="creator">Developed By Sriparno Roy & Open Source Community</span>
-            <span class="social media" id="socialicons">
-              <i ><a href="https://www.linkedin.com/in/sriparnoroy" class="fa-brands fa-linkedin-in"></a></i>
-              <i ><a href="https://twitter.com/Sriparno08"class="fa-brands fa-x-twitter"></a></i>
-              <i ><a href="https://github.com/Sriparno08"class="fa-brands fa-github"></a></i>
-            </span>
-          </div>
+            <div class="end">
+                <span class="copyright">&copy; 2024 Openpedia</span>
+                <span class="creator">Developed By Sriparno Roy & Open Source Community</span>
+                <span class="social media" id="socialicons">
+                    <i><a href="https://www.linkedin.com/in/sriparnoroy" class="fa-brands fa-linkedin-in"></a></i>
+                    <i><a href="https://twitter.com/Sriparno08" class="fa-brands fa-x-twitter"></a></i>
+                    <i><a href="https://github.com/Sriparno08" class="fa-brands fa-github"></a></i>
+                </span>
+            </div>
         </div>
-      </footer>
-      <a href="#" class="to-top">
+    </footer>
+    <a href="#" class="to-top">
         <i class="fas fa-chevron-up"></i>
-      </a>
-
-    <script src="./app.js"></script>
+    </a>
     <script src="../app.js"></script>
+    <script src="../src/theme/theme_switch.js"></script>
 </body>
 
 </html>
