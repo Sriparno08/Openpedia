@@ -4,9 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to OpenSource</title>
+
+    <title>Openpedia: Introduction to Open-Source</title>
+
+    <link rel="stylesheet" href="../src/theme/theme_switch.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="shortcut icon" href="../assets/oLogo.svg" type="image/x-icon">
 </head>
 
 <body>
@@ -15,7 +20,13 @@
         <div class="title-container">
             <p class="title"><a href="../index.html" class="link"><img src="../assets/oLogo.svg"
                         alt="Openpedia">PENPEDIA</a></p>
-
+            <div id="themeBody">
+                <!-- <img id="themeToggle" src="./src/theme/icon/sun.png" alt=""> -->
+                <button id="themeToggle">
+                    <i class="fas fa-sun"></i> <!-- Font Awesome sun icon -->
+                    <i class="fas fa-moon"></i> <!-- Font Awesome moon icon -->
+                </button>
+            </div>
             <div class=" hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -24,9 +35,6 @@
         </div>
 
         <ul class="links">
-            <!-- <li class="item"><a class="link">Home</a></li> -->
-            <li class="item"><a href="#about" class="link">About</a></li>
-            <li class="item"><a href="./faq/" class="link" target="_blank">FAQ</a></li>
             <li class="item">
                 <a href="https://github.com/Sriparno08/Openpedia" class="link">GitHub</a>
             </li>
@@ -34,7 +42,7 @@
     </header>
 
     <div class="heading">
-        <img src="./gallery.png" alt="">
+        <img src="./Open-Source-Software.jpg" class="image" alt="">
     </div>
 
     <section>
@@ -45,9 +53,9 @@
                 world of open source.
             </p>
         </center><br><br>
-        <h3>Here are some priceless resources that will answer these questions in detail:</h3>
+        <h3 id="heading">Here are some priceless resources that will answer these questions in detail:</h3>
         <div class="card"
-            style="background-color: rgb(255, 247, 99); color: rgb(3, 0, 98); font-weight: 500; line-height:1.5rem;">
+            style="background-color: rgb(153, 247, 153); color: rgb(3, 0, 98); font-weight: 500; line-height:1.5rem;">
             <h2>📄 Articles</h2>
             <br>
             <ul>
@@ -74,7 +82,7 @@
             </ul>
         </div>
         <div class="card"
-            style="background-color: rgb(255, 247, 99); color: rgb(3, 0, 98); font-weight: 500; line-height:1.5rem;">
+            style="background-color: rgb(153, 247, 153); color: rgb(3, 0, 98); font-weight: 500; line-height:1.5rem;">
             <h2>▶️ Videos</h2>
             <br>
             <ul>
@@ -92,7 +100,7 @@
                         Is Open Source Software?</a> by Honeypot</li>
             </ul>
         </div>
-        <h3>What does Open-source mean?</h3>
+        <h3 id="open">What does Open-source mean?</h3>
         <div class="card">
             <p>Open source refers to a development methodology where the source code of a software project is made
                 freely available to the public. Unlike proprietary software, which is typically developed and owned by a
@@ -122,7 +130,7 @@
         </div>
 
 
-        <h3>Open-source community and Contributions :</h3>
+        <h3 class="head">Open-source community and Contributions :</h3>
         <div class="card">
             <p>The open-source community is a worldwide community of programmers and software developers who are
                 continuously working on various open-source projects to make our lives better. This community is
@@ -152,7 +160,7 @@
 
 
 
-        <h3>Benefits of Open-source contributions :</h3>
+        <h3 class="head">Benefits of Open-source contributions :</h3>
         <div class="card">
             <p>One of the key advantages of open source is the collaborative nature of development. People from diverse
                 backgrounds, skill levels, and geographic locations come together to work on projects. This collective
@@ -193,8 +201,8 @@
                 for software development like any good internships at Google or Microsoft.
             </p>
         </div>
-        <h3>Conclusion :</h3>
-        <div class="card" style="background-color: rgb(255, 247, 99); color: rgb(3, 0, 98); font-weight: 500;">
+        <h3 class="head">Conclusion :</h3>
+        <div class="card" style="background-color: #121653; color: rgb(3, 0, 98); font-weight: 500;">
 
             <p>To dive into open source, start by exploring projects that align with your interests or areas you want to
                 learn more about. Familiarize yourself with version control systems like Git and platforms like GitHub,
@@ -217,48 +225,44 @@
 
     <footer>
         <div class="contain">
-          <div class="row">
-            <div class="col">
-              <a href="../index.html" class="link">Openpedia</a>
+            <div class="row">
+                <div class="col">
+                    <a href="../index.html" class="link">Openpedia</a>
+                </div>
+                <div class="col">
+                    <h3 id="Support" style="font-size: 15px;">Support</h3>
+                    <p style="font-size: 14px;">Documentation</p>
+                </div>
+                <div class="col">
+                    <h3 id="Solutions" style="font-size: 15px;">Categories</h3>
+                    <p><a href="../git/index.html" class="footer-links">Learn Git &
+                            GitHub</a></p>
+                    <p><a href="https://openpedia.netlify.app/contributing-to-open-source"
+                            class="footer-links">Contributing to
+                            Open Source</a></p>
+                    <p><a href="../beginner-friendly-repo/index.html" class="footer-links">Beginner-Friendly
+                            Repos</a></p>
+                    <p><a href="../opensource_programs/index.html" class="footer-links">Open Source
+                            Programs</a></p>
+                </div>
             </div>
-            <div class="col">
-              <h3 id="Support" style="font-size: 15px;">Support</h3>
-              <p style="font-size: 14px;">Documentation</p>
-            </div>
-            <div class="col">
-              <h3 id="Solutions" style="font-size: 15px;">Categories</h3>
-              <p><a href="../git/index.html"
-                class="footer-links">Learn Git &
-                  GitHub</a></p>
-              <p><a href="https://openpedia.netlify.app/contributing-to-open-source"
-                class="footer-links">Contributing to
-                  Open Source</a></p>
-              <p><a href="../beginner-friendly-repo/index.html"
-                class="footer-links">Beginner-Friendly
-                  Repos</a></p>
-              <p><a href="../opensource_programs/index.html"
-                class="footer-links">Open Source
-                  Programs</a></p>
-            </div>
-          </div>
 
-          <div class="end">
-            <span class="copyright">&copy; 2024 Openpedia</span>
-            <span class="creator">Developed By Sriparno Roy & Open Source Community</span>
-            <span class="social media" id="socialicons">
-              <i ><a href="https://www.linkedin.com/in/sriparnoroy" class="fa-brands fa-linkedin-in"></a></i>
-              <i ><a href="https://twitter.com/Sriparno08"class="fa-brands fa-x-twitter"></a></i>
-              <i ><a href="https://github.com/Sriparno08"class="fa-brands fa-github"></a></i>
-            </span>
-          </div>
+            <div class="end">
+                <span class="copyright">&copy; 2024 Openpedia</span>
+                <span class="creator">Developed By Sriparno Roy & Open Source Community</span>
+                <span class="social media" id="socialicons">
+                    <i><a href="https://www.linkedin.com/in/sriparnoroy" class="fa-brands fa-linkedin-in"></a></i>
+                    <i><a href="https://twitter.com/Sriparno08" class="fa-brands fa-x-twitter"></a></i>
+                    <i><a href="https://github.com/Sriparno08" class="fa-brands fa-github"></a></i>
+                </span>
+            </div>
         </div>
-      </footer>
-      <a href="#" class="to-top">
+    </footer>
+    <a href="#" class="to-top">
         <i class="fas fa-chevron-up"></i>
-      </a>
-
-    <script src="./app.js"></script>
+    </a>
     <script src="../app.js"></script>
+    <script src="../src/theme/theme_switch.js"></script>
 </body>
 
 </html>

@@ -4,18 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to OpenSource</title>
+
+    <title>Openpedia: Contributing to Open Source</title>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../src/theme/theme_switch.css">
+    <link rel="shortcut icon" href="../assets/oLogo.svg" type="image/x-icon">
 </head>
 
 <body>
-
     <header>
         <div class="title-container">
             <p class="title"><a href="../index.html" class="link"><img src="../assets/oLogo.svg"
                         alt="Openpedia">PENPEDIA</a></p>
-
+            <div id="themeBody">
+                <!-- <img id="themeToggle" src="./src/theme/icon/sun.png" alt=""> -->
+                <button id="themeToggle">
+                    <i class="fas fa-sun"></i> <!-- Font Awesome sun icon -->
+                    <i class="fas fa-moon"></i> <!-- Font Awesome moon icon -->
+                </button>
+            </div>
             <div class=" hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -24,9 +34,6 @@
         </div>
 
         <ul class="links">
-            <!-- <li class="item"><a class="link">Home</a></li> -->
-            <li class="item"><a href="#about" class="link">About</a></li>
-            <li class="item"><a href="./faq/" class="link" target="_blank">FAQ</a></li>
             <li class="item">
                 <a href="https://github.com/Sriparno08/Openpedia" class="link">GitHub</a>
             </li>
@@ -34,11 +41,11 @@
     </header>
 
     <div class="heading">
-        <img src="./gallery.png" alt="">
+        <img src="cont.jpg" alt="">
     </div>
 
     <section>
-        <h2>Learning the contribution workflow is a must in your open source journey.
+        <h2 class="headh2">Learning the contribution workflow is a must in your open source journey.
             This section compiles a list of useful resources that enable you to get started with open source
             contributions:</h2><br>
         <div class="card"
@@ -81,7 +88,7 @@
             </ul>
         </div>
 
-        <h2>What it means to contribute</h2><br>
+        <h2 class="headh3">What it means to contribute</h2><br>
         <div class="card">
             <h3><i class="fa-solid fa-code"></i> Do you like to code?</h3>
             <li>Find an open issue to tackle</li>
@@ -121,7 +128,7 @@
             </p>
         </div>
 
-        <h2>Anatomy of an open source project</h2><br>
+        <h2 class="headh3">Anatomy of an open source project</h2><br>
         <div class="card">
             <p>Every open source community is different.
                 Spending years on one open source project means youve gotten to know one open source project. Move to a
@@ -192,7 +199,7 @@
 
             </ul>
         </div>
-        <h2>How to submit a contribution</h2><br>
+        <h2 class="headh3">How to submit a contribution</h2><br>
         <div class="card">
             <h3><i class="fa-solid fa-comments"></i> Communicating effectively</h3>
             <p>Whether youre a one-time contributor or trying to join a community, working with others is one of the
@@ -278,7 +285,7 @@
 
         </div>
 
-        <h2>What happens after you submit your contribution</h2><br>
+        <h2 class="headh3">What happens after you submit your contribution</h2><br>
         <div class="card">
             <h3>😭 You don’t get a response</h3>
             <p>Hopefully you checked the project for signs of activity before making a contribution. Even on an active
@@ -371,10 +378,10 @@
     </footer>
     <a href="#" class="to-top">
         <i class="fas fa-chevron-up"></i>
-      </a>
+    </a>
 
-    <script src="./app.js"></script>
     <script src="../app.js"></script>
+    <script src="../src/theme/theme_switch.js"></script>
 </body>
 
 </html>

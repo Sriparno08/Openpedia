@@ -26,20 +26,29 @@ window.addEventListener("scroll", () => {
   }
 });
 // Dark mode switching for themeToggle
-const themeToggle = document.getElementById('themeToggle');
+const themeToggle = document.getElementById("themeToggle");
 
-themeToggle.addEventListener('click', () => {
-    body.classList.toggle('dark-theme');
+themeToggle.addEventListener("click", () => {
+  body.classList.toggle("dark-theme");
 
-    // Toggle Font Awesome icons
-    const moonIcon = themeToggle.querySelector('.fa-moon');
-    const sunIcon = themeToggle.querySelector('.fa-sun');
+  // Toggle Font Awesome icons
+  const moonIcon = themeToggle.querySelector(".fa-moon");
+  const sunIcon = themeToggle.querySelector(".fa-sun");
 
-    if (body.classList.contains('dark-theme')) {
-        moonIcon.style.display = 'inline';
-        sunIcon.style.display = 'none';
-    } else {
-        moonIcon.style.display = 'none';
-        sunIcon.style.display = 'inline';
-    }
+  if (body.classList.contains("dark-theme")) {
+    moonIcon.style.display = "inline";
+    sunIcon.style.display = "none";
+    localStorage.setItem("theme", "dark");
+  } else {
+    moonIcon.style.display = "none";
+    sunIcon.style.display = "inline";
+    localStorage.setItem("theme", "light");
+  }
 });
+
+const savedTheme = localStorage.getItem("theme");
+if (savedTheme === "dark") {
+  body.classList.add("dark-theme");
+} else {
+  body.classList.remove("dark-theme");
+}

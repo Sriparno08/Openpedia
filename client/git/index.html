@@ -1,98 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Openpedia | FAQ</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="git.css" />
-    <link rel="stylesheet" href="../styles.css" />
-    <link href="https://fonts.googleapis.com/css?family=Markazi+Text" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Openpedia</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="git.css">
+  <link rel="stylesheet" href="../src/theme/theme_switch.css">
+  <link rel="shortcut icon" href="../assets/oLogo.svg" type="image/x-icon">
 </head>
+
 <body>
-   
-<header>
-    <div class="title-container">
-        <p class="title"><a href="../index.html" class="link">Openpedia</a></p>
+  <main class="container">
+    <header style="top: 0;">
+      <div class="title-container">
+        <p class="title"><a href="../index.html" class="link"><img src="../assets/oLogo.svg"
+              alt="Openpedia">PENPEDIA</a>
+        </p>
+      </div>
+      <div class="elemContainer">
+        <div id="themeBody">
+          <button id="themeToggle">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+          </button>
+        </div>
 
         <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
+
+        <ul class="links">
+          <li class="item">
+            <a href="https://github.com/Sriparno08/Openpedia" class="link">GitHub</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="containerLearner">
+      <div class="mainLearner">
+        <div class="main-title-learner">
+          <h1>Git & GitHub</h1>
+        </div>
+        <div class="main-content-learner-links">
+          <a href="https://github.com/about" target="_blank">About Github</a>
+          <a href="https://github.com/github" target="_blank">Github Official</a>
+          <a href="https://github.com/explore" target="_blank">Explore Github</a>
+          <a href="https://git-scm.com/book/en/v2" target="_blank">ProGit Book</a>
+          <a href="https://git-scm.com/docs" target="_blank">Git Command List</a>
+          <a href="https://docs.github.com/en/get-started" target="_blank">Getting Started with
+            Github</a>
+        </div>
+      </div>
     </div>
-    <ul class="links">
-        <li class="item">
-            <a href="../#home" class="link">Home</a>
-        </li>
-        <li class="item"><a href="../#about" class="link">About</a></li>
-        <li class="item">
-            <a href="../faq/index.html" class="link">FAQ</a>
-        </li>
-        <li class="item">
-            <a href="https://github.com/Sriparno08/Openpedia"  class="link">GitHub</a>
-        </li>
-    </ul>
-</header>
-<br/>
-<main>
-    <div class="container1"><h1>Learn Git & Github</h1></div>
-    <br/>
-    <div><a class="container2" href="https://github.com/about" target="_blank" >About Github</a></div>
-    <div><a class="container2" href="https://github.com/github" target="_blank" >Github Official</a></div>
-    <div><a class="container2" href="https://github.com/explore" target="_blank" >Explore Github</a></div>
-    <div><a class="container2" href="https://git-scm.com/book/en/v2" target="_blank" >ProGit Book</a></div>
-    <div><a class="container2" href="https://git-scm.com/docs" target="_blank" >Git Command List</a></div>
-    <div><a class="container2" href="https://docs.github.com/en/get-started" target="_blank" >Getting Started with Github</a></div>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="contain">
+        <div class="row">
+          <div class="col">
+            <a href="../index.html" class="link">Openpedia</a>
+          </div>
+          <div class="col">
+            <h3 id="Support" style="font-size: 15px;">Support</h3>
+            <p style="font-size: 14px;">Documentation</p>
+          </div>
+          <div class="col">
+            <h3 id="Solutions" style="font-size: 15px;">Categories</h3>
+            <p><a href="../Introduction-opensource/index.html" class="footer-links">Introduction to Open Source</a></p>
+            <p><a href="" onclick="window.location.reload()" class="footer-links">Learn Git &
+                GitHub</a></p>
+            <p><a href="https://openpedia.netlify.app/contributing-to-open-source" class="footer-links">Contributing
+                to
+                Open Source</a></p>
+            <p><a href="../beginner-friendly-repo/index.html" class="footer-links">Beginner-Friendly
+                Repos</a></p>
+            <p><a href="../opensource_programs/index.html" class="footer-links">Open Source
+                Programs</a></p>
+          </div>
+        </div>
+
+        <div class="end">
+          <span class="copyright">&copy; 2024 Openpedia</span>
+          <span class="creator">Developed By Sriparno Roy & Open Source Community</span>
+          <span class="social media" id="socialicons">
+            <i><a href="https://www.linkedin.com/in/sriparnoroy" class="fa-brands fa-linkedin-in"></a></i>
+            <i><a href="https://twitter.com/Sriparno08" class="fa-brands fa-x-twitter"></a></i>
+            <i><a href="https://github.com/Sriparno08" class="fa-brands fa-github"></a></i>
+          </span>
+        </div>
+      </div>
+    </footer>
     
-</main>
-
-<!-- Updated Footer -->
-<footer>
-    <div class="contain">
-      <div class="row">
-        <div class="col">
-          <a href="../index.html" class="link">Openpedia</a>
-        </div>
-        <div class="col">
-          <h3 id="Support" style="font-size: 15px;">Support</h3>
-          <p style="font-size: 14px;">Documentation</p>
-        </div>
-        <div class="col">
-          <h3 id="Solutions" style="font-size: 15px;">Categories</h3>
-          <p><a href="../Introduction-opensource/index.html"
-              class="footer-links">Introduction to Open Source</a></p>
-          <p><a href="https://openpedia.netlify.app/contributing-to-open-source"
-            class="footer-links">Contributing to
-              Open Source</a></p>
-          <p><a href="../beginner-friendly-repo/index.html"
-            class="footer-links">Beginner-Friendly
-              Repos</a></p>
-          <p><a href="../opensource_programs/index.html"
-            class="footer-links">Open Source Programs</a></p>
-        </div>
-      </div>
-
-      <div class="end">
-        <span class="copyright">&copy; 2024 Openpedia</span>
-        <span class="creator">Developed By Sriparno Roy & Open Source Community</span>
-        <span class="social media" id="socialicons">
-          <i ><a href="https://www.linkedin.com/in/sriparnoroy" class="fa-brands fa-linkedin-in"></a></i>
-          <i ><a href="https://twitter.com/Sriparno08"class="fa-brands fa-x-twitter"></a></i>
-          <i ><a href="https://github.com/Sriparno08"class="fa-brands fa-github"></a></i>
-        </span>
-      </div>
+    <!-- Goto Top Button -->
+    <div>
+      <a href="#" class="to-top">
+        <i class="fas fa-chevron-up"></i>
+      </a>
     </div>
-  </footer>
-  <a href="#" class="to-top">
-    <i class="fas fa-chevron-up"></i>
-  </a>
-
-
-<script src="script.js" async defer></script>
-<script src="../app.js" async defer></script>
+    
+    <script src="../app.js"></script>
+    <script src="../src/theme/theme_switch.js"></script>
+  </main>
 </body>
-</html>
 
+</html>
