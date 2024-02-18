@@ -16,8 +16,7 @@ html {
 
 body {
     min-height: 100vh;
-    background-color: white;
-
+    min-width: 1200px
 }
 
 .construction {
@@ -43,13 +42,16 @@ body {
   }
 }
 
+
 section {
     padding: 0 3rem;
+    width: 100%;
 }
 
 .card {
     /* background-color: rgb(219, 255, 248); */
     /* background-color: rgb(255, 121, 49); */
+    width: 100%;
     background-color: #1c2b43;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
