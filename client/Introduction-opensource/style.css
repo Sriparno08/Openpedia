@@ -422,3 +422,48 @@ footer {
   #con{
     color: black;
   }
+  @media (max-width:380px){
+    .heading{
+      margin: 0px;
+    }
+    .image{
+      width: 215px;
+      margin-top: 70px;
+    }
+  }
+  @media (max-width:270px){
+    .heading{
+      margin: 0px;
+    }
+    .image{
+      width: 215px;
+      margin-top: 70px;
+    }
+  }
+  @media (max-width:470px){
+    .heading{
+      margin: 0px;
+    }
+    .image{
+      width: 300px;
+      margin-top: 140px;
+    }
+  }
+  @media (max-width:600px){
+    .heading{
+      margin: 0px;
+    }
+    .image{
+      width: 500px;
+      margin-top: 140px;
+    }
+  }
+  @media (max-width:760px){
+    .heading{
+      margin: 0px;
+    }
+    .image{
+      width: 500px;
+      margin-top: 140px;
+    }
+  }
