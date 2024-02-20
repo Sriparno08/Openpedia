@@ -418,3 +418,27 @@ footer {
     margin-top: 70px;
     margin-bottom: 10px;
   }
+  .btn{
+    background-color: black;
+    padding:10px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  .btn a{
+    color: white;
+  }
+  .bi{
+    color:white;
+  }
+  .question{
+    color: rgb(3, 0, 98);
+  }
+  .source{
+    margin-right: 10px;
+  }
+  .italic{
+    color: #000983;
+  }
+  li{
+    margin-bottom: 15px;
+  }
