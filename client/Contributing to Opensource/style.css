@@ -418,3 +418,49 @@ footer {
     margin-top: 70px;
     margin-bottom: 10px;
   }
+  .btn{
+    background-color: rgb(17, 15, 15);
+    padding:10px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  .btn a{
+    color: white;
+  }
+  .bi{
+    color:white;
+  }
+  .question{
+    color: white;
+    margin-bottom: 9px;
+  }
+  .source{
+    margin-right: 10px;
+  }
+  .italic{
+    color: #fff;
+  }
+  li{
+    margin-bottom: 15px;
+  }
+  .card1 .box1 ul li{
+    list-style: none;
+  }
+  .box1{
+    border: 1px solid black;
+    padding: 20px 25px;
+    height: 150px;
+    width: 320px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32, 43, 85);
+    border-radius: 10px;
+  }
+  .card1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row: repeat(4,1fr);
+    gap: 1rem;
+  }
