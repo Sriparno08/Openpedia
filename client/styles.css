@@ -896,3 +896,13 @@ footer .creator {
     color: #00bcd4;
     text-shadow: 0 0 5px #00bcd4;
   }
+
+.hover-link{
+  font-size: 14px;
+}
+
+.hover-link:hover {
+  color: #00bcd4;
+  text-decoration: none;
+  font-size: 14px;
+}
