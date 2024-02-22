@@ -481,7 +481,8 @@ footer {
     color:white;
   }
   .question{
-    color: rgb(3, 0, 98);
+    /* color: rgb(3, 0, 98); */
+    color: #ffffff;
     margin-bottom: 9px;
   }
   .source{
