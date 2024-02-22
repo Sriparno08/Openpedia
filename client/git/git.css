@@ -1,6 +1,12 @@
 /* import inter and markazi text from google */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Markazi+Text:wght@400;500;600;700&display=swap');
 
+:root {
+  --bg: white;
+  --txt: white;
+  --bgg: rgb(25, 50, 84);
+  --box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
 .heading {
   margin: 2rem 0;
   text-align: center;
@@ -45,7 +51,7 @@ footer {
   padding: 1rem 1.3rem;
 }
 
-.containerLearner{
+/* .containerLearner{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -109,7 +115,7 @@ footer {
 .main-content-learner-links a:hover {
   color: white;
   background-color: var(--bgg);
-}
+} */
 
 @media screen and (max-width: 550px){
   .mainLearner {
