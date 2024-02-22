@@ -481,14 +481,15 @@ footer {
     color:white;
   }
   .question{
-    color: rgb(3, 0, 98);
+    /* color: rgb(3, 0, 98); */
+    color: #ffffff;
     margin-bottom: 9px;
   }
   .source{
     margin-right: 10px;
   }
   .italic{
-    color: #000;
+    color: whitesmoke;
   }
   li{
     margin-bottom: 15px;
@@ -497,7 +498,7 @@ footer {
     list-style: none;
   }
   .box1{
-    border: 1px solid black;
+    border: 1px solid rgb(255, 245, 245);
     padding: 20px 25px;
     height: 150px;
     width: 320px;
@@ -505,7 +506,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(153, 247, 153);
+    /* background-color: rgb(153, 247, 153); */
+    background-color: rgb(3, 0, 98);
     border-radius: 10px;
   }
   .card1{
