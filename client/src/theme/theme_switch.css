@@ -52,3 +52,7 @@
     display: flex;
     align-items: center;
 }
+
+.dark-theme .get-started {
+    border-color: white;
+}
