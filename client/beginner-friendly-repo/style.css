@@ -444,3 +444,22 @@ footer .copyright {
   p{
     color: rgb(49, 48, 48);
   }
+
+  @media screen and (max-width:450px) {
+    header{
+      position: static;
+    }
+    .image{
+      width: 250px;
+      height: 200px;
+    }
+  }
+  @media screen and (max-width:850px) {
+    header{
+      position: static;
+    }
+    .image{
+      width: 500px;
+      height: 350px;
+    }
+  }

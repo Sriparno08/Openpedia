@@ -282,3 +282,19 @@ footer {
   #foss{
     margin-bottom: 90px;
   }
+  @media screen and (max-width:450px){
+    header{
+      position: static;
+    }
+    #image{
+      margin: 0px 30px;
+    }
+  }
+  @media screen and (max-width:850px){
+    header{
+      position: static;
+    }
+    #image{
+      margin: 10px 50px;
+    }
+  }
