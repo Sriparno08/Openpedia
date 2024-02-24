@@ -47,7 +47,7 @@
 }
 
 footer {
-  background-color: #2a2f35;
+  background-color: #0f2847;
   padding: 1rem 1.3rem;
 }
 
@@ -130,4 +130,10 @@ footer {
     height: 40px;
     font-size: 16px;
   }
+}
+.image{
+  margin-top:110px ;
+  width: 900px;
+  height: 400px;
+  margin-left: 180px;
 }
