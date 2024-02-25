@@ -531,3 +531,6 @@ footer {
       flex-direction: column;
     }
   }
+  .box1:hover{
+    transform: scale(1.1);
+  }
