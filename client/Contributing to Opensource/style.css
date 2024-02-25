@@ -495,3 +495,6 @@ footer {
       grid-template-columns: repeat(2,1fr);
     }
   }
+  .box1:hover{
+    transform: scale(1.1);
+  }
