@@ -1,37 +1,37 @@
 const body = document.body;
 
-let hamburger = document.querySelector(".hamburger");
-let links = document.querySelector(".links");
-let toTop = document.querySelector(".to-top");
-
-hamburger.addEventListener("click", () => {
-  links.classList.toggle("toggle-links");
-});
+const links = document.querySelector(".links");
+const toTop = document.querySelector(".to-top");
 
 window.addEventListener("scroll", () => {
   const scrollOffset = 150; // Adjust this value as needed
-  if (window.pageYOffset > scrollOffset) {
+
+  if (window.scrollY > scrollOffset) {
     toTop.classList.add("active");
   } else {
     toTop.classList.remove("active");
   }
+
   const windowHeight = window.innerHeight;
   const bodyHeight = document.body.clientHeight;
   const footerHeight = document.querySelector("footer").clientHeight;
 
-  if (windowHeight + window.pageYOffset >= bodyHeight - footerHeight + 500) {
+  if (windowHeight + window.scrollY >= bodyHeight - footerHeight + 500) {
     toTop.style.bottom = "60px";
   } else {
     toTop.style.bottom = "30px";
   }
 });
+
 // Dark mode switching for themeToggle
+
 const themeToggle = document.getElementById("themeToggle");
 
 themeToggle.addEventListener("click", () => {
   body.classList.toggle("dark-theme");
 
   // Toggle Font Awesome icons
+
   const moonIcon = themeToggle.querySelector(".fa-moon");
   const sunIcon = themeToggle.querySelector(".fa-sun");
 
@@ -47,6 +47,7 @@ themeToggle.addEventListener("click", () => {
 });
 
 const savedTheme = localStorage.getItem("theme");
+
 if (savedTheme === "dark") {
   body.classList.add("dark-theme");
 } else {
