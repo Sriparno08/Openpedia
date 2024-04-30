@@ -1,0 +1,76 @@
+.heading {
+  margin: 2rem 0;
+  margin-top: 3vh;
+  text-align: center;
+}
+
+@media (min-width:768px) {
+  .heading {
+    margin-top: 13vh;
+  }
+}
+
+
+section {
+  padding: 0 3rem;
+  width: 100%;
+}
+
+.card {
+  /* background-color: rgb(219, 255, 248); */
+  /* background-color: rgb(255, 121, 49); */
+  width: 100%;
+  background-color: #1c2b43;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #761377;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+@media (min-width: 425px) {
+  .categories .category {
+    width: 80%;
+  }
+}
+
+#image {
+  margin: 30px 100px;
+}
+
+h3 {
+  color: rgb(210, 229, 234);
+}
+
+p {
+  color: white;
+}
+
+#xros {
+  margin-bottom: 90px;
+}
+
+#hack {
+  margin-bottom: 90px;
+}
+
+#foss {
+  margin-bottom: 90px;
+}
+
+@media screen and (max-width:450px) {
+  #image {
+    margin: 0px 30px;
+  }
+}
+
+@media screen and (max-width:850px) {
+  #image {
+    margin: 10px 50px;
+  }
+}

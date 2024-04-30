@@ -76,7 +76,7 @@ const faq = [
 function toggleContent(e) {
   const content = e.currentTarget.faqContent;
   content.show = !content.show;
-  
+
   content.style.height = content.show
     ? content.scrollHeight + 20 + `px`
     : `0px`;
@@ -112,7 +112,7 @@ faq.forEach(function (item, index) {
     `;
 
   faqItem.plus = faqItem.querySelector(`.plus`)
-  
+
   const faqContent = document.createElement(`div`);
   faqContent.classList.add(`faq_content`);
   faqContent.innerHTML = item.answer;
@@ -123,4 +123,3 @@ faq.forEach(function (item, index) {
   faqItem.addEventListener(`click`, toggleContent);
   document.querySelectorAll(`.faqs_container`)[index % 2].appendChild(faqItem);
 });
-
