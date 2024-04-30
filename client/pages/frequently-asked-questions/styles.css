@@ -5,17 +5,17 @@
   color: rgb(18, 38, 64);
 }
 
+.faqs {
+  display: flex;
+  padding: 2rem 2rem;
+  gap: 2rem;
+}
+
 .faqs_container {
   height: 100%;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 2rem;
-}
-
-.faqs {
-  display: flex;
-  padding: 2rem 2rem;
   gap: 2rem;
 }
 
@@ -64,33 +64,33 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Dark Theme */
+
 body.dark-theme {
   background-color: #333;
 }
 
-/* Header styles for dark mode */
 body.dark-theme .heading {
   color: white;
-  /* Change this to the desired text color for the header in dark mode */
 }
 
 body.dark-theme main {
   background-color: black;
-  /* Change this to the desired text color for the header in dark mode */
 }
 
-/* Responsive Media Query */
+/* Responsiveness */
+
 @media screen and (max-width: 768px) {
-  .faqs_container {
-    grid-template-columns: 1fr;
+  .heading {
+    padding: 0;
+    text-align: center;
   }
 
   .faqs {
     flex-flow: column;
   }
 
-  .heading {
-    padding: 0;
-    text-align: center;
+  .faqs_container {
+    grid-template-columns: 1fr;
   }
 }

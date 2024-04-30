@@ -40,7 +40,6 @@ section {
   justify-content: center;
   align-items: center;
   background-color: rgb(153, 247, 153);
-  /* background-color: rgb(3, 0, 98); */
   border-radius: 10px;
 }
 
@@ -54,7 +53,6 @@ section {
 
 .question {
   color: rgb(3, 0, 98);
-  /* color: #ffffff; */
   margin-bottom: 9px;
 }
 
@@ -89,7 +87,6 @@ section {
 }
 
 .card {
-  /* background-color: rgb(219, 255, 248); */
   background-color: #181b60;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

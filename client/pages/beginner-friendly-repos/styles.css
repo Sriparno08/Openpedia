@@ -2,18 +2,19 @@ section {
   padding: 0 3rem;
 }
 
-.card {
-  /* background-color: rgb(219, 255, 248); */
-  background-color: rgb(137, 196, 255);
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  margin-bottom: 20px;
+.image {
+  width: 800px;
+  height: 500px;
+  margin: 0 200px;
 }
 
 h1 {
   text-align: center;
   font-family: Arial, sans-serif;
+}
+
+#top {
+  text-align: center;
 }
 
 h2 {
@@ -23,27 +24,20 @@ h2 {
   margin-bottom: 20px;
 }
 
-@media (max-width: 768px) {
-  .image {
-    width: 200px;
-    height: 100px;
-    margin: 0px;
-    overflow-x: hidden;
-  }
+#web {
+  margin-top: 40px;
 }
 
-.image {
-  width: 800px;
-  height: 500px;
-  margin: 0 200px;
+.card {
+  background-color: rgb(137, 196, 255);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 #novu {
   margin-bottom: 90px;
-}
-
-#web {
-  margin-top: 40px;
 }
 
 #arrow {
@@ -58,14 +52,21 @@ h2 {
   margin-bottom: 70px;
 }
 
-#top {
-  text-align: center;
-}
+/* Responsiveness */
 
 @media screen and (max-width:450px) {
   .image {
     width: 250px;
     height: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .image {
+    width: 200px;
+    height: 100px;
+    margin: 0px;
+    overflow-x: hidden;
   }
 }
 
