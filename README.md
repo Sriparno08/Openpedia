@@ -109,6 +109,9 @@ These repos offer a curated selection of beginner-friendly issues that will turn
 - [Apache Arrow](https://github.com/apache/arrow)
 - [Novu](https://github.com/novuhq/novu)
 - [Prettier](https://github.com/prettier/prettier)
+- [MatrixOne](https://github.com/matrixorigin/matrixone)
+- [Alloy](https://github.com/grafana/alloy)
+- [KubeArmor](https://github.com/kubearmor/KubeArmor)
 
 ## 🏅 Open Source Programs
 
