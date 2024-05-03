@@ -17,7 +17,7 @@ footer.innerHTML = `<div class="contain">
 
                           <a style="font-size: 14px; margin-top: 0.5rem;" href="#about">About</a></p>
                           <p style="font-size: 14px; margin-top: 0.5rem;">
-                            <a href="https://openpedia.netlify.app/faq/" class="hover-link">Frequently Asked Questions</a>
+                            <a href="./pages/frequently-asked-questions/index.html" class="hover-link">Frequently Asked Questions</a>
                           </p>
                         </div>
 
