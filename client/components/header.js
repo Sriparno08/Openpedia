@@ -2,7 +2,7 @@ const container = document.querySelector(".container");
 const header = document.createElement("header");
 
 header.innerHTML = `<div class="title-container">
-                      <img src="./assets/long-logo.svg" alt="Openpedia">
+                      <img src="https://raw.githubusercontent.com/Sriparno08/Openpedia/ee35e33b2471da77ec61c9b12cad57e61412b611/client/assets/long-logo.svg" alt="Openpedia">
                     </div>
 
                     <div class="elemContainer">

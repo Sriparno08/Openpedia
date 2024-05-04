@@ -3,7 +3,7 @@ const footer = document.createElement("footer");
 footer.innerHTML = `<div class="contain">
                       <div class="row">
                         <div class="col">
-                          <img src="https://raw.githubusercontent.com/Sriparno08/Openpedia/c4f303a79da36a0f8088584ba3a924cc26cfe354/client/assets/long-logo.svg" alt="Openpedia">
+                          <img src="https://raw.githubusercontent.com/Sriparno08/Openpedia/ee35e33b2471da77ec61c9b12cad57e61412b611/client/assets/long-logo.svg" alt="Openpedia">
                         </div>
 
                         <div class="col">
