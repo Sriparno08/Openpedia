@@ -18,7 +18,7 @@
 .dark-theme {
   --bg: #1a1a1a;
   --txt: rgb(216, 216, 216);
-  --bgg: rgb(18, 37, 63);
+  --bgg: rgb(25, 50, 84);
   --box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.5);
 }
 
