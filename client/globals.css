@@ -24,7 +24,7 @@
 
 html {
   scroll-behavior: smooth;
-  font-family: 'Roboto', sans-serif;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 body {
@@ -33,8 +33,11 @@ body {
 
 .container {
   min-height: 100vh;
-  background-color: #f2c9ff;
+  background-color: #f8ddff;
   color: var(--txt);
+  background: rgb(201, 245, 255);
+  background-size: contain;
+  background-position: top;
 }
 
 header {
