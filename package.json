@@ -1,6 +1,7 @@
 {
   "name": "openpedia",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "client/index.html",
   "scripts": {

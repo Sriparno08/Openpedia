@@ -1,7 +1,7 @@
 let path = require('path');
 
 module.exports = {
-    entry: path.resolve(__dirname, './client/app.js'),
+    entry: path.resolve(__dirname, './client/appBFR.js'),
     output: {
         path: path.resolve(__dirname, './client'),
         filename: 'bundle.js',

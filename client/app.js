@@ -1,5 +1,7 @@
-const body = document.body;
+import { darkTheme } from "./pages/beginner-friendly-repos/appBFR.js";
 
+
+const body = document.body;
 const links = document.querySelector(".links");
 const toTop = document.querySelector(".to-top");
 
@@ -23,6 +25,7 @@ window.addEventListener("scroll", () => {
   }
 });
 
+
 // Dark mode switching for themeToggle
 
 const themeToggle = document.getElementById("themeToggle");
@@ -44,6 +47,7 @@ themeToggle.addEventListener("click", () => {
     sunIcon.style.display = "inline";
     localStorage.setItem("theme", "light");
   }
+
 });
 
 const savedTheme = localStorage.getItem("theme");
@@ -53,3 +57,4 @@ if (savedTheme === "dark") {
 } else {
   body.classList.remove("dark-theme");
 }
+darkTheme()
