@@ -1,66 +1,70 @@
 .h {
-  margin-top: 10vh;
-  padding: 0 4rem;
   height: 80vh;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 .intro {
-  width: 50%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 58%;
 }
 
-.intro .intro-title,
-.intro .intro-description {
-  font-size: 24px;
+.intro img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 2rem;
+}
+
+.intro .intro-title {
+  font-size: 38px;
   text-align: center;
   color: var(--txt);
-  letter-spacing: 1px;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
 }
 
 .intro .intro-description {
   font-weight: 400;
   font-size: 20px;
-  margin-bottom: 3.6rem;
+  margin-bottom: 2.6rem;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgb(73, 81, 91);
+  letter-spacing: 1px;
 }
 
 .intro .get-started {
   display: block;
-  padding: 0.7rem 1rem;
+  padding: 1rem 3rem;
   text-decoration: none;
-  color: var(--txt);
-  font-size: 17px;
-  border: 2px solid rgb(18, 38, 64);
+  color: white;
+  font-size: 19px;
+  border: 2px solid var(--bgg);
   transition: all 0.3s;
-  background-color: var(--bg);
+  border-radius: 8px;
+  background-color: var(--bgg);
+  transform: scale(0.9);
+  letter-spacing: 0.7px;
 }
 
 .intro .get-started:hover {
-  background-color: rgb(18, 38, 64);
-  color: white;
-  border-color: rgb(18, 38, 64);
+  color: black;
+  background-color: transparent;
 }
 
 .img-hero {
-  display: flex;
-  width: 50%;
-  height: 100%;
-  align-items: center;
-  justify-content: center;
+  width: 60%;
+  height: 80%;
 }
 
 .hero-img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
-  object-position: center;
 }
 
 .categories-container {
@@ -126,8 +130,8 @@
 .about-items {
   background-color: var(--bg);
   padding: 2rem 1.5rem;
-  box-shadow: 0 0 5px 0 #dfdfdf;
-  border-radius: 5px;
+  border: 2px solid white;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -194,8 +198,23 @@
 
 /* Dark Theme */
 
+.dark-theme .intro-title {
+  color: white;
+}
+
+.dark-theme .intro-description {
+  color: #dee2e6;
+}
+
 .dark-theme .get-started {
+  color: black;
   border-color: white;
+  background-color: white;
+}
+
+.dark-theme .get-started:hover {
+  background-color: transparent;
+  color: white;
 }
 
 .dark-theme .category .category-link {
@@ -226,31 +245,7 @@
   }
 }
 
-@media (max-width: 767px) {
-  .h {
-    flex-direction: column-reverse;
-    margin-top: 0vh;
-    height: 110vh;
-  }
-
-  .intro {
-    width: 100%;
-  }
-
-  .img-hero {
-    min-width: 90%;
-  }
-}
-
 @media (min-width: 768px) {
-  .intro .intro-title {
-    font-size: 25px;
-  }
-
-  .intro .intro-description {
-    font-size: 20px;
-  }
-
   .categories-container {
     padding: 3rem 0;
   }
@@ -302,12 +297,6 @@
   }
 }
 
-@media (max-width: 850px) {
-  .h {
-    padding: 0 1rem;
-  }
-}
-
 @media (min-width: 1024px) {
   .categories-container .categories {
     padding: 0 2rem;
@@ -351,18 +340,6 @@
 }
 
 @media (min-width: 1280px) {
-  .intro .intro-title {
-    font-size: 26px;
-  }
-
-  .intro .intro-description {
-    font-size: 21px;
-  }
-
-  .intro .get-started {
-    font-size: 18px;
-  }
-
   .categories-container {
     padding: 4rem 0;
   }
