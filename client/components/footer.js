@@ -26,7 +26,7 @@ footer.innerHTML = `<div class="contain">
                           <p><a href="./Introduction-opensource/index.html" class="footer-links">Introduction to Open Source</a></p>
                           <p><a href="./git/index.html" class="footer-links">Learn Git & GitHub</a></p>
                           <p><a href="./pages/contributing-to-open-source/index.html" class="footer-links">Contributing to Open Source</a></p>
-                          <p><a href="./beginner-friendly-repo/index.html" class="footer-links">Beginner-Friendly Repos</a></p>
+                          <a href="./pages/beginner-friendly-repos/index.html" class="footer-links">Beginner-Friendly Repos</a>
                           <p><a href="./opensource_programs/index.html" class="footer-links">Open Source Programs</a></p>
                         </div>
                       </div>
