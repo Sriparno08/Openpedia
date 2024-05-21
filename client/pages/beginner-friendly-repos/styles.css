@@ -18,7 +18,13 @@ h1 {
 }
 
 h2 {
-  color: #761377;
+  color: #9d12a3;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.dark-theme h2{
+  color: #aee31f ;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   margin-bottom: 20px;
@@ -34,6 +40,20 @@ h2 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   margin-bottom: 20px;
+}
+.dark-theme-card{
+  background-color: rgb(25, 50, 84);
+  color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.dark-theme-card a{
+  color: #ffffff;
+}
+.dark-theme-card a:hover{
+  color: #aee31f ;
 }
 
 #novu {
