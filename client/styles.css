@@ -116,6 +116,7 @@
   transition: all 0.3s;
   color: var(--txt);
   background-color: var(--bg);
+  border-radius: 5px;
 }
 
 .category .category-link:hover {
@@ -226,6 +227,11 @@
   transition: all 0.3s;
   color: var(--txt);
   background-color: var(--bg);
+}
+
+.dark-theme .category .category-link:hover {
+  background-color: white;
+  color: black;
 }
 
 .dark-theme .contribute .contribute-link {
