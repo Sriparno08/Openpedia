@@ -94,7 +94,7 @@ If you are adding a resource that belongs to any of these following categories:
 The commit message should be:
 
 ```
-git commit -m "Docs: Add a resource from <publisher>"
+git commit -m "[Docs] Add a resource from <publisher>"
 ```
 
 If you are adding a resource that belongs to any of these following categories:
@@ -105,7 +105,7 @@ If you are adding a resource that belongs to any of these following categories:
 The commit message should be:
 
 ```
-git commit -m "Docs: Add <name>"
+git commit -m "[Docs] Add <name>"
 ```
 
 <hr>
@@ -122,5 +122,5 @@ There can be four types of pull requests on this repository:
 When you are opening a pull request, ensure that you are providing the correct type in the pull request title:
 
 ```
-Docs: Add MDN Web Docs
+[Docs] Add MDN Web Docs
 ```
