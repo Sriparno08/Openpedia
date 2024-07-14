@@ -102,7 +102,7 @@ If you are adding a resource that belongs to any of these categories:
 The commit message should be:
 
 ```sh
-git commit -m "[Docs] Add a resource from <publisher>"
+git commit -m "[Resource] Add a resource from <publisher>"
 ```
 
 If you are adding a resource that belongs to any of these categories:
@@ -113,7 +113,7 @@ If you are adding a resource that belongs to any of these categories:
 The commit message should be:
 
 ```sh
-git commit -m "[Docs] Add <name>"
+git commit -m "[Resource] Add <name>"
 ```
 
 <hr>
