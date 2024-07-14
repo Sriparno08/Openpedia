@@ -124,8 +124,8 @@ Here are the types of issues and pull requests that can be created in this repos
 
 - `Resource`: Changes related to a resource addition
 - `Docs`: Changes related to the documentation
-- `Chore`: Changes related to the codebase (but unrelated to the UI or a feature addition)
-- `UI`: Changes related to the UI
+- `Chore`: Changes related to the codebase (but unrelated to the user interface or a feature addition)
+- `UI`: Changes related to the user interface
 - `Feat`: Changes related to a feature addition
 
 If you are opening an issue or a pull request, the title should be:
