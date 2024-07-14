@@ -7,7 +7,7 @@ Please read the guidelines carefully before making your first contribution:
 - [Issues](#issues)
 - [Pull Requests](#pull-requests)
 - [Creating a Pull Request](#creating-a-pull-request)
-- [Style Guide for Commit Messages](#style-guide-for-commit-messages)
+- [Style Guide for Commits](#style-guide-for-commits)
 - [Style Guide for Issues and Pull Requests](#style-guide-for-issues-and-pull-requests)
 
 ## Issues
@@ -91,7 +91,7 @@ Step 10: Create a pull request!
 
 <hr>
 
-## Style Guide for Commit Messages
+## Style Guide for Commits
 
 If you are adding a resource that belongs to any of these categories:
 
