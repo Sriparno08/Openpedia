@@ -24,7 +24,7 @@ Please read the guidelines carefully before making your first contribution:
 - Each pull request should contain a single logical change.
 - The pull request title should summarize the changes made in it.
 - The changes made in the pull request should be described in detail.
-- The pull request should be linked to an open issue.
+- The pull request should be linked to an issue.
 
 <hr>
 

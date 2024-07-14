@@ -6,11 +6,11 @@
 
 <!-- Type 'x' in the square brackets '[ ]' to check the corresponding category -->
 
-- [ ] Documentation
 - [ ] Resource Addition
+- [ ] Documentation
 - [ ] Codebase
 - [ ] User Interface
-- [ ] Feature Request
+- [ ] Feature Addition
 
 ## Related Issue
 
@@ -22,7 +22,7 @@ Fixes #XX
 
 <!-- Type 'x' in the square brackets '[ ]' to check the corresponding criteria -->
 
-- [ ] I have gone through the [CONTRIBUTING](https://github.com/Sriparno08/Start-Contributing/blob/main/CONTRIBUTING.md) guide
+- [ ] I have followed the [CONTRIBUTING](https://github.com/Sriparno08/Start-Contributing/blob/main/CONTRIBUTING.md) guide
 - [ ] The name of the resource is spelled correctly (if applicable)
 - [ ] The link to the resource is working (if applicable)
 - [ ] The resource is added in the correct format (if applicable)

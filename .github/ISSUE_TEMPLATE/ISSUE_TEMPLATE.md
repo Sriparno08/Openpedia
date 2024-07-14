@@ -1,20 +1,18 @@
 ---
-name: Issue Template
-about: Template for Opening Issues
-title: '<Type>: <Description>'
-labels: 'JWOC'
-assignees: ''
+name: 'Issue Template'
+about: 'Template for Opening Issues'
+title: '[Type] <Title>'
 ---
 
 ## Category
 
 <!-- Type 'x' in the square brackets '[ ]' to check the corresponding category -->
 
-- [ ] Documentation
 - [ ] Resource Addition
+- [ ] Documentation
 - [ ] Codebase
 - [ ] User Interface
-- [ ] Feature Request
+- [ ] Feature Addition
 
 ## Description
 
