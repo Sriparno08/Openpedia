@@ -139,10 +139,11 @@ Openpedia is waiting for your contribution!
 
 Here are some interesting ways to contribute to this project:
 
-- Adding Resources
+- Adding a Resource
 - Improving the Documentation
 - Enhancing the Codebase
-- Upgrading the Website Interface
+- Upgrading the User Interface
+- Adding a Feature
 
 Please go through the [CONTRIBUTING](https://github.com/Sriparno08/Openpedia/blob/main/CONTRIBUTING.md) guide for details.
 

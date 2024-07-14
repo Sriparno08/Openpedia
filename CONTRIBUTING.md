@@ -2,18 +2,19 @@
 
 Ready to contribute?
 
-Please go through the guidelines below to make your first contribution:
+Please read the guidelines carefully before making your first contribution:
 
 - [Issues](#issues)
 - [Pull Requests](#pull-requests)
 - [Creating a Pull Request](#creating-a-pull-request)
 - [Style Guide for Commit Messages](#style-guide-for-commit-messages)
-- [Style Guide for Pull Requests](#style-guide-for-pull-requests)
+- [Style Guide for Issues and Pull Requests](#style-guide-for-issues-and-pull-requests)
 
 ## Issues
 
 - Always create an issue before creating a pull request.
-- Always ensure that there is no other open issue similar to the one that you want to create.
+- Always ensure that the issue to be created is unique.
+- Always ensure that the resource to be added is unique.
 - Always start working on an issue after getting assigned to it.
 
 <hr>
@@ -22,70 +23,77 @@ Please go through the guidelines below to make your first contribution:
 
 - Each pull request should contain a single logical change.
 - The pull request title should summarize the changes made in it.
-- Describe the changes made in the pull request to the best of your ability.
-- The pull request should be linked to the corresponding issue.
+- The changes made in the pull request should be described in detail.
+- The pull request should be linked to an open issue.
 
 <hr>
 
 ## Creating a Pull Request
 
-- Fork the repository
+Before moving on, please ensure that these technologies are installed on your system:
 
-- Clone the forked repository to your local machine:
+- Node.js
+- NPM
 
-    ```sh
-    git clone https://github.com/<github-username>/Openpedia.git
-    ```
+Here is the step-by-step process of creating a pull request in this repository:
+
+Step 1: Fork the repository
+
+Step 2: Clone the forked repository to your local machine
+
+```sh
+git clone https://github.com/<github-username>/Openpedia.git
+```
     
-- Navigate to the project directory:
+Step 3: Navigate to the project directory
 
-    ```sh
-    cd Openpedia
-    ```
+```sh
+cd Openpedia
+```
 
-- Install all dependencies:
+Step 4: Install the required dependencies
 
-    ```sh
-    npm install
-    ```
+```sh
+npm install
+```
 
-- Create and switch to a new branch:
+Step 5: Create and switch to a new branch
 
-    ```sh
-    git switch -c <branch>
-    ```
+```sh
+git switch -c <branch>
+```
 
-- Launch the application:
+Step 6: Launch the website on `localhost:8080`
 
-    ```sh
-    npm run build
-    ```
+```sh
+npm run build
+```
 
-- Make changes to the project and stage them:
+Step 7: Make changes to the project and stage them
 
-    ```sh
-    git add .
-    ```
+```sh
+git add .
+```
 
-- Commit the changes:
+Step 8: Commit the changes
 
-    ```sh
-    git commit -m "<message>"
-    ```
+```sh
+git commit -m "<message>"
+```
 
-- Push the changes to the correponding remote branch:
+Step 9: Push the changes to the corresponding remote branch
 
-    ```sh
-    git push origin <branch>
-    ```
+```sh
+git push origin <branch>
+```
 
-- Create a pull request!
+Step 10: Create a pull request!
 
 <hr>
 
 ## Style Guide for Commit Messages
 
-If you are adding a resource that belongs to any of these following categories:
+If you are adding a resource that belongs to any of these categories:
 
 - Introduction to Open Source
 - Learn Git and GitHub
@@ -93,34 +101,35 @@ If you are adding a resource that belongs to any of these following categories:
 
 The commit message should be:
 
-```
+```sh
 git commit -m "[Docs] Add a resource from <publisher>"
 ```
 
-If you are adding a resource that belongs to any of these following categories:
+If you are adding a resource that belongs to any of these categories:
 
 - Beginner-Friendly Repos
 - Open Source Programs
 
 The commit message should be:
 
-```
+```sh
 git commit -m "[Docs] Add <name>"
 ```
 
 <hr>
 
-## Style Guide for Pull Requests
+## Style Guide for Issues and Pull Requests
 
-There can be four types of pull requests on this repository:
+Here are the types of issues and pull requests that can be created in this repository:
 
+- `Resource`: Changes related to a resource addition
 - `Docs`: Changes related to the documentation
-- `Chore`: Changes related to the codebase, but unrelated to the UI or adding a new feature
+- `Chore`: Changes related to the codebase (but unrelated to the UI or a feature addition)
 - `UI`: Changes related to the UI
-- `Feat`: Changes related to adding a new feature
+- `Feat`: Changes related to a feature addition
 
-When you are opening a pull request, ensure that you are providing the correct type in the pull request title:
+If you are opening an issue or a pull request, the title should be:
 
 ```
-[Docs] Add MDN Web Docs
+[Resource] Add MDN Web Docs
 ```
