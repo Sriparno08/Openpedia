@@ -15,7 +15,7 @@ footer.innerHTML = `<div class="contain">
                             </a>
                           </p>
 
-                          <a style="font-size: 14px; margin-top: 0.5rem;" href="#about">About</a></p>
+                          <p><a href="#about" class="footer-links">About</a></p>
                           <p style="font-size: 14px; margin-top: 0.5rem;">
                             <a href="./pages/frequently-asked-questions/index.html" class="hover-link">Frequently Asked Questions</a>
                           </p>
