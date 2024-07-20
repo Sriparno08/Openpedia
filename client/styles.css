@@ -84,9 +84,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
-.categories .category {
+.categories:hover {
+  transform: translateZ(1.10);
+  transition: ease-in-out 10ms;
+}
+
+
+.category {
   background-color: var(--bg);
   margin-top: 2.5rem;
   padding: 2rem 1.5rem;
@@ -94,9 +101,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 5px;
-  width: 100%;
   border-radius: 8px;
+  width: 100%;
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category:hover {
+  transform: translateY(-10px);
+  background-color: rgb(176, 241, 255);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 
 .category .category-title {
@@ -109,19 +123,20 @@
 
 .category .category-link {
   display: block;
-  padding: 0.3rem 0.6rem;
+  padding: 0.7rem 1.3rem;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 15px;
   border: 2px solid rgb(18, 38, 64);
   transition: all 0.3s;
-  color: var(--txt);
-  background-color: var(--bg);
+  color: white;
+  background-color: #193254;
   border-radius: 5px;
+  letter-spacing: 0.5px;
 }
 
 .category .category-link:hover {
-  background-color: rgb(18, 38, 64);
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 .about-container {
@@ -219,19 +234,25 @@
 }
 
 .dark-theme .category .category-link {
-  display: block;
-  padding: 0.3rem 0.6rem;
-  text-decoration: none;
-  font-size: 14px;
-  border: 2px solid rgb(252, 254, 255);
   transition: all 0.3s;
-  color: var(--txt);
-  background-color: var(--bg);
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.dark-theme .category {
+  border: none;
+}
+
+.dark-theme .category:hover {
+  background-color: white;
+  color: black;
 }
 
 .dark-theme .category .category-link:hover {
-  background-color: white;
-  color: black;
+  background-color: #193254;
+  border: 2px solid #193254;
+  color: white;
 }
 
 .dark-theme .contribute .contribute-link {
@@ -348,6 +369,7 @@
 @media (min-width: 1280px) {
   .categories-container {
     padding: 4rem 0;
+    padding-bottom: 6rem;
   }
 
   .categories-container .categories-title {
@@ -367,10 +389,6 @@
 
   .category .category-title {
     font-size: 20px;
-  }
-
-  .category .category-link {
-    font-size: 15px;
   }
 
   .about-container {

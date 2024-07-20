@@ -33,11 +33,8 @@ body {
 
 .container {
   min-height: 100vh;
-  background-color: #f8ddff;
   color: var(--txt);
-  background: rgb(201, 245, 255);
-  background-size: contain;
-  background-position: top;
+  background-color: rgb(176, 241, 255);
 }
 
 header {
