@@ -238,7 +238,7 @@
   padding: 0.7rem;
   text-decoration: none;
   font-size: 14px;
-  border: 2px solid rgb(18, 38, 64);
+  border: 2px solid rgb(173, 184, 198);
   transition: all 0.3s;
   color: black;
   background-color: white;
@@ -251,8 +251,8 @@
 }
 
 .dark-theme .category:hover{
-  background-color: #193254;
-  color: white;
+  background-color: #d3dbe7;
+  color: black;
 
 }
 
