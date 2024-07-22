@@ -24,12 +24,9 @@ footer.innerHTML = `<div class="contain">
                         </div>
 
                         <div class="col">
-                          <h3>Socials</h3>
+                          <h3>Social Links</h3>
                           <p><a href="https://www.linkedin.com/in/sriparnoroy/" class="footer-links">LinkedIn</a></p>
                           <p><a href="https://github.com/Sriparno08" class="footer-links">GitHub</a></p>
-                          <p><a href="https://codepen.io/Sriparno08" class="footer-links">CodePen</a></p>
-                          <p><a href="https://dev.to/sriparno08" class="footer-links">DEV</a></p>
-                          <p><a href="https://www.showwcase.com/sriparno08" class="footer-links">Showwcase</a></p>
                         </div>
                       </div>
 
