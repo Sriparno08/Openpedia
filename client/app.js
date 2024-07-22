@@ -6,22 +6,12 @@ const links = document.querySelector(".links");
 const toTop = document.querySelector(".to-top");
 
 window.addEventListener("scroll", () => {
-  const scrollOffset = 150; // Adjust this value as needed
+  const scrollOffset = 150;
 
   if (window.scrollY > scrollOffset) {
     toTop.classList.add("active");
   } else {
     toTop.classList.remove("active");
-  }
-
-  const windowHeight = window.innerHeight;
-  const bodyHeight = document.body.clientHeight;
-  const footerHeight = document.querySelector("footer").clientHeight;
-
-  if (windowHeight + window.scrollY >= bodyHeight - footerHeight + 500) {
-    toTop.style.bottom = "60px";
-  } else {
-    toTop.style.bottom = "30px";
   }
 });
 
