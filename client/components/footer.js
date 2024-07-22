@@ -16,7 +16,7 @@ footer.innerHTML = `<div class="contain">
                         </div>  
                       
                         <div class="col">
-                          <h3 id="Support" style="font-size: 15px;">Support</h3>
+                          <h3>Support</h3>
                           <p><a href="#about" class="footer-links">About</a></p>
                           <p><a href="https://github.com/Sriparno08/Openpedia" class="footer-links">Documentation</a></p>
                           <p><a href="./pages/frequently-asked-questions/index.html" class="footer-links">Frequently Asked Questions</a>
