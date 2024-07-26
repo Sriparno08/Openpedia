@@ -68,10 +68,12 @@ h2 {
   margin-bottom: 70px;
 }
 
-#web-dev-repositories {
+.card-container {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+  justify-content: center;
+  align-content: center; 
 }
 
 
