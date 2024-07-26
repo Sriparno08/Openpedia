@@ -68,6 +68,13 @@ h2 {
   margin-bottom: 70px;
 }
 
+#web-dev-repositories {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+
 /* Responsiveness */
 
 @media screen and (max-width:450px) {
