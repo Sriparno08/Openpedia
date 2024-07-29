@@ -22,11 +22,24 @@
 .intro .intro-title {
   font-size: 32px;
   text-align: center;
-  color: var(--txt);
+  /* color: #131842; */
+    background-image: linear-gradient(110.7deg, rgba(29, 29, 29, 1) 3.1%, rgba(168, 0, 0, 1) 99.7%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
   margin-bottom: 2rem;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.5px;
 }
+
+.highlight-text{
+  background-image: linear-gradient(110.7deg, rgba(29, 29, 29, 1) 3.1%, rgba(168, 0, 0, 1) 99.7%);
+  /* background-image: linear-gradient(178.4deg, rgba(77, 88, 105, 1) 4.8%, rgba(39, 43, 57, 1) 86.7%); */
+
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
 
 .intro .intro-description {
   font-weight: 400;
@@ -34,7 +47,10 @@
   margin-bottom: 2.6rem;
   letter-spacing: 0px;
   text-align: center;
-  color: rgb(73, 81, 91);
+  color: #EEEEEE;
+  /* background-image: linear-gradient(89.4deg, rgba(74, 77, 103, 1) -4.3%, rgba(119, 125, 165, 1) 102.1%);
+  background-clip: text;
+    -webkit-text-fill-color: transparent; */
   letter-spacing: 1px;
 }
 
@@ -68,13 +84,13 @@
 }
 
 .categories-container {
-  padding-top: 3.5rem;
+  padding-top: 1.5rem;
   background-color: var(--bgg);
 }
 
 .categories-container .categories-title {
   text-align: center;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 1px;
   color: white;
 }
@@ -175,49 +191,67 @@
   width: 80%;
   border-radius: 20px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 5rem;
 }
 
+.about-items > div{
+  border-radius: 20px;
+  overflow: hidden;
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  width: 50%;
+  height: 100%;
+}
+
+.about-items > div:hover {
+  transform: translateY(-10px);
+  /* background-color: rgb(176, 241, 255); */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
 .about {
   display: flex;
-  height: 38vh;
+  flex-direction: column;
+  /* height: 38vh; */
+  padding: 2rem;
   background-color: white;
+  gap: 8px;
 }
 
 .about .about-title {
-  background-color: #193254;
-  width: 32%;
-  font-weight: 400;
+
+  font-weight: 700;
   font-size: 20px;
   text-align: center;
   letter-spacing: 1px;
-  color: white;
   display: flex;
-  justify-content: center;
   align-items: center;
+  overflow: hidden;
+  animation-duration: 200ms;
 }
 
 .about .about-description {
-  width: 68%;
   line-height: 1.3;
-  padding: 2rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
+  flex: 1;
+  position: relative;
 }
 
 .about-description p {
   margin-bottom: 1.7rem;
   font-size: 17px;
+  color: #405D72;
 }
 
 .about-description .buttons {
   display: flex;
   gap: 1rem;
+  bottom: 0;
+  position: absolute;
 }
 
 .about-description .star,
@@ -260,28 +294,25 @@
 
 .about-items .contribute {
   display: flex;
-  height: 38vh;
+  padding: 2rem;
+  gap: 8px;
+  flex-direction: column;
   background-color: white;
 }
 
 .contribute .contribute-title {
-  background-color: #193254;
-  width: 32%;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 20px;
   text-align: center;
   letter-spacing: 1px;
-  color: white;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
 .contribute .contribute-description {
-  width: 68%;
   line-height: 1.3;
-  padding: 2rem;
   display: flex;
+  position: relative;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
@@ -290,6 +321,7 @@
 .contribute-description p {
   margin-bottom: 1.7rem;
   font-size: 17px;
+  color: #405D72;
 }
 
 .contribute .contribute-link {
