@@ -8,13 +8,14 @@
 }
 
 section {
-  padding: 0 3rem;
+  padding: 0 3rem 3rem; /* removing the whitespace below resources (additional padding) */
 }
 
 .head-text {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 600;
   color: #000983;
+  text-align: center; /* centering the text */
 }
 
 #heading {
@@ -23,28 +24,41 @@ section {
 }
 
 .card1 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-row: repeat(4, 1fr);
-  gap: 1rem;
+  display: flex; /* making the cards flex for better layout */
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
   margin-bottom: 50px;
+}
+/* removing the whitespace below resources */
+.card1:last-child {
+  margin-bottom: 80px;
+}
+.content-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .box1 {
-  border: 1px solid rgb(255, 245, 245);
+  border: 1px solid rgba(255, 245, 245, 0.8);
   padding: 20px 25px;
   height: 150px;
   width: 320px;
   text-align: center;
-  display: flex;
+  display: flex; /* Improving the overall look by adding flex and background gradient*/
+  flex: 0 1 320px;
   justify-content: center;
   align-items: center;
-  background-color: rgb(153, 247, 153);
-  border-radius: 10px;
+  background: linear-gradient(135deg, rgb(153, 247, 153), rgb(102, 204, 255));
+  border-radius: 15px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .box1:hover {
   transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* adding a shadow */
 }
 
 .card1 .box1 ul li {
@@ -74,6 +88,7 @@ section {
 
 .btn a {
   color: white;
+  text-decoration: none;
 }
 
 .bi {
@@ -115,7 +130,7 @@ section {
 
 /* Responsiveness */
 
-@media (max-width:270px) {
+@media (max-width: 270px) {
   .heading {
     margin: 0px;
   }
@@ -126,7 +141,7 @@ section {
   }
 }
 
-@media (max-width:380px) {
+@media (max-width: 380px) {
   .heading {
     margin: 0px;
   }
@@ -143,7 +158,7 @@ section {
   }
 }
 
-@media (max-width:470px) {
+@media (max-width: 470px) {
   .heading {
     margin: 0px;
   }
@@ -159,7 +174,7 @@ section {
   }
 }
 
-@media (max-width:600px) {
+@media (max-width: 600px) {
   .heading {
     margin: 0px;
   }
@@ -170,7 +185,7 @@ section {
   }
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .heading {
     margin: 0px;
   }
