@@ -42,19 +42,19 @@
   display: block;
   padding: 1rem 3rem;
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 19px;
   border: 2px solid var(--bgg);
   transition: all 0.3s;
   border-radius: 8px;
-  background-color: var(--bgg);
+  background-color: transparent;
   transform: scale(0.85);
   letter-spacing: 0.5px;
 }
 
 .intro .get-started:hover {
-  color: black;
-  background-color: transparent;
+  color: white;
+  background-color: var(--bgg);
 }
 
 .img-hero {
@@ -153,15 +153,15 @@
   font-size: 15px;
   border: 2px solid rgb(18, 38, 64);
   transition: all 0.3s;
-  color: white;
-  background-color: #193254;
+  color: black;
+  background-color: transparent;
   border-radius: 5px;
   letter-spacing: 0.5px;
 }
 
 .category .category-link:hover {
-  background-color: transparent;
-  color: black;
+  background-color: #193254;
+  color: white;
 }
 
 .about-container {
@@ -254,7 +254,7 @@
 }
 
 .about-description .sponsor:hover {
-  background-color: white;
+  background-color: transparent;
   color: black;
 }
 
@@ -295,9 +295,9 @@
 .contribute .contribute-link {
   width: 7rem;
   height: 3rem;
-  background-color: black;
+  background-color: white;
   padding: 0.9rem 1.3rem;
-  color: white;
+  color: black;
   text-decoration: none;
   display: flex;
   justify-content: center;
@@ -305,14 +305,14 @@
   font-size: 15px;
   letter-spacing: 0.5px;
   border-radius: 5px;
-  transition: all 0.4s;
+  transition: all 0.3s;
   gap: 0.4rem;
   border: 2px solid black;
 }
 
 .contribute .contribute-link:hover {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 /* Dark Theme */
@@ -328,27 +328,31 @@
 .dark-theme .get-started {
   color: black;
   border-color: white;
-  background-color: white;
-}
-
-.dark-theme .get-started:hover {
   background-color: transparent;
   color: white;
 }
 
-.dark-theme .category .category-link {
-  transition: all 0.3s;
-  color: black;
+.dark-theme .get-started:hover {
   background-color: white;
-  border: 2px solid black;
+  color: black;
 }
 
-.dark-theme .category {
-  border: none;
+.dark-theme .category .category-link {
+  transition: all 0.3s;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
 }
 
 .dark-theme .category:hover {
   background-color: white;
+  border: 2px solid white;
+  color: black;
+}
+
+.dark-theme .category:hover .category-link {
+  background-color: transparent;
+  border: 2px solid black;
   color: black;
 }
 
@@ -358,11 +362,49 @@
   color: white;
 }
 
-.dark-theme .contribute .contribute-link {
+.dark-theme .about,
+.dark-theme .contribute {
+  background-color: #193254;
+}
+
+.dark-theme .about-title,
+.dark-theme .contribute-title {
   background-color: white;
   color: black;
 }
 
-.dark-theme .contribute-link i {
+.dark-theme .about .star {
+  background-color: #193254;
+  color: white;
+}
+
+.dark-theme .about .sponsor {
+  background-color: white;
+  color: black;
+}
+
+.dark-theme .about .star,
+.dark-theme .about .sponsor {
+  border: 2px solid white;
+}
+
+.dark-theme .about .star:hover {
+  background-color: white;
+  color: black;
+}
+
+.dark-theme .about .sponsor:hover {
+  background-color: #193254;
+  color: white;
+}
+
+.dark-theme .contribute .contribute-link {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.dark-theme .contribute .contribute-link:hover {
+  background-color: white;
   color: black;
 }
