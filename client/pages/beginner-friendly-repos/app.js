@@ -1,4 +1,4 @@
-import { webDevRepositories, jsLibAndFrameworks, machineLearningAndAI, BioInformatics } from "./RepositoriesData.js";
+import { webDevRepositories, jsLibAndFrameworks, machineLearningAndAI, BioInformatics,CrossPlatformAppDevelopment } from "./RepositoriesData.js";
 
 function renderCards() {
   let container = document.querySelector("#web-dev-repositories");
@@ -36,6 +36,17 @@ function renderCards() {
 
   container = document.querySelector("#bioinformatics");
   BioInformatics.forEach((repo) => {
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `
+        <h3>${repo.title}</h3>
+        <p>${repo.description} <a href="${repo.url}">Read More</a></p>
+      `;
+    container.appendChild(card);
+  });
+
+  container = document.querySelector("#Cross-platform-app-development");
+  CrossPlatformAppDevelopment.forEach((repo) => {
     const card = document.createElement("div");
     card.className = "card";
     card.innerHTML = `
