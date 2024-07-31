@@ -1,4 +1,4 @@
-const webDevRepositories = [
+ const webDevRepositories = [
   {
     title: "MDN Web Docs",
     description:
@@ -118,4 +118,12 @@ const BioInformatics = [
   },
 ];
 
-export { webDevRepositories, jsLibAndFrameworks, machineLearningAndAI, BioInformatics };
+const CrossPlatformAppDevelopment = [
+  {
+    title: "Flutter",
+    description:
+      "Flutter is a cross-platform UI toolkit that allows developers to create natively compiled applications for mobile, web, and desktop from a single codebase...",
+    url: "https://github.com/flutter/flutter",
+  },
+];
+export { webDevRepositories, jsLibAndFrameworks, machineLearningAndAI, BioInformatics,CrossPlatformAppDevelopment};
