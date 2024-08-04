@@ -29,7 +29,18 @@ section {
 
 #heading {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
+}
+
+/* making the cards fit inside a container adn distinguish it from the background */
+.resources-section,
+.videos-section {
+  color: #FFFFFF;
+  margin: 4rem 3rem;
+  background-color: #193254;
+  padding: 3rem 2rem;
+  padding-bottom: 0.5rem;
+  border-radius: 1rem;
 }
 
 .card1 {
