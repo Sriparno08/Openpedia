@@ -36,17 +36,10 @@ p {
   color: white;
 }
 
-#xros {
-  margin-bottom: 90px;
+#heading-margin {
+  margin-top: 90px;
 }
 
-#hack {
-  margin-bottom: 90px;
-}
-
-#foss {
-  margin-bottom: 90px;
-}
 
 /* Responsiveness */
 
