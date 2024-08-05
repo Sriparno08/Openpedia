@@ -296,6 +296,7 @@
   letter-spacing: 1px;
   display: flex;
   align-items: center;
+  
 }
 
 .contribute .contribute-description {
@@ -390,8 +391,7 @@
 
 .dark-theme .about-title,
 .dark-theme .contribute-title {
-  background-color: white;
-  color: black;
+  color: white;
 }
 
 .dark-theme .about .star {
@@ -428,4 +428,11 @@
 .dark-theme .contribute .contribute-link:hover {
   background-color: white;
   color: black;
+}
+
+.dark-theme .about-description p,
+.dark-theme .contribute-description p {
+  margin-bottom: 1.7rem;
+  font-size: 17px;
+  color: #dee2e6;
 }
