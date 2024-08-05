@@ -82,6 +82,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function createResourceItem(resource) {
     return `
+      <div class="swiper-slide">
         <div class="box1">
           <ul>
             <li>
@@ -91,11 +92,13 @@ document.addEventListener("DOMContentLoaded", function () {
             </li>
           </ul>
         </div>
-      `;
+      </div>
+    `;
   }
 
   function createVideoItem(video) {
     return `
+      <div class="swiper-slide">
         <div class="box1">
           <ul>
             <li>
@@ -105,12 +108,12 @@ document.addEventListener("DOMContentLoaded", function () {
             </li>
           </ul>
         </div>
-      `;
+      </div>
+    `;
   }
 
-  const dynamicResourcesContainer =
-    document.getElementById("dynamic-resources");
-  const dynamicVideosContainer = document.getElementById("dynamic-videos");
+  const dynamicResourcesContainer = document.querySelector("#dynamic-resources .swiper-wrapper");
+  const dynamicVideosContainer = document.querySelector("#dynamic-videos .swiper-wrapper");
 
   resources.forEach((resource) => {
     dynamicResourcesContainer.innerHTML += createResourceItem(resource);
@@ -118,5 +121,59 @@ document.addEventListener("DOMContentLoaded", function () {
 
   videos.forEach((video) => {
     dynamicVideosContainer.innerHTML += createVideoItem(video);
+  });
+
+  const resourcesSwiper = new Swiper("#dynamic-resources", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'fraction',
+    },
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      },
+      1024: {
+        slidesPerView: 4,
+        spaceBetween: 40,
+      },
+    },
+  });
+
+  const videosSwiper = new Swiper("#dynamic-videos", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'fraction',
+    },
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      },
+      1024: {
+        slidesPerView: 4,
+        spaceBetween: 40,
+      },
+    },
   });
 });
