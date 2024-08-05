@@ -1,26 +1,131 @@
 .heading {
-  margin: 2rem 0;
-  text-align: center;
+  margin: 2rem 1rem;
+  width: auto;
+  height: 100%;
+  /* border: 5px solid whitesmoke; */
+  /* text-align: center; */
+  /* background-color: whitesmoke; */
+  /* padding: 5rem; */
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: 3rem;
+  /* justify-content: space-between; */
 }
 
-.image {
-  width: 800px;
+.head-img{
+  width: 100%;
+  height: 100%;
+}
+
+.head-img img{
+  min-width: 100%;
+  min-height: 100%;
+  /* border: 2px solid black; */
+  /* object-fit: cover; */
+=======
 }
 
 section {
-  padding: 0 3rem 3rem; /* removing the whitespace below resources (additional padding) */
+  padding: 0 0 3rem; /* removing the whitespace below resources (additional padding) */
 }
 
 .head-text {
+  position: absolute;
+  top: 38%;
+  left: 3%;
   font-size: 1.4rem;
+  width: 40%;
   font-weight: 600;
-  color: #000983;
+  color: whitesmoke;
+  /* margin: 5rem 0; */
+  /* border-radius: 2rem; */
   text-align: center; /* centering the text */
 }
 
 #heading {
   text-align: center;
   margin-bottom: 30px;
+  color: #000;
+}
+
+/* card slider */
+.swiper-container {
+  position: relative;
+  height: 13rem;
+  width: 100%;
+}
+
+.swiper-container .swiper-button-next,
+.swiper-container .swiper-button-prev {
+  background-image: url('/Openpedia-main/client/assets/arrow.svg') !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: 2rem 2rem !important;
+  width: 2rem !important;
+  height: 2rem !important;
+  position: absolute;
+  top: auto;
+  bottom: 0px;
+  transform: none;
+  &::after {
+    content: none !important;
+  }
+}
+
+.swiper-container .swiper-button-prev {
+    transform: rotate(180deg);
+    left: auto;
+    right: calc(50% + 40px);
+}
+
+.swiper-container .swiper-button-next {
+  right: auto;
+  left: calc(50% + 40px);
+}
+
+.swiper-container .swiper-button-next:hover,
+.swiper-container .swiper-button-prev:hover {
+  background-color: rgba(0, 0, 0, 0.386);
+}
+
+.swiper-pagination {
+  position: relative;
+  top: auto;
+  bottom: 0px;
+}
+
+.swiper-container .swiper-pagination-fraction {
+  color: black;
+  font-size: 1rem;
+}
+
+.resources-section,
+.videos-section {
+  color: #FFFFFF;
+  margin: 4rem 3rem;
+  /* padding: 3rem 2rem; */
+  border-radius: 1rem;
+}
+
+.slider-container {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.swiper-container {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .content-section {
+    padding: 10px;
+  }
 }
 
 .card1 {
@@ -40,6 +145,15 @@ section {
   flex-direction: column;
 }
 
+.box1 li{
+  list-style-type: none;
+}
+
+.box1 li span{
+  /* text-decoration: none; */
+  color: white;
+}
+
 .box1 {
   border: 1px solid rgba(255, 245, 245, 0.8);
   padding: 20px 25px;
@@ -50,7 +164,8 @@ section {
   flex: 0 1 320px;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, rgb(153, 247, 153), rgb(102, 204, 255));
+  /* background: linear-gradient(135deg, rgb(153, 247, 153), rgb(102, 204, 255)); */
+  background-color: rgb(25, 50, 84);
   border-radius: 15px;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -66,8 +181,10 @@ section {
 }
 
 .question {
-  color: rgb(3, 0, 98);
+  color: whitesmoke;
+  font-weight: bold;
   margin-bottom: 9px;
+  font-size: 1.1rem;
 }
 
 .source {
@@ -76,7 +193,8 @@ section {
 
 .italic {
   /* color: whitesmoke; */
-  color: rgb(27, 26, 26);
+  color: whitesmoke;
+  font-weight: 400;
 }
 
 .btn {
@@ -127,6 +245,8 @@ section {
   margin-top: 40px;
   margin-bottom: 20px;
 }
+
+
 
 /* Responsiveness */
 

@@ -11,38 +11,63 @@
     />
     <link rel="stylesheet" href="../../globals.css" />
     <link rel="stylesheet" href="styles.css" />
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="app.js"></script>
   </head>
 
   <body>
     <main class="container">
-      <div class="container-wrappper">
-        <div class="heading">
-          <img src="./Open-Source-Software.jpg" class="image" alt="" />
-        </div>
+      <div class="container-wrapper">
+        <section class="content-section">
+          <div class="heading">
+            <div class="head-text">
+              <p>
+                Welcome to the exciting and collaborative realm of open source! If
+                you're new to this dynamic community, let's embark on a journey to
+                explore the principles, culture, and endless possibilities that
+                define the world of open source.
+              </p>
+            </div>
+            <div class="head-img">
+              <img src="./Open-Source-Software.jpg" class="image" alt="" />
+            </div>
+          </div>
 
-        <section>
-          <p class="head-text">
-            Welcome to the exciting and collaborative realm of open source! If
-            you're new to this dynamic community, let's embark on a journey to
-            explore the principles, culture, and endless possibilities that
-            define the world of open source.
-          </p>
-          <br /><br />
+          <div class="resources-section">
+            <h3 id="heading">
+              Here are some priceless resources that will answer these questions
+              in detail:
+            </h3>
 
-          <h3 id="heading">
-            Here are some priceless resources that will answer these questions
-            in detail:
-          </h3>
+            <div class="slider-container">
+              <div id="dynamic-resources" class="swiper-container">
+                <div class="swiper-wrapper"></div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+            </div>
+          </div>
 
-          <div id="dynamic-resources" class="card1"></div>
+          <div class="videos-section">
+            <h3 id="heading">
+              Here are some priceless Video resources that will answer these
+              questions in detail:
+            </h3>
 
-          <h3 id="heading">
-            Here are some priceless Video resources that will answer these
-            questions in detail:
-          </h3>
-
-          <div id="dynamic-videos" class="card1"></div>
+            <div class="slider-container">
+              <div id="dynamic-videos" class="swiper-container">
+                <div class="swiper-wrapper"></div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+            </div>
+          </div>
         </section>
       </div>
     </main>
