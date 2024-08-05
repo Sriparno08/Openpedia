@@ -35,9 +35,7 @@ body {
 .container {
   min-height: 100vh;
   color: var(--txt);
-  /* background-color: rgb(176, 241, 255); */
-  /* background-image: linear-gradient(89.5deg, rgba(131, 204, 255, 1) 0.4%, rgba(66, 144, 251, 1) 100.3%); */
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(97, 186, 255, 1) 0%, rgba(166, 239, 253, 1) 90.1%);
+  background-color: rgb(176, 241, 255);
 }
 
 header {
