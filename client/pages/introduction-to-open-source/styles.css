@@ -2,15 +2,10 @@
   margin: 2rem 1rem;
   width: auto;
   height: 100%;
-  /* border: 5px solid whitesmoke; */
-  /* text-align: center; */
-  /* background-color: whitesmoke; */
-  /* padding: 5rem; */
   display: flex;
   align-items: center;
   position: relative;
   margin: 3rem;
-  /* justify-content: space-between; */
 }
 
 .head-img{
@@ -21,8 +16,6 @@
 .head-img img{
   min-width: 100%;
   min-height: 100%;
-  /* border: 2px solid black; */
-  /* object-fit: cover; */
 }
 
 section {
@@ -37,27 +30,24 @@ section {
   width: 40%;
   font-weight: 600;
   color: whitesmoke;
-  /* margin: 5rem 0; */
-  /* border-radius: 2rem; */
   text-align: center; /* centering the text */
 }
 
 #heading {
   text-align: center;
-  margin-bottom: 30px;
   color: #000;
+  margin-bottom: 1rem;
 }
 
 /* card slider */
 .swiper-container {
-  position: relative;
-  height: 13rem;
+  padding-top: 2rem;
   width: 100%;
 }
 
 .swiper-container .swiper-button-next,
 .swiper-container .swiper-button-prev {
-  background-image: url('/Openpedia-main/client/assets/arrow.svg') !important;
+  background-image: url('/Openpedia/client/assets/arrow.svg') !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
   background-size: 2rem 2rem !important;
@@ -85,13 +75,13 @@ section {
 
 .swiper-container .swiper-button-next:hover,
 .swiper-container .swiper-button-prev:hover {
-  background-color: rgba(0, 0, 0, 0.386);
+  background-color: rgba(255, 255, 255, 0.386);
 }
 
 .swiper-pagination {
-  position: relative;
-  top: auto;
-  bottom: 0px;
+  color: #181b60;
+  position: absolute;
+  bottom: 0rem;
 }
 
 .swiper-container .swiper-pagination-fraction {
@@ -102,20 +92,33 @@ section {
 .resources-section,
 .videos-section {
   color: #FFFFFF;
-  margin: 4rem 3rem;
-  /* padding: 3rem 2rem; */
   border-radius: 1rem;
+  position: relative;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .slider-container {
-  width: 100%;
-  height: 15rem;
+  height: 20rem;
+  margin: 1rem 5rem 1rem 5rem;
+  padding-bottom: 5rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   overflow: hidden;
   position: relative;
+  width: 70%;
 }
+
+.styled-hr {
+  border: 1px solid black; /* Change color and thickness */
+  width: 60%; /* Full width */
+  margin: 0 0; /* Space above and below */
+}
+
 
 .swiper-container {
   width: 100%;
@@ -149,21 +152,19 @@ section {
 }
 
 .box1 li span{
-  /* text-decoration: none; */
   color: white;
 }
 
 .box1 {
+  position: relative;
   border: 1px solid rgba(255, 245, 245, 0.8);
-  padding: 20px 25px;
-  height: 150px;
+  height: 250px;
   width: 320px;
   text-align: center;
   display: flex; /* Improving the overall look by adding flex and background gradient*/
   flex: 0 1 320px;
   justify-content: center;
   align-items: center;
-  /* background: linear-gradient(135deg, rgb(153, 247, 153), rgb(102, 204, 255)); */
   background-color: rgb(25, 50, 84);
   border-radius: 15px;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
@@ -184,23 +185,37 @@ section {
   font-weight: bold;
   margin-bottom: 9px;
   font-size: 1.1rem;
+  margin: 0rem 2rem;
+  text-align: center;
 }
 
-.source {
-  margin-right: 10px;
+.source-container{
+    display: flex;
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .italic {
-  /* color: whitesmoke; */
   color: whitesmoke;
   font-weight: 400;
+  margin-right: 1rem;
 }
 
 .btn {
-  background-color: rgb(17, 15, 15);
+  background-color: #8B5CF6;
   padding: 10px 20px;
   border: 1px solid black;
   border-radius: 10px;
+  text-align: center;
+  display: flex;
+}
+
+.link-arrow{
+  width: 1rem;
 }
 
 .btn a {

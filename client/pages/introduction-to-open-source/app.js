@@ -87,8 +87,14 @@ document.addEventListener("DOMContentLoaded", function () {
           <ul>
             <li>
               <p class="question">${resource.question}</p>
-              <span class="source"><i class="italic">By ${resource.source} -</i></span>
-              <button class="btn"><a href="${resource.url}" target="_blank">Visit Site<i class="bi bi-box-arrow-up-right"></i></a></button>
+              <div class="source-container">
+                <div>
+                  <span class="source"><i class="italic">By ${resource.source} -</i></span>              
+                </div>
+                <div>
+                  <button class="btn"><a href="${resource.url}" target="_blank">Visit Site<i class="bi bi-box-arrow-up-right"></i></a><img class="link-arrow" src="/Openpedia/client/assets/open-link-arrow.svg" /></button>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
@@ -103,8 +109,14 @@ document.addEventListener("DOMContentLoaded", function () {
           <ul>
             <li>
               <p class="question">${video.question}</p>
-              <span class="source"><i class="italic">By ${video.source} -</i></span>
-              <button class="btn"><a href="${video.url}" target="_blank">View Video<i class="bi bi-box-arrow-up-right"></i></a></button>
+              <div class="source-container">
+                <div>
+                  <span class="source"><i class="italic">By ${video.source} -</i></span>
+                </div>
+                <div>  
+                  <button class="btn"><a href="${video.url}" target="_blank">View Video<i class="bi bi-box-arrow-up-right"></i></a><img class="link-arrow" src="/Openpedia/client/assets/open-link-arrow.svg" /></button>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
@@ -144,7 +156,7 @@ document.addEventListener("DOMContentLoaded", function () {
         spaceBetween: 30,
       },
       1024: {
-        slidesPerView: 4,
+        slidesPerView: 3,
         spaceBetween: 40,
       },
     },
@@ -171,7 +183,7 @@ document.addEventListener("DOMContentLoaded", function () {
         spaceBetween: 30,
       },
       1024: {
-        slidesPerView: 4,
+        slidesPerView: 3,
         spaceBetween: 40,
       },
     },
