@@ -22,7 +22,7 @@ const themeToggle = document.getElementById("themeToggle");
 
 themeToggle.addEventListener("click", () => {
   body.classList.toggle("dark-theme");
-
+  console.log('themeToggle clicked')
   // Toggle Font Awesome icons
 
   const moonIcon = themeToggle.querySelector(".fa-moon");

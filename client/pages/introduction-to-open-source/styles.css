@@ -16,6 +16,20 @@
 .head-img img{
   min-width: 100%;
   min-height: 100%;
+=======
+  /* justify-content: space-between; */
+}
+
+.head-img{
+  width: 100%;
+  height: 100%;
+}
+
+.head-img img{
+  min-width: 100%;
+  min-height: 100%;
+  /* border: 2px solid black; */
+  /* object-fit: cover; */
 }
 
 section {
@@ -118,7 +132,6 @@ section {
   width: 60%; /* Full width */
   margin: 0 0; /* Space above and below */
 }
-
 
 .swiper-container {
   width: 100%;
