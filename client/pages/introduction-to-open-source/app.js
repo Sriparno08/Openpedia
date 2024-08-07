@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
       url: "https://opensource.com/resources/what-open-source",
     },
     {
-      question: "Introduction To Open Source ?",
-      source: "Geeks for geeks",
+      question: "Introduction To Open Source",
+      source: "GeeksforGeeks",
       url: "https://www.geeksforgeeks.org/introduction-to-open-source-and-its-benefits/",
     },
     {
@@ -84,19 +84,15 @@ document.addEventListener("DOMContentLoaded", function () {
     return `
       <div class="swiper-slide">
         <div class="box1">
-          <ul>
-            <li>
-              <p class="question">${resource.question}</p>
-              <div class="source-container">
-                <div>
-                  <span class="source"><i class="italic">By ${resource.source} -</i></span>              
-                </div>
-                <div>
-                  <button class="btn"><a href="${resource.url}" target="_blank">Visit Site<i class="bi bi-box-arrow-up-right"></i></a><img class="link-arrow" src="/Openpedia/client/assets/open-link-arrow.svg" /></button>
-                </div>
-              </div>
-            </li>
-          </ul>
+          <p class="question">${resource.question}</p>
+          <div class="source-container">
+            <div>
+              <span class="source"><p class="italic">By ${resource.source}</p></span>              
+            </div>
+            <div>
+              <button class="btn"><a href="${resource.url}" target="_blank">Visit Site<i class="bi bi-box-arrow-up-right"></i></a><img class="link-arrow" src="/assets/open-link-arrow.svg" /></button>
+            </div>
+          </div>
         </div>
       </div>
     `;
@@ -106,19 +102,15 @@ document.addEventListener("DOMContentLoaded", function () {
     return `
       <div class="swiper-slide">
         <div class="box1">
-          <ul>
-            <li>
-              <p class="question">${video.question}</p>
-              <div class="source-container">
-                <div>
-                  <span class="source"><i class="italic">By ${video.source} -</i></span>
-                </div>
-                <div>  
-                  <button class="btn"><a href="${video.url}" target="_blank">View Video<i class="bi bi-box-arrow-up-right"></i></a><img class="link-arrow" src="/Openpedia/client/assets/open-link-arrow.svg" /></button>
-                </div>
-              </div>
-            </li>
-          </ul>
+          <p class="question">${video.question}</p>
+          <div class="source-container">
+            <div>
+              <span class="source"><p class="italic">By ${video.source}</p></span>
+            </div>
+            <div>  
+              <button class="btn"><a href="${video.url}" target="_blank">View Video<i class="bi bi-box-arrow-up-right"></i></a><img class="link-arrow" src="/assets/open-link-arrow.svg" /></button>
+            </div>
+          </div>
         </div>
       </div>
     `;
@@ -157,7 +149,7 @@ document.addEventListener("DOMContentLoaded", function () {
       },
       1024: {
         slidesPerView: 3,
-        spaceBetween: 40,
+        spaceBetween: 50,
       },
     },
   });
@@ -184,7 +176,7 @@ document.addEventListener("DOMContentLoaded", function () {
       },
       1024: {
         slidesPerView: 3,
-        spaceBetween: 40,
+        spaceBetween: 60,
       },
     },
   });
