@@ -1,80 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Openpedia</title>
-    <link rel="icon" href="../../assets/short-logo.jpg" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    />
-    <link rel="stylesheet" href="../../globals.css" />
-    <link rel="stylesheet" href="styles.css" />
-    <link
-    rel="stylesheet"
-    href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="app.js"></script>
-  </head>
 
-  <body>
-    <main class="container">
-      <div class="container-wrapper">
-        <section class="content-section">
-          <div class="heading">
-            <div class="head-text">
-              <p>
-                Welcome to the exciting and collaborative realm of open source! If
-                you're new to this dynamic community, let's embark on a journey to
-                explore the principles, culture, and endless possibilities that
-                define the world of open source.
-              </p>
-            </div>
-            <div class="head-img">
-              <img src="./Open-Source-Software.jpg" class="image" alt="" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Openpedia</title>
+  <link rel="icon" href="../../assets/short-logo.jpg" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="../../globals.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="app.js"></script>
+</head>
+
+<body>
+  <main class="container">
+    <div class="container-wrapper">
+      <section class="content-section">
+        <div class="heading">
+          <div class="head-text">
+            <p>
+              Welcome to the exciting and collaborative realm of open source! If
+              you're new to this dynamic community, let's embark on a journey to
+              explore the principles, culture, and endless possibilities that
+              define the world of open source.
+            </p>
+          </div>
+          <div class="head-img">
+            <img src="./Open-Source-Software.jpg" class="image" alt="" />
+          </div>
+        </div>
+
+        <div class="resources-section">
+          <h3 id="heading">
+            Here are some priceless resources that will answer these questions
+            in detail:
+          </h3>
+
+          <div class="slider-container">
+            <div id="dynamic-resources" class="swiper-container">
+              <div class="swiper-wrapper"></div>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
             </div>
           </div>
+          <hr class="styled-hr" />
+        </div>
 
-          <div class="resources-section">
-            <h3 id="heading">
-              Here are some priceless resources that will answer these questions
-              in detail:
-            </h3>
+        <div class="videos-section">
+          <h3 id="heading">
+            Here are some priceless Video resources that will answer these
+            questions in detail:
+          </h3>
 
-            <div class="slider-container">
-              <div id="dynamic-resources" class="swiper-container">
-                <div class="swiper-wrapper"></div>
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-              </div>
+          <div class="slider-container">
+            <div id="dynamic-videos" class="swiper-container">
+              <div class="swiper-wrapper"></div>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
             </div>
           </div>
+        </div>
+      </section>
+    </div>
+  </main>
 
-          <div class="videos-section">
-            <h3 id="heading">
-              Here are some priceless Video resources that will answer these
-              questions in detail:
-            </h3>
+  <script src="../../components/header.js"></script>
+  <script src="../../components/footer.js"></script>
+  <script src="../../components/backToTop.js"></script>
+  <script src="../../app.js"></script>
+</body>
 
-            <div class="slider-container">
-              <div id="dynamic-videos" class="swiper-container">
-                <div class="swiper-wrapper"></div>
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-    </main>
-
-    <script src="../../components/header.js"></script>
-    <script src="../../components/footer.js"></script>
-    <script src="../../components/backToTop.js"></script>
-    <script src="../../app.js"></script>
-  </body>
 </html>

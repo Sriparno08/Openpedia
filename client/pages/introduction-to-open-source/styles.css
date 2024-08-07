@@ -2,32 +2,37 @@
   margin: 2rem 1rem;
   width: auto;
   height: 100%;
-  /* border: 5px solid whitesmoke; */
-  /* text-align: center; */
-  /* background-color: whitesmoke; */
-  /* padding: 5rem; */
   display: flex;
   align-items: center;
   position: relative;
   margin: 3rem;
-  /* justify-content: space-between; */
 }
 
-.head-img{
+.head-img {
   width: 100%;
   height: 100%;
 }
 
-.head-img img{
+.head-img img {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.head-img {
+  width: 100%;
+  height: 100%;
+}
+
+.head-img img {
   min-width: 100%;
   min-height: 100%;
   /* border: 2px solid black; */
   /* object-fit: cover; */
-=======
 }
 
 section {
-  padding: 0 0 3rem; /* removing the whitespace below resources (additional padding) */
+  padding: 0 0 3rem;
+  /* removing the whitespace below resources (additional padding) */
 }
 
 .head-text {
@@ -38,27 +43,25 @@ section {
   width: 40%;
   font-weight: 600;
   color: whitesmoke;
-  /* margin: 5rem 0; */
-  /* border-radius: 2rem; */
-  text-align: center; /* centering the text */
+  text-align: center;
+  /* centering the text */
 }
 
 #heading {
   text-align: center;
-  margin-bottom: 30px;
   color: #000;
+  margin-bottom: 1rem;
 }
 
 /* card slider */
 .swiper-container {
-  position: relative;
-  height: 13rem;
+  padding-top: 2rem;
   width: 100%;
 }
 
 .swiper-container .swiper-button-next,
 .swiper-container .swiper-button-prev {
-  background-image: url('/Openpedia-main/client/assets/arrow.svg') !important;
+  background-image: url('/assets/arrow.svg') !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
   background-size: 2rem 2rem !important;
@@ -68,15 +71,16 @@ section {
   top: auto;
   bottom: 0px;
   transform: none;
+
   &::after {
     content: none !important;
   }
 }
 
 .swiper-container .swiper-button-prev {
-    transform: rotate(180deg);
-    left: auto;
-    right: calc(50% + 40px);
+  transform: rotate(180deg);
+  left: auto;
+  right: calc(50% + 40px);
 }
 
 .swiper-container .swiper-button-next {
@@ -86,13 +90,13 @@ section {
 
 .swiper-container .swiper-button-next:hover,
 .swiper-container .swiper-button-prev:hover {
-  background-color: rgba(0, 0, 0, 0.386);
+  background-color: rgba(255, 255, 255, 0.386);
 }
 
 .swiper-pagination {
-  position: relative;
-  top: auto;
-  bottom: 0px;
+  color: #181b60;
+  position: absolute;
+  bottom: 0rem;
 }
 
 .swiper-container .swiper-pagination-fraction {
@@ -103,19 +107,32 @@ section {
 .resources-section,
 .videos-section {
   color: #FFFFFF;
-  margin: 4rem 3rem;
-  /* padding: 3rem 2rem; */
   border-radius: 1rem;
+  position: relative;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .slider-container {
-  width: 100%;
-  height: 15rem;
+  padding-bottom: 5rem;
   display: flex;
   align-items: center;
-  justify-content: center;
   overflow: hidden;
   position: relative;
+  width: 90%;
+}
+
+.styled-hr {
+  border: 1px solid black;
+  /* Change color and thickness */
+  width: 60%;
+  /* Full width */
+  margin: 0 0;
+  margin-top: 2rem;
+  /* Space above and below */
 }
 
 .swiper-container {
@@ -129,51 +146,39 @@ section {
 }
 
 .card1 {
-  display: flex; /* making the cards flex for better layout */
-  flex-wrap: wrap;
+  display: flex;
   justify-content: center;
-  gap: 2rem;
   margin-bottom: 50px;
 }
+
 /* removing the whitespace below resources */
 .card1:last-child {
   margin-bottom: 80px;
 }
+
 .content-wrapper {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-.box1 li{
+.box1 li {
   list-style-type: none;
 }
 
-.box1 li span{
-  /* text-decoration: none; */
+.box1 li span {
   color: white;
 }
 
 .box1 {
   border: 1px solid rgba(255, 245, 245, 0.8);
-  padding: 20px 25px;
-  height: 150px;
-  width: 320px;
-  text-align: center;
-  display: flex; /* Improving the overall look by adding flex and background gradient*/
-  flex: 0 1 320px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background: linear-gradient(135deg, rgb(153, 247, 153), rgb(102, 204, 255)); */
   background-color: rgb(25, 50, 84);
-  border-radius: 15px;
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.box1:hover {
-  transform: scale(1.1);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* adding a shadow */
+  gap: 2rem;
 }
 
 .card1 .box1 ul li {
@@ -183,25 +188,35 @@ section {
 .question {
   color: whitesmoke;
   font-weight: bold;
-  margin-bottom: 9px;
   font-size: 1.1rem;
+  text-align: center;
 }
 
-.source {
-  margin-right: 10px;
+.source-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .italic {
-  /* color: whitesmoke; */
   color: whitesmoke;
   font-weight: 400;
 }
 
 .btn {
-  background-color: rgb(17, 15, 15);
+  background-color: #8B5CF6;
   padding: 10px 20px;
   border: 1px solid black;
   border-radius: 10px;
+  text-align: center;
+  display: flex;
+}
+
+.link-arrow {
+  width: 1rem;
 }
 
 .btn a {
