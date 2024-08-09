@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
       question: "What Is Open Source?",
       source: "Myra",
       url: "https://www.myrasecurity.com/en/what-is-open-source/",
-    },
+    }
   ];
 
   const videos = [
@@ -77,8 +77,81 @@ document.addEventListener("DOMContentLoaded", function () {
       question: "What Is Open Source Software?",
       source: "Honeypot",
       url: "https://www.youtube.com/watch?v=TEttd0Qkqnc",
-    },
+    }
   ];
+
+  const dynamicResourcesContainer = document.querySelector("#dynamic-resources .swiper-wrapper");
+  const dynamicVideosContainer = document.querySelector("#dynamic-videos .swiper-wrapper");
+
+  const resourcesSwiper = new Swiper("#dynamic-resources", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    freeMode: true,
+    mousewheel: true,
+    navigation: {
+      nextEl: '#dynamic-resources .swiper-button-next',
+      prevEl: '#dynamic-resources .swiper-button-prev',
+    },
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      },
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 50,
+      },
+    },
+    on: {
+      slideChange: function () {
+        updateArrowVisibility(this);
+      },
+    },
+  });
+
+  resources.forEach((resource) => {
+    const slide = createResourceItem(resource);
+    resourcesSwiper.appendSlide(slide);
+  });
+
+  const videosSwiper = new Swiper("#dynamic-videos", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    freeMode: true,
+    mousewheel: true,
+    navigation: {
+      nextEl: '#dynamic-videos .swiper-button-next',
+      prevEl: '#dynamic-videos .swiper-button-prev',
+    },
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      },
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 60,
+      },
+    },
+    on: {
+      slideChange: function () {
+        updateArrowVisibility(this);
+      },
+    },
+  });
+
+  videos.forEach((video) => {
+    const slide = createVideoItem(video);
+    videosSwiper.appendSlide(slide);
+  });
 
   function createResourceItem(resource) {
     return `
@@ -116,68 +189,20 @@ document.addEventListener("DOMContentLoaded", function () {
     `;
   }
 
-  const dynamicResourcesContainer = document.querySelector("#dynamic-resources .swiper-wrapper");
-  const dynamicVideosContainer = document.querySelector("#dynamic-videos .swiper-wrapper");
+  function updateArrowVisibility(swiper) {
+    const prevEl = swiper.navigation.prevEl;
+    const nextEl = swiper.navigation.nextEl;
 
-  resources.forEach((resource) => {
-    dynamicResourcesContainer.innerHTML += createResourceItem(resource);
-  });
+    if (swiper.isBeginning) {
+      prevEl.style.display = 'none';
+    } else {
+      prevEl.style.display = 'flex';
+    }
 
-  videos.forEach((video) => {
-    dynamicVideosContainer.innerHTML += createVideoItem(video);
-  });
-
-  const resourcesSwiper = new Swiper("#dynamic-resources", {
-    slidesPerView: 1,
-    spaceBetween: 10,
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'fraction',
-    },
-    breakpoints: {
-      640: {
-        slidesPerView: 2,
-        spaceBetween: 20,
-      },
-      768: {
-        slidesPerView: 3,
-        spaceBetween: 30,
-      },
-      1024: {
-        slidesPerView: 3,
-        spaceBetween: 50,
-      },
-    },
-  });
-
-  const videosSwiper = new Swiper("#dynamic-videos", {
-    slidesPerView: 1,
-    spaceBetween: 10,
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'fraction',
-    },
-    breakpoints: {
-      640: {
-        slidesPerView: 2,
-        spaceBetween: 20,
-      },
-      768: {
-        slidesPerView: 3,
-        spaceBetween: 30,
-      },
-      1024: {
-        slidesPerView: 3,
-        spaceBetween: 60,
-      },
-    },
-  });
+    if (swiper.isEnd) {
+      nextEl.style.display = 'none';
+    } else {
+      nextEl.style.display = 'flex';
+    }
+  }
 });
