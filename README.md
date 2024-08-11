@@ -53,6 +53,7 @@ This compilation offers some noteworthy resources for learning Git and GitHub, t
 - [GitHub and Git Tutorial for Beginners](https://www.datacamp.com/tutorial/github-and-git-tutorial-for-beginners) by DataCamp
 - [How to Use GitHub](https://www.edureka.co/blog/how-to-use-github/) by Edureka
 - [Intro to GitHub for Version Control](https://ourcodingclub.github.io/tutorials/git/) by Coding Club
+- [GitHub - Get Started](https://docs.github.com/en/get-started/start-your-journey/hello-world) by GitHub
 
 ### ▶️ Videos
 
