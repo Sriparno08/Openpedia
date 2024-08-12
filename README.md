@@ -125,6 +125,10 @@ This collection presents a list of open source programs that allow you to upskil
 - [MLH Fellowship](https://fellowship.mlh.io/)
 - [Outreachy](https://www.outreachy.org/)
 - [Season of KDE](https://season.kde.org/)
+- [XROS Fellowship](https://xrosfellowship.ficci.in/)
+- [Kharagpur Winter Of Code](https://kwoc.kossiitkgp.org/)
+- [NJACK Winter of Code](https://njackwinterofcode.github.io/)
+- [FOSS OverFlow](https://fossoverflow.dev/)
 
 ## 🌐 Tech Stack
 
