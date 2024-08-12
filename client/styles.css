@@ -367,16 +367,16 @@
 }
 
 .dark-theme .category:hover {
-  background-color: white;
+  background-color: rgb(45, 45, 45); /* add subtle change in dark mode instead of white */
   border: 2px solid white;
-  color: black;
+  /* color: black; */
 }
 
-.dark-theme .category:hover .category-link {
+/* .dark-theme .category:hover .category-link {
   background-color: transparent;
   border: 2px solid black;
   color: black;
-}
+} */
 
 .dark-theme .category .category-link:hover {
   background-color: #193254;
