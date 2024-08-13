@@ -435,3 +435,61 @@
   font-size: 17px;
   color: #dee2e6;
 }
+
+@media screen and (max-width: 768px) {
+  .h {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .intro {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    min-height: 90vh;
+    display: inline;
+    z-index: 1;
+    text-align: center;
+
+  }
+
+  .intro-title {
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
+    width: 100%;
+    font-size: 0.5rem;
+  }
+
+  .intro .intro-description{
+    position: absolute;
+    top: 25rem;
+    left: 0;
+    margin: 0rem 1rem;
+    padding: 1rem 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: #b0f1ffa8;
+  }
+
+  .intro .get-started {
+    position: absolute;
+    bottom: 1.2rem;
+    width: 100%;
+    left: 0;
+    display: inline-block;
+    margin-top: 1rem;
+    background-color: #00000073;
+    color: white;
+  }
+
+  .h img {
+    position: absolute;
+    top: 10rem;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: auto;
+  }
+}
