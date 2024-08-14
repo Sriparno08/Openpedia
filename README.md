@@ -96,6 +96,7 @@ This list offers a curated selection of beginner-friendly repos that can get you
 - [Codecademy Docs](https://github.com/Codecademy/docs)
 - [Docusaurus](https://github.com/facebook/docusaurus)
 - [First Contributions](https://github.com/firstcontributions/first-contributions)
+- [flutter](https://github.com/flutter/flutter)
 - [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)
 - [GitHub Docs](https://github.com/github/docs)
 - [KubeArmor](https://github.com/kubearmor/KubeArmor)
