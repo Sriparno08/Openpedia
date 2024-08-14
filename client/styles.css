@@ -546,9 +546,9 @@
   }
 
   .about-description .buttons {
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 0.5rem;
     width: 100%;
   }
@@ -575,6 +575,23 @@
   .about-description p,
   .contribute-description p {
     font-size: 15px;
+    margin-bottom: 3.5rem;
+  }
+
+  .about, .contribute{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+  }
+
+
+  .buttons{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
   }
 
   .star,
