@@ -4,12 +4,13 @@
 }
 
 .heading img {
-  height: 335px;
-  width: 643px;
+  height: auto;
+  width: 100%;
+  max-width: 643px;
 }
 
 section {
-  padding: 0 3rem;
+  padding: 0 1.5rem;
 }
 
 .headh2 {
@@ -18,22 +19,20 @@ section {
 
 .card1 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-row: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 1rem;
 }
 
 .box1 {
   border: 1px solid black;
-  padding: 20px 25px;
-  height: 150px;
-  width: 320px;
+  padding: 20px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgb(32, 43, 85);
   border-radius: 10px;
+  transition: transform 0.2s ease-in-out;
 }
 
 .box1:hover {
@@ -47,6 +46,7 @@ section {
 .question {
   color: white;
   margin-bottom: 9px;
+  font-size: 1rem;
 }
 
 .source {
@@ -70,77 +70,53 @@ i {
 
 .btn a {
   color: white;
+  text-decoration: none;
 }
 
 .bi {
   color: white;
 }
 
-.headh3 {
-  text-align: center;
-  margin-top: 70px;
-  margin-bottom: 10px;
+#dynamic-contribution {
+  padding-bottom: 20px;
 }
 
-.card {
-  background-color: #6c296d;
-  color: white;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
-.card h3 {
-  color: rgb(219, 255, 248);
-  margin-bottom: 1rem;
-}
-
-.card p {
-  font-size: 1.025rem;
-  font-weight: 450;
-}
-
-/* Responsiveness */
-
-@media (min-width: 425px) {
-  .categories .category {
-    width: 80%;
-  }
-}
-
-@media screen and (max-width:450px) {
-  .heading {
-    margin: 0px;
-    position: none;
-  }
-
+@media (max-width: 950px) {
   .heading img {
-    width: 300px;
-    height: 200px;
+    width: 90%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 0 1rem;
   }
 
   .card1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 }
 
-@media screen and (max-width:950px) {
-  .heading {
-    margin: 0px;
-    position: none;
+@media (max-width: 450px) {
+  .card1 {
+    grid-template-columns: 1fr;
   }
 
   .heading img {
-    width: 550px;
-    height: 350px;
+    width: 90%;
+    height: auto;
   }
 
-  .card1 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+  .box1 {
+    padding: 15px;
+  }
+
+  .question {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    padding: 8px 16px;
   }
 }
