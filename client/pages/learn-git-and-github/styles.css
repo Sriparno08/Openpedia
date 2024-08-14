@@ -3,10 +3,15 @@
   text-align: center;
 }
 
+.heading img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
 .card1 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-row: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1rem;
   padding: 20px;
   margin-bottom: 20px;
@@ -16,7 +21,6 @@
   border: 1px solid black;
   padding: 20px 25px;
   height: 150px;
-  width: 320px;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -24,10 +28,11 @@
   background-color: rgb(32, 43, 85);
   border-radius: 10px;
   color: white;
+  transition: transform 0.3s ease-in-out;
 }
 
 .box1:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .card1 .box1 ul li {
@@ -43,32 +48,46 @@
 
 .btn a {
   color: white;
+  text-decoration: none;
 }
 
-/* Responsiveness */
-
-@media screen and (max-width:450px) {
+@media screen and (max-width: 850px) {
   .card1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 
+  .box1 {
+    height: auto;
+    padding: 15px 20px;
+  }
 }
 
-@media screen and (max-width:850px) {
+@media screen and (max-width: 600px) {
   .card1 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
 
+  .box1 {
+    padding: 10px 15px;
+  }
+
+  .btn {
+    padding: 8px 15px;
+  }
 }
 
-@media screen and (max-width:1030px) {
+@media screen and (max-width: 450px) {
   .card1 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.5rem;
   }
 
+  .box1 {
+    padding: 10px;
+    height: auto;
+  }
+
+  .btn {
+    padding: 6px 10px;
+  }
 }
