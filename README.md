@@ -53,6 +53,7 @@ This compilation offers some noteworthy resources for learning Git and GitHub, t
 - [GitHub and Git Tutorial for Beginners](https://www.datacamp.com/tutorial/github-and-git-tutorial-for-beginners) by DataCamp
 - [How to Use GitHub](https://www.edureka.co/blog/how-to-use-github/) by Edureka
 - [Intro to GitHub for Version Control](https://ourcodingclub.github.io/tutorials/git/) by Coding Club
+- [GitHub - Get Started](https://docs.github.com/en/get-started/start-your-journey/hello-world) by GitHub
 
 ### ▶️ Videos
 
@@ -95,6 +96,7 @@ This list offers a curated selection of beginner-friendly repos that can get you
 - [Codecademy Docs](https://github.com/Codecademy/docs)
 - [Docusaurus](https://github.com/facebook/docusaurus)
 - [First Contributions](https://github.com/firstcontributions/first-contributions)
+- [flutter](https://github.com/flutter/flutter)
 - [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)
 - [GitHub Docs](https://github.com/github/docs)
 - [KubeArmor](https://github.com/kubearmor/KubeArmor)
@@ -124,6 +126,10 @@ This collection presents a list of open source programs that allow you to upskil
 - [MLH Fellowship](https://fellowship.mlh.io/)
 - [Outreachy](https://www.outreachy.org/)
 - [Season of KDE](https://season.kde.org/)
+- [XROS Fellowship](https://xrosfellowship.ficci.in/)
+- [Kharagpur Winter Of Code](https://kwoc.kossiitkgp.org/)
+- [NJACK Winter of Code](https://njackwinterofcode.github.io/)
+- [FOSS OverFlow](https://fossoverflow.dev/)
 
 ## 🌐 Tech Stack
 
