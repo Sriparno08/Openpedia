@@ -1,5 +1,17 @@
-#image {
-  margin: 30px 100px;
+.image {
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  max-height: 500px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.imagecontainer {
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .heading {
@@ -51,7 +63,8 @@ p {
 
 @media screen and (max-width:450px) {
   #image {
-    margin: 0px 30px;
+    width: 90%;
+    height: 200px;
   }
 }
 
@@ -63,6 +76,7 @@ p {
 
 @media screen and (max-width:850px) {
   #image {
-    margin: 10px 50px;
+    width: 90%;
+    height: 200px;
   }
 }
