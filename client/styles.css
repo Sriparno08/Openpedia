@@ -440,56 +440,115 @@
   .h {
     flex-direction: column;
     height: 100%;
+    justify-content: flex-start;
   }
 
   .intro {
     position: relative;
-    text-align: center;
     width: 100%;
-    padding: 1rem;
-    min-height: 90vh;
-    display: inline;
-    z-index: 1;
+    padding: 0;
+    height: 90vh;
     text-align: center;
-
   }
 
-  .intro-title {
+  .intro .intro-title {
     position: absolute;
-    top: 1.5rem;
-    left: 0;
-    width: 100%;
-    font-size: 0.5rem;
+    top: 1.4rem;
+    padding: 0 1rem;
+    margin-bottom: 1.2rem;
+    font-size: 1.7rem;
   }
 
-  .intro .intro-description{
+  .intro .intro-description {
     position: absolute;
-    top: 25rem;
-    left: 0;
-    margin: 0rem 1rem;
-    padding: 1rem 1rem;
+    top: 26.2rem;
     font-size: 1.1rem;
-    font-weight: bold;
-    background-color: #b0f1ffa8;
+    padding: 0 1.5rem;
   }
 
   .intro .get-started {
     position: absolute;
-    bottom: 1.2rem;
+    bottom: 1.8rem;
     width: 100%;
-    left: 0;
-    display: inline-block;
-    margin-top: 1rem;
-    background-color: #00000073;
-    color: white;
   }
 
   .h img {
     position: absolute;
-    top: 10rem;
+    top: 10.6rem;
     left: 0;
-    z-index: 0;
-    width: 100%;
     height: auto;
   }
+  .categories-title {
+    font-size: 1.75rem;
+    text-align: center;
+  }
+
+  .category {
+    flex-direction: column;
+    position: relative;
+  }
+
+  .category-image,
+  .category-info {
+    width: 100%;
+  }
+
+  .category-image img {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+  }
+
+  .category-title {
+    position: absolute;
+    font-size: 1.5rem;
+    text-align: center;
+    z-index: 1;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0000005a;
+  }
+
+  .category-info{
+    color: transparent;
+  }
+
+  .category-info p {
+    text-align: center;
+  }
+
+  .category-link {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, -0%);
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .about-items {
+    flex-direction: column;
+  }
+
+  /* .about,
+  .contribute {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .about-title,
+  .contribute-title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .buttons {
+    justify-content: center;
+  } */
 }
