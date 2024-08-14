@@ -3,11 +3,17 @@ section {
 }
 
 .image {
-  width: 800px;
-  height: 500px;
-  margin: 0 200px;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  max-height: 500px;
 }
 
+.imagecontainer {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
 h1 {
   text-align: center;
   font-family: Arial, sans-serif;
@@ -81,23 +87,21 @@ h2 {
 
 @media screen and (max-width:450px) {
   .image {
-    width: 250px;
+    width: 90%;
     height: 200px;
   }
 }
 
 @media (max-width: 768px) {
   .image {
-    width: 200px;
+    width: 90%;
     height: 100px;
-    margin: 0px;
-    overflow-x: hidden;
   }
 }
 
 @media screen and (max-width:850px) {
   .image {
-    width: 500px;
+    width: 90%;
     height: 350px;
   }
 }
