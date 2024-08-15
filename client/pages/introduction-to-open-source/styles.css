@@ -155,13 +155,15 @@ section {
 
 .box1 {
   border: 1px solid rgba(255, 245, 245, 0.8);
-  height: 200px;
+  height: 220px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: rgb(25, 50, 84);
   gap: 2rem;
+  border-radius: 1rem;
+  padding: 1rem;  
 }
 
 .card1 .box1 ul li {
