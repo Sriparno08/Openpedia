@@ -31,7 +31,7 @@ h2 {
   text-align: center;
 }
 
-#dynamic-soc, #dynamic-osc, #dynamic-uosp {
+#dynamic-soc, #static-ose, #dynamic-uosp {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -92,5 +92,10 @@ p {
   #image {
     width: 90%;
     height: 200px;
+  }
+  .card {
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
   }
 }
