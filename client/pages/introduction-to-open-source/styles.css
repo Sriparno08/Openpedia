@@ -50,6 +50,7 @@ section {
 
 .swiper-container .swiper-button-next,
 .swiper-container .swiper-button-prev {
+  color: #000000; /* Default button color for light theme */
   background-image: url('/assets/arrow.svg') !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
@@ -155,13 +156,15 @@ section {
 
 .box1 {
   border: 1px solid rgba(255, 245, 245, 0.8);
-  height: 200px;
+  height: 220px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: rgb(25, 50, 84);
   gap: 2rem;
+  border-radius: 1rem;
+  padding: 1rem;  
 }
 
 .card1 .box1 ul li {
@@ -263,81 +266,45 @@ section {
 @media (max-width: 380px) {
   .heading {
     margin: 0px;
+    margin-bottom: 30vh;
+  }
+
+  .head-img{
+    height: 40vh;
   }
 
   .image {
-    width: 215px;
-    margin-top: 70px;
+    background-color: #181b60;
+    width: 0vw;
+    object-fit:cover;
+    object-position: right;
+  }
+
+  .head-text{
+    font-size: 1.1rem;
+    width: 90%;
+    text-align: center;
+    transform: translate(0%, 100%);
+    color: #000;
   }
 }
 
-@media (min-width: 425px) {
-  .categories .category {
-    width: 80%;
-  }
+body.dark-theme {
+  background-color: #121212;
+  color: #ffffff; /* Change the text color to white */
 }
 
-@media (max-width: 470px) {
-  .head-text {
-    top: 55% !important;
-    left: 3%;
-    font-size: 10px !important;
-  }
-
-  .heading {
-    margin: 0px;
-  }
-
-  .image {
-    width: 300px;
-    margin-top: 140px;
-  }
-
-  .card1 {
-    display: flex;
-    flex-direction: column;
-  }
+body.dark-theme hr {
+  border-color: #ffffff; /* Change the <hr> color to white */
 }
 
-@media (max-width: 600px) {
-  .head-text {
-    top: 48%;
-    left: 3%;
-    font-size: 0.8rem;
-  }
-
-  .heading {
-    margin: 0px;
-  }
-
-  .image {
-    width: 500px;
-    margin-top: 140px;
-  }
+body.dark-theme h3,
+body.dark-theme p,
+body.dark-theme span {
+  color: #ffffff !important;
 }
 
-@media (max-width: 767px) {
-  .head-text {
-    top: 48%;
-    left: 3%;
-    font-size: 0.8rem;
-  }
-
-  .heading {
-    margin: 0px;
-  }
-
-  .image {
-    width: 500px;
-    margin-top: 140px;
-  }
-
-  .card1 {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .content-section {
-    padding: 10px;
-  }
+body.dark-theme .swiper-button-next,
+body.dark-theme .swiper-button-prev {
+  background-color: #ffffff !important;
 }
