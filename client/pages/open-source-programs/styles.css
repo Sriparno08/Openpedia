@@ -91,4 +91,8 @@ p {
     width: 90%;
     height: 200px;
   }
+  .card{
+    height: fit-content;
+    gap: 1rem;
+  }
 }
