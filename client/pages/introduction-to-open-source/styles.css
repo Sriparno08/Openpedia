@@ -263,82 +263,26 @@ section {
 @media (max-width: 380px) {
   .heading {
     margin: 0px;
+    margin-bottom: 30vh;
+  }
+
+  .head-img{
+    height: 40vh;
   }
 
   .image {
-    width: 215px;
-    margin-top: 70px;
-  }
-}
-
-@media (min-width: 425px) {
-  .categories .category {
-    width: 80%;
-  }
-}
-
-@media (max-width: 470px) {
-  .head-text {
-    top: 55% !important;
-    left: 3%;
-    font-size: 10px !important;
+    background-color: #181b60;
+    width: 0vw;
+    object-fit:cover;
+    object-position: right;
   }
 
-  .heading {
-    margin: 0px;
-  }
-
-  .image {
-    width: 300px;
-    margin-top: 140px;
-  }
-
-  .card1 {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 600px) {
-  .head-text {
-    top: 48%;
-    left: 3%;
-    font-size: 0.8rem;
-  }
-
-  .heading {
-    margin: 0px;
-  }
-
-  .image {
-    width: 500px;
-    margin-top: 140px;
-  }
-}
-
-@media (max-width: 767px) {
-  .head-text {
-    top: 48%;
-    left: 3%;
-    font-size: 0.8rem;
-  }
-
-  .heading {
-    margin: 0px;
-  }
-
-  .image {
-    width: 500px;
-    margin-top: 140px;
-  }
-
-  .card1 {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .content-section {
-    padding: 10px;
+  .head-text{
+    font-size: 1.1rem;
+    width: 90%;
+    text-align: center;
+    transform: translate(0%, 100%);
+    color: #000;
   }
 }
 
@@ -351,14 +295,13 @@ body.dark-theme hr {
   border-color: #ffffff; /* Change the <hr> color to white */
 }
 
-/* Example for headings, paragraphs, and other text elements */
 body.dark-theme h3,
 body.dark-theme p,
 body.dark-theme span {
-  color: #ffffff !important; /* Ensure all text is white */
+  color: #ffffff !important;
 }
 
 body.dark-theme .swiper-button-next,
 body.dark-theme .swiper-button-prev {
-  background-color: #ffffff !important; /* Button color for dark theme */
+  background-color: #ffffff !important;
 }
