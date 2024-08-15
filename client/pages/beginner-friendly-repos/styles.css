@@ -86,16 +86,9 @@ h2 {
 /* Responsiveness */
 
 @media screen and (max-width:450px) {
-  .imagecontainer {
-    position: relative;
-    min-width: 90%;
-    min-height: 14rem;
-  }
-
-  .imagecontainer img{
-    width: 100vw;
-    height: fit-content;
-    position: absolute;
+  .image {
+    width: 90%;
+    height: 200px;
   }
 }
 
