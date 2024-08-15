@@ -60,14 +60,6 @@
     height: auto;
     padding: 15px 20px;
   }
-  .heading{
-    height: 50vh;
-  }
-
-  .heading h1{
-    font-size: 1.5rem;
-
-  }
 }
 
 @media screen and (max-width: 600px) {
