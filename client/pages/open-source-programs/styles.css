@@ -9,9 +9,17 @@
 
 .imagecontainer {
   margin: auto;
-  margin-top: 20px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+}
+
+.imagecontainer img {
+  min-width: 80%;
+  min-height: 80%;
+  border-radius: 5px;
 }
 
 .heading {
@@ -78,9 +86,5 @@ p {
   #image {
     width: 90%;
     height: 200px;
-  }
-  .card {
-    flex-direction: column;
-    height: fit-content;
   }
 }
