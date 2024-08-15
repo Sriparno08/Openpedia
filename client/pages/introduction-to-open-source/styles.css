@@ -10,24 +10,12 @@
 
 .head-img {
   width: 100%;
-  height: 100%;
+  height: 90%;
 }
 
 .head-img img {
-  min-width: 100%;
-  min-height: 100%;
-}
-
-.head-img {
   width: 100%;
-  height: 100%;
-}
-
-.head-img img {
-  min-width: 100%;
-  min-height: 100%;
-  /* border: 2px solid black; */
-  /* object-fit: cover; */
+  height: 90%;
 }
 
 section {
@@ -37,9 +25,9 @@ section {
 
 .head-text {
   position: absolute;
-  top: 38%;
+  top: 30%;
   left: 3%;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   width: 40%;
   font-weight: 600;
   color: whitesmoke;
@@ -137,12 +125,6 @@ section {
 
 .swiper-container {
   width: 100%;
-}
-
-@media (max-width: 768px) {
-  .content-section {
-    padding: 10px;
-  }
 }
 
 .card1 {
@@ -266,6 +248,7 @@ section {
 /* Responsiveness */
 
 @media (max-width: 270px) {
+
   .heading {
     margin: 0px;
   }
@@ -294,6 +277,12 @@ section {
 }
 
 @media (max-width: 470px) {
+  .head-text {
+    top: 55% !important;
+    left: 3%;
+    font-size: 10px !important;
+  }
+
   .heading {
     margin: 0px;
   }
@@ -310,6 +299,12 @@ section {
 }
 
 @media (max-width: 600px) {
+  .head-text {
+    top: 48%;
+    left: 3%;
+    font-size: 0.8rem;
+  }
+
   .heading {
     margin: 0px;
   }
@@ -321,6 +316,12 @@ section {
 }
 
 @media (max-width: 767px) {
+  .head-text {
+    top: 48%;
+    left: 3%;
+    font-size: 0.8rem;
+  }
+
   .heading {
     margin: 0px;
   }
@@ -333,5 +334,9 @@ section {
   .card1 {
     display: flex;
     flex-direction: column;
+  }
+
+  .content-section {
+    padding: 10px;
   }
 }
