@@ -31,8 +31,22 @@ h2 {
   text-align: center;
 }
 
+#dynamic-soc, #dynamic-osc, #dynamic-uosp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
 .card {
-  width: 100%;
+  width: 75%;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
   background-color: #1c2b43;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
