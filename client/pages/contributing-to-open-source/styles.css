@@ -108,8 +108,17 @@ i {
     height: auto;
   }
 
+  .headh2{
+    font-size: 1.2rem;
+  }
+
   .box1 {
+    min-height: 10rem;
     padding: 15px;
+  }
+
+  .box1 li{
+    margin: 2px;
   }
 
   .question {
