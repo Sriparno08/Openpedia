@@ -1,15 +1,10 @@
 .heading {
-  height: 90vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  justify-content: center;
-  align-items: center;
+  margin: 2rem 0;
+  text-align: center;
 }
 
 .heading img {
-  width: 70%;
+  max-width: 100%;
   height: auto;
   border-radius: 10px;
 }
@@ -64,6 +59,14 @@
   .box1 {
     height: auto;
     padding: 15px 20px;
+  }
+  .heading{
+    height: 50vh;
+  }
+
+  .heading h1{
+    font-size: 1.5rem;
+
   }
 }
 
