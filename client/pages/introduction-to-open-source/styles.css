@@ -49,6 +49,7 @@ section {
 
 .swiper-container .swiper-button-next,
 .swiper-container .swiper-button-prev {
+  color: #000000; /* Default button color for light theme */
   background-image: url('/assets/arrow.svg') !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
@@ -283,4 +284,24 @@ section {
     transform: translate(0%, 100%);
     color: #000;
   }
-} 
+}
+
+body.dark-theme {
+  background-color: #121212;
+  color: #ffffff; /* Change the text color to white */
+}
+
+body.dark-theme hr {
+  border-color: #ffffff; /* Change the <hr> color to white */
+}
+
+body.dark-theme h3,
+body.dark-theme p,
+body.dark-theme span {
+  color: #ffffff !important;
+}
+
+body.dark-theme .swiper-button-next,
+body.dark-theme .swiper-button-prev {
+  background-color: #ffffff !important;
+}
