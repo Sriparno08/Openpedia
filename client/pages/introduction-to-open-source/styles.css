@@ -25,9 +25,10 @@ section {
 
 .head-text {
   position: absolute;
-  top: 30%;
+  top: 50%;
   left: 3%;
-  font-size: 1.2rem;
+  transform: translate(-0%, -50%);
+  font-size: 1.5rem;
   width: 40%;
   font-weight: 600;
   color: whitesmoke;
