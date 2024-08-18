@@ -44,14 +44,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function createGitItem(value) {
     return `
-        <div class="box1">
-          <ul>
-            <li>
-              <p class="question">${value.question}</p>
-              <span class="source"><i class="italic">By ${value.source} -</i></span>
-              <button class="btn"><a href="${value.url}" target="_blank">Visit Site<i class="bi bi-box-arrow-up-right"></i></a></button>
-            </li>
-          </ul>
+        <div class='box1'>
+          <div class='question'>${value.question}</div>
+          <div class='source'><i class="italic">By ${value.source}</i></div>
+          <button class="btn"><a href="${value.url}" target="_blank">Visit Site<i class="bi bi-box-arrow-up-right"></i></a></button>
         </div>
       `;
   }
