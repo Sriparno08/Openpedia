@@ -1,6 +1,17 @@
 .heading {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
   margin: 2rem 0;
-  text-align: center;
+}
+
+.heading img {
+  width: 70%;
+  height: auto;
+  border-radius: 10px;
 }
 
 .card1 {
@@ -26,6 +37,7 @@
   background-color: rgb(32, 43, 85);
   border-radius: 10px;
   color: white;
+  transition: transform 0.3s ease-in-out;
 }
 
 .box1:hover {
@@ -45,35 +57,69 @@
 }
 .btn a {
   color: white;
+  text-decoration: none;
 }
 .btn a:hover{
   color: blue;
 }
 
-/* Responsiveness */
-
-@media screen and (max-width:450px) {
+@media screen and (max-width: 850px) {
   .card1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 
+  .box1 {
+    height: auto;
+    padding: 15px 20px;
+  }
+  .heading{
+    height: 50vh;
+  }
+
+  .heading h1{
+    font-size: 1.5rem;
+
+  }
 }
 
-@media screen and (max-width:850px) {
+@media screen and (max-width: 600px) {
   .card1 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
 
+  .box1 {
+    padding: 10px 15px;
+  }
+
+  .btn {
+    padding: 8px 15px;
+  }
 }
 
-@media screen and (max-width:1030px) {
-  .card1 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+@media screen and (max-width: 450px) {
+
+  .heading{
+    overflow: hidden;
+    margin: 0;
   }
 
+  img{
+    transform: scale(1.3);
+
+  }
+  .card1 {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.5rem;
+    margin: 0;
+  }
+
+  .box1 {
+    padding: 10px;
+    min-height: 10rem;
+    margin: 0.5rem 0rem;
+  }
+
+  .btn {
+    padding: 6px 10px;
+  }
 }

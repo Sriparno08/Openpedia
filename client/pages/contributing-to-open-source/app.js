@@ -78,4 +78,4 @@ document.addEventListener("DOMContentLoaded", function () {
     dynamicContributionContainer.innerHTML += createContributionItem(value);
   });
 
-});  
+});

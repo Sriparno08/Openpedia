@@ -10,24 +10,12 @@
 
 .head-img {
   width: 100%;
-  height: 100%;
+  height: 90%;
 }
 
 .head-img img {
-  min-width: 100%;
-  min-height: 100%;
-}
-
-.head-img {
   width: 100%;
-  height: 100%;
-}
-
-.head-img img {
-  min-width: 100%;
-  min-height: 100%;
-  /* border: 2px solid black; */
-  /* object-fit: cover; */
+  height: 90%;
 }
 
 section {
@@ -37,9 +25,10 @@ section {
 
 .head-text {
   position: absolute;
-  top: 38%;
+  top: 50%;
   left: 3%;
-  font-size: 1.4rem;
+  transform: translate(-0%, -50%);
+  font-size: 1.5rem;
   width: 40%;
   font-weight: 600;
   color: whitesmoke;
@@ -59,13 +48,39 @@ section {
   width: 100%;
 }
 
-.swipe-instruction-text{
-  padding-top: 30px;
-  color: black;
-  text-align: center;
-  font-weight: 600;
-  font-size: 1.5rem;
-  text-decoration: underline;
+.swiper-container .swiper-button-next,
+.swiper-container .swiper-button-prev {
+  color: #000000; /* Default button color for light theme */
+  background-image: url('/assets/arrow.svg') !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: 2rem 2rem !important;
+  width: 2rem !important;
+  height: 2rem !important;
+  position: absolute;
+  top: auto;
+  bottom: 0px;
+  transform: none;
+
+  &::after {
+    content: none !important;
+  }
+}
+
+.swiper-container .swiper-button-prev {
+  transform: rotate(180deg);
+  left: auto;
+  right: calc(50% + 40px);
+}
+
+.swiper-container .swiper-button-next {
+  right: auto;
+  left: calc(50% + 40px);
+}
+
+.swiper-container .swiper-button-next:hover,
+.swiper-container .swiper-button-prev:hover {
+  background-color: rgba(255, 255, 255, 0.386);
 }
 
 .swiper-pagination {
@@ -114,12 +129,6 @@ section {
   width: 100%;
 }
 
-@media (max-width: 768px) {
-  .content-section {
-    padding: 10px;
-  }
-}
-
 .card1 {
   display: flex;
   justify-content: center;
@@ -147,13 +156,15 @@ section {
 
 .box1 {
   border: 1px solid rgba(255, 245, 245, 0.8);
-  height: 200px;
+  height: 220px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: rgb(25, 50, 84);
   gap: 2rem;
+  border-radius: 1rem;
+  padding: 1rem;  
 }
 
 .card1 .box1 ul li {
@@ -241,6 +252,7 @@ section {
 /* Responsiveness */
 
 @media (max-width: 270px) {
+
   .heading {
     margin: 0px;
   }
@@ -254,102 +266,45 @@ section {
 @media (max-width: 380px) {
   .heading {
     margin: 0px;
+    margin-bottom: 30vh;
+  }
+
+  .head-img{
+    height: 40vh;
   }
 
   .image {
-    width: 215px;
-    margin-top: 70px;
+    background-color: #181b60;
+    width: 0vw;
+    object-fit:cover;
+    object-position: right;
+  }
+
+  .head-text{
+    font-size: 1.1rem;
+    width: 90%;
+    text-align: center;
+    transform: translate(0%, 100%);
+    color: #000;
   }
 }
 
-@media (min-width: 425px) {
-  .categories .category {
-    width: 80%;
-  }
+body.dark-theme {
+  background-color: #121212;
+  color: #ffffff; /* Change the text color to white */
 }
 
-@media (max-width: 470px) {
-  .heading {
-    margin: 0px;
-  }
-
-  .image {
-    width: 300px;
-    margin-top: 140px;
-  }
-
-  .card1 {
-    display: flex;
-    flex-direction: column;
-  }
+body.dark-theme hr {
+  border-color: #ffffff; /* Change the <hr> color to white */
 }
 
-@media (max-width: 600px) {
-  .heading {
-    margin: 0px;
-  }
-
-  .image {
-    width: 500px;
-    margin-top: 140px;
-  }
+body.dark-theme h3,
+body.dark-theme p,
+body.dark-theme span {
+  color: #ffffff !important;
 }
 
-@media (max-width: 767px) {
-  .heading {
-    margin: 0px;
-  }
-
-  .image {
-    width: 500px;
-    margin-top: 140px;
-  }
-
-  .card1 {
-    display: flex;
-    flex-direction: column;
-  }
+body.dark-theme .swiper-button-next,
+body.dark-theme .swiper-button-prev {
+  background-color: #ffffff !important;
 }
-
-.swiper-button-prev,
-.swiper-button-next {
-  position: absolute;
-  top: 50%;
-  width: 3rem;
-  height: 3rem;
-  margin-top: -1.5rem;
-  z-index: 10;
-  cursor: pointer;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 50%;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5rem;
-}
-
-.swiper-button-prev {
-  left: 0;
-  background-image: url('/assets/left-arrow.svg');
-}
-
-.swiper-button-next {
-  right: 0;
-  background-image: url('/assets/right-arrow.svg');
-}
-
-/* Hide arrows by default */
-.swiper-button-prev, .swiper-button-next {
-  display: none;
-}
-
-/* Show arrows when swiper is initialized */
-.swiper-container-initialized .swiper-button-prev,
-.swiper-container-initialized .swiper-button-next {
-  display: flex;
-}
-
