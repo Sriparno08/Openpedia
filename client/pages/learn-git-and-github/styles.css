@@ -16,18 +16,22 @@
 
 .card1 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   padding: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 20px; 
+  justify-items: center;
 }
 
 .box1 {
+  width: 100%;
   border: 1px solid black;
   padding: 20px 25px;
-  height: 150px;
+  width: 320px;
   text-align: center;
   display: flex;
+  flex-direction: column;
+  gap: 10px;
   justify-content: center;
   align-items: center;
   background-color: rgb(32, 43, 85);
@@ -37,7 +41,8 @@
 }
 
 .box1:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
+  transition-duration: 150ms;
 }
 
 .card1 .box1 ul li {
@@ -50,10 +55,12 @@
   border: 1px solid black;
   border-radius: 10px;
 }
-
 .btn a {
   color: white;
   text-decoration: none;
+}
+.btn a:hover{
+  color: blue;
 }
 
 @media screen and (max-width: 850px) {
