@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
       question: "What Is Open Source?",
       source: "Myra",
       url: "https://www.myrasecurity.com/en/what-is-open-source/",
-    }
+    },
   ];
 
   const videos = [
@@ -77,81 +77,8 @@ document.addEventListener("DOMContentLoaded", function () {
       question: "What Is Open Source Software?",
       source: "Honeypot",
       url: "https://www.youtube.com/watch?v=TEttd0Qkqnc",
-    }
+    },
   ];
-
-  const dynamicResourcesContainer = document.querySelector("#dynamic-resources .swiper-wrapper");
-  const dynamicVideosContainer = document.querySelector("#dynamic-videos .swiper-wrapper");
-
-  const resourcesSwiper = new Swiper("#dynamic-resources", {
-    slidesPerView: 1,
-    spaceBetween: 10,
-    freeMode: true,
-    mousewheel: true,
-    navigation: {
-      nextEl: '#dynamic-resources .swiper-button-next',
-      prevEl: '#dynamic-resources .swiper-button-prev',
-    },
-    breakpoints: {
-      640: {
-        slidesPerView: 2,
-        spaceBetween: 20,
-      },
-      768: {
-        slidesPerView: 3,
-        spaceBetween: 30,
-      },
-      1024: {
-        slidesPerView: 3,
-        spaceBetween: 50,
-      },
-    },
-    on: {
-      slideChange: function () {
-        updateArrowVisibility(this);
-      },
-    },
-  });
-
-  resources.forEach((resource) => {
-    const slide = createResourceItem(resource);
-    resourcesSwiper.appendSlide(slide);
-  });
-
-  const videosSwiper = new Swiper("#dynamic-videos", {
-    slidesPerView: 1,
-    spaceBetween: 10,
-    freeMode: true,
-    mousewheel: true,
-    navigation: {
-      nextEl: '#dynamic-videos .swiper-button-next',
-      prevEl: '#dynamic-videos .swiper-button-prev',
-    },
-    breakpoints: {
-      640: {
-        slidesPerView: 2,
-        spaceBetween: 20,
-      },
-      768: {
-        slidesPerView: 3,
-        spaceBetween: 30,
-      },
-      1024: {
-        slidesPerView: 3,
-        spaceBetween: 60,
-      },
-    },
-    on: {
-      slideChange: function () {
-        updateArrowVisibility(this);
-      },
-    },
-  });
-
-  videos.forEach((video) => {
-    const slide = createVideoItem(video);
-    videosSwiper.appendSlide(slide);
-  });
 
   function createResourceItem(resource) {
     return `
@@ -189,20 +116,99 @@ document.addEventListener("DOMContentLoaded", function () {
     `;
   }
 
-  function updateArrowVisibility(swiper) {
-    const prevEl = swiper.navigation.prevEl;
-    const nextEl = swiper.navigation.nextEl;
+  const dynamicResourcesContainer = document.querySelector("#dynamic-resources .swiper-wrapper");
+  const dynamicVideosContainer = document.querySelector("#dynamic-videos .swiper-wrapper");
 
-    if (swiper.isBeginning) {
-      prevEl.style.display = 'none';
-    } else {
-      prevEl.style.display = 'flex';
-    }
+  resources.forEach((resource) => {
+    dynamicResourcesContainer.innerHTML += createResourceItem(resource);
+  });
 
-    if (swiper.isEnd) {
-      nextEl.style.display = 'none';
+  videos.forEach((video) => {
+    dynamicVideosContainer.innerHTML += createVideoItem(video);
+  });
+
+  const resourcesSwiper = new Swiper("#dynamic-resources", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'fraction',
+    },
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      },
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 50,
+      },
+    },
+  });
+
+  const videosSwiper = new Swiper("#dynamic-videos", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'fraction',
+    },
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      },
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 60,
+      },
+    },
+  });
+
+  const body = document.body;
+    const themeToggle = document.getElementById("themeToggle");
+
+    themeToggle.addEventListener("click", () => {
+      body.classList.toggle("dark-theme");
+      console.log('themeToggle clicked')
+      // Toggle Font Awesome icons
+
+      const moonIcon = themeToggle.querySelector(".fa-moon");
+      const sunIcon = themeToggle.querySelector(".fa-sun");
+
+      if (body.classList.contains("dark-theme")) {
+        moonIcon.style.display = "inline";
+        sunIcon.style.display = "none";
+        localStorage.setItem("theme", "dark");
+      } else {
+        moonIcon.style.display = "none";
+        sunIcon.style.display = "inline";
+        localStorage.setItem("theme", "light");
+      }
+
+    });
+
+    const savedTheme = localStorage.getItem("theme");
+
+    if (savedTheme === "dark") {
+      body.classList.add("dark-theme");
     } else {
-      nextEl.style.display = 'flex';
+      body.classList.remove("dark-theme");
     }
-  }
 });
