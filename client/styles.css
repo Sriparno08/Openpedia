@@ -178,41 +178,29 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 5rem;
+  gap: 4rem;
 }
 
 .about-items>div {
-  border-radius: 20px;
-  overflow: hidden;
-  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
   width: 50%;
   height: 100%;
-  border: 1px solid;
-  border-top-width: 1px;
-  border-right-width: 1px;
-  border-left-width: 1px;
-  border-bottom-width: 4px;
-  border-color: #193254;
-}
-
-.about-items>div:hover {
-  border-color: #405D72;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border: 2px solid black;
 }
 
 .about {
   display: flex;
   flex-direction: column;
-  padding: 2rem;
+  padding: 1.7rem 2rem 2rem;
   background-color: white;
-  gap: 8px;
+  gap: 1rem;
 }
 
 .about .about-title {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 20px;
   text-align: center;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
 }
 
 .about .about-description {
@@ -225,9 +213,10 @@
 }
 
 .about-description p {
-  margin-bottom: 1.7rem;
+  height: 8.5rem;
   font-size: 17px;
   color: #405D72;
+  text-align: justify;
 }
 
 .about-description .buttons {
@@ -276,17 +265,17 @@
 
 .about-items .contribute {
   display: flex;
-  padding: 2rem;
-  gap: 8px;
   flex-direction: column;
+  padding: 1.7rem 2rem 2rem;
   background-color: white;
+  gap: 1rem;
 }
 
 .contribute .contribute-title {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 20px;
   text-align: center;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
 }
 
 .contribute .contribute-description {
@@ -299,9 +288,10 @@
 }
 
 .contribute-description p {
-  margin-bottom: 1.7rem;
+  height: 8.5rem;
   font-size: 17px;
   color: #405D72;
+  text-align: justify;
 }
 
 .contribute .contribute-link {
@@ -456,7 +446,7 @@
     left: 0;
     height: auto;
   }
-  
+
   .categories-title {
     font-size: 1.75rem;
     text-align: center;
@@ -512,8 +502,8 @@
   .category-link {
     text-align: center;
   }
-  
-  .about{
+
+  .about {
     height: auto;
   }
 
@@ -578,7 +568,8 @@
     margin-bottom: 3.5rem;
   }
 
-  .about, .contribute{
+  .about,
+  .contribute {
     position: relative;
     display: flex;
     align-items: center;
@@ -587,7 +578,7 @@
   }
 
 
-  .buttons{
+  .buttons {
     position: absolute;
     left: 50%;
     bottom: 0;

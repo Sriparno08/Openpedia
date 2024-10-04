@@ -9,7 +9,7 @@ footer.innerHTML = `<div class="contain">
                         <div class="col">
                           <h3>Categories</h3>
                           <p><a href="/pages/introduction-to-open-source/index.html" class="footer-links">Introduction to Open Source</a></p>
-                          <p><a href="/pages/learn-git-and-github/index.html" class="footer-links">Learn Git & GitHub</a></p>
+                          <p><a href="/pages/learn-git-and-github/index.html" class="footer-links">Learn Git and GitHub</a></p>
                           <p><a href="/pages/contributing-to-open-source/index.html" class="footer-links">Contributing to Open Source</a></p>
                           <p><a href="/pages/beginner-friendly-repos/index.html" class="footer-links">Beginner-Friendly Repos</a></p>
                           <p><a href="/pages/open-source-programs/index.html" class="footer-links">Open Source Programs</a></p>
