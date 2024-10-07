@@ -30,6 +30,7 @@ This section includes some priceless resources that explain everything that you 
 - [What Is Open Source?](https://opensource.com/resources/what-open-source) by Opensource
 - [What Is Open Source?](https://www.myrasecurity.com/en/what-is-open-source/) by Myra
 - [What Is Open Source?](https://www.redhat.com/en/topics/open-source/what-is-open-source) by Red Hat
+- [What Is Open Source Software and How Does It Work?](https://www.blackduck.com/glossary/what-is-open-source-software.html) by Black Duck
 
 ### ▶️ Videos
 
