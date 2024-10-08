@@ -4,26 +4,6 @@
 
 Openpedia provides a wealth of useful resources that enable you to become a seasoned open source contributor. If you want to leave your mark in the world of open source, this project is a great fit for you.
 
-## An Introduction to Open Source Software
-## What is Open Source Software?
-Open-source software is software that generally allows a user to use it free of charge for any purpose, to access the source code of the software, to study and modify the source code, to distribute copies of the software to others and to redistribute modified versions of the software (derivative works) to others.  A popular example of open source software is Linux, which is an operating system that manages a system’s hardware, applications and resources.
-
-Open-source software is a development methodology that encourages open collaboration between different software developers through the source code and documentation being made freely available to the public. This can be contrasted with traditional proprietary software licenses (also known as ‘closed source’) which grant access only to machine-readable object code for a license fee and subject to other restrictive licensing terms.
-
-Today open-source software is widely used thanks to its availability via the internet through websites such as https://sourceforge.net/ and https://bitbucket.org/product/ and https://github.com/. As well its increase in use has been encouraged by the move to software as a service (Saas), the increased use of smartphones and tablets and the internet of things (connecting devices and their sensors with software). In all of these applications open source software is widely used, for example, the Android smartphone’s operating system is based on Linux.
-## Why is Open Source Software popular?
-
-Well, it’s not just about cost. While open-source software can be obtained without payment of a licensing fee you will still need to pay someone for support and maintenance and further development of the software. Instead, the big advantages are:
-
-**1.Fast software development cycles**: open source software has rapid development cycles. For example, multiple updates of Linux are published each year.<br>
-**2.Decentralization**: you are not reliant on one organization to supply, support and maintain your software. Such reliance creates business risk if the organization goes out of business or decides to stop supporting the software you use. By contrast in open source software there are multiple developers and companies who supply, maintain, support and develop it.<br>
-**3.It is easy to customize**: open source software is easily updated or customized to meet a user’s individual needs.<br>
-**4.Open availability**: open source software is available and can be used by almost everyone. As well open-source software communities can be easily joined provided you can contribute in some way such as writing software code. This provides a support network for your use or development of open-source software.
-## How is Open Source Software licensed?
-The actual terms of use of open-source software are defined in a software license. There are many different variants of open source software licenses but these can be categorized in two main buckets. Firstly, permissive licenses that allow a user to freely use, amend, update and combine open-source software with other software. Such type of license does not place restrictions, or at least substantial restrictions, on further use of the updated or customized open-source software. Examples of permissive licences are the Apache and MIT licenses. By contrast, restrictive open-source software licenses, such as ‘Copyleft’ licenses, impose licensing restrictions on the use of it and any updated or customized software derived from it.
-
-
-
 ## 🧾 Table of Contents
 
 - [Introduction to Open Source](#-introduction-to-open-source)
@@ -40,7 +20,7 @@ The actual terms of use of open-source software are defined in a software licens
 This section includes some priceless resources that explain everything that you need to know about open source:
 
 ### 📄 Articles
-
+- [An Introduction to Open Source Software](https://www.loganpartners.com/an-introduction-to-open-source-software/) by Logan & Partners
 - [An Introduction to Open Source Software](https://www.htmlgoodies.com/guides/an-introduction-to-open-source-software/) by HTML Goodies
 - [Introduction to Open Source and Its Benefits](https://www.geeksforgeeks.org/introduction-to-open-source-and-its-benefits/) by GeeksforGeeks
 - [What Is Open Source and How Does It Work?](https://www.techtarget.com/whatis/definition/open-source) by TechTarget
