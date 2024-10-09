@@ -20,7 +20,7 @@ Openpedia provides a wealth of useful resources that enable you to become a seas
 This section includes some priceless resources that explain everything that you need to know about open source:
 
 ### 📄 Articles
-
+- [An Introduction to Open Source Software](https://www.loganpartners.com/an-introduction-to-open-source-software/) by Logan & Partners
 - [An Introduction to Open Source Software](https://www.htmlgoodies.com/guides/an-introduction-to-open-source-software/) by HTML Goodies
 - [Introduction to Open Source and Its Benefits](https://www.geeksforgeeks.org/introduction-to-open-source-and-its-benefits/) by GeeksforGeeks
 - [What Is Open Source and How Does It Work?](https://www.techtarget.com/whatis/definition/open-source) by TechTarget
