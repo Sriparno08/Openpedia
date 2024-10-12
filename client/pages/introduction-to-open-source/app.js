@@ -116,8 +116,12 @@ document.addEventListener("DOMContentLoaded", function () {
     `;
   }
 
-  const dynamicResourcesContainer = document.querySelector("#dynamic-resources .swiper-wrapper");
-  const dynamicVideosContainer = document.querySelector("#dynamic-videos .swiper-wrapper");
+  const dynamicResourcesContainer = document.querySelector(
+    "#dynamic-resources .swiper-wrapper"
+  );
+  const dynamicVideosContainer = document.querySelector(
+    "#dynamic-videos .swiper-wrapper"
+  );
 
   resources.forEach((resource) => {
     dynamicResourcesContainer.innerHTML += createResourceItem(resource);
@@ -135,8 +139,8 @@ document.addEventListener("DOMContentLoaded", function () {
       prevEl: ".swiper-button-prev",
     },
     pagination: {
-      el: '.swiper-pagination',
-      type: 'fraction',
+      el: ".swiper-pagination",
+      type: "fraction",
     },
     breakpoints: {
       640: {
@@ -162,8 +166,8 @@ document.addEventListener("DOMContentLoaded", function () {
       prevEl: ".swiper-button-prev",
     },
     pagination: {
-      el: '.swiper-pagination',
-      type: 'fraction',
+      el: ".swiper-pagination",
+      type: "fraction",
     },
     breakpoints: {
       640: {
@@ -182,33 +186,32 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   const body = document.body;
-    const themeToggle = document.getElementById("themeToggle");
+  const themeToggle = document.getElementById("themeToggle");
 
-    themeToggle.addEventListener("click", () => {
-      body.classList.toggle("dark-theme");
-      console.log('themeToggle clicked')
-      // Toggle Font Awesome icons
+  themeToggle.addEventListener("click", () => {
+    body.classList.toggle("dark-theme");
+    console.log("themeToggle clicked");
+    // Toggle Font Awesome icons
 
-      const moonIcon = themeToggle.querySelector(".fa-moon");
-      const sunIcon = themeToggle.querySelector(".fa-sun");
+    const moonIcon = themeToggle.querySelector(".moon");
+    const sunIcon = themeToggle.querySelector(".sun");
 
-      if (body.classList.contains("dark-theme")) {
-        moonIcon.style.display = "inline";
-        sunIcon.style.display = "none";
-        localStorage.setItem("theme", "dark");
-      } else {
-        moonIcon.style.display = "none";
-        sunIcon.style.display = "inline";
-        localStorage.setItem("theme", "light");
-      }
-
-    });
-
-    const savedTheme = localStorage.getItem("theme");
-
-    if (savedTheme === "dark") {
-      body.classList.add("dark-theme");
+    if (body.classList.contains("dark-theme")) {
+      moonIcon.style.display = "inline";
+      sunIcon.style.display = "none";
+      localStorage.setItem("theme", "dark");
     } else {
-      body.classList.remove("dark-theme");
+      moonIcon.style.display = "none";
+      sunIcon.style.display = "inline";
+      localStorage.setItem("theme", "light");
     }
+  });
+
+  const savedTheme = localStorage.getItem("theme");
+
+  if (savedTheme === "dark") {
+    body.classList.add("dark-theme");
+  } else {
+    body.classList.remove("dark-theme");
+  }
 });
