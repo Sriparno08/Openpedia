@@ -3,62 +3,64 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       question: "How to Contribute to the Open source?",
       source: "By Github",
-      url: "https://opensource.guide/how-to-contribute/"
+      url: "https://opensource.guide/how-to-contribute/",
     },
     {
       question: "How to Contribute to Open Source Projects?",
       source: "A Beginner's Guide by freeCodeCamp",
-      url: "https://opensource.guide/how-to-contribute/"
+      url: "https://opensource.guide/how-to-contribute/",
     },
     {
       question: "Getting Started With Contributing to Open Source",
       source: "By Stack Overflow",
-      url: "https://stackoverflow.blog/2020/08/03/getting-started-with-contributing-to-open-source/"
+      url: "https://stackoverflow.blog/2020/08/03/getting-started-with-contributing-to-open-source/",
     },
     {
       question: "How to Get Started With Open Source?",
       source: "By HackerEarth",
-      url: "https://www.hackerearth.com/getstarted-opensource/"
+      url: "https://www.hackerearth.com/getstarted-opensource/",
     },
     {
       question: "How to Contribute to Open Source Projects?",
       source: "By RubyGarage",
-      url: "https://rubygarage.org/blog/how-contribute-to-open-source-projects"
+      url: "https://rubygarage.org/blog/how-contribute-to-open-source-projects",
     },
     {
       question: "Beginners Guide to Contributing to Open Source Projects",
       source: "By ActiveState",
-      url: "https://www.activestate.com/blog/beginners-guide-to-contributing-to-open-source-projects"
+      url: "https://www.activestate.com/blog/beginners-guide-to-contributing-to-open-source-projects",
     },
     {
-      question: "14 Ways to Contribute to Open Source Without Being a Programming Genius or a Rock Star",
+      question:
+        "14 Ways to Contribute to Open Source Without Being a Programming Genius or a Rock Star",
       source: "By SmartBear",
-      url: "https://smartbear.com/blog/14-ways-to-contribute-to-open-source-without-being/"
+      url: "https://smartbear.com/blog/14-ways-to-contribute-to-open-source-without-being/",
     },
     {
       question: "8 Non-Code Ways to Contribute to Open Source",
       source: "By Opensource",
-      url: "https://opensource.com/life/16/1/8-ways-contribute-open-source-without-writing-code"
+      url: "https://opensource.com/life/16/1/8-ways-contribute-open-source-without-writing-code",
     },
     {
       question: "Contributing to Open Source: Getting Started",
       source: "By GeeksforGeeks",
-      url: "https://www.geeksforgeeks.org/contributing-to-open-source-getting-started/"
+      url: "https://www.geeksforgeeks.org/contributing-to-open-source-getting-started/",
     },
     {
       question: "How to Start Contributing to Open Source Software?",
       source: "By Towards Data Science",
-      url: "https://towardsdatascience.com/how-to-start-contributing-to-open-source-software-9651ca4cedd4"
+      url: "https://towardsdatascience.com/how-to-start-contributing-to-open-source-software-9651ca4cedd4",
     },
     {
-      question: "Get Involved in Open Source and Commit Code to Your First Project",
+      question:
+        "Get Involved in Open Source and Commit Code to Your First Project",
       source: "By First Timers Only",
-      url: "https://www.firsttimersonly.com/"
+      url: "https://www.firsttimersonly.com/",
     },
     {
       question: "Why and How to Contribute to Open Source Projects?",
       source: "By Testsigma",
-      url: "https://testsigma.com/blog/why-how-to-contribute-to-open-source-projects/"
+      url: "https://testsigma.com/blog/why-how-to-contribute-to-open-source-projects/",
     },
   ];
 
@@ -72,9 +74,11 @@ document.addEventListener("DOMContentLoaded", function () {
       `;
   }
 
-  const dynamicContributionContainer = document.getElementById("dynamic-contribution");
+  const dynamicContributionContainer = document.getElementById(
+    "dynamic-contribution"
+  );
 
-  contribution.forEach(value => {
+  contribution.forEach((value) => {
     dynamicContributionContainer.innerHTML += createContributionItem(value);
   });
 
@@ -83,11 +87,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
   themeToggle.addEventListener("click", () => {
     body.classList.toggle("dark-theme");
-    console.log('themeToggle clicked')
+    console.log("themeToggle clicked");
     // Toggle Font Awesome icons
 
-    const moonIcon = themeToggle.querySelector(".fa-moon");
-    const sunIcon = themeToggle.querySelector(".fa-sun");
+    const moonIcon = themeToggle.querySelector(".moon");
+    const sunIcon = themeToggle.querySelector(".sun");
 
     if (body.classList.contains("dark-theme")) {
       moonIcon.style.display = "inline";
@@ -98,7 +102,6 @@ document.addEventListener("DOMContentLoaded", function () {
       sunIcon.style.display = "inline";
       localStorage.setItem("theme", "light");
     }
-
   });
 
   const savedTheme = localStorage.getItem("theme");
@@ -108,5 +111,4 @@ document.addEventListener("DOMContentLoaded", function () {
   } else {
     body.classList.remove("dark-theme");
   }
-
 });
