@@ -289,6 +289,8 @@ section {
   }
 }
 
+/* Dark Mode */
+
 body.dark-theme {
   background-color: #121212;
   color: #ffffff; /* Change the text color to white */
@@ -304,7 +306,22 @@ body.dark-theme span {
   color: #ffffff !important;
 }
 
-body.dark-theme .swiper-button-next,
-body.dark-theme .swiper-button-prev {
-  background-color: #ffffff !important;
+body.dark-theme .swiper-container .swiper-button-next,
+body.dark-theme .swiper-container .swiper-button-prev {
+  filter: invert(1);
+}
+
+body.dark-theme .swiper-container .swiper-button-next:hover,
+body.dark-theme .swiper-container .swiper-button-prev:hover {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  filter: invert(1);
+}
+
+body.dark-theme .swiper-pagination {
+  color: #ffffff !important;
+}
+
+body.dark-theme .swiper-container .swiper-pagination-fraction {
+  color: #ffffff !important;
+  font-size: 1rem;
 }
