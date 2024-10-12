@@ -22,12 +22,11 @@ footer.innerHTML = `<div class="contain">
                           <p><a href="/pages/frequently-asked-questions/index.html" class="footer-links">Frequently Asked Questions</a>
                           </p>
                         </div>
+                      </div>
 
-                        <div class="col">
-                          <h3>Social Links</h3>
-                          <p><a href="https://www.linkedin.com/in/sriparnoroy/" class="footer-links">LinkedIn</a></p>
-                          <p><a href="https://github.com/Sriparno08" class="footer-links">GitHub</a></p>
-                        </div>
+                      <div class="row icons">
+                        <a href="https://www.linkedin.com/in/sriparnoroy/" target="blank" class="fa-brands fa-linkedin"></a>
+                        <a href="https://github.com/Sriparno08/Openpedia" target="blank" class="fa-brands fa-github"></a>
                       </div>
 
                       <div class="end">
