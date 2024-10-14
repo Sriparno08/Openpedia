@@ -34,6 +34,7 @@ This section includes some priceless resources that explain everything that you 
 - [Open-Source Software: An Introduction](https://www.openaccessgovernment.org/open-source-software-an-introduction/140466/) by Open Access Government
 - [Introduction to Open Source Software](https://cratecode.com/info/open-source-introduction) by Cratecode
 - [Open Source Software ](https://www.toppr.com/guides/computer-science/computer-fundamentals/open-source-concepts/open-source-software/) by Toppr
+-[What is Open Source Software?](https://www.youngwonks.com/blog/What-is-Open-Source-Software) by YoungWonks
 
 ### ▶️ Videos
 
