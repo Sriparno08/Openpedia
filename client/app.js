@@ -50,7 +50,7 @@ darkTheme();
 // Show the Rate Us box after 30 seconds
 setTimeout(function () {
   document.getElementById('rateUsOverlay').classList.add('active');
-}, 3000);
+}, 30000);
 
 // Close the Rate Us box
 document.getElementById('closeButton').addEventListener('click', function () {
