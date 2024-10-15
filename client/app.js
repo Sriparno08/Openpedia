@@ -47,25 +47,52 @@ if (savedTheme === "dark") {
 darkTheme();
 
 
+// Show the Rate Us box after 30 seconds
 setTimeout(function () {
-  document.getElementById('rate-us-modal').style.display = 'flex';
-}, 30000);
-document.querySelector('.close-rate-us').addEventListener('click', function () {
-  document.getElementById('rate-us-modal').style.display = 'none';
+  document.getElementById('rateUsOverlay').classList.add('active');
+}, 3000);
+
+// Close the Rate Us box
+document.getElementById('closeButton').addEventListener('click', function () {
+  document.getElementById('rateUsOverlay').classList.remove('active');
 });
 
+// Star hover and selection behavior
 const stars = document.querySelectorAll('.star');
+let selectedRating = 0;
+
 stars.forEach(star => {
+  star.addEventListener('mouseover', function () {
+      const value = this.getAttribute('data-value');
+      highlightStars(value);
+  });
+
+  star.addEventListener('mouseout', function () {
+      highlightStars(selectedRating); // Show the selected rating on mouseout
+  });
+
   star.addEventListener('click', function () {
-    const rating = this.getAttribute('data-value');
-    
-    stars.forEach((s, index) => {
-      s.classList.toggle('filled', index < rating);
-    });
+      selectedRating = this.getAttribute('data-value');
+      highlightStars(selectedRating);
   });
 });
 
-document.querySelector('.submit-rating').addEventListener('click', function () {
-  alert('Thank you for your rating!');
-  document.getElementById('rate-us-modal').style.display = 'none';
+function highlightStars(value) {
+  stars.forEach(star => {
+      if (star.getAttribute('data-value') <= value) {
+          star.classList.add('hovered');
+      } else {
+          star.classList.remove('hovered');
+      }
+  });
+}
+
+document.getElementById('submitButton').addEventListener('click', function () {
+  if (selectedRating > 0) {
+      alert(`You rated ${selectedRating} stars. Thank You for your valuable feedback!`); // Optional alert for demo purposes
+      document.getElementById('rateUsOverlay').classList.remove('active'); // Hide the rating box
+  } else {
+      alert('Please select a rating before submitting!'); // Alert if no rating is selected
+  }
 });
+

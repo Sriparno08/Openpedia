@@ -13,21 +13,21 @@
 
 <body>
   <main class="container">
-    <div id="rate-us-modal" class="rate-us-modal">
-      <div class="rate-us-content">
-        <button class="close-rate-us">&times;</button>
-        <h2>Rate Us!</h2>
-        <p>How would you rate your experience?</p>
-        <div class="stars">
-          <span class="star" data-value="1">&#9733;</span>
-          <span class="star" data-value="2">&#9733;</span>
-          <span class="star" data-value="3">&#9733;</span>
-          <span class="star" data-value="4">&#9733;</span>
-          <span class="star" data-value="5">&#9733;</span>
-        </div>
-        <button class="submit-rating">Submit Rating</button>
+    <div class="rate-us-overlay" id="rateUsOverlay">
+      <div class="rate-us-box">
+          <button class="close-button" id="closeButton">&times;</button>
+          <h2>Rate Us!</h2>
+          <p>How would you rate your experience?</p>
+          <div class="stars" id="starContainer">
+              <span class="star" data-value="1">&#9733;</span>
+              <span class="star" data-value="2">&#9733;</span>
+              <span class="star" data-value="3">&#9733;</span>
+              <span class="star" data-value="4">&#9733;</span>
+              <span class="star" data-value="5">&#9733;</span>
+          </div>
+          <button class="submit-button" id="submitButton">Submit Rating</button>
       </div>
-    </div>
+  </div>  
     <div class="h">
       <div class="intro">
         <p class="intro-title">The Open Source Guide</p>
