@@ -9,12 +9,15 @@
   max-width: 643px;
 }
 
+
 section {
-  padding: 0 1.5rem;
+  padding: 0 0 20px;
+  height: 100%;
 }
 
 .headh2 {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .card1 {
@@ -22,14 +25,12 @@ section {
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   padding: 20px;
-  margin-bottom: 20px; 
   justify-items: center;
 }
 
 .box1 {
   border: 1px solid black;
   padding: 20px 25px;
-  /* height: 150px; */
   width: 320px;
   text-align: center;
   display: flex;
