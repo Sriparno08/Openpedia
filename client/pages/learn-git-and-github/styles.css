@@ -18,14 +18,13 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
-  padding: 20px;
-  margin-bottom: 20px; 
+  padding: 20px 20px 40px;
   justify-items: center;
 }
 
 .box1 {
-  width: 100%;
   border: 1px solid black;
+  border-radius: 10px;
   padding: 20px 25px;
   width: 320px;
   text-align: center;
@@ -35,7 +34,6 @@
   justify-content: center;
   align-items: center;
   background-color: rgb(32, 43, 85);
-  border-radius: 10px;
   color: white;
   transition: transform 0.3s ease-in-out;
 }
@@ -116,7 +114,7 @@
   .box1 {
     padding: 10px;
     min-height: 10rem;
-    margin: 0.5rem 0rem;
+    margin: 0.5rem 0;
   }
 
   .btn {

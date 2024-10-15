@@ -27,7 +27,7 @@ h2 {
   color: #9d12a3;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  margin-bottom: 20px;
+  margin: 20px;
 }
 .dark-theme h2{
   color: #aee31f ;
@@ -41,25 +41,53 @@ h2 {
 }
 
 .card {
-  background-color: rgb(137, 196, 255);
+  background-color: rgb(32, 43, 85);
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   margin-bottom: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.dark-theme-card{
-  background-color: rgb(25, 50, 84);
-  color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  flex-grow: 1;
   margin-bottom: 20px;
 }
-.dark-theme-card a{
-  color: #ffffff;
+
+.button-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: auto;
 }
-.dark-theme-card a:hover{
-  color: #aee31f ;
+
+.btn {
+  background-color: #8B5CF6;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+}
+
+.link-arrow {
+  width: 1rem;
+}
+
+.btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.bi {
+  color: white;
 }
 
 #arrow {
