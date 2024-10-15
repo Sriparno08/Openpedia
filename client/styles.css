@@ -595,3 +595,74 @@
     height: 3rem;
   }
 }
+
+/* The modal itself, initially hidden */
+#rate-us-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none; /* Hidden initially */
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6); /* Dark background overlay */
+  z-index: 1000;
+}
+
+/* The rating box in the center */
+.rate-us-content {
+  background-color: #005f99; /* Blue shade */
+  color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  width: 300px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Close button */
+.close-rate-us {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.star {
+  font-size: 30px;
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.star:hover,
+.star.filled {
+  color: #ffdd57; /* Yellow for filled stars */
+}
+
+.submit-rating {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-rating:hover {
+  background-color: #0056b3;
+}
+

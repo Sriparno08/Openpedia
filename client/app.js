@@ -45,3 +45,27 @@ if (savedTheme === "dark") {
   body.classList.remove("dark-theme");
 }
 darkTheme();
+
+
+setTimeout(function () {
+  document.getElementById('rate-us-modal').style.display = 'flex';
+}, 30000);
+document.querySelector('.close-rate-us').addEventListener('click', function () {
+  document.getElementById('rate-us-modal').style.display = 'none';
+});
+
+const stars = document.querySelectorAll('.star');
+stars.forEach(star => {
+  star.addEventListener('click', function () {
+    const rating = this.getAttribute('data-value');
+    
+    stars.forEach((s, index) => {
+      s.classList.toggle('filled', index < rating);
+    });
+  });
+});
+
+document.querySelector('.submit-rating').addEventListener('click', function () {
+  alert('Thank you for your rating!');
+  document.getElementById('rate-us-modal').style.display = 'none';
+});
