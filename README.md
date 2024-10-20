@@ -20,6 +20,7 @@ Openpedia provides a wealth of useful resources that enable you to become a seas
 This section includes some priceless resources that explain everything that you need to know about open source:
 
 ### 📄 Articles
+
 - [An Introduction to Open Source Software](https://www.loganpartners.com/an-introduction-to-open-source-software/) by Logan & Partners
 - [An Introduction to Open Source Software](https://www.htmlgoodies.com/guides/an-introduction-to-open-source-software/) by HTML Goodies
 - [Introduction to Open Source and Its Benefits](https://www.geeksforgeeks.org/introduction-to-open-source-and-its-benefits/) by GeeksforGeeks
@@ -121,6 +122,7 @@ This list offers a curated selection of beginner-friendly repos that can get you
 This collection presents a list of open source programs that allow you to upskill and get rewarded for contributing to open source projects:
 
 - [24 Pull Requests](https://24pullrequests.com/)
+- [CODEPEAK](https://www.codepeak.tech/)
 - [FOSSASIA Codeheat](https://codeheat.org/)
 - [GiriScript Summer of Code](https://gssoc.girlscript.tech/)
 - [Google Season of Docs](https://developers.google.com/season-of-docs)
@@ -135,7 +137,6 @@ This collection presents a list of open source programs that allow you to upskil
 - [Season of KDE](https://season.kde.org/)
 - [XROS Fellowship](https://xrosfellowship.ficci.in/)
 - [Kharagpur Winter Of Code](https://kwoc.kossiitkgp.org/)
-- [NJACK Winter of Code](https://njackwinterofcode.github.io/)
 - [FOSS OverFlow](https://fossoverflow.dev/)
 
 ## 🌐 Tech Stack
