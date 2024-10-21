@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
               <span class="source"><p class="italic">By ${gits.source}</p></span>              
             </div>
             <div>
-              <button class="btn"><a href="${gits.url}" target="_blank">Visit Site<i class="bi bi-box-arrow-up-right"></i></a></button>
+              <button class="btn"><a href="${gits.url}" target="_blank">Visit Site<i class="bi bi-box-arrow-up-right"></i><img class="link-arrow" src="/assets/open-link-arrow.svg" /></a></button>
             </div>
           </div>
         </div>
@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
         spaceBetween: 10,
       },
       768: {
-        slidesPerView: 2,
+        slidesPerView: 3,
         spaceBetween: 20,
       },
     },

@@ -16,8 +16,9 @@
 
 .slider-container {
   position: relative;
-  max-width: 800px;
+  max-width: 1600px;
   margin: 0 auto;
+  padding-bottom: 1rem;
 }
 
 .swiper-container {
@@ -29,7 +30,7 @@
   background: rgb(25, 50, 84);
   border-radius: 12px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  transition: transform 0.3s box-shadow 0.3s ease;
 }
 
 .swiper-slide {
@@ -38,11 +39,7 @@
   border-radius: 12px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.swiper-slide:hover {
-  transform: translateY(10px) scale(1.02);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+  gap: 2rem;
 }
 
 .swiper-slide:hover .question {
@@ -53,11 +50,10 @@
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  height: 60%;
-  text-align: center;
-  gap: 1rem;
+  height: 100%;
+  text-align: left;
 }
 
 .swiper-container {
@@ -67,7 +63,7 @@
 }
 
 .question {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
   color: white;
@@ -79,9 +75,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 2.5rem;
 }
-
 .source {
   font-size: 0.9rem;
   color: white;
@@ -92,8 +87,8 @@
   background-color: #8b5cf6;
   color: white;
   border: none;
-  padding: 0.8rem 2.8rem;
-  border-radius: 6px;
+  padding: 0.6rem 1.15rem;
+  border-radius: 12px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   width: 100%;
@@ -111,8 +106,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: bold;
-  font-size: 1rem;
 }
 
 .link-arrow {
@@ -123,39 +116,43 @@
 
 .swiper-button-next,
 .swiper-button-prev {
-  color: #3498db;
-  background-color: rgba(255, 255, 255, 1);
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  transition: background-color 0.3s ease;
+  color: #000000; /* Default button color for light theme */
+  background-image: url("/assets/arrow.svg") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: 2rem 2rem !important;
+  width: 2rem !important;
+  height: 2rem !important;
+  position: absolute;
   top: auto;
+  bottom: 1rem;
+  transform: none;
+
+  &::after {
+    content: none !important;
+  }
 }
 
-.swiper-button-next:hover,
-.swiper-button-prev:hover {
-  background-color: #3498db;
-  color: white;
+.swiper-container .swiper-button-prev {
+  transform: rotate(180deg);
+  left: auto;
+  right: calc(50% + 40px);
 }
 
-.swiper-button-next::after,
-.swiper-button-prev::after {
-  font-size: 18px;
+.swiper-container .swiper-button-next {
+  right: auto;
+  left: calc(50% + 40px);
+}
+
+.swiper-container .swiper-button-next:hover,
+.swiper-container .swiper-button-prev:hover {
+  background-color: rgba(255, 255, 255, 0.386);
 }
 
 .swiper-pagination {
-  bottom: 20px;
-}
-
-.swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #bdc3c7;
-  opacity: 1;
-}
-
-.swiper-pagination-bullet-active {
-  background-color: #3498db;
+  color: #181b60;
+  position: absolute;
+  bottom: 1.5rem;
 }
 
 /* Media Queries */
@@ -184,7 +181,7 @@
   }
   .box1 {
     padding: 1.2rem;
-    height: 65%;
+    height: 100%;
   }
   .question {
     font-size: 1.1rem;
