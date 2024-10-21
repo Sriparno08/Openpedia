@@ -9,7 +9,7 @@ Openpedia provides a wealth of useful resources that enable you to become a seas
 - [Introduction to Open Source](#-introduction-to-open-source)
 - [Learn Git and GitHub](#-learn-git-and-github)
 - [Contributing to Open Source](#-contributing-to-open-source)
-- [Beginner-Friendly Repos](#-beginner-friendly-repos)
+- [Beginner-Friendly Repositories](#-beginner-friendly-repositories)
 - [Open Source Programs](#-open-source-programs)
 - [Tech Stack](#-tech-stack)
 - [Contributing](#-contributing)
@@ -20,32 +20,33 @@ Openpedia provides a wealth of useful resources that enable you to become a seas
 This section includes some priceless resources that explain everything that you need to know about open source:
 
 ### 📄 Articles
-- [An Introduction to Open Source Software](https://www.loganpartners.com/an-introduction-to-open-source-software/) by Logan & Partners
+
 - [An Introduction to Open Source Software](https://www.htmlgoodies.com/guides/an-introduction-to-open-source-software/) by HTML Goodies
-- [Introduction to Open Source and Its Benefits](https://www.geeksforgeeks.org/introduction-to-open-source-and-its-benefits/) by GeeksforGeeks
-- [What Is Open Source and How Does It Work?](https://www.techtarget.com/whatis/definition/open-source) by TechTarget
-- [What Is Open Source Software and How Does It Work?](https://www.synopsys.com/glossary/what-is-open-source-software.html) by Synopsys
-- [What Is Open Source Software?](https://www.ibm.com/topics/open-source) by IBM
-- [What Is Open Source Software?](https://www.indeed.com/career-advice/career-development/open-source-software-definition) by Indeed
-- [What Is Open Source?](https://opensource.com/resources/what-open-source) by Opensource
-- [What Is Open Source?](https://www.myrasecurity.com/en/what-is-open-source/) by Myra
-- [What Is Open Source?](https://www.redhat.com/en/topics/open-source/what-is-open-source) by Red Hat
-- [What Is Open Source Software and How Does It Work?](https://www.blackduck.com/glossary/what-is-open-source-software.html) by Black Duck
-- [Open-Source Software: An Introduction](https://www.openaccessgovernment.org/open-source-software-an-introduction/140466/) by Open Access Government
+- [An Introduction to Open Source Software](https://www.loganpartners.com/an-introduction-to-open-source-software/) by Logan & Partners
+- [Introduction to Open Source and its Benefits](https://www.geeksforgeeks.org/introduction-to-open-source-and-its-benefits/) by GeeksforGeeks
 - [Introduction to Open Source Software](https://cratecode.com/info/open-source-introduction) by Cratecode
 - [Open Source Software](https://www.toppr.com/guides/computer-science/computer-fundamentals/open-source-concepts/open-source-software/) by Toppr
-- [Why Open Source Software and Open Standards?](https://www.dynatrace.com/news/blog/open-source-software-and-open-standards/) by Dynatrace
-- [Open-Source Software: An Introduction](https://idalko.com/open-source-software/) by Idalko
+- [Open Source Software: An Introduction](https://idalko.com/open-source-software/) by Idalko
+- [Open Source Software: An Introduction](https://www.openaccessgovernment.org/open-source-software-an-introduction/140466/) by Open Access Government
+- [What is Open Source and How Does it Work?](https://www.techtarget.com/whatis/definition/open-source) by TechTarget
+- [What is Open Source Software and How Does it Work?](https://www.blackduck.com/glossary/what-is-open-source-software.html) by Black Duck
+- [What is Open Source Software and How Does it Work?](https://www.synopsys.com/glossary/what-is-open-source-software.html) by Synopsys
+- [What is Open Source Software?](https://www.ibm.com/topics/open-source) by IBM
+- [What is Open Source Software?](https://www.indeed.com/career-advice/career-development/open-source-software-definition) by Indeed
 - [What is Open Source Software?](https://www.youngwonks.com/blog/What-is-Open-Source-Software) by YoungWonks
+- [What is Open Source?](https://opensource.com/resources/what-open-source) by Opensource
+- [What is Open Source?](https://www.myrasecurity.com/en/what-is-open-source/) by Myra
+- [What is Open Source?](https://www.redhat.com/en/topics/open-source/what-is-open-source) by Red Hat
+- [Why Open Source Software and Open Standards?](https://www.dynatrace.com/news/blog/open-source-software-and-open-standards/) by Dynatrace
 
 ### ▶️ Videos
 
 - [Open Source Basics](https://www.youtube.com/watch?v=Tyd0FO0tko8) by Intel Software
 - [Open Source Explained](https://www.youtube.com/watch?v=PVD1LNDxOnc) by IBM Technology
-- [What Is Open Source and How to Start?](https://www.youtube.com/watch?v=msyGybzCKRs) by Kunal Kushwaha
-- [What Is Open Source Software?](https://www.youtube.com/watch?v=TEttd0Qkqnc) by Honeypot
-- [What Is Open Source Software](https://www.youtube.com/watch?v=1ehpgbb3XD0) by Brian Daigle
-- [What Is Open Source?](https://www.youtube.com/watch?v=7c0IrsDsNaw) by Mozilla
+- [What is Open Source and How to Start?](https://www.youtube.com/watch?v=msyGybzCKRs) by Kunal Kushwaha
+- [What is Open Source Software?](https://www.youtube.com/watch?v=TEttd0Qkqnc) by Honeypot
+- [What is Open Source Software](https://www.youtube.com/watch?v=1ehpgbb3XD0) by Brian Daigle
+- [What is Open Source?](https://www.youtube.com/watch?v=7c0IrsDsNaw) by Mozilla
 
 ## 💻 Learn Git and GitHub
 
@@ -57,10 +58,10 @@ This compilation offers some noteworthy resources for learning Git and GitHub, t
 - [An Ultimate Guide to Git and GitHub](https://www.geeksforgeeks.org/ultimate-guide-git-github/) by GeeksforGeeks
 - [Git and GitHub Tutorial - Version Control for Beginners](https://www.freecodecamp.org/news/git-and-github-for-beginners/) by freeCodeCamp
 - [Git and GitHub Tutorial for Beginners](https://www.analyticsvidhya.com/blog/2021/09/git-and-github-tutorial-for-beginners/) by Analytics Vidhya
+- [GitHub - Get Started](https://docs.github.com/en/get-started/start-your-journey/hello-world) by GitHub
 - [GitHub and Git Tutorial for Beginners](https://www.datacamp.com/tutorial/github-and-git-tutorial-for-beginners) by DataCamp
 - [How to Use GitHub](https://www.edureka.co/blog/how-to-use-github/) by Edureka
 - [Intro to GitHub for Version Control](https://ourcodingclub.github.io/tutorials/git/) by Coding Club
-- [GitHub - Get Started](https://docs.github.com/en/get-started/start-your-journey/hello-world) by GitHub
 
 ### ▶️ Videos
 
@@ -74,10 +75,8 @@ This compilation offers some noteworthy resources for learning Git and GitHub, t
 
 This category comprises a list of useful resources that describe the step-by-step workflow for making open source contributions:
 
-### 📄 Articles
-
-- [14 Ways to Contribute to Open Source Without Being a Programming Genius or a Rock Star](https://smartbear.com/blog/14-ways-to-contribute-to-open-source-without-being/) by SmartBear
 - [8 Non-Code Ways to Contribute to Open Source](https://opensource.com/life/16/1/8-ways-contribute-open-source-without-writing-code) by Opensource
+- [14 Ways to Contribute to Open Source Without Being a Programming Genius or a Rock Star](https://smartbear.com/blog/14-ways-to-contribute-to-open-source-without-being/) by SmartBear
 - [Beginner’s Guide to Contributing to Open Source Projects](https://www.activestate.com/blog/beginners-guide-to-contributing-to-open-source-projects/) by ActiveState
 - [Contributing to Open Source: Getting Started](https://www.geeksforgeeks.org/contributing-to-open-source-getting-started/) by GeeksforGeeks
 - [Get Involved in Open Source and Commit Code to Your First Project!](https://www.firsttimersonly.com/) by First Timers Only
@@ -89,7 +88,7 @@ This category comprises a list of useful resources that describe the step-by-ste
 - [How to Start Contributing to Open Source Software](https://towardsdatascience.com/how-to-start-contributing-to-open-source-software-9651ca4cedd4) by Towards Data Science
 - [Why and How to Contribute to Open Source Projects?](https://testsigma.com/blog/why-how-to-contribute-to-open-source-projects/) by Testsigma
 
-## 😇 Beginner-Friendly Repos
+## 😇 Beginner-Friendly Repositories
 
 This list offers a curated selection of beginner-friendly repos that can get you started as a beginner in open source:
 
@@ -103,7 +102,7 @@ This list offers a curated selection of beginner-friendly repos that can get you
 - [Codecademy Docs](https://github.com/Codecademy/docs)
 - [Docusaurus](https://github.com/facebook/docusaurus)
 - [First Contributions](https://github.com/firstcontributions/first-contributions)
-- [flutter](https://github.com/flutter/flutter)
+- [Flutter](https://github.com/flutter/flutter)
 - [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)
 - [GitHub Docs](https://github.com/github/docs)
 - [KubeArmor](https://github.com/kubearmor/KubeArmor)
@@ -121,6 +120,8 @@ This list offers a curated selection of beginner-friendly repos that can get you
 This collection presents a list of open source programs that allow you to upskill and get rewarded for contributing to open source projects:
 
 - [24 Pull Requests](https://24pullrequests.com/)
+- [CODEPEAK](https://www.codepeak.tech/)
+- [FOSS OverFlow](https://fossoverflow.dev/)
 - [FOSSASIA Codeheat](https://codeheat.org/)
 - [GiriScript Summer of Code](https://gssoc.girlscript.tech/)
 - [Google Season of Docs](https://developers.google.com/season-of-docs)
@@ -129,14 +130,12 @@ This collection presents a list of open source programs that allow you to upskil
 - [Hacktoberfest](https://hacktoberfest.com/)
 - [Hyperledger Mentorship Program](https://wiki.hyperledger.org/display/INTERN)
 - [JGEC Winter of Code](https://jwoc.tech/)
+- [Kharagpur Winter Of Code](https://kwoc.kossiitkgp.org/)
 - [LFN Mentorship Program](https://wiki.lfnetworking.org/display/LN/LFN+Mentorship+Program)
 - [MLH Fellowship](https://fellowship.mlh.io/)
 - [Outreachy](https://www.outreachy.org/)
 - [Season of KDE](https://season.kde.org/)
 - [XROS Fellowship](https://xrosfellowship.ficci.in/)
-- [Kharagpur Winter Of Code](https://kwoc.kossiitkgp.org/)
-- [NJACK Winter of Code](https://njackwinterofcode.github.io/)
-- [FOSS OverFlow](https://fossoverflow.dev/)
 
 ## 🌐 Tech Stack
 
