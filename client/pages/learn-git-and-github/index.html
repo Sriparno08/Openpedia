@@ -1,31 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Openpedia</title>
+    <link rel="icon" href="../../assets/short-logo.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Openpedia</title>
-  <link rel="icon" href="../../assets/short-logo.jpg">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <link rel="stylesheet" href="../../globals.css">
-  <link rel="stylesheet" href="styles.css">
-  <script src="app.js"></script>
-</head>
+    <link rel="stylesheet" href="../../globals.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js"></script>
+  </head>
 
-<body>
-  <main class="container">
-    <div class="heading">
-      <h1>Learn Git And Github</h1>
-      <img src="git.jpg" alt="">
-    </div>
+  <body>
+    <main class="container">
+      <div class="heading">
+        <h1>Learn Git And Github</h1>
+        <img src="git.jpg" alt="" />
+      </div>
+      <div class="resources-section">
+        <h3 id="heading">
+          Here are some valuable resources to learn Git and GitHub:
+        </h3>
 
-    <div id="dynamic-git" class="card1"></div>
-  </main>
+        <div class="slider-container">
+          <div id="dynamic-git" class="swiper-container">
+            <div class="swiper-wrapper"></div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+    </main>
 
-  <script src="../../components/header.js"></script>
-  <script src="../../components/footer.js"></script>
-  <script src="../../components/backToTop.js"></script>
-  <script src="../../app.js"></script>
-</body>
-
+    <script src="../../components/header.js"></script>
+    <script src="../../components/footer.js"></script>
+    <script src="../../components/backToTop.js"></script>
+    <script src="../../app.js"></script>
+  </body>
 </html>
