@@ -2,13 +2,16 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Openpedia</title>
-  <link rel="icon" href="../../assets/short-logo.jpg">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <link rel="stylesheet" href="../../globals.css">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="../../assets/short-logo.jpg" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <link rel="stylesheet" href="../../globals.css" />
+  <link rel="stylesheet" href="styles.css" />
   <script src="app.js"></script>
 </head>
 
@@ -16,10 +19,20 @@
   <main class="container">
     <div class="heading">
       <h1>Learn Git And Github</h1>
-      <img src="git.jpg" alt="">
+      <img src="git.jpg" alt="" />
     </div>
+    <div class="resources-section">
+      <h3 id="heading">Resources</h3>
 
-    <div id="dynamic-git" class="card1"></div>
+      <div class="slider-container">
+        <div id="dynamic-git" class="swiper-container">
+          <div class="swiper-wrapper"></div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </div>
   </main>
 
   <script src="../../components/header.js"></script>

@@ -42,20 +42,56 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   ];
 
-  function createGitItem(value) {
+  function createGitItem(gits) {
     return `
-        <div class='box1'>
-          <div class='question'>${value.question}</div>
-          <div class='source'><i class="italic">By ${value.source}</i></div>
-          <button class="btn"><a href="${value.url}" target="_blank">Visit Site<i class="bi bi-box-arrow-up-right"></i></a></button>
+      <div class="swiper-slide">
+        <div class="box1">
+          <p class="question">${gits.question}</p>
+          <div class="source-container">
+            <div>
+              <span class="source"><p class="italic">By ${gits.source}</p></span>              
+            </div>
+            <div>
+              <button class="btn"><a href="${gits.url}" target="_blank">Visit Site<i class="bi bi-box-arrow-up-right"></i><img class="link-arrow" src="/assets/open-link-arrow.svg" /></a></button>
+            </div>
+          </div>
         </div>
-      `;
+      </div>
+    `;
   }
 
-  const dynamicGitsContainer = document.getElementById("dynamic-git");
+  const dynamicGitsContainer = document.querySelector(
+    "#dynamic-git .swiper-wrapper"
+  );
 
-  gits.forEach((value) => {
-    dynamicGitsContainer.innerHTML += createGitItem(value);
+  gits.forEach((resource) => {
+    dynamicGitsContainer.innerHTML += createGitItem(resource);
+  });
+
+  const gitSwiper = new Swiper("#dynamic-git", {
+    slidesPerView: 2,
+    spaceBetween: 20,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      type: "fraction",
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
+      768: {
+        slidesPerView: 3,
+        grid: {
+          rows: 2
+        },
+        spaceBetween: 20,
+      },
+    },
   });
 
   const body = document.body;
