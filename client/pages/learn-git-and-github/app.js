@@ -86,6 +86,9 @@ document.addEventListener("DOMContentLoaded", function () {
       },
       768: {
         slidesPerView: 3,
+        grid: {
+          rows: 2
+        },
         spaceBetween: 20,
       },
     },

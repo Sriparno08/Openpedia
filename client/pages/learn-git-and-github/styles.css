@@ -16,30 +16,18 @@
 
 .slider-container {
   position: relative;
-  max-width: 1600px;
   margin: 0 auto;
   padding-bottom: 1rem;
-}
-
-.swiper-container {
-  width: 100%;
-  margin-top: 20px;
-}
-.swiper-slide {
-  height: 300px;
-  background: rgb(25, 50, 84);
-  border-radius: 12px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s box-shadow 0.3s ease;
+  display: flex;
+  justify-content: center;
 }
 
 .swiper-slide {
-  height: 200px; /* Reduced height */
+  display: flex;
   background: rgb(25, 50, 84);
   border-radius: 12px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  gap: 2rem;
 }
 
 .swiper-slide:hover .question {
@@ -47,25 +35,27 @@
 }
 
 .box1 {
-  padding: 1.5rem;
+  width: 100%;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  text-align: left;
 }
 
 .swiper-container {
-  width: 100%;
+  width: 90%;
+  height: 32rem;
+  margin-top: 2rem;
   padding-bottom: 60px;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 .question {
   font-size: 1.1rem;
   font-weight: bold;
-  margin-bottom: 0.5rem;
   color: white;
 }
 
@@ -77,6 +67,7 @@
   flex-direction: column;
   gap: 2.5rem;
 }
+
 .source {
   font-size: 0.9rem;
   color: white;
@@ -116,7 +107,8 @@
 
 .swiper-button-next,
 .swiper-button-prev {
-  color: #000000; /* Default button color for light theme */
+  color: #000000;
+  /* Default button color for light theme */
   background-image: url("/assets/arrow.svg") !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
@@ -170,37 +162,47 @@
     gap: 1.5rem;
     margin: 1.5rem 0;
   }
+
   .slider-container {
     max-width: 85%;
   }
+
   #heading {
     font-size: 1.6rem;
   }
+
   .swiper-slide {
     height: 190px;
   }
+
   .box1 {
     padding: 1.2rem;
     height: 100%;
   }
+
   .question {
     font-size: 1.1rem;
   }
+
   .source {
     font-size: 0.85rem;
   }
+
   .btn {
     padding: 0.7rem 2rem;
     max-width: 160px;
   }
+
   .btn a {
     font-size: 0.9rem;
   }
+
   .swiper-button-next,
   .swiper-button-prev {
     width: 35px;
     height: 35px;
   }
+
   .swiper-button-next::after,
   .swiper-button-prev::after {
     font-size: 16px;
@@ -212,38 +214,48 @@
     gap: 1rem;
     margin: 1rem 0;
   }
+
   #heading {
     font-size: 1.4rem;
   }
+
   .swiper-slide {
     height: 180px;
   }
+
   .box1 {
     padding: 1rem;
     height: 70%;
   }
+
   .question {
     font-size: 1rem;
   }
+
   .source {
     font-size: 0.8rem;
   }
+
   .btn {
     padding: 0.6rem 1.5rem;
     max-width: 140px;
   }
+
   .btn a {
     font-size: 0.85rem;
   }
+
   .swiper-button-next,
   .swiper-button-prev {
     width: 30px;
     height: 30px;
   }
+
   .swiper-button-next::after,
   .swiper-button-prev::after {
     font-size: 14px;
   }
+
   .swiper-pagination-bullet {
     width: 10px;
     height: 10px;
