@@ -1,5 +1,5 @@
 .heading {
-  margin: 2rem 0;
+  margin: 3.8rem 0;
   text-align: center;
 }
 
@@ -12,35 +12,56 @@
 
 section {
   padding: 0 0 20px;
+  padding-bottom: 80px;
   height: 100%;
 }
 
 .headh2 {
   text-align: center;
   margin-bottom: 20px;
+  font-size: 2rem;
 }
 
 .card1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  padding: 20px;
+  gap: 3.5rem;
+  padding: 2rem 3.5rem;
   justify-items: center;
 }
 
 .box1 {
-  border: 1px solid black;
-  padding: 20px 25px;
-  width: 320px;
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 10px;
   justify-content: center;
   align-items: center;
-  background-color: rgb(32, 43, 85);
-  border-radius: 10px;
-  color: white;
+  background-color: white;
+  box-shadow: rgba(9, 36, 133, 0.11) 0px 6px 20px -6px;
+  border-radius: 20px;
+}
+
+.img {
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.desc {
+  width: 100%;
+  height: 50%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 2rem;
+  padding-top: 1.6rem;
+}
+
+.img img {
+  width: 100%;
 }
 
 .box1:hover {
@@ -52,50 +73,34 @@ section {
   list-style: none;
 }
 
-.btn {
-  background-color: rgb(17, 15, 15);
-  padding: 10px 20px;
-  border: 1px solid black;
-  border-radius: 10px;
-}
-.btn a {
-  color: white;
-}
-.btn a:hover{
-  color: blue;
-}
-.question {
-  color: white;
-  margin-bottom: 9px;
-  font-size: 1rem;
+.resource {
+  font-size: 1.1rem;
+  height: 4.5rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  line-height: 1.6rem;
 }
 
-.source {
-  margin-right: 10px;
+.publisher {
+  height: 3.5rem;
 }
 
-i {
-  color: rgb(255, 179, 36);
-}
-
-.italic {
-  color: #fff;
-}
-
-.btn {
-  background-color: rgb(17, 15, 15);
-  padding: 10px 20px;
-  border: 1px solid black;
-  border-radius: 10px;
-}
-
-.btn a {
-  color: white;
+.desc a {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
   text-decoration: none;
+  font-size: 15px;
+  border: 2px solid rgb(18, 38, 64);
+  transition: all 0.3s;
+  color: white;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+  background-color: rgb(18, 38, 64);
 }
 
-.bi {
-  color: white;
+.desc a:hover {
+  background-color: white;
+  color: black;
 }
 
 #dynamic-contribution {
@@ -129,7 +134,7 @@ i {
     height: auto;
   }
 
-  .headh2{
+  .headh2 {
     font-size: 1.2rem;
   }
 
@@ -138,15 +143,11 @@ i {
     padding: 15px;
   }
 
-  .box1 li{
+  .box1 li {
     margin: 2px;
   }
 
-  .question {
+  .resource {
     font-size: 0.9rem;
-  }
-
-  .btn {
-    padding: 8px 16px;
   }
 }

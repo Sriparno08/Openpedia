@@ -1,76 +1,91 @@
 document.addEventListener("DOMContentLoaded", function () {
   const contribution = [
     {
-      question: "How to Contribute to the Open source?",
-      source: "By Github",
+      resource: "How to Contribute to the Open source?",
+      publisher: "By Github",
       url: "https://opensource.guide/how-to-contribute/",
+      image: "../../assets/illustration-1.jpg"
     },
     {
-      question: "How to Contribute to Open Source Projects?",
-      source: "A Beginner's Guide by freeCodeCamp",
+      resource: "How to Contribute to Open Source Projects?",
+      publisher: "by freeCodeCamp",
       url: "https://opensource.guide/how-to-contribute/",
+      image: "../../assets/illustration-2.jpg"
     },
     {
-      question: "Getting Started With Contributing to Open Source",
-      source: "By Stack Overflow",
+      resource: "Getting Started With Contributing to Open Source",
+      publisher: "By Stack Overflow",
       url: "https://stackoverflow.blog/2020/08/03/getting-started-with-contributing-to-open-source/",
+      image: "../../assets/illustration-3.jpg"
     },
     {
-      question: "How to Get Started With Open Source?",
-      source: "By HackerEarth",
+      resource: "How to Get Started With Open Source?",
+      publisher: "By HackerEarth",
       url: "https://www.hackerearth.com/getstarted-opensource/",
+      image: "../../assets/illustration-4.jpg"
     },
     {
-      question: "How to Contribute to Open Source Projects?",
-      source: "By RubyGarage",
+      resource: "How to Contribute to Open Source Projects?",
+      publisher: "By RubyGarage",
       url: "https://rubygarage.org/blog/how-contribute-to-open-source-projects",
+      image: "../../assets/illustration-5.jpg"
     },
     {
-      question: "Beginners Guide to Contributing to Open Source Projects",
-      source: "By ActiveState",
+      resource: "Beginners Guide to Contributing to Open Source Projects",
+      publisher: "By ActiveState",
       url: "https://www.activestate.com/blog/beginners-guide-to-contributing-to-open-source-projects",
+      image: "../../assets/illustration-6.jpg"
     },
     {
-      question:
-        "14 Ways to Contribute to Open Source Without Being a Programming Genius or a Rock Star",
-      source: "By SmartBear",
+      resource:
+        "14 Ways to Contribute to Open Source",
+      publisher: "By SmartBear",
       url: "https://smartbear.com/blog/14-ways-to-contribute-to-open-source-without-being/",
+      image: "../../assets/illustration-1.jpg"
     },
     {
-      question: "8 Non-Code Ways to Contribute to Open Source",
-      source: "By Opensource",
+      resource: "8 Non-Code Ways to Contribute to Open Source",
+      publisher: "By Opensource",
       url: "https://opensource.com/life/16/1/8-ways-contribute-open-source-without-writing-code",
+      image: "../../assets/illustration-2.jpg"
     },
     {
-      question: "Contributing to Open Source: Getting Started",
-      source: "By GeeksforGeeks",
+      resource: "Contributing to Open Source: Getting Started",
+      publisher: "By GeeksforGeeks",
       url: "https://www.geeksforgeeks.org/contributing-to-open-source-getting-started/",
+      image: "../../assets/illustration-3.jpg"
     },
     {
-      question: "How to Start Contributing to Open Source Software?",
-      source: "By Towards Data Science",
+      resource: "How to Start Contributing to Open Source Software?",
+      publisher: "By Towards Data Science",
       url: "https://towardsdatascience.com/how-to-start-contributing-to-open-source-software-9651ca4cedd4",
+      image: "../../assets/illustration-4.jpg"
     },
     {
-      question:
+      resource:
         "Get Involved in Open Source and Commit Code to Your First Project",
-      source: "By First Timers Only",
+      publisher: "By First Timers Only",
       url: "https://www.firsttimersonly.com/",
+      image: "../../assets/illustration-5.jpg"
     },
     {
-      question: "Why and How to Contribute to Open Source Projects?",
-      source: "By Testsigma",
+      resource: "Why and How to Contribute to Open Source Projects?",
+      publisher: "By Testsigma",
       url: "https://testsigma.com/blog/why-how-to-contribute-to-open-source-projects/",
+      image: "../../assets/illustration-6.jpg"
     },
   ];
 
   function createContributionItem(value) {
     return `
       <div class='box1'>
-      <div class='question'>${value.question}</div>
-      <div class='source'><i class="italic">By ${value.source}</i></div>
-      <button class="btn"><a href="${value.url}" target="_blank">Visit Site<i class="bi bi-box-arrow-up-right"></i></a></button>
-    </div>
+        <div class='img'><img src="${value.image}" alt="" srcset=""></div>
+        <div class='desc'>
+          <div class='resource'>${value.resource}</div>
+          <div class='publisher'><p>${value.publisher}</p></div>
+          <a href="${value.url}" target="_blank">Visit Site</a>
+        </div>      
+      </div>
       `;
   }
 
