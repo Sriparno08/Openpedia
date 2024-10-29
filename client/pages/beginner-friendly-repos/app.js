@@ -1,4 +1,4 @@
-import { webDevRepositories, jsLibAndFrameworks, machineLearningAndAI, BioInformatics,CrossPlatformAppDevelopment } from "./RepositoriesData.js";
+import { webDevRepositories, jsLibAndFrameworks, machineLearningAndAI, BioInformatics, CrossPlatformAppDevelopment } from "./data.js";
 
 function renderCards() {
   let container = document.querySelector("#web-dev-repositories");
@@ -70,7 +70,6 @@ function renderCards() {
       `;
     container.appendChild(card);
   });
-
 }
 
 document.addEventListener("DOMContentLoaded", renderCards);

@@ -1,4 +1,4 @@
- const webDevRepositories = [
+const webDevRepositories = [
   {
     title: "MDN Web Docs",
     description:
@@ -126,4 +126,5 @@ const CrossPlatformAppDevelopment = [
     url: "https://github.com/flutter/flutter",
   },
 ];
-export { webDevRepositories, jsLibAndFrameworks, machineLearningAndAI, BioInformatics,CrossPlatformAppDevelopment};
+
+export { webDevRepositories, jsLibAndFrameworks, machineLearningAndAI, BioInformatics, CrossPlatformAppDevelopment }
