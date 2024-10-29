@@ -109,6 +109,11 @@ header .links {
   display: block;
 }
 
+.swiper-wrapper{
+  width: 100% !important;
+  align-items: baseline;
+}
+
 .item a {
   padding: 0.6rem;
   display: block;
