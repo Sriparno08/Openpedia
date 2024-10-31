@@ -596,6 +596,183 @@
   }
 }
 
+
+/* About and Contribute Section Responsive Styling */
+.about-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.about-items {
+  display: flex;
+  gap: 2rem;
+  width: 90%;
+  max-width: 1200px; /* Restrict width on larger screens */
+}
+
+.about, .contribute {
+  flex: 1; /* Ensures both sections take equal space side-by-side */
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 2px solid black;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.about-title, .contribute-title {
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.about-description p, .contribute-description p {
+  font-size: 1rem;
+  color: #405D72;
+  text-align: justify;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.star, .sponsor, .contribute-link {
+  padding: 0.8rem;
+  font-size: 0.9rem;
+  border: 2px solid rgb(18, 38, 64);
+  border-radius: 5px;
+  text-align: center;
+  color: black;
+  background-color: transparent;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.star:hover, .sponsor:hover, .contribute-link:hover {
+  background-color: #193254;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .about-items {
+    flex-direction: column; /* Stacks sections vertically on smaller screens */
+  }
+
+  .about-title, .contribute-title {
+    font-size: 1rem;
+  }
+
+  .about-description p, .contribute-description p {
+    font-size: 0.9rem;
+  }
+
+  .star, .sponsor, .contribute-link {
+    width: 100%; /* Buttons take full width in smaller screens */
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-container {
+    padding: 1rem 0.5rem;
+  }
+
+  .about-title, .contribute-title {
+    font-size: 0.9rem;
+  }
+
+  .about-description p, .contribute-description p {
+    font-size: 0.8rem;
+  }
+
+  .about-items {
+    gap: 1.5rem;
+  }
+}
+
+body.dark-theme .about, 
+body.dark-theme .contribute {
+  background-color: #193254; /* Dark theme background */
+  border: 2px solid #555; /* Dark theme border */
+}
+
+body.dark-theme .about-description p, 
+body.dark-theme .contribute-description p {
+  color: #e0e0e0; /* Dark theme text color */
+}
+ 
+body.dark-theme .sponsor, 
+body.dark-theme .contribute-link {
+  border: 2px solid #e0e0e0; /* Light border for dark theme */
+  color: white; /* Button text color for dark theme */
+}
+
+body.dark-theme .star:hover, 
+body.dark-theme .sponsor:hover, 
+body.dark-theme .contribute-link:hover {
+  background-color: #405D72; /* Darker hover background for buttons */
+  color: white; /* Text color on hover */
+}
+
+/* Responsive Styles for Dark Theme */
+body.dark-theme .about-items {
+  display: flex;
+  gap: 2rem;
+  width: 90%;
+  max-width: 1200px; /* Restrict width on larger screens */
+}
+
+@media screen and (max-width: 768px) {
+  body.dark-theme .about-items {
+    flex-direction: column; /* Stacks sections vertically on smaller screens */
+  }
+
+  body.dark-theme .about-title, 
+  body.dark-theme .contribute-title {
+    font-size: 1rem;
+  }
+
+  body.dark-theme .about-description p, 
+  body.dark-theme .contribute-description p {
+    font-size: 0.9rem;
+  }
+
+  body.dark-theme .star, 
+  body.dark-theme .sponsor, 
+  body.dark-theme .contribute-link {
+    width: 100%; /* Buttons take full width in smaller screens */
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body.dark-theme .about-container {
+    padding: 1rem 0.5rem;
+  }
+
+  body.dark-theme .about-title, 
+  body.dark-theme .contribute-title {
+    font-size: 0.9rem;
+  }
+
+  body.dark-theme .about-description p, 
+  body.dark-theme .contribute-description p {
+    font-size: 0.8rem;
+  }
+
+  body.dark-theme .about-items {
+    gap: 1.5rem;
+  }
+}
+
+
 /* Overlay */
 .rate-us-overlay {
   position: fixed;
@@ -648,12 +825,15 @@
   font-size: 30px;
   color: #ccc; /* Default star color */
   cursor: pointer;
-  transition: color 0.2s;
+  transition: color 0.2s, box-shadow 0.2s; /* Transition for color and shadow */
+  border: none; /* Remove any border */
 }
 
+.star:hover,
 .star.hovered,
 .star.selected {
   color: #ffdd57; /* Yellow stars when hovered or selected */
+  box-shadow: 0px 0px 10px rgba(255, 221, 87, 0.6); /* Soft glow on hover */
 }
 
 /* Submit Button */
@@ -670,12 +850,14 @@
 
 .submit-button:hover {
   background-color: #0056b3; /* Darker background on hover */
-    border-color: #00c3ff; /* Glowing border effect on hover */
-    box-shadow: 0 0 10px #00c3ff, 0 0 20px #00c3ff; /* Glowing effect */
-    color: #fff;}
+  border-color: #00c3ff; /* Glowing border effect on hover */
+  box-shadow: 0 0 10px #00c3ff, 0 0 20px #00c3ff; /* Glowing effect */
+  color: #fff;
+}
 
 /* Active state for the overlay */
 .rate-us-overlay.active {
   visibility: visible;
   opacity: 1;
 }
+
