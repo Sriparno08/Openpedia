@@ -189,14 +189,6 @@
   border: 2px solid black;
 }
 
-.about {
-  display: flex;
-  flex-direction: column;
-  padding: 1.7rem 2rem 2rem;
-  background-color: white;
-  gap: 1rem;
-}
-
 .about .about-title {
   font-weight: 500;
   font-size: 20px;
@@ -262,14 +254,6 @@
 .about-description .sponsor:hover {
   background-color: transparent;
   color: black;
-}
-
-.about-items .contribute {
-  display: flex;
-  flex-direction: column;
-  padding: 1.7rem 2rem 2rem;
-  background-color: white;
-  gap: 1rem;
 }
 
 .contribute .contribute-title {
@@ -557,7 +541,9 @@
   .about-container {
     padding: 2rem 0.5rem;
   }
-  .h img {max-width: 50vh;
+
+  .h img {
+    max-width: 50vh;
   }
 
   .about-title,
@@ -602,18 +588,21 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 2rem 1rem;
+  padding: 5rem 0;
 }
 
 .about-items {
   display: flex;
-  gap: 2rem;
-  width: 90%;
-  max-width: 1200px; /* Restrict width on larger screens */
+  gap: 3rem;
+  width: 80%;
+  max-width: 1200px;
+  /* Restrict width on larger screens */
 }
 
-.about, .contribute {
-  flex: 1; /* Ensures both sections take equal space side-by-side */
+.about,
+.contribute {
+  flex: 1;
+  /* Ensures both sections take equal space side-by-side */
   padding: 1.5rem;
   border-radius: 8px;
   border: 2px solid black;
@@ -624,13 +613,15 @@
   gap: 1rem;
 }
 
-.about-title, .contribute-title {
+.about-title,
+.contribute-title {
   font-weight: 500;
   font-size: 1.2rem;
   text-align: center;
 }
 
-.about-description p, .contribute-description p {
+.about-description p,
+.contribute-description p {
   font-size: 1rem;
   color: #405D72;
   text-align: justify;
@@ -644,7 +635,9 @@
   width: 100%;
 }
 
-.star, .sponsor, .contribute-link {
+.star,
+.sponsor,
+.contribute-link {
   padding: 0.8rem;
   font-size: 0.9rem;
   border: 2px solid rgb(18, 38, 64);
@@ -655,26 +648,34 @@
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.star:hover, .sponsor:hover, .contribute-link:hover {
+.star:hover,
+.sponsor:hover,
+.contribute-link:hover {
   background-color: #193254;
   color: white;
 }
 
 @media screen and (max-width: 768px) {
   .about-items {
-    flex-direction: column; /* Stacks sections vertically on smaller screens */
+    flex-direction: column;
+    /* Stacks sections vertically on smaller screens */
   }
 
-  .about-title, .contribute-title {
+  .about-title,
+  .contribute-title {
     font-size: 1rem;
   }
 
-  .about-description p, .contribute-description p {
+  .about-description p,
+  .contribute-description p {
     font-size: 0.9rem;
   }
 
-  .star, .sponsor, .contribute-link {
-    width: 100%; /* Buttons take full width in smaller screens */
+  .star,
+  .sponsor,
+  .contribute-link {
+    width: 100%;
+    /* Buttons take full width in smaller screens */
     font-size: 0.8rem;
   }
 }
@@ -684,11 +685,13 @@
     padding: 1rem 0.5rem;
   }
 
-  .about-title, .contribute-title {
+  .about-title,
+  .contribute-title {
     font-size: 0.9rem;
   }
 
-  .about-description p, .contribute-description p {
+  .about-description p,
+  .contribute-description p {
     font-size: 0.8rem;
   }
 
@@ -697,28 +700,35 @@
   }
 }
 
-body.dark-theme .about, 
+body.dark-theme .about,
 body.dark-theme .contribute {
-  background-color: #193254; /* Dark theme background */
-  border: 2px solid #555; /* Dark theme border */
+  background-color: #193254;
+  /* Dark theme background */
+  border: 2px solid #555;
+  /* Dark theme border */
 }
 
-body.dark-theme .about-description p, 
+body.dark-theme .about-description p,
 body.dark-theme .contribute-description p {
-  color: #e0e0e0; /* Dark theme text color */
-}
- 
-body.dark-theme .sponsor, 
-body.dark-theme .contribute-link {
-  border: 2px solid #e0e0e0; /* Light border for dark theme */
-  color: white; /* Button text color for dark theme */
+  color: #e0e0e0;
+  /* Dark theme text color */
 }
 
-body.dark-theme .star:hover, 
-body.dark-theme .sponsor:hover, 
+body.dark-theme .sponsor,
+body.dark-theme .contribute-link {
+  border: 2px solid #e0e0e0;
+  /* Light border for dark theme */
+  color: white;
+  /* Button text color for dark theme */
+}
+
+body.dark-theme .star:hover,
+body.dark-theme .sponsor:hover,
 body.dark-theme .contribute-link:hover {
-  background-color: #405D72; /* Darker hover background for buttons */
-  color: white; /* Text color on hover */
+  background-color: #405D72;
+  /* Darker hover background for buttons */
+  color: white;
+  /* Text color on hover */
 }
 
 /* Responsive Styles for Dark Theme */
@@ -726,28 +736,31 @@ body.dark-theme .about-items {
   display: flex;
   gap: 2rem;
   width: 90%;
-  max-width: 1200px; /* Restrict width on larger screens */
+  max-width: 1200px;
+  /* Restrict width on larger screens */
 }
 
 @media screen and (max-width: 768px) {
   body.dark-theme .about-items {
-    flex-direction: column; /* Stacks sections vertically on smaller screens */
+    flex-direction: column;
+    /* Stacks sections vertically on smaller screens */
   }
 
-  body.dark-theme .about-title, 
+  body.dark-theme .about-title,
   body.dark-theme .contribute-title {
     font-size: 1rem;
   }
 
-  body.dark-theme .about-description p, 
+  body.dark-theme .about-description p,
   body.dark-theme .contribute-description p {
     font-size: 0.9rem;
   }
 
-  body.dark-theme .star, 
-  body.dark-theme .sponsor, 
+  body.dark-theme .star,
+  body.dark-theme .sponsor,
   body.dark-theme .contribute-link {
-    width: 100%; /* Buttons take full width in smaller screens */
+    width: 100%;
+    /* Buttons take full width in smaller screens */
     font-size: 0.8rem;
   }
 }
@@ -757,12 +770,12 @@ body.dark-theme .about-items {
     padding: 1rem 0.5rem;
   }
 
-  body.dark-theme .about-title, 
+  body.dark-theme .about-title,
   body.dark-theme .contribute-title {
     font-size: 0.9rem;
   }
 
-  body.dark-theme .about-description p, 
+  body.dark-theme .about-description p,
   body.dark-theme .contribute-description p {
     font-size: 0.8rem;
   }
@@ -780,7 +793,8 @@ body.dark-theme .about-items {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay effect */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Dark overlay effect */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -792,7 +806,8 @@ body.dark-theme .about-items {
 
 /* Rate Us Box */
 .rate-us-box {
-  background-color: #0044cc; /* Dark blue background */
+  background-color: #0044cc;
+  /* Dark blue background */
   color: #fff;
   padding: 30px;
   border-radius: 10px;
@@ -823,35 +838,46 @@ body.dark-theme .about-items {
 
 .star {
   font-size: 30px;
-  color: #ccc; /* Default star color */
+  color: #ccc;
+  /* Default star color */
   cursor: pointer;
-  transition: color 0.2s, box-shadow 0.2s; /* Transition for color and shadow */
-  border: none; /* Remove any border */
+  transition: color 0.2s, box-shadow 0.2s;
+  /* Transition for color and shadow */
+  border: none;
+  /* Remove any border */
 }
 
 .star:hover,
 .star.hovered,
 .star.selected {
-  color: #ffdd57; /* Yellow stars when hovered or selected */
-  box-shadow: 0px 0px 10px rgba(255, 221, 87, 0.6); /* Soft glow on hover */
+  color: #ffdd57;
+  /* Yellow stars when hovered or selected */
+  box-shadow: 0px 0px 10px rgba(255, 221, 87, 0.6);
+  /* Soft glow on hover */
 }
 
 /* Submit Button */
 .submit-button {
-    background-color: #007bff; /* Primary button color */
-    color: white;
-    padding: 8px 12px;
-    border: 2px solid #103f72; /* Add a border with a darker shade of blue */
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
-    transition: all 0.3s ease; /* Smooth transition */
+  background-color: #007bff;
+  /* Primary button color */
+  color: white;
+  padding: 8px 12px;
+  border: 2px solid #103f72;
+  /* Add a border with a darker shade of blue */
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+  /* Smooth transition */
 }
 
 .submit-button:hover {
-  background-color: #0056b3; /* Darker background on hover */
-  border-color: #00c3ff; /* Glowing border effect on hover */
-  box-shadow: 0 0 10px #00c3ff, 0 0 20px #00c3ff; /* Glowing effect */
+  background-color: #0056b3;
+  /* Darker background on hover */
+  border-color: #00c3ff;
+  /* Glowing border effect on hover */
+  box-shadow: 0 0 10px #00c3ff, 0 0 20px #00c3ff;
+  /* Glowing effect */
   color: #fff;
 }
 
@@ -860,4 +886,3 @@ body.dark-theme .about-items {
   visibility: visible;
   opacity: 1;
 }
-
