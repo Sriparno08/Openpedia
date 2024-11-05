@@ -38,6 +38,7 @@ This section includes some priceless resources that explain everything that you 
 - [What is Open Source?](https://www.myrasecurity.com/en/what-is-open-source/) by Myra
 - [What is Open Source?](https://www.redhat.com/en/topics/open-source/what-is-open-source) by Red Hat
 - [Why Open Source Software and Open Standards?](https://www.dynatrace.com/news/blog/open-source-software-and-open-standards/) by Dynatrace
+- [The Ultimate Guide to Open-Source Software Development](https://licensespring.com/blog/glossary/open-source-software/)
 
 ### ▶️ Videos
 
