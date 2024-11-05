@@ -38,6 +38,7 @@ This section includes some priceless resources that explain everything that you 
 - [What is Open Source?](https://www.myrasecurity.com/en/what-is-open-source/) by Myra
 - [What is Open Source?](https://www.redhat.com/en/topics/open-source/what-is-open-source) by Red Hat
 - [Why Open Source Software and Open Standards?](https://www.dynatrace.com/news/blog/open-source-software-and-open-standards/) by Dynatrace
+- [The Ultimate Guide to Open-Source Software Development](https://licensespring.com/blog/glossary/open-source-software/)
 
 ### ▶️ Videos
 
@@ -160,9 +161,6 @@ Here are some interesting ways to contribute to this project:
 - Adding a Feature
 
 Please go through the [CONTRIBUTING](https://github.com/Sriparno08/Openpedia/blob/main/CONTRIBUTING.md) guide for details.
-
-### ✨Resources
-- [The Ultimate Guide to Open-Source Software Development](https://licensespring.com/blog/glossary/open-source-software/) - A comprehensive guide by LicenseSpring explaining the fundamentals of open source software development.
 
 ## 📝 License
 
