@@ -161,6 +161,9 @@ Here are some interesting ways to contribute to this project:
 
 Please go through the [CONTRIBUTING](https://github.com/Sriparno08/Openpedia/blob/main/CONTRIBUTING.md) guide for details.
 
+### ✨Resources
+- [The Ultimate Guide to Open-Source Software Development](https://licensespring.com/blog/glossary/open-source-software/) - A comprehensive guide by LicenseSpring explaining the fundamentals of open source software development.
+
 ## 📝 License
 
 Openpedia is licensed under the terms of the [MIT License](https://github.com/Sriparno08/Openpedia/blob/main/LICENSE.md).
