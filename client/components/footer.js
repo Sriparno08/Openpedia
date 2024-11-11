@@ -8,18 +8,18 @@ footer.innerHTML = `<div class="contain">
 
                         <div class="col">
                           <h3>Categories</h3>
-                          <p><a href="/pages/introduction-to-open-source/" class="footer-links">Introduction to Open Source</a></p>
-                          <p><a href="/pages/learn-git-and-github/" class="footer-links">Learn Git and GitHub</a></p>
-                          <p><a href="/pages/contributing-to-open-source/" class="footer-links">Contributing to Open Source</a></p>
-                          <p><a href="/pages/beginner-friendly-repos/" class="footer-links">Beginner-Friendly Repos</a></p>
-                          <p><a href="/pages/open-source-programs/" class="footer-links">Open Source Programs</a></p>
+                          <p><a href="/categories/introduction-to-open-source/" class="footer-links">Introduction to Open Source</a></p>
+                          <p><a href="/categories/learn-git-and-github/" class="footer-links">Learn Git and GitHub</a></p>
+                          <p><a href="/categories/contributing-to-open-source/" class="footer-links">Contributing to Open Source</a></p>
+                          <p><a href="/categories/beginner-friendly-repositories/" class="footer-links">Beginner-Friendly Repos</a></p>
+                          <p><a href="/categories/open-source-programs/" class="footer-links">Open Source Programs</a></p>
                         </div>  
                       
                         <div class="col">
                           <h3>Support</h3>
                           <p><a href="#about" class="footer-links">About</a></p>
                           <p><a href="https://github.com/Sriparno08/Openpedia" class="footer-links">Documentation</a></p>
-                          <p><a href="/pages/frequently-asked-questions/" class="footer-links">Frequently Asked Questions</a>
+                          <p><a href="/support/frequently-asked-questions/" class="footer-links">Frequently Asked Questions</a>
                           </p>
                         </div>
 
