@@ -5,29 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Openpedia</title>
-  <link rel="icon" href="./assets/short-logo.jpg">
+  <link rel="icon" href="/assets/short-logo.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <link rel="stylesheet" href="globals.css">
+  <link rel="stylesheet" href="/styles/globals.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <main class="container">
-    <div class="rate-us-overlay" id="rateUsOverlay">
-      <div class="rate-us-box">
-        <button class="close-button" id="closeButton">&times;</button>
-        <h2>Rate Us!</h2>
-        <p>How would you rate your experience?</p>
-        <div class="stars" id="starContainer">
-          <span class="star" data-value="1">&#9733;</span>
-          <span class="star" data-value="2">&#9733;</span>
-          <span class="star" data-value="3">&#9733;</span>
-          <span class="star" data-value="4">&#9733;</span>
-          <span class="star" data-value="5">&#9733;</span>
-        </div>
-        <button class="submit-button" id="submitButton">Submit Rating</button>
-      </div>
-    </div>
     <div class="h">
       <div class="intro">
         <p class="intro-title">The Open Source Guide</p>
@@ -38,7 +23,7 @@
         <a href="#categories" class="get-started">Get Started</a>
       </div>
 
-      <img src="./assets/hero-image.png" alt="Hero Image">
+      <img src="/assets/hero-image.png" alt="Hero Image">
     </div>
 
     <section class="categories-container" id="categories">
@@ -47,7 +32,7 @@
       <section class="categories">
         <div class="category">
           <div class="category-image">
-            <img src="./assets/illustration-1.jpg" alt="Introduction to Open Source">
+            <img src="/assets/illustration-1.jpg" alt="Introduction to Open Source">
           </div>
 
           <div class="category-info">
@@ -71,13 +56,13 @@
           </div>
 
           <div class="category-image">
-            <img src="./assets/illustration-2.jpg" alt="Learn Git and GitHub">
+            <img src="/assets/illustration-2.jpg" alt="Learn Git and GitHub">
           </div>
         </div>
 
         <div class="category">
           <div class="category-image">
-            <img src="./assets/illustration-3.jpg" alt="Contributing to Open Source">
+            <img src="/assets/illustration-3.jpg" alt="Contributing to Open Source">
           </div>
 
           <div class="category-info">
@@ -101,13 +86,13 @@
           </div>
 
           <div class="category-image">
-            <img src="./assets/illustration-4.jpg" alt="Beginner-Friendly Repositories">
+            <img src="/assets/illustration-4.jpg" alt="Beginner-Friendly Repositories">
           </div>
         </div>
 
         <div class="category">
           <div class="category-image">
-            <img src="./assets/illustration-5.jpg" alt="Open Source Programs">
+            <img src="/assets/illustration-5.jpg" alt="Open Source Programs">
           </div>
 
           <div class="category-info">
@@ -164,10 +149,11 @@
     </section>
   </main>
 
-  <script src="./components/header.js"></script>
-  <script src="./components/footer.js"></script>
-  <script src="./components/backToTop.js"></script>
-  <script src="./components/darkTheme.js"></script>
+  <script src="/components/Header.js"></script>
+  <script src="/components/Footer.js"></script>
+  <script src="/components/BackToTop.js"></script>
+  <script src="/components/RateUs.js"></script>
+  <script src="/components/DarkTheme.js"></script>
   <script src="app.js"></script>
 </body>
 

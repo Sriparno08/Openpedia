@@ -1,4 +1,4 @@
-import { gits } from "./data.js";
+import { gits } from "../../data/learn-git-and-github.js";
 
 document.addEventListener("DOMContentLoaded", function () {
   function createGitItem(gits) {
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
               <span class="source"><p class="italic">By ${gits.source}</p></span>              
             </div>
             <div>
-              <button class="btn"><a href="${gits.url}" target="_blank">Visit Site<i class="bi bi-box-arrow-up-right"></i><img class="link-arrow" src="/assets/open-link-arrow.svg" /></a></button>
+              <button class="btn"><a href="${gits.url}" target="_blank">Visit Site<i class="bi bi-box-arrow-up-right"></i></a></button>
             </div>
           </div>
         </div>

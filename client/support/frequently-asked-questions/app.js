@@ -1,4 +1,4 @@
-import { faq } from "./data.js";
+import { faq } from "../../data/frequently-asked-questions.js";
 
 // The Function to toggle the FAQ Content
 function toggleContent(e) {

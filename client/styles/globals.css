@@ -40,7 +40,7 @@ header {
 }
 
 header .title-container {
-  padding: 1rem 1.3rem;
+  padding: 0rem 1.3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -109,7 +109,7 @@ header .links {
   display: block;
 }
 
-.swiper-wrapper{
+.swiper-wrapper {
   width: 100% !important;
   align-items: baseline;
 }
@@ -132,7 +132,6 @@ header .links {
 
 footer {
   background-color: var(--bgg);
-  position: absolute;
   width: 100%;
   padding: 4rem 0;
   padding-bottom: 1.5rem;

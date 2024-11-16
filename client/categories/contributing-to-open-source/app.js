@@ -1,4 +1,4 @@
-import { contribution } from "./data.js";
+import { contribution } from "../../data/contributing-to-open-source.js";
 
 document.addEventListener("DOMContentLoaded", function () {
   function createContributionItem(value) {
@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class='desc'>
           <div class='resource'>${value.resource}</div>
           <div class='publisher'><p>${value.publisher}</p></div>
-          <a href="${value.url}" target="_blank">Visit Site</a>
+          <a href="${value.url}" target="_blank">Read Article</a>
         </div>      
       </div>
       `;

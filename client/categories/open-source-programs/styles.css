@@ -17,7 +17,7 @@
 }
 
 .imagecontainer img {
-  min-width: 80%;
+  min-width: 50%;
   min-height: 80%;
   border-radius: 5px;
 }
@@ -91,7 +91,8 @@ p {
     width: 90%;
     height: 200px;
   }
-  .card{
+
+  .card {
     height: fit-content;
     gap: 1rem;
   }

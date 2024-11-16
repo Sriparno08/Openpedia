@@ -1,4 +1,4 @@
-import { resources, videos } from "./data.js";
+import { resources, videos } from "../../data/introduction-to-open-source.js";
 
 document.addEventListener("DOMContentLoaded", function () {
   function createResourceItem(resource) {
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
               <span class="source"><p class="italic">By ${resource.source}</p></span>              
             </div>
             <div>
-              <button class="btn"><a href="${resource.url}" target="_blank">Visit Site<i class="bi bi-box-arrow-up-right"></i></a><img class="link-arrow" src="/assets/open-link-arrow.svg" /></button>
+              <button class="btn"><a href="${resource.url}" target="_blank">Visit Site<i class="bi bi-box-arrow-up-right"></i></a></button>
             </div>
           </div>
         </div>
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
               <span class="source"><p class="italic">By ${video.source}</p></span>
             </div>
             <div>  
-              <button class="btn"><a href="${video.url}" target="_blank">View Video<i class="bi bi-box-arrow-up-right"></i></a><img class="link-arrow" src="/assets/open-link-arrow.svg" /></button>
+              <button class="btn"><a href="${video.url}" target="_blank">View Video<i class="bi bi-box-arrow-up-right"></i></a></button>
             </div>
           </div>
         </div>

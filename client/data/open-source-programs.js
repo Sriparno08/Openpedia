@@ -68,7 +68,7 @@ const OpenSourceCompetitions = [
   },
 ];
 
-const UniversityOpenSourceProgram = [
+const UniversityOpenSourcePrograms = [
   {
     name: "JGEC Winter of Code",
     content:
@@ -104,4 +104,4 @@ const UniversityOpenSourceProgram = [
   },
 ];
 
-export { SOC, OpenSourceCompetitions, UniversityOpenSourceProgram };
+export { SOC, OpenSourceCompetitions, UniversityOpenSourcePrograms };

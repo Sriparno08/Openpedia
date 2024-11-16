@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "type": "module",
   "description": "",
-  "main": "client/index.html",
   "scripts": {
     "build": "webpack serve --config ./webpack.config.cjs --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"

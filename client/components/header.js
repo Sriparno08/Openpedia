@@ -3,7 +3,7 @@ const header = document.createElement("header");
 
 header.innerHTML = `<div class="title-container">
                       <a href="/">
-                        <img src="https://raw.githubusercontent.com/Sriparno08/Openpedia/main/client/assets/long-logo.png" alt="Openpedia">
+                        <img src="../../assets/long-logo.png" alt="Openpedia">
                       </a>
                     </div>
 

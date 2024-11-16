@@ -21,17 +21,17 @@
 }
 
 .intro .intro-title {
-  font-size: 32px;
+  font-size: 30px;
   text-align: center;
   color: var(--txt);
   margin-bottom: 2rem;
   font-weight: 500;
-  letter-spacing: 0.5px;
+
 }
 
 .intro .intro-description {
   font-weight: 400;
-  font-size: 19px;
+  font-size: 18px;
   margin-bottom: 2.6rem;
   letter-spacing: 0px;
   text-align: center;
@@ -836,7 +836,7 @@ body.dark-theme .about-items {
   margin: 20px 0;
 }
 
-.star {
+.stars .star {
   font-size: 30px;
   color: #ccc;
   /* Default star color */
@@ -847,9 +847,9 @@ body.dark-theme .about-items {
   /* Remove any border */
 }
 
-.star:hover,
-.star.hovered,
-.star.selected {
+.stars .star:hover,
+.stars .star.hovered,
+.stars .star.selected {
   color: #ffdd57;
   /* Yellow stars when hovered or selected */
   box-shadow: 0px 0px 10px rgba(255, 221, 87, 0.6);

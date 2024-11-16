@@ -1,5 +1,5 @@
 section {
-  padding: 0 3rem;
+  padding: 2rem 3rem;
 }
 
 .image {
@@ -13,7 +13,9 @@ section {
   margin: auto;
   display: flex;
   justify-content: center;
+  margin-bottom: 2rem;
 }
+
 h1 {
   text-align: center;
   font-family: Arial, sans-serif;
@@ -29,8 +31,9 @@ h2 {
   text-align: center;
   margin: 20px;
 }
-.dark-theme h2{
-  color: #aee31f ;
+
+.dark-theme h2 {
+  color: #aee31f;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   margin-bottom: 20px;
@@ -107,7 +110,7 @@ h2 {
   gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
   justify-content: center;
-  align-content: center; 
+  align-content: center;
 }
 
 
@@ -120,7 +123,7 @@ h2 {
     min-height: 14rem;
   }
 
-  .imagecontainer img{
+  .imagecontainer img {
     width: 100vw;
     height: fit-content;
     position: absolute;

@@ -11,11 +11,13 @@
 .head-img {
   width: 100%;
   height: 90%;
+  display: flex;
+  justify-content: right;
 }
 
 .head-img img {
-  width: 100%;
-  height: 90%;
+  width: 50%;
+  height: 50%;
 }
 
 section {
@@ -31,7 +33,7 @@ section {
   font-size: 1.5rem;
   width: 40%;
   font-weight: 600;
-  color: whitesmoke;
+  color: black;
   text-align: center;
   /* centering the text */
 }
@@ -50,7 +52,8 @@ section {
 
 .swiper-container .swiper-button-next,
 .swiper-container .swiper-button-prev {
-  color: #000000; /* Default button color for light theme */
+  color: black;
+  /* Default button color for light theme */
   background-image: url('/assets/arrow.svg') !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
@@ -164,7 +167,7 @@ section {
   background-color: rgb(25, 50, 84);
   gap: 2rem;
   border-radius: 1rem;
-  padding: 1rem;  
+  padding: 1rem;
 }
 
 .card1 .box1 ul li {
@@ -269,18 +272,18 @@ section {
     margin-bottom: 30vh;
   }
 
-  .head-img{
+  .head-img {
     height: 40vh;
   }
 
   .image {
     background-color: #181b60;
     width: 0vw;
-    object-fit:cover;
+    object-fit: cover;
     object-position: right;
   }
 
-  .head-text{
+  .head-text {
     font-size: 1.1rem;
     width: 90%;
     text-align: center;
@@ -293,11 +296,13 @@ section {
 
 body.dark-theme {
   background-color: #121212;
-  color: #ffffff; /* Change the text color to white */
+  color: #ffffff;
+  /* Change the text color to white */
 }
 
 body.dark-theme hr {
-  border-color: #ffffff; /* Change the <hr> color to white */
+  border-color: #ffffff;
+  /* Change the <hr> color to white */
 }
 
 body.dark-theme h3,

@@ -9,24 +9,25 @@
   max-width: 643px;
 }
 
-
 section {
-  padding: 0 0 20px;
-  padding-bottom: 80px;
-  height: 100%;
+  padding: 3.5rem;
+  margin-bottom: 3.5rem;
+  background-color: rgb(25, 50, 84);
 }
 
 .headh2 {
   text-align: center;
-  margin-bottom: 20px;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 4rem;
+  letter-spacing: 1px;
 }
 
 .card1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 3.5rem;
-  padding: 2rem 3.5rem;
+  gap: 3rem;
   justify-items: center;
 }
 
@@ -39,6 +40,7 @@ section {
   background-color: white;
   box-shadow: rgba(9, 36, 133, 0.11) 0px 6px 20px -6px;
   border-radius: 20px;
+  border: 2px solid white;
 }
 
 .img {
@@ -74,20 +76,20 @@ section {
 }
 
 .resource {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   height: 4.5rem;
   font-weight: 500;
-  letter-spacing: 0.5px;
   line-height: 1.6rem;
 }
 
 .publisher {
   height: 3.5rem;
+  font-size: 1.1rem;
 }
 
 .desc a {
   display: inline-block;
-  padding: 0.6rem 1.2rem;
+  padding: 0.8rem 1.2rem;
   text-decoration: none;
   font-size: 15px;
   border: 2px solid rgb(18, 38, 64);

@@ -3,7 +3,7 @@ const footer = document.createElement("footer");
 footer.innerHTML = `<div class="contain">
                       <div class="row">
                         <div class="col">
-                          <img src="https://raw.githubusercontent.com/Sriparno08/Openpedia/main/client/assets/long-logo.png" alt="Openpedia">
+                          <img src="../../assets/long-logo.png" alt="Openpedia">
                         </div>
 
                         <div class="col">
@@ -11,7 +11,7 @@ footer.innerHTML = `<div class="contain">
                           <p><a href="/categories/introduction-to-open-source/" class="footer-links">Introduction to Open Source</a></p>
                           <p><a href="/categories/learn-git-and-github/" class="footer-links">Learn Git and GitHub</a></p>
                           <p><a href="/categories/contributing-to-open-source/" class="footer-links">Contributing to Open Source</a></p>
-                          <p><a href="/categories/beginner-friendly-repositories/" class="footer-links">Beginner-Friendly Repos</a></p>
+                          <p><a href="/categories/beginner-friendly-repositories/" class="footer-links">Beginner-Friendly Repositories</a></p>
                           <p><a href="/categories/open-source-programs/" class="footer-links">Open Source Programs</a></p>
                         </div>  
                       

@@ -1,4 +1,4 @@
-import { SOC, OpenSourceCompetitions, UniversityOpenSourceProgram } from "./data.js";
+import { SOC, OpenSourceCompetitions, UniversityOpenSourcePrograms } from "../../data/open-source-programs.js";
 
 document.addEventListener("DOMContentLoaded", function () {
   function isValidHttpUrl(string) {
@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
     dynamicOSCContainer.innerHTML += createGitItem(value);
   });
 
-  UniversityOpenSourceProgram.forEach((value) => {
+  UniversityOpenSourcePrograms.forEach((value) => {
     dynamicUOSPContainer.innerHTML += createGitItem(value);
   });
 });

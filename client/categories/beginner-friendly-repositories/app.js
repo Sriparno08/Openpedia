@@ -1,4 +1,4 @@
-import { webDevRepositories, jsLibAndFrameworks, machineLearningAndAI, BioInformatics, CrossPlatformAppDevelopment } from "./data.js";
+import { webDevRepositories, jsLibAndFrameworks, machineLearningAndAI, BioInformatics, CrossPlatformAppDevelopment } from "../../data/beginner-friendly-repositories.js";
 
 function renderCards() {
   let container = document.querySelector("#web-dev-repositories");
@@ -9,7 +9,7 @@ function renderCards() {
         <h3>${repo.title}</h3>
         <p>${repo.description}</p>
         <div class="button-container">
-         <button class="btn"><a href="${repo.url}" target="_blank">Read More<i class="bi bi-box-arrow-up-right"></i></a><img class="link-arrow" src="/assets/open-link-arrow.svg" /></button>
+         <button class="btn"><a href="${repo.url}" target="_blank">Read More<i class="bi bi-box-arrow-up-right"></i></a></button>
         </div>
       `;
     container.appendChild(card);
@@ -23,7 +23,7 @@ function renderCards() {
         <h3>${repo.title}</h3>
         <p>${repo.description}</p>
         <div class="button-container">
-         <button class="btn"><a href="${repo.url}" target="_blank">Read More<i class="bi bi-box-arrow-up-right"></i></a><img class="link-arrow" src="/assets/open-link-arrow.svg" /></button>
+         <button class="btn"><a href="${repo.url}" target="_blank">Read More<i class="bi bi-box-arrow-up-right"></i></a></button>
         </div>
       `;
     container.appendChild(card);
@@ -37,7 +37,7 @@ function renderCards() {
         <h3>${repo.title}</h3>
         <p>${repo.description}</p>
         <div class="button-container">
-         <button class="btn"><a href="${repo.url}" target="_blank">Read More<i class="bi bi-box-arrow-up-right"></i></a><img class="link-arrow" src="/assets/open-link-arrow.svg" /></button>
+         <button class="btn"><a href="${repo.url}" target="_blank">Read More<i class="bi bi-box-arrow-up-right"></i></a></button>
         </div>
       `;
     container.appendChild(card);
@@ -51,7 +51,7 @@ function renderCards() {
         <h3>${repo.title}</h3>
         <p>${repo.description}</p>
         <div class="button-container">
-         <button class="btn"><a href="${repo.url}" target="_blank">Read More<i class="bi bi-box-arrow-up-right"></i></a><img class="link-arrow" src="/assets/open-link-arrow.svg" /></button>
+         <button class="btn"><a href="${repo.url}" target="_blank">Read More<i class="bi bi-box-arrow-up-right"></i></a></button>
         </div>
       `;
     container.appendChild(card);
@@ -65,7 +65,7 @@ function renderCards() {
         <h3>${repo.title}</h3>
         <p>${repo.description}</p>
         <div class="button-container">
-         <button class="btn"><a href="${repo.url}" target="_blank">Read More<i class="bi bi-box-arrow-up-right"></i></a><img class="link-arrow" src="/assets/open-link-arrow.svg" /></button>
+         <button class="btn"><a href="${repo.url}" target="_blank">Read More<i class="bi bi-box-arrow-up-right"></i></a></button>
         </div>
       `;
     container.appendChild(card);
