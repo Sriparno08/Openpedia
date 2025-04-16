@@ -4,42 +4,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Openpedia</title>
+  <title>Open Source Programs | Openpedia</title>
   <link rel="icon" href="../../assets/short-logo.png">
+  <link rel="stylesheet" href="../../styles/category-pages.css">
+  <link rel="stylesheet" href="../../styles/resource-cards-2.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="../../styles/globals.css">
-  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <main class="container">
-    <div class="imagecontainer">
-      <img src="../../assets/illustration-5.jpg" alt="Loading" class="image">
-    </div>
+    <section class="hero-section">
+      <div class="hero-intro">
+        <h1 class="intro-title">Open Source Programs</h1>
+        <p class="intro-description">A bunch of exciting open source programs that allow you to upskill and get rewarded
+          for contributing to open source projects.</p>
+        <a href="#resources-section" class="intro-button">Explore</a>
+      </div>
 
-    <div class="heading">
-      <h1>Open Source Programs</h1>
-    </div>
+      <div class="hero-img">
+        <img src="../../assets/illustration-5.jpg" alt="Hero Image">
+      </div>
+    </section>
 
-    <div class="section-parent">
-      <section>
-        <h2>SOC (Season of Code)</h2>
-        <div id="dynamic-soc"></div>
+    <section id="resources-section" class="resources-section">
+      <h2 class="resources-title">Resources</h2>
 
-        <h2 id="heading-margin">Open Source Competitions</h2>
-        <div id="dynamic-osc"></div>
+      <div class="resources-container"></div>
+    </section>
 
-        <h2 id="heading-margin">University Open Source Programs</h2>
-        <div id="dynamic-uosp"></div>
-      </section>
-    </div>
+    <section class="categories-section">
+      <h2 class="categories-title">More Categories</h2>
+
+      <div class="categories-container"></div>
+    </section>
   </main>
 
-  <script type="module" src="./app.js"></script>
+  <script type="module" src="app.js"></script>
   <script src="../../components/Header.js"></script>
   <script src="../../components/Footer.js"></script>
-  <script src="../../components/BackToTop.js"></script>
   <script src="../../components/DarkTheme.js"></script>
+  <script src="../../components/BackToTop.js"></script>
   <script src="../../app.js"></script>
 </body>
 

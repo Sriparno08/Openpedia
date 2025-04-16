@@ -2,76 +2,49 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Openpedia</title>
-  <link rel="icon" href="../../assets/short-logo.png" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-  <link rel="stylesheet" href="../../styles/globals.css" />
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction to Open Source | Openpedia</title>
+  <link rel="icon" href="../../assets/short-logo.png">
+  <link rel="stylesheet" href="../../styles/category-pages.css">
+  <link rel="stylesheet" href="../../styles/resource-cards-1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="../../styles/globals.css">
 </head>
 
 <body>
   <main class="container">
-    <div class="container-wrapper">
-      <section class="content-section">
-        <div class="heading">
-          <div class="head-text">
-            <p>
-              Welcome to the exciting and collaborative realm of open source! If
-              you're new to this dynamic community, let's embark on a journey to
-              explore the principles, culture, and endless possibilities that
-              define the world of open source.
-            </p>
-          </div>
-          <div class="head-img">
-            <img src="../../assets/illustration-1.jpg" class="image" alt="" />
-          </div>
-        </div>
+    <section class="hero-section">
+      <div class="hero-intro">
+        <h1 class="intro-title">Introduction to Open Source</h1>
+        <p class="intro-description">A carefully curated selection of invaluable resources designed to help you navigate
+          and understand the open source ecosystem.</p>
+        <a href="#resources-section" class="intro-button">Explore</a>
+      </div>
 
-        <div class="resources-section">
-          <h3 id="heading">
-            Here are some priceless resources that will answer these questions
-            in detail:
-          </h3>
+      <div class="hero-img">
+        <img src="../../assets/illustration-1.jpg" alt="Hero Image">
+      </div>
+    </section>
 
-          <div class="slider-container">
-            <div id="dynamic-resources" class="swiper-container">
-              <div class="swiper-wrapper"></div>
-              <div class="swiper-pagination"></div>
-              <div class="swiper-button-next"></div>
-              <div class="swiper-button-prev"></div>
-            </div>
-          </div>
-          <hr class="styled-hr" />
-        </div>
+    <section id="resources-section" class="resources-section">
+      <h2 class="resources-title">Resources</h2>
 
-        <div class="videos-section">
-          <h3 id="heading">
-            Here are some priceless Video resources that will answer these
-            questions in detail:
-          </h3>
+      <div class="resources-container"></div>
+    </section>
 
-          <div class="slider-container">
-            <div id="dynamic-videos" class="swiper-container">
-              <div class="swiper-wrapper"></div>
-              <div class="swiper-pagination"></div>
-              <div class="swiper-button-next"></div>
-              <div class="swiper-button-prev"></div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
+    <section class="categories-section">
+      <h2 class="categories-title">More Categories</h2>
+
+      <div class="categories-container"></div>
+    </section>
   </main>
 
-  <script type="module" src="./app.js"></script>
+  <script type="module" src="app.js"></script>
   <script src="../../components/Header.js"></script>
   <script src="../../components/Footer.js"></script>
-  <script src="../../components/BackToTop.js"></script>
   <script src="../../components/DarkTheme.js"></script>
+  <script src="../../components/BackToTop.js"></script>
   <script src="../../app.js"></script>
 </body>
 

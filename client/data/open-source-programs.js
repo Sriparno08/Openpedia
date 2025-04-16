@@ -1,107 +1,88 @@
-const SOC = [
+const osp = [
   {
-    name: "Google Season of Docs",
-    content:
-      "Google Season of Docs provides support for open source projects to improve their documentation and gives professional technical writers an opportunity to gain experience in open source. Together we raiseawareness of open source, of docs, and of technical writing...",
-    url: "https://developers.google.com/season-of-docs/",
-    timeline: "https://developers.google.com/season-of-docs/docs/timeline",
-    reward: "3000 USD to 6600 USD",
+    title: "24 Pull Requests",
+    description: "Encourages developers to give back to open source by submitting 24 pull requests during December.",
+    link: "https://24pullrequests.com/",
+    image: "../../assets/illustration-1.jpg"
   },
   {
-    name: "Outreachy",
-    content:
-      "Google Summer of Code is a global, online program focused on bringing new contributors into open source software development. GSoC Contributors work with an open source organization on a 12+ week programming project under the guidance of mentors...",
-    url: "https://www.outreachy.org/",
-    timeline: "May to August, or December to Marc",
-    reward: "$7,000 USD",
+    title: "FOSS Overflow",
+    description: "A program that offers mentorship and collaboration opportunities for contributors to open source.",
+    link: "https://fossoverflow.dev/",
+    image: "../../assets/illustration-1.jpg"
   },
   {
-    name: "Google Summer of Code",
-    content:
-      "Google Season of Docs provides support for open source projects to improve their documentation and gives professional technical writers an opportunity to gain experience in open source. Together we raiseawareness of open source, of docs, and of technical writing...",
-    url: "https://summerofcode.withgoogle.com/",
-    timeline: "https://developers.google.com/open-source/gsoc/timeline",
-    reward: "1500 USD to 3000 USD",
+    title: "FOSSASIA Codeheat",
+    description: "A coding contest focused on improving open source projects and encouraging collaboration.",
+    link: "https://codeheat.org/",
+    image: "../../assets/illustration-1.jpg"
   },
   {
-    name: "MLH Fellowship",
-    content:
-      "A fully remote, 12-week internship alternative where participants earn a stipend and learn to collaborate on real open source projects with peers and engineers from top companies...",
-    url: "https://fellowship.mlh.io/",
-    timeline: "May - Aug & Jun - Sep",
-    reward: "up to $5000",
+    title: "GiriScript Summer of Code (GSSoC)",
+    description: "An open source initiative that offers mentorship and rewards for summer contributions.",
+    link: "https://gssoc.girlscript.tech/",
+    image: "../../assets/illustration-1.jpg"
   },
   {
-    name: "XROS Fellowship",
-    content:
-      "The XROS Fellowship Program supports Indian XR developers [AR, VR, MR, 3D modeling, etc] throughfellowships. It is fully remote, 4 week open-source fellowship that offers stipends, mentoring by industry experts on open-source XR projects.",
-    url: "",
-    timeline: "https://xrosfellowship.ficci.in/",
-    reward: "INR 4 Lakh",
+    title: "Google Season of Docs (GSoD)",
+    description: "Connects technical writers with open source projects to improve documentation.",
+    link: "https://developers.google.com/season-of-docs",
+    image: "../../assets/illustration-1.jpg"
   },
+  {
+    title: "Google Summer of Code (GSoC)",
+    description: "A global program that offers stipends to university students for contributing to open source software.",
+    link: "https://summerofcode.withgoogle.com/",
+    image: "../../assets/illustration-1.jpg"
+  },
+  {
+    title: "Hacksquad",
+    description: "A fun global hackathon event to encourage first-time contributions to open source.",
+    link: "https://www.hacksquad.dev/",
+    image: "../../assets/illustration-1.jpg"
+  },
+  {
+    title: "Hacktoberfest",
+    description: "A month-long celebration of open source where contributors earn swag for pull requests.",
+    link: "https://hacktoberfest.com/",
+    image: "../../assets/illustration-1.jpg"
+  },
+  {
+    title: "Hyperledger Mentorship Program",
+    description: "A structured program providing mentorship in enterprise-grade blockchain technologies.",
+    link: "https://wiki.hyperledger.org/display/INTERN",
+    image: "../../assets/illustration-1.jpg"
+  },
+  {
+    title: "Kharagpur Winter of Code (KWoC)",
+    description: "An annual initiative by IIT Kharagpur to help students get started with open source during the winter.",
+    link: "https://kwoc.kossiitkgp.org/",
+    image: "../../assets/illustration-1.jpg"
+  },
+  {
+    title: "LFN Mentorship Program",
+    description: "Mentorship program by the Linux Foundation Networking group for growing open source talent.",
+    link: "https://wiki.lfnetworking.org/display/LN/LFN+Mentorship+Program",
+    image: "../../assets/illustration-1.jpg"
+  },
+  {
+    title: "MLH Fellowship",
+    description: "A remote internship program that pairs developers with mentors on real-world open source projects.",
+    link: "https://fellowship.mlh.io/",
+    image: "../../assets/illustration-1.jpg"
+  },
+  {
+    title: "Outreachy",
+    description: "Provides internships to people from underrepresented groups in tech, working on open source.",
+    link: "https://www.outreachy.org/",
+    image: "../../assets/illustration-1.jpg"
+  },
+  {
+    title: "Season of KDE",
+    description: "Mentorship program by the KDE community for new contributors to open source.",
+    link: "https://season.kde.org/",
+    image: "../../assets/illustration-1.jpg"
+  }
 ];
 
-const OpenSourceCompetitions = [
-  {
-    name: "Hacktoberfest",
-    content:
-      "A month-long celebration of open-source projects, their maintainers, and the entire community of contributors...",
-    url: "",
-    timeline: "October",
-    reward: "Swag rewards",
-  },
-  {
-    name: "Girlscript Summer of Code",
-    content:
-      "GirlScript Summer of Code is a 3-month long OpenSource program by GirlScript Foundation...",
-    url: "",
-    timeline: "May - August",
-    reward: "3000 USD to 6600 USD",
-  },
-  {
-    name: "Hacksquad",
-    content:
-      "Hacksquad is here to enhance your Swag, meet with more community members and participate in workshops from our great sponsors....",
-    url: "https://www.hacksquad.dev/",
-    timeline: "October",
-    reward: "Amazing Swags rewards for Top-60 Teams",
-  },
-];
-
-const UniversityOpenSourcePrograms = [
-  {
-    name: "JGEC Winter of Code",
-    content:
-      "JWoC is an open-source program organized by Developers' JGEC which helps students to plunge into Open Source contribution and get the realm of Software Development.",
-    url: "https://www.jwoc.tech/",
-    timeline: "Jan - Feb",
-    reward:
-      "Paid Internship Opportunities, Coupons & Free Domains, Goodies & Cool Stickers, Workshops & Masterclasses, Verified Certificates.",
-  },
-  {
-    name: "Kharagpur Winter Of Code",
-    content:
-      "Kharagpur Winter of Code is a 5-week long online program for students who are new to open source software development. The program not only helps students to get involved in open source, but also prepares them for many open source summer programs; Google Summer of Code being one of them.",
-    url: "https://kwoc.kossiitkgp.org/",
-    timeline: "November - February",
-    reward: "Amazing Swags rewards",
-  },
-  {
-    name: "NJACK Winter of Code",
-    content:
-      "NJACK Winter of Code is an initiative by NJACK, IIT Patna, targeted at students who have never participated in Free or Open Source Software (FOSS) development before, as well as at those who have already become an expert in Open Source Development and are currently contributing to projects of any domain, say Web, Mobile, Machine Learning, Blockchain, IoT etc. It also aims to prepare them for bigger programs and opportunities like Google Summer of Code, Outreachy etc.",
-    url: "https://njackwinterofcode.github.io/",
-    timeline: "December",
-    reward: "Amazing Swags rewards",
-  },
-  {
-    name: "FOSS OverFlow",
-    content:
-      "FOSS Overflow is a program by OpenLake and GDSC IIT Bhilai that helps students to get started with the world of open source by helping them build real world open sourced projects under guidance of awesome mentors.",
-    url: "https://fossoverflow.dev/",
-    timeline: "Dec-Feb",
-    reward: "Stipend upto 10k INR, Swags & Certification.",
-  },
-];
-
-export { SOC, OpenSourceCompetitions, UniversityOpenSourcePrograms };
+export { osp };

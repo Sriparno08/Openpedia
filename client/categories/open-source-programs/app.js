@@ -1,46 +1,56 @@
-import { SOC, OpenSourceCompetitions, UniversityOpenSourcePrograms } from "../../data/open-source-programs.js";
+import { osp } from "../../data/open-source-programs.js";
 
-document.addEventListener("DOMContentLoaded", function () {
-  function isValidHttpUrl(string) {
-    let url;
+const resourcesContainer = document.querySelector(".resources-container");
+const categoriesContainer = document.querySelector(".categories-container");
 
-    try {
-      url = new URL(string);
-    } catch (_) {
-      return false;
-    }
+function resourceCard(resource) {
+  resourcesContainer.innerHTML += `<div class="resource-card">
+                                     <div class="resource-img">
+                                       <img src="${resource.image}" alt="Resource Image">
+                                     </div>
+                                    
+                                     <div class="resource-info">
+                                       <h3 class="resource-title">${resource.title}</h3>
+                                       <p class="resource-publisher">${resource.description}</p>
+                                       <a href="${resource.link}" class="resource-link" target="_blank">Read Article</a>
+                                     </div>      
+                                   </div>`;
+};
 
-    return url.protocol === "http:" || url.protocol === "https:";
-  }
+osp.forEach(resourceCard);
 
-  function createGitItem(value) {
-    return `
-        <div class="card">
-            <h3>${value.name}</h3>
-            <p>${value.content
-      }  ${isValidHttpUrl(value.url) ? `<a href="${value.url}" target="_blank">Read More</a>` : ""}</p>
-            <p><strong>Timeline:</strong> ${isValidHttpUrl(value.timeline)
-        ? `<a href="${value.timeline}" target="_blank">Visit</a>`
-        : value.timeline
-      }</p>
-            <p><strong>Rewards:</strong> ${value.reward}</p>
-        </div>
-        `;
-  }
+categoriesContainer.innerHTML = `<div class="category-card">
+                                   <h3 class="category-title">Introduction to Open Source</h3>
 
-  const dynamicSOCContainer = document.getElementById("dynamic-soc");
-  const dynamicOSCContainer = document.getElementById("dynamic-osc");
-  const dynamicUOSPContainer = document.getElementById("dynamic-uosp");
+                                   <div class="category-info">
+                                     <p class="category-description">This category provides a carefully curated selection of invaluable resources designed to help you navigate and understand the open source ecosystem.</p>
+                                     <a href="https://openpedia.netlify.app/categories/learn-git-and-github/" class="category-link" target="_blank">Explore</a>
+                                   </div>
+                                 </div>
 
-  SOC.forEach((value) => {
-    dynamicSOCContainer.innerHTML += createGitItem(value);
-  });
+                                  <div class="category-card">
+                                   <h3 class="category-title">Learn Git and GitHub</h3>
 
-  OpenSourceCompetitions.forEach((value) => {
-    dynamicOSCContainer.innerHTML += createGitItem(value);
-  });
+                                   <div class="category-info">
+                                     <p class="category-description">This category offers a selection of key resources aimed at helping you master Git and GitHub, two of the most essential tools for contributing to open-source projects.</p>
+                                     <a href="https://openpedia.netlify.app/categories/learn-git-and-github/" class="category-link" target="_blank">Explore</a>
+                                   </div>
+                                 </div>
 
-  UniversityOpenSourcePrograms.forEach((value) => {
-    dynamicUOSPContainer.innerHTML += createGitItem(value);
-  });
-});
+                                 <div class="category-card">
+                                   <h3 class="category-title">Contributing to Open Source</h3>
+
+                                   <div class="category-info">
+                                     <p class="category-description">This category features a comprehensive collection of practical resources that outline the step-by-step workflow involved in contributing to open-source projects.</p>
+                                     <a href="https://openpedia.netlify.app/categories/learn-git-and-github/" class="category-link" target="_blank">Explore</a>
+                                   </div>
+                                 </div>
+
+                                 <div class="category-card">
+                                   <h3 class="category-title">Beginner-Friendly Repositories</h3>
+
+                                   <div class="category-info">
+                                     <p class="category-description">This category highlights a variety of active beginner-friendly repositories specifically chosen to help newcomers take their first steps into the world of open source contributions.</p>
+                                     <a href="https://openpedia.netlify.app/categories/learn-git-and-github/" class="category-link" target="_blank">Explore</a>
+                                   </div>
+                                 </div>`;

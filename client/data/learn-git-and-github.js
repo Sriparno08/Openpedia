@@ -1,44 +1,52 @@
-const gits = [
+const lgag = [
   {
-    question: "Git & GitHub Tutorial",
-    source: "freeCodeCamp",
-    url: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
+    title: "An Intro to Git and GitHub for Beginners",
+    publisher: "HubSpot",
+    link: "https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners",
+    image: "../../assets/illustration-1.jpg"
   },
   {
-    question: "Intro to Git & GitHub for Beginners",
-    source: "HubSpot",
-    url: "https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners",
+    title: "An Ultimate Guide to Git and GitHub",
+    publisher: "GeeksforGeeks",
+    link: "https://www.geeksforgeeks.org/ultimate-guide-git-github/",
+    image: "../../assets/illustration-1.jpg"
   },
   {
-    question: "GitHub & Git Tutorial",
-    source: "DataCamp",
-    url: "https://www.datacamp.com/tutorial/github-and-git-tutorial-for-beginners",
+    title: "Git and GitHub Tutorial for Beginners",
+    publisher: "DataCamp",
+    link: "https://www.datacamp.com/tutorial/github-and-git-tutorial-for-beginners",
+    image: "../../assets/illustration-1.jpg"
   },
   {
-    question: "An Ultimate Guide to Git & GitHub",
-    source: "GeeksForGeeks",
-    url: "https://www.geeksforgeeks.org/ultimate-guide-git-github/",
+    title: "Git and GitHub Tutorial: Version Control for Beginners",
+    publisher: "freeCodeCamp",
+    link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
+    image: "../../assets/illustration-1.jpg"
   },
   {
-    question: "Intro to GitHub for Version Control",
-    source: "Coding Club",
-    url: "https://ourcodingclub.github.io/tutorials/git/",
+    title: "GitHub: Get Started",
+    publisher: "GitHub",
+    link: "https://docs.github.com/en/get-started/start-your-journey/hello-world",
+    image: "../../assets/illustration-1.jpg"
   },
   {
-    question: "GitHub & Git Tutorial for Beginners",
-    source: "Analytics Vidhya",
-    url: "https://www.analyticsvidhya.com/blog/2021/09/git-and-github-tutorial-for-beginners/",
+    title: "How to Use GitHub",
+    publisher: "Edureka",
+    link: "https://www.edureka.co/blog/how-to-use-github/",
+    image: "../../assets/illustration-1.jpg"
   },
   {
-    question: "How to use GitHub",
-    source: "Edureka",
-    url: "https://www.edureka.co/blog/how-to-use-github",
+    title: "Intro to GitHub for Version Control",
+    publisher: "Coding Club",
+    link: "https://ourcodingclub.github.io/tutorials/git/",
+    image: "../../assets/illustration-1.jpg"
   },
   {
-    question: "GitHub - Get Started",
-    source: "GitHub",
-    url: "https://docs.github.com/en/get-started/start-your-journey/hello-world",
-  },
+    title: "Introduction to Git and GitHub for Beginners",
+    publisher: "Analytics Vidhya",
+    link: "https://www.analyticsvidhya.com/blog/2021/09/git-and-github-tutorial-for-beginners/",
+    image: "../../assets/illustration-1.jpg"
+  }
 ];
 
-export { gits };
+export { lgag };

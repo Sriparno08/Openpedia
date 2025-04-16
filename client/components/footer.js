@@ -19,7 +19,6 @@ footer.innerHTML = `<div class="contain">
                           <h3>Support</h3>
                           <p><a href="#about" class="footer-links">About</a></p>
                           <p><a href="https://github.com/Sriparno08/Openpedia" class="footer-links">Documentation</a></p>
-                          <p><a href="/support/frequently-asked-questions/" class="footer-links">Frequently Asked Questions</a>
                           </p>
                         </div>
 
@@ -31,8 +30,8 @@ footer.innerHTML = `<div class="contain">
                       </div>
 
                       <div class="end">
-                        <span class="copyright">&copy; 2024 Openpedia</span>
-                        <span class="creator">Developed By Sriparno Roy & Open Source Community</span>
+                        <span class="copyright">&copy; 2025 Openpedia</span>
+                        <span class="creator">Made With ❤️ By Sriparno Roy</span>
                       </div>
                     </div>`;
 

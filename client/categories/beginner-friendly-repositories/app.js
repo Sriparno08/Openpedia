@@ -1,75 +1,56 @@
-import { webDevRepositories, jsLibAndFrameworks, machineLearningAndAI, BioInformatics, CrossPlatformAppDevelopment } from "../../data/beginner-friendly-repositories.js";
+import { bfr } from "../../data/beginner-friendly-repositories.js";
 
-function renderCards() {
-  let container = document.querySelector("#web-dev-repositories");
-  webDevRepositories.forEach((repo) => {
-    const card = document.createElement("div");
-    card.className = "card";
-    card.innerHTML = `
-        <h3>${repo.title}</h3>
-        <p>${repo.description}</p>
-        <div class="button-container">
-         <button class="btn"><a href="${repo.url}" target="_blank">Read More<i class="bi bi-box-arrow-up-right"></i></a></button>
-        </div>
-      `;
-    container.appendChild(card);
-  });
+const resourcesContainer = document.querySelector(".resources-container");
+const categoriesContainer = document.querySelector(".categories-container");
 
-  container = document.querySelector("#js-libs-frameworks");
-  jsLibAndFrameworks.forEach((repo) => {
-    const card = document.createElement("div");
-    card.className = "card";
-    card.innerHTML = `
-        <h3>${repo.title}</h3>
-        <p>${repo.description}</p>
-        <div class="button-container">
-         <button class="btn"><a href="${repo.url}" target="_blank">Read More<i class="bi bi-box-arrow-up-right"></i></a></button>
-        </div>
-      `;
-    container.appendChild(card);
-  });
+function resourceCard(resource) {
+  resourcesContainer.innerHTML += `<div class="resource-card">
+                                     <div class="resource-img">
+                                       <img src="${resource.image}" alt="Resource Image">
+                                     </div>
+                                    
+                                     <div class="resource-info">
+                                       <h3 class="resource-title">${resource.title}</h3>
+                                       <p class="resource-publisher">${resource.description}</p>
+                                       <a href="${resource.link}" class="resource-link" target="_blank">Read Article</a>
+                                     </div>      
+                                   </div>`;
+};
 
-  container = document.querySelector("#machine-learning-and-ai");
-  machineLearningAndAI.forEach((repo) => {
-    const card = document.createElement("div");
-    card.className = "card";
-    card.innerHTML = `
-        <h3>${repo.title}</h3>
-        <p>${repo.description}</p>
-        <div class="button-container">
-         <button class="btn"><a href="${repo.url}" target="_blank">Read More<i class="bi bi-box-arrow-up-right"></i></a></button>
-        </div>
-      `;
-    container.appendChild(card);
-  });
+bfr.forEach(resourceCard);
 
-  container = document.querySelector("#bioinformatics");
-  BioInformatics.forEach((repo) => {
-    const card = document.createElement("div");
-    card.className = "card";
-    card.innerHTML = `
-        <h3>${repo.title}</h3>
-        <p>${repo.description}</p>
-        <div class="button-container">
-         <button class="btn"><a href="${repo.url}" target="_blank">Read More<i class="bi bi-box-arrow-up-right"></i></a></button>
-        </div>
-      `;
-    container.appendChild(card);
-  });
+categoriesContainer.innerHTML = `<div class="category-card">
+                                   <h3 class="category-title">Introduction to Open Source</h3>
 
-  container = document.querySelector("#Cross-platform-app-development");
-  CrossPlatformAppDevelopment.forEach((repo) => {
-    const card = document.createElement("div");
-    card.className = "card";
-    card.innerHTML = `
-        <h3>${repo.title}</h3>
-        <p>${repo.description}</p>
-        <div class="button-container">
-         <button class="btn"><a href="${repo.url}" target="_blank">Read More<i class="bi bi-box-arrow-up-right"></i></a></button>
-        </div>
-      `;
-    container.appendChild(card);
-  });
-}
+                                   <div class="category-info">
+                                     <p class="category-description">This category provides a carefully curated selection of invaluable resources designed to help you navigate and understand the open source ecosystem.</p>
+                                     <a href="https://openpedia.netlify.app/categories/learn-git-and-github/" class="category-link" target="_blank">Explore</a>
+                                   </div>
+                                 </div>
 
-document.addEventListener("DOMContentLoaded", renderCards);
+                                  <div class="category-card">
+                                   <h3 class="category-title">Learn Git and GitHub</h3>
+
+                                   <div class="category-info">
+                                     <p class="category-description">This category offers a selection of key resources aimed at helping you master Git and GitHub, two of the most essential tools for contributing to open-source projects.</p>
+                                     <a href="https://openpedia.netlify.app/categories/learn-git-and-github/" class="category-link" target="_blank">Explore</a>
+                                   </div>
+                                 </div>
+
+                                 <div class="category-card">
+                                   <h3 class="category-title">Contributing to Open Source</h3>
+
+                                   <div class="category-info">
+                                     <p class="category-description">This category features a comprehensive collection of practical resources that outline the step-by-step workflow involved in contributing to open-source projects.</p>
+                                     <a href="https://openpedia.netlify.app/categories/learn-git-and-github/" class="category-link" target="_blank">Explore</a>
+                                   </div>
+                                 </div>
+                                 
+                                 <div class="category-card">
+                                   <h3 class="category-title">Open Source Programs</h3>
+
+                                   <div class="category-info">
+                                     <p class="category-description">This category showcases a range of exciting open source programs that not only help you develop valuable skills but also offer mentorship and rewards for your contributions.</p>
+                                     <a href="https://openpedia.netlify.app/categories/learn-git-and-github/" class="category-link" target="_blank">Explore</a>
+                                   </div>
+                                 </div>`;
