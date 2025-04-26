@@ -1,5 +1,5 @@
 <h1>
-  <img src="https://github.com/user-attachments/assets/ff8a09a6-807e-49f7-898d-512a47890f47" alt="Openpedia Logo" width="100%">
+  <img src="https://github.com/user-attachments/assets/ec1ff29f-9492-44ed-b777-6f6a065f9dad" alt="Openpedia Logo" width="100%">
 </h1>
 
 Openpedia provides a wealth of useful resources that enable you to become a seasoned open source contributor. If you want to leave your mark in the world of open source, this project is a great fit for you.
