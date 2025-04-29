@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  padding: 0 3rem;
 }
 
 .intro {
@@ -15,7 +16,7 @@
 }
 
 .h img {
-  width: 90vh;
+  width: 45vw;
 }
 
 .intro .intro-title {
@@ -39,21 +40,21 @@
 
 .intro .get-started {
   display: block;
-  padding: 1rem 3rem;
+  padding: 1.2rem 2.1rem;
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 19px;
-  border: 2px solid var(--bgg);
   transition: all 0.3s;
   border-radius: 8px;
-  background-color: transparent;
+  background-color: black;
   transform: scale(0.85);
   letter-spacing: 0.5px;
+  border: 2px solid var(--bgg);
 }
 
 .intro .get-started:hover {
-  color: white;
-  background-color: var(--bgg);
+  color: black;
+  background-color: transparent;
 }
 
 .categories-container {
@@ -102,21 +103,22 @@
 
 .category-image {
   width: 32%;
-}
-
-.category img {
-  width: 100%;
-  height: 100%;
+  background-color: #182396;
   border-radius: 8px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
 
-.category:nth-of-type(2) img,
-.category:nth-of-type(4) img {
+.category:nth-of-type(2) .category-image,
+.category:nth-of-type(4) .category-image {
   border-radius: 8px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+}
+
+.category img {
+  width: 100%;
+  height: 100%;
 }
 
 .category-info {
@@ -169,7 +171,7 @@
   width: 80%;
   border-radius: 20px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 4rem;
@@ -177,38 +179,52 @@
 
 .about-items>div {
   border-radius: 8px;
-  width: 50%;
-  height: 100%;
+  width: 80%;
   border: 2px solid black;
+  background-color: white;
+}
+
+.about-items .about {
+  display: flex;
 }
 
 .about .about-title {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: 500;
   font-size: 20px;
-  text-align: center;
   letter-spacing: 0.5px;
+  background-color: rgb(25, 50, 84);
+}
+
+.about-title p {
+  color: white;
 }
 
 .about .about-description {
-  line-height: 1.3;
+  line-height: 1.4;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  flex: 1;
-  position: relative;
+  padding: 2rem;
+  padding-top: 1.8rem;
+  padding-bottom: 2.4rem;
+  width: 65%;
 }
 
 .about-description p {
-  height: 8.5rem;
+  height: 9rem;
   font-size: 17px;
   color: #405D72;
   text-align: justify;
+  letter-spacing: 0.4px;
 }
 
 .about-description .buttons {
   display: flex;
   gap: 1rem;
-  bottom: 0;
 }
 
 .about-description .star,
@@ -245,37 +261,51 @@
 }
 
 .about-description .sponsor:hover {
-  background-color: transparent;
+  background-color: white;
   color: black;
 }
 
+.contribute {
+  display: flex;
+}
+
+.contribute-title p {
+  color: white;
+}
+
 .contribute .contribute-title {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: 500;
   font-size: 20px;
-  text-align: center;
   letter-spacing: 0.5px;
+  background-color: rgb(25, 50, 84);
 }
 
 .contribute .contribute-description {
-  line-height: 1.3;
+  line-height: 1.4;
   display: flex;
-  position: relative;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
+  padding: 2rem;
+  padding-top: 1.8rem;
+  padding-bottom: 2.4rem;
+  width: 65%;
 }
 
 .contribute-description p {
-  height: 8.5rem;
+  height: 9.5rem;
   font-size: 17px;
   color: #405D72;
   text-align: justify;
+  letter-spacing: 0.4px;
 }
 
 .contribute .contribute-link {
   width: 7rem;
   height: 3rem;
-  background-color: white;
   padding: 0.9rem 1.3rem;
   color: black;
   text-decoration: none;
@@ -380,502 +410,4 @@
 .dark-theme .contribute-description p {
   font-size: 17px;
   color: #dee2e6;
-}
-
-@media screen and (max-width: 768px) {
-  .h {
-    flex-direction: column;
-    height: 100%;
-    justify-content: flex-start;
-  }
-
-  .intro {
-    position: relative;
-    width: 100%;
-    padding: 0;
-    height: 90vh;
-    text-align: center;
-  }
-
-  .intro .intro-title {
-    position: absolute;
-    top: 1.4rem;
-    padding: 0 1rem;
-    margin-bottom: 1.2rem;
-    font-size: 1.7rem;
-  }
-
-  .intro .intro-description {
-    position: absolute;
-    top: 27.2rem;
-    font-size: 1.1rem;
-    padding: 0 1.5rem;
-  }
-
-  .intro .get-started {
-    position: absolute;
-    bottom: 0.8rem;
-    width: 100%;
-  }
-
-  .h img {
-    position: absolute;
-    top: 10.6rem;
-    height: auto;
-    width: 45vh;
-  }
-
-  .categories-title {
-    font-size: 1.75rem;
-    text-align: center;
-  }
-
-  .category {
-    flex-direction: column;
-    height: auto;
-    position: relative;
-  }
-
-  .category-image,
-  .category-info {
-    width: 100%;
-  }
-
-  .category-image img {
-    border-radius: 8px 8px 0 0;
-    height: 28vh;
-    position: relative;
-    top: 0;
-    display: block;
-  }
-
-  .category:nth-of-type(2),
-  .category:nth-of-type(4) {
-    flex-direction: column-reverse;
-  }
-
-  .category-image:nth-of-type(2) img,
-  .category-image:nth-of-type(4) img {
-    border-radius: 8px 8px 0 0;
-  }
-
-  .category-info {
-    position: relative;
-    padding: 1.3rem 1rem;
-    padding-bottom: 1.8rem;
-    align-items: center;
-    justify-content: unset;
-  }
-
-  .category .category-title {
-    width: 100%;
-    font-size: 1.2rem;
-    text-align: center;
-  }
-
-  .category-info p {
-    text-align: center;
-  }
-
-  .category-link {
-    text-align: center;
-  }
-
-  .about {
-    height: auto;
-  }
-
-  .about-container {
-    padding: 3rem 1rem;
-  }
-
-  .about-items {
-    flex-direction: column;
-    gap: 3rem;
-  }
-
-  .about-items>div {
-    width: 100%;
-  }
-
-  .about,
-  .contribute {
-    padding: 1.5rem;
-  }
-
-  .about-title,
-  .contribute-title {
-    font-size: 18px;
-  }
-
-  .about-description p,
-  .contribute-description p {
-    font-size: 16px;
-  }
-
-  .about-description .buttons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    width: 100%;
-  }
-
-  .star,
-  .sponsor,
-  .contribute-link {
-    width: 100%;
-    text-align: center;
-    height: 3.5rem;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .about-container {
-    padding: 2rem 0.5rem;
-  }
-
-  .h img {
-    max-width: 50vh;
-  }
-
-  .about-title,
-  .contribute-title {
-    font-size: 16px;
-  }
-
-  .about-description p,
-  .contribute-description p {
-    font-size: 15px;
-    margin-bottom: 3.5rem;
-  }
-
-  .about,
-  .contribute {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: fit-content;
-  }
-
-
-  .buttons {
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-  }
-
-  .star,
-  .sponsor,
-  .contribute-link {
-    font-size: 14px;
-    height: 3rem;
-  }
-}
-
-
-/* About and Contribute Section Responsive Styling */
-.about-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  padding: 5rem 0;
-}
-
-.about-items {
-  display: flex;
-  gap: 3rem;
-  width: 80%;
-  max-width: 1200px;
-  /* Restrict width on larger screens */
-}
-
-.about,
-.contribute {
-  flex: 1;
-  /* Ensures both sections take equal space side-by-side */
-  padding: 1.5rem;
-  border-radius: 8px;
-  border: 2px solid black;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-}
-
-.about-title,
-.contribute-title {
-  font-weight: 500;
-  font-size: 1.2rem;
-  text-align: center;
-}
-
-.about-description p,
-.contribute-description p {
-  font-size: 1rem;
-  color: #405D72;
-  text-align: justify;
-}
-
-.buttons {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-.star,
-.sponsor,
-.contribute-link {
-  padding: 0.8rem;
-  font-size: 0.9rem;
-  border: 2px solid rgb(18, 38, 64);
-  border-radius: 5px;
-  text-align: center;
-  color: black;
-  background-color: transparent;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.star:hover,
-.sponsor:hover,
-.contribute-link:hover {
-  background-color: #193254;
-  color: white;
-}
-
-@media screen and (max-width: 768px) {
-  .about-items {
-    flex-direction: column;
-    /* Stacks sections vertically on smaller screens */
-  }
-
-  .about-title,
-  .contribute-title {
-    font-size: 1rem;
-  }
-
-  .about-description p,
-  .contribute-description p {
-    font-size: 0.9rem;
-  }
-
-  .star,
-  .sponsor,
-  .contribute-link {
-    width: 100%;
-    /* Buttons take full width in smaller screens */
-    font-size: 0.8rem;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .about-container {
-    padding: 1rem 0.5rem;
-  }
-
-  .about-title,
-  .contribute-title {
-    font-size: 0.9rem;
-  }
-
-  .about-description p,
-  .contribute-description p {
-    font-size: 0.8rem;
-  }
-
-  .about-items {
-    gap: 1.5rem;
-  }
-}
-
-body.dark-theme .about,
-body.dark-theme .contribute {
-  background-color: #193254;
-  /* Dark theme background */
-  border: 2px solid #555;
-  /* Dark theme border */
-}
-
-body.dark-theme .about-description p,
-body.dark-theme .contribute-description p {
-  color: #e0e0e0;
-  /* Dark theme text color */
-}
-
-body.dark-theme .sponsor,
-body.dark-theme .contribute-link {
-  border: 2px solid #e0e0e0;
-  /* Light border for dark theme */
-  color: white;
-  /* Button text color for dark theme */
-}
-
-body.dark-theme .star:hover,
-body.dark-theme .sponsor:hover,
-body.dark-theme .contribute-link:hover {
-  background-color: #405D72;
-  /* Darker hover background for buttons */
-  color: white;
-  /* Text color on hover */
-}
-
-/* Responsive Styles for Dark Theme */
-body.dark-theme .about-items {
-  display: flex;
-  gap: 2rem;
-  width: 90%;
-  max-width: 1200px;
-  /* Restrict width on larger screens */
-}
-
-@media screen and (max-width: 768px) {
-  body.dark-theme .about-items {
-    flex-direction: column;
-    /* Stacks sections vertically on smaller screens */
-  }
-
-  body.dark-theme .about-title,
-  body.dark-theme .contribute-title {
-    font-size: 1rem;
-  }
-
-  body.dark-theme .about-description p,
-  body.dark-theme .contribute-description p {
-    font-size: 0.9rem;
-  }
-
-  body.dark-theme .star,
-  body.dark-theme .sponsor,
-  body.dark-theme .contribute-link {
-    width: 100%;
-    /* Buttons take full width in smaller screens */
-    font-size: 0.8rem;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  body.dark-theme .about-container {
-    padding: 1rem 0.5rem;
-  }
-
-  body.dark-theme .about-title,
-  body.dark-theme .contribute-title {
-    font-size: 0.9rem;
-  }
-
-  body.dark-theme .about-description p,
-  body.dark-theme .contribute-description p {
-    font-size: 0.8rem;
-  }
-
-  body.dark-theme .about-items {
-    gap: 1.5rem;
-  }
-}
-
-
-/* Overlay */
-.rate-us-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5);
-  /* Dark overlay effect */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-/* Rate Us Box */
-.rate-us-box {
-  background-color: #0044cc;
-  /* Dark blue background */
-  color: #fff;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-  position: relative;
-  text-align: center;
-  width: 300px;
-}
-
-/* Close Button */
-.close-button {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background: none;
-  border: none;
-  font-size: 20px;
-  color: white;
-  cursor: pointer;
-}
-
-/* Stars */
-.stars {
-  display: flex;
-  justify-content: center;
-  margin: 20px 0;
-}
-
-.stars .star {
-  font-size: 30px;
-  color: #ccc;
-  /* Default star color */
-  cursor: pointer;
-  transition: color 0.2s, box-shadow 0.2s;
-  /* Transition for color and shadow */
-  border: none;
-  /* Remove any border */
-}
-
-.stars .star:hover,
-.stars .star.hovered,
-.stars .star.selected {
-  color: #ffdd57;
-  /* Yellow stars when hovered or selected */
-  box-shadow: 0px 0px 10px rgba(255, 221, 87, 0.6);
-  /* Soft glow on hover */
-}
-
-/* Submit Button */
-.submit-button {
-  background-color: #007bff;
-  /* Primary button color */
-  color: white;
-  padding: 8px 12px;
-  border: 2px solid #103f72;
-  /* Add a border with a darker shade of blue */
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 10px;
-  transition: all 0.3s ease;
-  /* Smooth transition */
-}
-
-.submit-button:hover {
-  background-color: #0056b3;
-  /* Darker background on hover */
-  border-color: #00c3ff;
-  /* Glowing border effect on hover */
-  box-shadow: 0 0 10px #00c3ff, 0 0 20px #00c3ff;
-  /* Glowing effect */
-  color: #fff;
-}
-
-/* Active state for the overlay */
-.rate-us-overlay.active {
-  visibility: visible;
-  opacity: 1;
 }

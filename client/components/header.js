@@ -22,7 +22,7 @@ header.innerHTML = `<div class="title-container">
 
                       <ul class="links">
                         <li class="item">
-                          <i><a href="https://github.com/Sriparno08/Openpedia" class="fa-brands fa-github"></a></i>
+                          <i><a href="https://github.com/Sriparno08/Openpedia" class="fa-brands fa-github" target="_blank"></a></i>
                         </li>
                       </ul>
                     </div>`;

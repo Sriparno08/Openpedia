@@ -3,29 +3,31 @@ const footer = document.createElement("footer");
 footer.innerHTML = `<div class="contain">
                       <div class="row">
                         <div class="col">
-                          <img src="../../assets/long-logo.png" alt="Openpedia">
+                          <a href="/" target="_blank">
+                            <img src="../../assets/long-logo.png" alt="Openpedia">
+                          </a>
                         </div>
 
                         <div class="col">
                           <h3>Categories</h3>
-                          <p><a href="/categories/introduction-to-open-source/" class="footer-links">Introduction to Open Source</a></p>
-                          <p><a href="/categories/learn-git-and-github/" class="footer-links">Learn Git and GitHub</a></p>
-                          <p><a href="/categories/contributing-to-open-source/" class="footer-links">Contributing to Open Source</a></p>
-                          <p><a href="/categories/beginner-friendly-repositories/" class="footer-links">Beginner-Friendly Repositories</a></p>
-                          <p><a href="/categories/open-source-programs/" class="footer-links">Open Source Programs</a></p>
+                          <p><a href="/categories/introduction-to-open-source/" class="footer-links" target="_blank">Introduction to Open Source</a></p>
+                          <p><a href="/categories/learn-git-and-github/" class="footer-links" target="_blank">Learn Git and GitHub</a></p>
+                          <p><a href="/categories/contributing-to-open-source/" class="footer-links" target="_blank">Contributing to Open Source</a></p>
+                          <p><a href="/categories/beginner-friendly-repositories/" class="footer-links" target="_blank">Beginner-Friendly Repositories</a></p>
+                          <p><a href="/categories/open-source-programs/" class="footer-links" target="_blank">Open Source Programs</a></p>
                         </div>  
                       
                         <div class="col">
                           <h3>Support</h3>
-                          <p><a href="#about" class="footer-links">About</a></p>
-                          <p><a href="https://github.com/Sriparno08/Openpedia" class="footer-links">Documentation</a></p>
+                          <p><a href="https://openpedia.netlify.app/#about" class="footer-links" target="_blank">About</a></p>
+                          <p><a href="https://github.com/Sriparno08/Openpedia" class="footer-links" target="_blank">Documentation</a></p>
                           </p>
                         </div>
 
                         <div class="col">
                           <h3>Social Links</h3>
-                          <p><a href="https://www.linkedin.com/in/sriparnoroy/" class="footer-links">LinkedIn</a></p>
-                          <p><a href="https://github.com/Sriparno08" class="footer-links">GitHub</a></p>
+                          <p><a href="https://www.linkedin.com/in/sriparnoroy/" class="footer-links" target="_blank">LinkedIn</a></p>
+                          <p><a href="https://github.com/Sriparno08" class="footer-links" target="_blank">GitHub</a></p>
                         </div>
                       </div>
 

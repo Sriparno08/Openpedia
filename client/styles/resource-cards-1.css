@@ -1,7 +1,7 @@
 .resources-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 3rem;
+  gap: 5rem;
   justify-items: center;
   padding: 0 8rem;
 }
@@ -17,11 +17,12 @@
   transition: transform 0.3s ease;
 }
 
-.resource-img {
+.resource-image {
   width: 100%;
   overflow: hidden;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  background-color: #182396;
 }
 
 .resource-info {
@@ -34,7 +35,7 @@
   padding-top: 1.1rem;
 }
 
-.resource-img img {
+.resource-image img {
   display: block;
   width: 100%;
 }
@@ -57,7 +58,7 @@
 
 .resource-link {
   display: inline-block;
-  padding: 0.8rem 1.2rem;
+  padding: 0.6rem 1rem;
   text-decoration: none;
   font-size: 15px;
   border: 2px solid rgb(18, 38, 64);
