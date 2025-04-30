@@ -3,7 +3,7 @@ const footer = document.createElement("footer");
 footer.innerHTML = `<div class="contain">
                       <div class="row">
                         <div class="col">
-                          <a href="/" target="_blank">
+                          <a href="/">
                             <img src="../../assets/long-logo.png" alt="Openpedia">
                           </a>
                         </div>
@@ -19,7 +19,7 @@ footer.innerHTML = `<div class="contain">
                       
                         <div class="col">
                           <h3>Support</h3>
-                          <p><a href="https://openpedia.netlify.app/#about" class="footer-links" target="_blank">About</a></p>
+                          <p><a href="/#about" class="footer-links">About</a></p>
                           <p><a href="https://github.com/Sriparno08/Openpedia" class="footer-links" target="_blank">Documentation</a></p>
                           </p>
                         </div>

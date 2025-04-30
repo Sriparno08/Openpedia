@@ -144,7 +144,7 @@
 
 .category .category-link {
   display: inline-block;
-  padding: 0.7rem 1.3rem;
+  padding: 0.8rem 1.2rem;
   text-decoration: none;
   font-size: 15px;
   border: 2px solid rgb(18, 38, 64);
@@ -169,7 +169,6 @@
 
 .about-items {
   width: 80%;
-  border-radius: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -180,7 +179,7 @@
 .about-items>div {
   border-radius: 8px;
   width: 80%;
-  border: 2px solid black;
+  border: 2px solid rgb(25, 50, 84);
   background-color: white;
 }
 
@@ -197,6 +196,9 @@
   font-size: 20px;
   letter-spacing: 0.5px;
   background-color: rgb(25, 50, 84);
+  border-radius: 8px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .about-title p {
@@ -282,6 +284,9 @@
   font-size: 20px;
   letter-spacing: 0.5px;
   background-color: rgb(25, 50, 84);
+  border-radius: 8px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .contribute .contribute-description {

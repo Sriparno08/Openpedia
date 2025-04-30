@@ -12,7 +12,7 @@ function resourceCard(resource) {
                                      <div class="resource-info">
                                        <h3 class="resource-title">${resource.title}</h3>
                                        <p class="resource-publisher">${resource.description}</p>
-                                       <a href="${resource.link}" class="resource-link" target="_blank">Visit Repository</a>
+                                       <a href="${resource.link}" class="resource-link" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
                                      </div>      
                                    </div>`;
 };
@@ -28,7 +28,7 @@ categoriesContainer.innerHTML = `<div class="category-card">
 
                                    <div class="category-info">
                                      <p class="category-description">This category provides a carefully curated selection of invaluable resources designed to help you navigate and understand the open source ecosystem.</p>
-                                     <a href="../introduction-to-open-source/index.html" class="category-link" target="_blank">Explore</a>
+                                     <a href="../introduction-to-open-source/index.html" class="category-link" target="_blank">Explore <i class="fa fa-external-link" aria-hidden="true"></i></a>
                                    </div>
                                  </div>
 
@@ -41,7 +41,7 @@ categoriesContainer.innerHTML = `<div class="category-card">
 
                                    <div class="category-info">
                                      <p class="category-description">This category offers a selection of key resources aimed at helping you master Git and GitHub, two of the most essential tools for contributing to open-source projects.</p>
-                                     <a href="../learn-git-and-github/index.html" class="category-link" target="_blank">Explore</a>
+                                     <a href="../learn-git-and-github/index.html" class="category-link" target="_blank">Explore <i class="fa fa-external-link" aria-hidden="true"></i></a>
                                    </div>
                                  </div>
 
@@ -54,7 +54,7 @@ categoriesContainer.innerHTML = `<div class="category-card">
 
                                    <div class="category-info">
                                      <p class="category-description">This category features a comprehensive collection of practical resources that outline the step-by-step workflow involved in contributing to open-source projects.</p>
-                                     <a href="../contributing-to-open-source/index.html" class="category-link" target="_blank">Explore</a>
+                                     <a href="../contributing-to-open-source/index.html" class="category-link" target="_blank">Explore <i class="fa fa-external-link" aria-hidden="true"></i></a>
                                    </div>
                                  </div>
                                  
@@ -67,6 +67,6 @@ categoriesContainer.innerHTML = `<div class="category-card">
 
                                    <div class="category-info">
                                      <p class="category-description">This category showcases a range of exciting open source programs that not only help you develop valuable skills but also offer mentorship and rewards for your contributions.</p>
-                                     <a href="../open-source-programs/index.html" class="category-link" target="_blank">Explore</a>
+                                     <a href="../open-source-programs/index.html" class="category-link" target="_blank">Explore <i class="fa fa-external-link" aria-hidden="true"></i></a>
                                    </div>
                                  </div>`;

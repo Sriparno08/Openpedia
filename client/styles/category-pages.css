@@ -41,14 +41,14 @@
 
 .hero-intro .intro-button {
   display: block;
-  padding: 1.1rem 2.5rem;
+  padding: 1rem 2.4rem;
   text-decoration: none;
   color: black;
   font-size: 19px;
   transition: all 0.3s;
   border-radius: 8px;
   background-color: transparent;
-  transform: scale(0.85);
+  transform: scale(0.9);
   letter-spacing: 0.5px;
   border: 2px solid var(--bgg);
 }
@@ -150,10 +150,8 @@
 }
 
 .category-link {
-  width: 7rem;
-  height: 3rem;
   background-color: white;
-  padding: 0.9rem 1.3rem;
+  padding: 0.8rem 1.3rem;
   color: black;
   text-decoration: none;
   display: flex;
