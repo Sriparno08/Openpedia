@@ -29,7 +29,7 @@ html {
 
 .container {
   color: var(--txt);
-  background-color: rgb(176, 241, 255);
+  background-color: #e1d0ff;
   position: relative;
 }
 
@@ -38,10 +38,11 @@ header {
   display: flex;
   justify-content: space-between;
   height: 10vh;
+  padding: 0 1rem;
 }
 
 header .title-container {
-  padding: 0rem 1.3rem;
+  padding: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -55,7 +56,6 @@ header .title-container {
 .elemContainer {
   display: flex;
   align-items: center;
-  margin-right: 1.3rem;
 }
 
 #themeBody {
@@ -265,7 +265,7 @@ footer .creator {
 
 /* Dark Theme */
 .dark-theme .container {
-  background-color: black;
+  background-color: #111724;
 }
 
 /* Responsiveness */

@@ -3,7 +3,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 5rem;
   justify-items: center;
-  padding: 0 8rem;
+  padding: 0 6rem;
 }
 
 .resource-card {

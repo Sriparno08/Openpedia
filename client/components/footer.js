@@ -10,11 +10,11 @@ footer.innerHTML = `<div class="contain">
 
                         <div class="col">
                           <h3>Categories</h3>
-                          <p><a href="/categories/introduction-to-open-source/" class="footer-links" target="_blank">Introduction to Open Source</a></p>
-                          <p><a href="/categories/learn-git-and-github/" class="footer-links" target="_blank">Learn Git and GitHub</a></p>
-                          <p><a href="/categories/contributing-to-open-source/" class="footer-links" target="_blank">Contributing to Open Source</a></p>
-                          <p><a href="/categories/beginner-friendly-repositories/" class="footer-links" target="_blank">Beginner-Friendly Repositories</a></p>
-                          <p><a href="/categories/open-source-programs/" class="footer-links" target="_blank">Open Source Programs</a></p>
+                          <p><a href="/categories/introduction-to-open-source/" class="footer-links">Introduction to Open Source</a></p>
+                          <p><a href="/categories/learn-git-and-github/" class="footer-links">Learn Git and GitHub</a></p>
+                          <p><a href="/categories/contributing-to-open-source/" class="footer-links">Contributing to Open Source</a></p>
+                          <p><a href="/categories/beginner-friendly-repositories/" class="footer-links">Beginner-Friendly Repositories</a></p>
+                          <p><a href="/categories/open-source-programs/" class="footer-links">Open Source Programs</a></p>
                         </div>  
                       
                         <div class="col">

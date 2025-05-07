@@ -19,3 +19,11 @@ themeToggle.addEventListener("click", () => {
     localStorage.setItem("theme", "light");
   }
 });
+
+const savedTheme = localStorage.getItem("theme");
+
+if (savedTheme === "dark") {
+  body.classList.add("dark-theme");
+} else {
+  body.classList.remove("dark-theme");
+}
