@@ -43,7 +43,7 @@
   padding: 1.2rem 2.1rem;
   text-decoration: none;
   color: white;
-  font-size: 19px;
+  font-size: 20px;
   border-radius: 8px;
   background-color: black;
   transform: scale(0.85);
@@ -356,7 +356,7 @@
 
 .dark-theme .get-started {
   background-color: #364153;
-  border: 2px solid #364153;
+  border: 1px solid rgb(233, 219, 219);
 }
 
 .dark-theme .category {
@@ -367,7 +367,7 @@
   transition: none;
   color: white;
   background-color: #364153;
-  border: 2px solid #364153;
+  border: 1px solid rgb(233, 219, 219);
 }
 
 .dark-theme .category-title {
@@ -381,6 +381,7 @@
 .dark-theme .category .category-link:hover {
   background-color: #3d4a5f;
   border: 2px solid #3d4a5f;
+  border: 1px solid rgb(233, 219, 219);
 }
 
 .dark-theme .about,
@@ -404,11 +405,16 @@
   transition: none;
   color: white;
   background-color: #364153;
-  border: 2px solid #364153;
+  border: 1px solid rgb(233, 219, 219);
 }
 
 .dark-theme .sponsor {
-  border: 2px solid #182396;
+  border: 1px solid rgb(233, 219, 219);
+}
+
+.dark-theme .sponsor:hover {
+  border: 1px solid rgb(233, 219, 219);
+
 }
 
 .dark-theme .about-container-title {
@@ -418,22 +424,28 @@
 .dark-theme .star:hover {
   background-color: #3d4a5f;
   border: 2px solid #3d4a5f;
+  border: 1px solid rgb(233, 219, 219);
 }
 
 .dark-theme .contribute-link {
   transition: none;
   color: white;
   background-color: #364153;
-  border: 2px solid #364153;
+  border: 1px solid rgb(233, 219, 219);
 }
 
 .dark-theme .contribute-link:hover {
   background-color: #3d4a5f;
   border: 2px solid #3d4a5f;
+  border: 1px solid rgb(233, 219, 219);
 }
 
 .dark-theme .about-description p,
 .dark-theme .contribute-description p {
   font-size: 17px;
   color: rgb(216, 216, 216);
+}
+
+.dark-theme .about-items>div {
+  border: 2px solid white;
 }

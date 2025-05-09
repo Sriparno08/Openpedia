@@ -3,24 +3,20 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 3rem;
+  gap: 4rem;
 }
 
 .resource-card {
   display: flex;
-  align-items: center;
   background-color: white;
-  box-shadow: rgba(9, 36, 133, 0.11) 0px 6px 20px -6px;
   border: 2px solid white;
   border-radius: 20px;
-  width: 80%;
-  height: 38vh;
+  width: 70%;
   transition: transform 0.3s ease;
 }
 
 .resource-image {
   width: 32%;
-  height: 100%;
   background-color: #183296;
   border-radius: 20px;
   border-top-right-radius: 0;
@@ -52,10 +48,11 @@
   margin-bottom: 1rem;
   text-align: center;
   line-height: 1.5;
+  margin-top: 1.5rem;
 }
 
 .resource-publisher {
-  margin-bottom: 1.5rem;
+  height: 15vh;
 }
 
 .resource-link {
@@ -63,19 +60,38 @@
   padding: 0.8rem 1.1rem;
   text-decoration: none;
   font-size: 15px;
-  border: 2px solid rgb(18, 38, 64);
-  transition: all 0.3s;
+  border: 2px solid black;
   color: white;
   background-color: black;
   border-radius: 5px;
   letter-spacing: 0.5px;
+  margin-bottom: 2.2rem;
 }
 
 .resource-link:hover {
-  background-color: white;
-  color: black;
+  color: white;
+  background-color: rgb(34, 45, 61);
+  border-color: rgb(34, 45, 61);
 }
 
-#resources-container {
-  padding-bottom: 20px;
+.dark-theme .resource-card {
+  background-color: #111724;
+}
+
+.dark-theme .resource-title {
+  color: white;
+}
+
+.dark-theme .resource-publisher {
+  color: rgb(237, 228, 228);
+}
+
+.dark-theme .resource-link {
+  background-color: #364153;
+  border: 1px solid rgb(233, 219, 219);
+}
+
+.dark-theme .resource-link:hover {
+  background-color: #3d4a5f;
+  border: 1px solid rgb(233, 219, 219);
 }

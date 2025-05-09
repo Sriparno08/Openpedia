@@ -41,21 +41,21 @@
 
 .hero-intro .intro-button {
   display: block;
-  padding: 1rem 2.4rem;
+  padding: 1.2rem 2.6rem;
   text-decoration: none;
-  color: black;
-  font-size: 19px;
-  transition: all 0.3s;
+  color: white;
+  font-size: 20px;
   border-radius: 8px;
-  background-color: transparent;
-  transform: scale(0.9);
+  background-color: black;
+  transform: scale(0.85);
+  transition: transform 0.3s;
   letter-spacing: 0.5px;
-  border: 2px solid var(--bgg);
+  border: 2px solid black;
 }
 
 .hero-intro .intro-button:hover {
   color: white;
-  background-color: black;
+  transform: scale(0.9);
 }
 
 .hero-image {
@@ -63,7 +63,7 @@
 }
 
 .resources-section {
-  padding: 3.5rem 0;
+  padding-top: 3.5rem;
   padding-bottom: 6rem;
   background-color: rgb(25, 50, 84);
 }
@@ -88,6 +88,7 @@
   font-weight: 400;
   margin-bottom: 4rem;
   letter-spacing: 1px;
+  color: white;
 }
 
 .categories-container {
@@ -103,7 +104,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.1rem;
   border: 2px solid rgb(25, 50, 84);
 }
 
@@ -112,10 +112,11 @@
   height: 40vh;
   display: flex;
   justify-content: center;
-  background-color: rgb(25, 50, 84);
+  background-color: #182396;
   border-radius: 20px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+
 }
 
 .category-image img {
@@ -128,31 +129,30 @@
   text-align: center;
   letter-spacing: 0.5px;
   color: black;
+  margin-top: 1.4rem;
+  margin-bottom: 1rem;
 }
 
 .category-info {
   padding: 0 2rem;
-  padding-bottom: 1.8rem;
+  padding-bottom: 2.2rem;
   line-height: 1.4;
   display: flex;
   position: relative;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 1.6rem;
 }
 
 .category-description {
   font-size: 17px;
-  color: #405D72;
   text-align: justify;
   color: black;
 }
 
 .category-link {
-  background-color: white;
-  padding: 0.8rem 1.3rem;
-  color: black;
+  padding: 0.8rem 1.1rem;
   text-decoration: none;
   display: flex;
   justify-content: center;
@@ -160,12 +160,56 @@
   font-size: 15px;
   letter-spacing: 0.5px;
   border-radius: 5px;
-  transition: all 0.3s;
   gap: 0.4rem;
+  color: white;
+  background-color: black;
   border: 2px solid black;
 }
 
 .category-link:hover {
-  background-color: rgb(25, 50, 84);
   color: white;
+  background-color: rgb(34, 45, 61);
+  border-color: rgb(34, 45, 61);
+}
+
+.dark-theme .intro-title {
+  color: white;
+}
+
+.dark-theme .intro-description {
+  color: rgb(216, 216, 216);
+}
+
+.dark-theme .intro-button {
+  background-color: #364153;
+  border: 1px solid rgb(233, 219, 219);
+}
+
+.dark-theme .category-card {
+  background-color: #111724;
+  border: 2px solid white;
+}
+
+.dark-theme .category-title {
+  color: white;
+}
+
+.dark-theme .category-info p {
+  color: rgb(216, 216, 216);
+}
+
+.dark-theme .category-link {
+  transition: none;
+  color: white;
+  background-color: #364153;
+  border: 1px solid rgb(233, 219, 219);
+}
+
+.dark-theme .category-link:hover {
+  background-color: #3d4a5f;
+  border: 1px solid rgb(233, 219, 219);
+}
+
+.dark-theme .category-image {
+  border-bottom: 1px solid rgb(196, 182, 182);
 }

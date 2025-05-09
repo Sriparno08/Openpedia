@@ -1,12 +1,13 @@
 .resources-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 5rem;
+  gap: 4rem;
   justify-items: center;
   padding: 0 6rem;
 }
 
 .resource-card {
+  width: 100%;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -23,6 +24,7 @@
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   background-color: #182396;
+  height: 50%;
 }
 
 .resource-info {
@@ -31,13 +33,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 1.5rem;
-  padding-top: 1.1rem;
+  padding: 0 1.1rem;
+  padding-top: 0.8rem;
+  justify-content: center;
+  height: 50%;
 }
 
 .resource-image img {
   display: block;
   width: 100%;
+  height: 100%;
 }
 
 .resource-card:hover {
@@ -46,14 +51,15 @@
 
 .resource-title {
   font-size: 1.1rem;
-  height: 3rem;
+  height: 3.2rem;
   font-weight: 500;
   margin-bottom: 1rem;
+  line-height: 1.4;
 }
 
 .resource-publisher {
   font-size: 1rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.8rem;
 }
 
 .resource-link {
@@ -61,20 +67,46 @@
   padding: 0.8rem 1rem;
   text-decoration: none;
   font-size: 15px;
-  border: 2px solid rgb(18, 38, 64);
-  transition: all 0.3s;
-  color: white;
   border-radius: 5px;
   letter-spacing: 0.5px;
-  background-color: rgb(18, 38, 64);
-  margin-bottom: 1.5rem;
+  color: white;
+  background-color: black;
+  border: 2px solid black;
+  margin-bottom: 1.7rem;
 }
 
 .resource-link:hover {
-  background-color: white;
-  color: black;
+  color: white;
+  background-color: rgb(34, 45, 61);
+  border-color: rgb(34, 45, 61);
 }
 
 .resources-container {
   padding-bottom: 20px;
+}
+
+.dark-theme .resource-card {
+  background-color: #111724;
+}
+
+.dark-theme .resource-title {
+  color: white;
+}
+
+.dark-theme .resource-publisher {
+  color: rgb(237, 228, 228);
+}
+
+.dark-theme .resource-link {
+  background-color: #364153;
+  border: 1px solid rgb(233, 219, 219);
+}
+
+.dark-theme .resource-link:hover {
+  background-color: #3d4a5f;
+  border: 1px solid rgb(233, 219, 219);
+}
+
+.dark-theme .resource-image {
+  border: 1px solid rgb(233, 219, 219);
 }
