@@ -88,7 +88,7 @@
   font-weight: 400;
   margin-bottom: 4rem;
   letter-spacing: 1px;
-  color: white;
+  color: black;
 }
 
 .categories-container {
@@ -185,6 +185,10 @@
   border: 1px solid rgb(233, 219, 219);
 }
 
+.dark-theme .categories-title {
+  color: white;
+}
+
 .dark-theme .category-card {
   background-color: #111724;
   border: 2px solid white;
@@ -208,8 +212,4 @@
 .dark-theme .category-link:hover {
   background-color: #3d4a5f;
   border: 1px solid rgb(233, 219, 219);
-}
-
-.dark-theme .category-image {
-  border-bottom: 1px solid rgb(196, 182, 182);
 }

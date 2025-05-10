@@ -1,8 +1,10 @@
+/* Hero Section */
+
 .h {
-  height: 80vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  height: 80vh;
   padding: 0 3rem;
 }
 
@@ -21,55 +23,58 @@
 
 .intro .intro-title {
   font-size: 30px;
-  text-align: center;
-  color: var(--txt);
-  margin-bottom: 2rem;
   font-weight: 500;
+  color: black;
+  margin-bottom: 2rem;
+}
 
+.categories-container .categories-title,
+.about-container-title {
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.about-container-title {
+  color: black;
 }
 
 .intro .intro-description {
-  font-weight: 400;
   font-size: 18px;
-  margin-bottom: 2.5rem;
-  letter-spacing: 0px;
-  text-align: center;
+  font-weight: 400;
   color: rgb(73, 81, 91);
   letter-spacing: 1px;
+  margin-bottom: 2.5rem;
+  text-align: center;
 }
 
 .intro .get-started {
   display: block;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  color: white;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 8px;
   padding: 1.2rem 2.1rem;
   text-decoration: none;
-  color: white;
-  font-size: 20px;
-  border-radius: 8px;
-  background-color: black;
   transform: scale(0.85);
   transition: transform 0.3s;
-  letter-spacing: 0.5px;
-  border: 2px solid black;
 }
 
 .intro .get-started:hover {
-  color: white;
   transform: scale(0.9);
 }
 
+/* Categories Section */
+
 .categories-container {
-  padding: 3.5rem 0;
   background-color: var(--bgg);
+  padding: 3.5rem 0;
 }
 
-.categories-container .categories-title {
-  text-align: center;
-  font-weight: 400;
-  letter-spacing: 1px;
-  color: white;
-}
-
-.categories-container .categories {
+.categories {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -77,13 +82,17 @@
 }
 
 .category {
+  display: flex;
   width: 75%;
   background-color: var(--bg);
-  margin-bottom: 4rem;
-  display: flex;
-  transition: transform 0.3s ease;
   border: 2px solid white;
   border-radius: 8px;
+  margin-bottom: 4rem;
+  transition: transform 0.3s ease;
+}
+
+.category:hover {
+  transform: translateY(-10px);
 }
 
 .category:nth-of-type(2),
@@ -91,13 +100,10 @@
   flex-direction: row-reverse;
 }
 
-.category:hover {
-  transform: translateY(-10px);
-}
-
 .category-image {
   width: 32%;
   background-color: #182396;
+  overflow: hidden;
   border-radius: 8px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
@@ -113,275 +119,165 @@
 .category img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .category-info {
-  width: 68%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
-  padding: 2rem;
-  padding-bottom: 2.5rem;
+  align-items: flex-start;
+  width: 68%;
+  padding: 2rem 2rem 2.5rem;
+}
+
+.category-title {
+  font-size: 19px;
+  font-weight: 400;
+  color: black;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
 .category-info p {
+  color: black;
   margin-bottom: 1.7rem;
-  color: black;
 }
 
-.category .category-title {
-  font-weight: 400;
-  font-size: 19px;
-  margin-bottom: 1rem;
-  text-align: center;
-  line-height: 1.5;
-  color: black;
-}
-
-.category .category-link {
+.category-link {
   display: inline-block;
-  padding: 0.8rem 1.4rem;
-  text-decoration: none;
   font-size: 15px;
-  border-radius: 5px;
   letter-spacing: 0.5px;
-  transition: none;
   color: white;
   background-color: black;
   border: 2px solid black;
+  border-radius: 5px;
+  padding: 0.8rem 1.4rem;
+  text-decoration: none;
 }
 
-.category .category-link:hover {
-  color: white;
+.category-link:hover {
   background-color: rgb(34, 45, 61);
   border-color: rgb(34, 45, 61);
 }
 
+/* Learn More Section */
+
 .about-container {
-  width: 100%;
-  padding: 4rem 0;
-  padding-bottom: 5rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-}
-
-.about-container .about-container-title {
-  text-align: center;
-  font-weight: 400;
-  letter-spacing: 1px;
-  color: black;
+  width: 100%;
+  padding: 4rem 0 5rem;
 }
 
 .about-items {
-  width: 80%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   gap: 4rem;
+  width: 60%;
   margin-top: 4rem;
 }
 
-.about-items>div {
-  border-radius: 8px;
-  width: 80%;
-  border: 2px solid rgb(25, 50, 84);
-  background-color: white;
-}
-
-.about-items .about {
+.about,
+.contribute {
   display: flex;
+  width: 100%;
+  background-color: white;
+  border: 2px solid rgb(25, 50, 84);
+  border-radius: 8px;
+  transition: transform 0.3s ease;
 }
 
-.about .about-title {
-  width: 35%;
+.about:hover,
+.contribute:hover {
+  transform: scale(1.02);
+}
+
+.about-title,
+.contribute-title {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: 500;
+  width: 35%;
   font-size: 20px;
+  font-weight: 500;
   letter-spacing: 0.5px;
   background-color: rgb(25, 50, 84);
-  border-radius: 8px;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
-.about-title p {
   color: white;
+  border-radius: 8px 0 0 8px;
 }
 
-.about .about-description {
-  line-height: 1.4;
+.about-description,
+.contribute-description {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: 2rem;
-  padding-top: 1.8rem;
-  padding-bottom: 2.4rem;
+  justify-content: space-between;
   width: 65%;
+  padding: 1.5rem 2rem;
+  padding-bottom: 2.2rem;
+  line-height: 1.4;
 }
 
-.about-description p {
-  height: 9rem;
+.about-description p,
+.contribute-description p {
+  height: 23vh;
   font-size: 17px;
   color: black;
   text-align: justify;
-  letter-spacing: 0.4px;
 }
 
-.about-description .buttons {
+.buttons {
   display: flex;
   gap: 1rem;
 }
 
-.about-description .star,
-.about-description .sponsor {
-  width: 7rem;
-  height: 3rem;
-  text-decoration: none;
-  font-size: 15px;
-  border-radius: 5px;
-  letter-spacing: 0.5px;
+.star,
+.sponsor,
+.contribute-link {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 7rem;
+  height: 3rem;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  color: white;
+  border: 2px solid;
+  border-radius: 5px;
+  text-decoration: none;
   gap: 0.3rem;
 }
 
-.about-description .star {
+.star,
+.contribute-link {
   background-color: black;
-  border: 2px solid black;
-  color: white;
+  border-color: black;
 }
 
-.about-description .sponsor {
+.sponsor {
   background-color: #182396;
-  color: white;
-  border: 2px solid #182396;
+  border-color: #182396;
 }
 
-.about-description .sponsor i {
-  transform: translateY(1.6px);
-}
-
-.about-description .star:hover {
-  color: white;
+.star:hover,
+.contribute-link:hover {
   background-color: rgb(34, 45, 61);
   border-color: rgb(34, 45, 61);
 }
 
-.about-description .sponsor:hover {
+.sponsor:hover {
   background-color: #1f2bb3;
-  color: white;
   border-color: #1f2bb3;
-}
-
-.contribute {
-  display: flex;
-}
-
-.contribute-title p {
-  color: white;
-}
-
-.contribute .contribute-title {
-  width: 35%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 500;
-  font-size: 20px;
-  letter-spacing: 0.5px;
-  background-color: rgb(25, 50, 84);
-  border-radius: 8px;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
-.contribute .contribute-description {
-  line-height: 1.4;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 2rem;
-  padding-top: 1.8rem;
-  padding-bottom: 2.4rem;
-  width: 65%;
-}
-
-.contribute-description p {
-  height: 9.5rem;
-  font-size: 17px;
-  color: black;
-  text-align: justify;
-  letter-spacing: 0.4px;
-}
-
-.contribute .contribute-link {
-  width: 7rem;
-  height: 3rem;
-  padding: 0.9rem 1.3rem;
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 15px;
-  letter-spacing: 0.5px;
-  border-radius: 5px;
-  gap: 0.4rem;
-  background-color: black;
-  border: 2px solid black;
-  color: white;
-}
-
-.contribute .contribute-link:hover {
-  color: white;
-  background-color: rgb(34, 45, 61);
-  border-color: rgb(34, 45, 61);
 }
 
 /* Dark Theme */
 
-.dark-theme .intro-title {
-  color: white;
-}
-
-.dark-theme .intro-description {
-  color: rgb(216, 216, 216);
-}
-
-.dark-theme .get-started {
-  background-color: #364153;
-  border: 1px solid rgb(233, 219, 219);
-}
-
-.dark-theme .category {
-  background-color: #111724;
-}
-
-.dark-theme .category .category-link {
-  transition: none;
-  color: white;
-  background-color: #364153;
-  border: 1px solid rgb(233, 219, 219);
-}
-
+.dark-theme .intro-title,
+.dark-theme .about-container-title,
 .dark-theme .category-title {
   color: white;
-}
-
-.dark-theme .category-info p {
-  color: rgb(216, 216, 216);
-}
-
-.dark-theme .category .category-link:hover {
-  background-color: #3d4a5f;
-  border: 2px solid #3d4a5f;
-  border: 1px solid rgb(233, 219, 219);
 }
 
 .dark-theme .about,
@@ -390,62 +286,33 @@
   border: 2px solid white;
 }
 
-.dark-theme .about-title,
-.dark-theme .contribute-title {
-  color: white;
-}
-
-.dark-theme .star,
-.dark-theme .sponsor,
-.dark-theme .contribute-link {
-  border: 2px solid white;
-}
-
-.dark-theme .star {
-  transition: none;
-  color: white;
-  background-color: #364153;
-  border: 1px solid rgb(233, 219, 219);
-}
-
-.dark-theme .sponsor {
-  border: 1px solid rgb(233, 219, 219);
-}
-
-.dark-theme .sponsor:hover {
-  border: 1px solid rgb(233, 219, 219);
-
-}
-
-.dark-theme .about-container-title {
-  color: white;
-}
-
-.dark-theme .star:hover {
-  background-color: #3d4a5f;
-  border: 2px solid #3d4a5f;
-  border: 1px solid rgb(233, 219, 219);
-}
-
-.dark-theme .contribute-link {
-  transition: none;
-  color: white;
-  background-color: #364153;
-  border: 1px solid rgb(233, 219, 219);
-}
-
-.dark-theme .contribute-link:hover {
-  background-color: #3d4a5f;
-  border: 2px solid #3d4a5f;
-  border: 1px solid rgb(233, 219, 219);
-}
-
+.dark-theme .intro-description,
+.dark-theme .category-info p,
 .dark-theme .about-description p,
 .dark-theme .contribute-description p {
-  font-size: 17px;
   color: rgb(216, 216, 216);
 }
 
-.dark-theme .about-items>div {
-  border: 2px solid white;
+.dark-theme .get-started,
+.dark-theme .category-link,
+.dark-theme .star,
+.dark-theme .contribute-link {
+  background-color: #364153;
+  border-color: rgb(233, 219, 219);
+  color: white;
+}
+
+.dark-theme .get-started:hover {
+  border-color: rgb(233, 219, 219);
+}
+
+.dark-theme .category-link:hover,
+.dark-theme .star:hover,
+.dark-theme .contribute-link:hover {
+  background-color: #3d4a5f;
+  border-color: rgb(233, 219, 219);
+}
+
+.dark-theme .sponsor {
+  border: 2px solid rgb(233, 219, 219);
 }
