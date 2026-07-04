@@ -4,6 +4,8 @@
 
 Openpedia provides a wealth of useful resources that enable you to become a seasoned open source contributor. If you want to leave your mark in the world of open source, this project is a great fit for you.
 
+**Live Website:** [Openpedia](https://openpedia.netlify.app/)
+
 ## 🧾 Table of Contents
 
 - [Introduction to Open Source](#-introduction-to-open-source)
