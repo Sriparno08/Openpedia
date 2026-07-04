@@ -6,6 +6,10 @@ Openpedia provides a wealth of useful resources that enable you to become a seas
 
 **Live Website:** [Openpedia](https://openpedia.netlify.app/)
 
+> **Status:** This project is now archived and no longer actively maintained. The current version remains available for use and reference. Thank you to everyone who contributed and helped shape the project into what it is today.
+
+---
+
 ## 🧾 Table of Contents
 
 - [Introduction to Open Source](#-introduction-to-open-source)
